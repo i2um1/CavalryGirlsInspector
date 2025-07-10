@@ -11,23 +11,16 @@ var enemyDescriptions = await rawDescriptionRepository.GetEnemyDescriptions();
 var fusions = await rawItemRepository.GetFusions(itemDescriptions);
 var weaponModules = await rawItemRepository.GetWeaponModules(itemDescriptions);
 
-var weaponModule1 = weaponModules.First(x => x.Value.Raw.Craft.Length > 0);
-var weaponModule2 = weaponModules.First(x => x.Value.Raw.Ingredients.Length > 0);
+var functions = fusions.Values
+    .SelectMany(x => x.Functions)
+    .Concat(weaponModules.Values.SelectMany(x => x.Functions))
+    .Select(x => x.Name)
+    .Order()
+    .ToHashSet();
 
-var set = new HashSet<string>();
-foreach (var fusion in fusions.Values)
+foreach (var function in functions)
 {
-    foreach (var function in fusion.Functions)
-    {
-        set.Add(function.Name);
-    }
+    Console.WriteLine(function);
 }
-
-foreach (var item in set)
-{
-    Console.WriteLine(item);
-}
-
-var test = fusions[2538];
 
 Console.WriteLine();
