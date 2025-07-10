@@ -1,0 +1,56 @@
+﻿namespace CavalryGirlsInspector.Console.Models;
+
+// TODO
+public enum FunctionType
+{
+    /*
+    BulletSpeed
+BulletSize
+BulletForce
+InstantReload
+ManualReloadSpeed
+FirstFireNum
+LastFireNum
+FireNum3
+FireNum3Add
+FireNum2
+AddFireNum
+GenNeed
+ExplodePoss
+HighExplodePoss
+EleExplodePoss
+SpecialProjectileMinus
+SpecialProjectilePlus
+ClipNum
+ReloadSpeed
+FireRate
+SeatAngleFloat
+CriticPossibility
+CriticDamage
+Damage
+AddOil
+AddHeat
+MeltUp
+AddElectric
+AddSpecialProjectile2
+Time
+ShieldExplodePoss
+RayMeltPoss
+RayMeltAddDamage
+RayShieldDamage
+CanReflect
+AngleFloatSpecial
+ShieldDebuffPoss
+LightningShieldElecDamage
+LightningAngle
+LightningHitMulPoss
+LightningBurstPoss
+FireNum
+BulletRange
+AddExplodeBuff
+DebuffPoss
+SplitWidth
+BurstsCnt
+BulletFlak
+     */
+}
