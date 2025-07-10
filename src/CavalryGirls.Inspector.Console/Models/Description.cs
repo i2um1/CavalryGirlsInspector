@@ -1,4 +1,4 @@
-﻿namespace CavalryGirlsInspector.Console.Models;
+﻿namespace CavalryGirls.Inspector.Models;
 
 public sealed record Description(string Name, string Value)
 {

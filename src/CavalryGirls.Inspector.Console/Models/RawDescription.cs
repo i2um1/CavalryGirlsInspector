@@ -1,6 +1,6 @@
 ﻿using CsvHelper.Configuration.Attributes;
 
-namespace CavalryGirlsInspector.Console.Models;
+namespace CavalryGirls.Inspector.Models;
 
 public sealed class RawDescription
 {

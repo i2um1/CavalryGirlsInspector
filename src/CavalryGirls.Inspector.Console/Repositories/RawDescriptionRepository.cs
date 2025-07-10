@@ -1,7 +1,7 @@
-﻿using CavalryGirlsInspector.Console.Models;
-using CavalryGirlsInspector.Console.Utils;
+﻿using CavalryGirls.Inspector.Models;
+using CavalryGirls.Inspector.Utils;
 
-namespace CavalryGirlsInspector.Console.Repositories;
+namespace CavalryGirls.Inspector.Repositories;
 
 public sealed class RawDescriptionRepository
 {

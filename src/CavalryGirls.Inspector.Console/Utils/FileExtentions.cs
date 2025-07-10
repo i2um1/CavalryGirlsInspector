@@ -1,6 +1,6 @@
 ﻿using CsvHelper;
 
-namespace CavalryGirlsInspector.Console.Utils;
+namespace CavalryGirls.Inspector.Utils;
 
 public static class FileExtensions
 {

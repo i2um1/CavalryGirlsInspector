@@ -17,7 +17,7 @@
     <DebugType>embedded</DebugType>
     <DebugSymbols>true</DebugSymbols>
 
-    <RootNamespace>CavalryGirlsInspector.Console</RootNamespace>
+    <RootNamespace>CavalryGirls.Inspector</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
