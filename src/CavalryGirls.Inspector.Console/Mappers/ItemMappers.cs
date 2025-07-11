@@ -39,6 +39,21 @@ public static class ItemMappers
             DefaultFusion = rawWeapon.DefaultFusion.SplitIntOr()
         };
 
+    public static Material ToMaterial(int index, RawItem item, Description description)
+        => new()
+        {
+            Index = index,
+            Id = item.Id,
+            Name = description.Name,
+            Description = description.Value,
+            ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
+            Type = item.Functions ?? throw new ArgumentNullException(item.Functions),
+            Price = item.Price,
+            Day = item.Day ?? throw new ArgumentNullException(item.Day),
+            Level = item.Level,
+            StackSize = item.StackSize
+        };
+
     public static Fusion ToFusion(int index, RawItem item, Description description)
     {
         var (baseCraft, fusionCraft) = item.Craft.SplitFusionCrafts();
@@ -74,6 +89,6 @@ public static class ItemMappers
             Day = item.Day ?? throw new ArgumentNullException(item.Day),
             Level = item.Level,
             WeaponIds = item.Craft.SplitStringOr(),
-            Ingredients = item.Ingredients.SplitCount()
+            Materials = item.Materials.SplitCount()
         };
 }

@@ -21,7 +21,7 @@ public sealed class RawItem
     [Name("CargoPilesFusion")] public int CargoPilesFusion { get; set; }
     [Name("CargoPilesFusionMax")] public int CargoPilesFusionMax { get; set; }
     [Name("Cluster")] public string? Family { get; set; }
-    [Name("Syns")] public string? Ingredients { get; set; }
+    [Name("Syns")] public string? Materials { get; set; }
     [Name("NeedWeapon")] public string? Craft { get; set; }
     [Name("ColorPlus")] public string? ColorPlus { get; set; }
     [Name("ResolveID")] public int ResolveId { get; set; }

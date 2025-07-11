@@ -8,6 +8,7 @@ namespace CavalryGirls.Inspector.Repositories;
 public sealed class RawItemRepository
 {
     private const string FILE_NAME = "Items.txt";
+    private const string MATERIAL = "Material";
     private const string FUSION = "WeaponDemo";
     private const string WEAPON_MODULE = "WeaponModel";
 
@@ -17,6 +18,9 @@ public sealed class RawItemRepository
     {
         _dataFolder = dataFolder;
     }
+
+    public async Task<Dictionary<int, Material>> GetMaterials(Dictionary<int, Description> descriptions)
+        => await GetItem(MATERIAL, descriptions, ToMaterial);
 
     public async Task<Dictionary<int, Fusion>> GetFusions(Dictionary<int, Description> descriptions)
         => await GetItem(FUSION, descriptions, ToFusion);
