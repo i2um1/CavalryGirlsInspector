@@ -8,6 +8,7 @@ public sealed class Fusion
     public required string Description { get; init; }
     public required string ImageFileName { get; set; }
     public required string Tag { get; init; }
+    public WeaponType WeaponType { get; init; }
     public required Function[] Functions { get; init; }
     public int Price { get; init; }
     public required string Day { get; init; }

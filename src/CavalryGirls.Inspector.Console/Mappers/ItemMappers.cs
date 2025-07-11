@@ -1,4 +1,5 @@
 ﻿using CavalryGirls.Inspector.Models;
+using CavalryGirls.Inspector.Repositories;
 using CavalryGirls.Inspector.Utils;
 
 namespace CavalryGirls.Inspector.Mappers;
@@ -65,6 +66,12 @@ public static class ItemMappers
             Description = description.Value,
             ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
             Tag = item.Tag ?? throw new ArgumentNullException(item.Tag),
+            WeaponType = item.Type switch
+            {
+                RawItemRepository.CLOSE_WEAPON_FUSION => WeaponType.Close,
+                RawItemRepository.HANG_SHOULDER_FUSION => WeaponType.HangShoulder,
+                _ => WeaponType.Weapon
+            },
             Functions = item.Functions.SplitFunctions(),
             Price = item.Price,
             Day = item.Day ?? throw new ArgumentNullException(item.Day),
@@ -84,6 +91,12 @@ public static class ItemMappers
             Description = description.Value,
             ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
             Tag = item.Tag ?? throw new ArgumentNullException(item.Tag),
+            WeaponType = item.Type switch
+            {
+                RawItemRepository.CLOSE_WEAPON_MODULE => WeaponType.Close,
+                RawItemRepository.HANG_SHOULDER_MODULE => WeaponType.HangShoulder,
+                _ => WeaponType.Weapon
+            },
             Functions = item.Functions.SplitFunctions(),
             Price = item.Price,
             Day = item.Day ?? throw new ArgumentNullException(item.Day),

@@ -18,18 +18,6 @@ var bullets = await rawBulletRepository.GetBullets();
 Console.WriteLine();
 
 /*
-Weapon
-
-CloseWeapon
-CloseWeaponModel
-CloseWeaponDemo
-
-HangShoulder
-HangShoulderModel
-HangShoulderDemo
-*/
-
-/*
 NormalWeapon - Kinetic Weapon
 !Riffle
 Riffle - Sniper Weapon

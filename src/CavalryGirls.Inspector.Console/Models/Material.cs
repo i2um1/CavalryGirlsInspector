@@ -15,5 +15,3 @@ public sealed class Material
 
     public override string ToString() => $"{Id}: {Name}";
 }
-
-//40001,#废铁,40001,Material,#合成材料,,99,All,,1,999,1,0,0,0,0,,,,<color=#878787>|</color>,1133,

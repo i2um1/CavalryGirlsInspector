@@ -7,12 +7,24 @@ namespace CavalryGirls.Inspector.Repositories;
 
 public sealed class RawItemRepository
 {
+    public const string CLOSE_WEAPON_FUSION = "CloseWeaponDemo";
+    public const string HANG_SHOULDER_FUSION = "HangShoulderDemo";
+
+    public const string CLOSE_WEAPON_MODULE = "CloseWeaponModel";
+    public const string HANG_SHOULDER_MODULE = "HangShoulderModel";
+
+    public const string CLOSE_WEAPON = "CloseWeapon";
+    public const string HANG_SHOULDER = "HangShoulder";
+
     private const string FILE_NAME = "Items.txt";
+
     private const string MATERIAL = "Material";
-    private const string FUSION = "WeaponDemo";
-    private const string WEAPON_MODULE = "WeaponModel";
 
     private readonly string _dataFolder;
+
+    private readonly string[] _fusions = ["WeaponDemo", CLOSE_WEAPON_FUSION, HANG_SHOULDER_FUSION];
+    private readonly string[] _weaponModules = ["WeaponModel", CLOSE_WEAPON_MODULE, HANG_SHOULDER_MODULE];
+    private readonly string[] _weapons = ["Weapon", CLOSE_WEAPON, HANG_SHOULDER];
 
     public RawItemRepository(string dataFolder)
     {
@@ -20,16 +32,16 @@ public sealed class RawItemRepository
     }
 
     public async Task<Dictionary<int, Material>> GetMaterials(Dictionary<int, Description> descriptions)
-        => await GetItem(MATERIAL, descriptions, ToMaterial);
+        => await GetItem([MATERIAL], descriptions, ToMaterial);
 
     public async Task<Dictionary<int, Fusion>> GetFusions(Dictionary<int, Description> descriptions)
-        => await GetItem(FUSION, descriptions, ToFusion);
+        => await GetItem(_fusions, descriptions, ToFusion);
 
     public async Task<Dictionary<int, WeaponModule>> GetWeaponModules(Dictionary<int, Description> descriptions)
-        => await GetItem(WEAPON_MODULE, descriptions, ToWeaponModule);
+        => await GetItem(_weaponModules, descriptions, ToWeaponModule);
 
     private async Task<Dictionary<int, T>> GetItem<T>(
-        string itemType,
+        string[] itemTypes,
         Dictionary<int, Description> descriptions,
         Func<int, RawItem, Description, T> map)
     {
@@ -39,8 +51,7 @@ public sealed class RawItemRepository
         var index = 0;
         await foreach (var rawItem in rawItems)
         {
-            if (rawItem.Type is null
-                || !rawItem.Type.Equals(itemType, StringComparison.InvariantCultureIgnoreCase))
+            if (rawItem.Type is null || !itemTypes.Contains(rawItem.Type, StringComparer.InvariantCulture))
             {
                 continue;
             }
