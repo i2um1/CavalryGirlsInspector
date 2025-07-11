@@ -1,4 +1,6 @@
-﻿using CavalryGirls.Inspector.Repositories;
+﻿using CavalryGirls.Inspector.Mappers;
+using CavalryGirls.Inspector.Repositories;
+using CavalryGirls.Inspector.Utils;
 
 var path = "E:\\Projects\\1\\ExportedProject\\Assets\\Resources\\text\\table";
 
@@ -15,6 +17,9 @@ var weaponModules = await rawItemRepository.GetWeaponModules(itemDescriptions);
 var weapons = await rawItemRepository.GetWeapons(itemDescriptions);
 
 var bullets = await rawBulletRepository.GetBullets();
+
+var imagesFolder = "e:\\Projects\\1\\ExportedProject\\Assets\\Resources\\texture\\property";
+var atlas = await ImageAtlas.Create(weapons.ToImagePaths(imagesFolder), "result.webp");
 
 Console.WriteLine();
 
