@@ -104,4 +104,28 @@ public static class ItemMappers
             WeaponIds = item.Craft.SplitStringOr(),
             Materials = item.Materials.SplitCount()
         };
+
+    public static Weapon ToWeapon(int index, RawItem item, Description description)
+        => new()
+        {
+            Index = index,
+            Id = item.Id,
+            Name = description.Name,
+            Description = description.Value,
+            ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
+            Tag = item.Tag ?? throw new ArgumentNullException(item.Tag),
+            WeaponType = item.Type switch
+            {
+                RawItemRepository.CLOSE_WEAPON => WeaponType.Close,
+                RawItemRepository.HANG_SHOULDER => WeaponType.HangShoulder,
+                _ => WeaponType.Weapon
+            },
+            Functions = item.Functions.SplitFunctions(),
+            Price = item.Price,
+            Day = item.Day ?? throw new ArgumentNullException(item.Day),
+            Level = item.Level,
+            Family = item.Family.SplitIntOr(),
+            WeaponIds = item.Craft.SplitStringOr(),
+            Materials = item.Materials.SplitCount()
+        };
 }

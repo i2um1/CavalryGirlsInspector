@@ -12,6 +12,7 @@ var enemyDescriptions = await rawDescriptionRepository.GetEnemyDescriptions();
 var materials = await rawItemRepository.GetMaterials(itemDescriptions);
 var fusions = await rawItemRepository.GetFusions(itemDescriptions);
 var weaponModules = await rawItemRepository.GetWeaponModules(itemDescriptions);
+var weapons = await rawItemRepository.GetWeapons(itemDescriptions);
 
 var bullets = await rawBulletRepository.GetBullets();
 

@@ -40,6 +40,9 @@ public sealed class RawItemRepository
     public async Task<Dictionary<int, WeaponModule>> GetWeaponModules(Dictionary<int, Description> descriptions)
         => await GetItem(_weaponModules, descriptions, ToWeaponModule);
 
+    public async Task<Dictionary<int, Weapon>> GetWeapons(Dictionary<int, Description> descriptions)
+        => await GetItem(_weapons, descriptions, ToWeapon);
+
     private async Task<Dictionary<int, T>> GetItem<T>(
         string[] itemTypes,
         Dictionary<int, Description> descriptions,
