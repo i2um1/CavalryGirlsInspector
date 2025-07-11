@@ -19,6 +19,6 @@ public sealed class RawBullet
     [Name("SetParent")] public int SetParent { get; set; }
     [Name("MinRange")] public int MinRange { get; set; }
     [Name("Debuff")] public int Debuff { get; set; }
-    [Name("Kinetic")] public bool Kinetic { get; set; }
-    [Name("SpecialParam")] public string? SpecialParam { get; set; }
+    [Name("Kinetic")] public bool IsKinetic { get; set; }
+    [Name("SpecialParam")] public string? SpecialParameter { get; set; }
 }

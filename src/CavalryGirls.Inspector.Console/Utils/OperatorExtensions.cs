@@ -12,7 +12,7 @@ public static class OperatorExtensions
     }
 
     public static int[] SplitIntOr(this string? value)
-        => value.SplitStringOr().Select(x => x.ToInt()).ToArray();
+        => value.SplitStringOr().Where(x => !string.IsNullOrWhiteSpace(x)).Select(x => x.ToInt()).ToArray();
 
     public static ItemCount[] SplitCount(this string? value)
     {
@@ -40,8 +40,14 @@ public static class OperatorExtensions
 
         return functions
             .SplitStringOr()
+            .Where(x => !string.IsNullOrWhiteSpace(x))
             .Select(x =>
             {
+                if (!x.Contains(':'))
+                {
+                    return new Function(x, string.Empty);
+                }
+
                 var parts = x.Split(':');
                 if (parts.Length is not 2)
                 {
@@ -71,6 +77,6 @@ public static class OperatorExtensions
         return (parts[0], parts[1]);
     }
 
-    private static int ToInt(this string value)
+    public static int ToInt(this string value)
         => int.Parse(value, CultureInfo.InvariantCulture);
 }

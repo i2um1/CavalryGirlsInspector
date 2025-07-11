@@ -1,11 +1,14 @@
 ﻿using CavalryGirls.Inspector.Models;
 using CavalryGirls.Inspector.Utils;
 
+using static CavalryGirls.Inspector.Mappers.ItemMappers;
+
 namespace CavalryGirls.Inspector.Repositories;
 
 public sealed class RawBulletRepository
 {
-    private const string FILE_NAME = "Bullets.txt";
+    private const string BULLETS_FILE_NAME = "Bullets.txt";
+    private const string WEAPONS_FILE_NAME = "Weapons.txt";
 
     private readonly string _dataFolder;
 
@@ -14,9 +17,25 @@ public sealed class RawBulletRepository
         _dataFolder = dataFolder;
     }
 
-    public async Task<Dictionary<string, RawBullet>> GetBullets()
+    public async Task<Dictionary<int, Bullet>> GetBullets()
     {
-        var rawBullets = _dataFolder.ReadCsv<RawBullet>(FILE_NAME);
+        var rawBullets = await GetRawBullets();
+        var rawWeapons = await GetRawWeapons();
+        var result = new Dictionary<int, Bullet>();
+
+        foreach (var rawWeapon in rawWeapons)
+        {
+            ArgumentNullException.ThrowIfNull(rawWeapon.ProjectileId);
+
+            result[rawWeapon.Id] = ToBullet(rawBullets[rawWeapon.ProjectileId], rawWeapon);
+        }
+
+        return result;
+    }
+
+    private async Task<Dictionary<string, RawBullet>> GetRawBullets()
+    {
+        var rawBullets = _dataFolder.ReadCsv<RawBullet>(BULLETS_FILE_NAME);
         var result = new Dictionary<string, RawBullet>();
 
         await foreach (var rawBullet in rawBullets)
@@ -27,6 +46,24 @@ public sealed class RawBulletRepository
             }
 
             result[rawBullet.Id] = rawBullet;
+        }
+
+        return result;
+    }
+
+    private async Task<List<RawWeapon>> GetRawWeapons()
+    {
+        var rawWeapons = _dataFolder.ReadCsv<RawWeapon>(WEAPONS_FILE_NAME);
+        var result = new List<RawWeapon>();
+
+        await foreach (var rawWeapon in rawWeapons)
+        {
+            if (rawWeapon.Id < 0)
+            {
+                continue;
+            }
+
+            result.Add(rawWeapon);
         }
 
         return result;
