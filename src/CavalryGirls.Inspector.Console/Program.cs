@@ -14,16 +14,36 @@ var weaponModules = await rawItemRepository.GetWeaponModules(itemDescriptions);
 
 var rawBullets = await rawBulletRepository.GetBullets();
 
-var functions = fusions.Values
-    .SelectMany(x => x.Functions)
-    .Concat(weaponModules.Values.SelectMany(x => x.Functions))
-    .Select(x => x.Name)
-    .Order()
-    .ToHashSet();
-
-foreach (var function in functions)
-{
-    Console.WriteLine(function);
-}
-
 Console.WriteLine();
+
+/*
+Weapon
+
+CloseWeapon
+CloseWeaponModel
+CloseWeaponDemo
+
+HangShoulder
+HangShoulderModel
+HangShoulderDemo
+
+Material
+*/
+
+/*
+NormalWeapon - Kinetic Weapon
+!Riffle
+Riffle - Sniper Weapon
+MG - Machine Gun
+All
+!ShotWeapon
+Rail - Guide Rail
+ExploWeapon - Explosive Weapon
+FlakeWeapon - Plasma Weapon
+ShotWeapon - Spreadshot Weapon
+SplitWeapon - Spraying Weapon
+!MG
+LaserWeapon - Ray Weapon
+ElectricWeapon - Arc Weapon
+MagWeapon  - Magnetoelectric Weapon
+*/
