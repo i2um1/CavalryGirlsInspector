@@ -1,24 +1,33 @@
-﻿using CavalryGirls.Inspector.Mappers;
-using CavalryGirls.Inspector.Repositories;
-using CavalryGirls.Inspector.Utils;
+﻿using CavalryGirls.Inspector.Commands;
 
-var path = "E:\\Projects\\1\\ExportedProject\\Assets\\Resources\\text\\table";
+using Spectre.Console;
+using Spectre.Console.Cli;
 
-var rawDescriptionRepository = new RawDescriptionRepository(path);
-var rawItemRepository = new RawItemRepository(path);
-var rawBulletRepository = new RawBulletRepository(path);
+var cultureInfo = CultureInfo.CreateSpecificCulture("en-US");
+CultureInfo.CurrentCulture = cultureInfo;
+CultureInfo.CurrentUICulture = cultureInfo;
 
-var itemDescriptions = await rawDescriptionRepository.GetItemDescriptions();
-var enemyDescriptions = await rawDescriptionRepository.GetEnemyDescriptions();
+var app = new CommandApp();
+app.Configure(config =>
+{
+    config
+        .AddCommand<EnemiesCommand>("enemies")
+        .WithDescription("Generate enemies data and images");
 
-var materials = await rawItemRepository.GetMaterials(itemDescriptions);
-var fusions = await rawItemRepository.GetFusions(itemDescriptions);
-var weaponModules = await rawItemRepository.GetWeaponModules(itemDescriptions);
-var weapons = await rawItemRepository.GetWeapons(itemDescriptions);
+    config
+        .AddCommand<WeaponsCommand>("weapons")
+        .WithDescription("Generate weapons data and images");
 
-var bullets = await rawBulletRepository.GetBullets();
+    config.PropagateExceptions();
+});
 
-var imagesFolder = "e:\\Projects\\1\\ExportedProject\\Assets\\Resources\\texture\\property";
-var atlas = await ImageAtlas.Create(weapons.ToImagePaths(imagesFolder), "result.webp");
-
-Console.WriteLine();
+try
+{
+    AnsiConsole.MarkupLine("[green]Cavalry Girls Inspector[/]\n");
+    return await app.RunAsync(args);
+}
+catch (Exception ex)
+{
+    AnsiConsole.WriteException(ex, ExceptionFormats.ShortenEverything);
+    return -1;
+}

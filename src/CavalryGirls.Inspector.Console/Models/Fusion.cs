@@ -6,7 +6,7 @@ public sealed class Fusion
     public int Id { get; init; }
     public required string Name { get; init; }
     public required string Description { get; init; }
-    public required string ImageFileName { get; init; }
+    [JsonIgnore] public string ImageFileName { get; init; } = string.Empty;
     public required string Tag { get; init; }
     public WeaponType WeaponType { get; init; }
     public required Function[] Functions { get; init; }

@@ -1,4 +1,6 @@
-﻿using SixLabors.ImageSharp;
+﻿using CavalryGirls.Inspector.Models;
+
+using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Formats;
 using SixLabors.ImageSharp.Formats.Webp;
 using SixLabors.ImageSharp.PixelFormats;
@@ -13,11 +15,14 @@ public static class ImageAtlas
         Quality = 90, FileFormat = WebpFileFormatType.Lossy
     };
 
-    public static async Task<(int Rows, int Columns, int ImageSize)> Create(string[] imagePaths, string outputPath)
+    public static async Task<Atlas> Create(string[] imagePaths, string outputPath, string outputFileName)
     {
-        var (rows, columns) = GetAtlasSize(imagePaths.Length);
-        var images = await LoadImages(imagePaths);
+        outputPath.CreateFolderIfRequired();
 
+        var path = Path.Combine(outputPath, outputFileName);
+        var (rows, columns) = GetAtlasSize(imagePaths.Length);
+
+        var images = await LoadImages(imagePaths);
         var imageSize = GetMinImageSize(images);
         var (atlasWidth, atlasHeight) = (rows * imageSize, columns * imageSize);
 
@@ -30,10 +35,10 @@ public static class ImageAtlas
             atlas.Mutate(context => context.DrawImage(images[index], new Point(x, y), 1f));
         }
 
-        await atlas.SaveAsync(outputPath, _imageEncoder);
+        await atlas.SaveAsync(path, _imageEncoder);
         DisposeImages(images);
 
-        return (rows, columns, imageSize);
+        return new Atlas(rows, columns, imageSize);
     }
 
     private static void ResizeImage(Image<Rgba32> image, int size)

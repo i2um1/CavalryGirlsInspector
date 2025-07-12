@@ -6,7 +6,7 @@ public sealed class WeaponModule
     public int Id { get; init; }
     public required string Name { get; init; }
     public required string Description { get; init; }
-    public required string ImageFileName { get; init; }
+    [JsonIgnore] public string ImageFileName { get; init; } = string.Empty;
     public WeaponType WeaponType { get; init; }
     public required WeaponSubType[] WeaponSubTypes { get; init; }
     public required Function[] Functions { get; init; }
