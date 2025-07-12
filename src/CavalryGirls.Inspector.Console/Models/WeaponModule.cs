@@ -7,13 +7,13 @@ public sealed class WeaponModule
     public required string Name { get; init; }
     public required string Description { get; init; }
     public required string ImageFileName { get; init; }
-    public required string Tag { get; init; }
     public WeaponType WeaponType { get; init; }
+    public required WeaponSubType[] WeaponSubTypes { get; init; }
     public required Function[] Functions { get; init; }
     public int Price { get; init; }
     public required string Day { get; init; }
     public int Level { get; init; }
-    public required string[] WeaponIds { get; init; }
+    public required string[] ModulesIds { get; init; }
     public required ItemCount[] Materials { get; init; }
 
     public override string ToString() => $"{Id}: {Name}";

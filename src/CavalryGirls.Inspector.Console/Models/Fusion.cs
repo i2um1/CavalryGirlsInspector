@@ -14,8 +14,8 @@ public sealed class Fusion
     public required string Day { get; init; }
     public int Level { get; init; }
     public required int[] Family { get; init; }
-    public required string[] BaseWeapons { get; init; }
-    public required string[] FusionWeapons { get; init; }
+    public required WeaponSubTypeCondition[] BaseWeapons { get; init; }
+    public required WeaponSubTypeCondition[] FusionWeapons { get; init; }
 
     public override string ToString() => $"{Id}: {Name}";
 }

@@ -20,6 +20,8 @@ var weapons = await rawItemRepository.GetWeapons(itemDescriptions);
 var bullets = await rawBulletRepository.GetBullets();
 
 var weapon = weapons.Values.First(x => x.WeaponType is WeaponType.Weapon);
+var fusion = fusions.Values.First();
+var weaponModule = weaponModules.Values.First();
 
 var imagesFolder = "e:\\Projects\\1\\ExportedProject\\Assets\\Resources\\texture\\property";
 var atlas = await ImageAtlas.Create(weapons.ToImagePaths(imagesFolder), "result.webp");

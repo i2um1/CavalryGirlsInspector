@@ -8,7 +8,7 @@ public static class OperatorExtensions
     {
         ArgumentNullException.ThrowIfNull(value);
 
-        return value.Split('|');
+        return value.Split('|').Where(x => !string.IsNullOrWhiteSpace(x)).ToArray();
     }
 
     public static int[] SplitIntOr(this string? value)

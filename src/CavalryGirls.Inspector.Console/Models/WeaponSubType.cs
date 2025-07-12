@@ -1,6 +1,6 @@
 ﻿namespace CavalryGirls.Inspector.Models;
 
-public enum SubWeaponType
+public enum WeaponSubType
 {
     All,
 

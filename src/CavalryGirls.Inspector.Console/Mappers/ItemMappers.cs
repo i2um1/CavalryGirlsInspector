@@ -56,6 +56,7 @@ public static class ItemMappers
 
     public static Fusion ToFusion(int index, RawItem item, Description description)
     {
+        var weaponType = item.Type.ConvertFusionToWeaponType();
         var (baseCraft, fusionCraft) = item.Craft.SplitFusionCrafts();
         return new Fusion
         {
@@ -65,34 +66,38 @@ public static class ItemMappers
             Description = description.Value,
             ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
             Tag = item.Tag ?? throw new ArgumentNullException(item.Tag),
-            WeaponType = item.Type.ConvertFusionToWeaponType(),
+            WeaponType = weaponType,
             Functions = item.Functions.SplitFunctions(),
             Price = item.Price,
             Day = item.Day ?? throw new ArgumentNullException(item.Day),
             Level = item.Level,
             Family = item.Family.SplitIntOr(),
-            BaseWeapons = baseCraft.SplitStringOr(),
-            FusionWeapons = fusionCraft.SplitStringOr()
+            BaseWeapons = baseCraft.ToFusionWeaponSubTypeConditions(weaponType),
+            FusionWeapons = fusionCraft.ToFusionWeaponSubTypeConditions(weaponType)
         };
     }
 
     public static WeaponModule ToWeaponModule(int index, RawItem item, Description description)
-        => new()
+    {
+        var weaponType = item.Type.ConvertModuleToWeaponType();
+        var weaponSubTypes = item.Tag.ToWeaponSubTypes(weaponType);
+        return new WeaponModule
         {
             Index = index,
             Id = item.Id,
             Name = description.Name,
             Description = description.Value,
             ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
-            Tag = item.Tag ?? throw new ArgumentNullException(item.Tag),
-            WeaponType = item.Type.ConvertModuleToWeaponType(),
+            WeaponType = weaponType,
+            WeaponSubTypes = weaponSubTypes.Length is 0 ? [WeaponSubType.All] : weaponSubTypes,
             Functions = item.Functions.SplitFunctions(),
             Price = item.Price,
             Day = item.Day ?? throw new ArgumentNullException(item.Day),
             Level = item.Level,
-            WeaponIds = item.Craft.SplitStringOr(),
+            ModulesIds = item.Craft.SplitStringOr(),
             Materials = item.Materials.SplitCount()
         };
+    }
 
     public static Weapon ToWeapon(int index, RawItem item, Description description)
     {
@@ -110,7 +115,7 @@ public static class ItemMappers
             Description = description.Value,
             ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
             WeaponType = weaponType,
-            WeaponSubTypes = item.Tag.ToSubWeaponTypes(weaponType),
+            WeaponSubTypes = ("All|" + item.Tag).ToWeaponSubTypes(weaponType),
             BulletId = bulletFunction.Value,
             Functions = functions,
             Price = item.Price,
