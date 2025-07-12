@@ -9,6 +9,7 @@ public sealed class RawBulletRepository
 {
     private const string BULLETS_FILE_NAME = "Bullets.txt";
     private const string WEAPONS_FILE_NAME = "Weapons.txt";
+    private const string SHOULDER_WEAPON_FILE_NAME = "ShoulderWeapon.txt";
 
     private readonly string _dataFolder;
 
@@ -28,6 +29,12 @@ public sealed class RawBulletRepository
             ArgumentNullException.ThrowIfNull(rawWeapon.ProjectileId);
 
             result[rawWeapon.Id] = ToBullet(rawBullets[rawWeapon.ProjectileId], rawWeapon);
+        }
+
+        var rawShoulderWeapons = await GetRawShoulderWeapons();
+        foreach (var rawShoulderWeapon in rawShoulderWeapons)
+        {
+            result[rawShoulderWeapon.Id] = ToBullet(rawShoulderWeapon);
         }
 
         return result;
@@ -64,6 +71,19 @@ public sealed class RawBulletRepository
             }
 
             result.Add(rawWeapon);
+        }
+
+        return result;
+    }
+
+    private async Task<List<RawShoulderWeapon>> GetRawShoulderWeapons()
+    {
+        var rawShoulderWeapons = _dataFolder.ReadCsv<RawShoulderWeapon>(SHOULDER_WEAPON_FILE_NAME);
+        var result = new List<RawShoulderWeapon>();
+
+        await foreach (var rawShoulderWeapon in rawShoulderWeapons)
+        {
+            result.Add(rawShoulderWeapon);
         }
 
         return result;

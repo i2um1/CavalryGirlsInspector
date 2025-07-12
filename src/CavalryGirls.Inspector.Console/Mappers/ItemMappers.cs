@@ -39,6 +39,17 @@ public static class ItemMappers
             DefaultFusion = rawWeapon.DefaultFusion.SplitIntOr()
         };
 
+    public static Bullet ToBullet(RawShoulderWeapon rawShoulderWeapon)
+        => new()
+        {
+            Id = rawShoulderWeapon.Id,
+            Type = "HangShoulder",
+            SpecialParameter = string.Empty,
+            Functions = [],
+            DefaultModule = rawShoulderWeapon.DefaultModule.SplitIntOr(),
+            DefaultFusion = rawShoulderWeapon.DefaultFusion.SplitIntOr()
+        };
+
     public static Material ToMaterial(int index, RawItem item, Description description)
         => new()
         {
