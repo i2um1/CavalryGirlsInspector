@@ -1,0 +1,9866 @@
+{
+  "2501": {
+    "index": 0,
+    "id": 2501,
+    "name": "Kinetic Speed Core 1",
+    "description": "Speed +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletSpeed",
+        "value": "25"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2501,
+      2502,
+      2503
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "Sniper"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2502": {
+    "index": 1,
+    "id": 2502,
+    "name": "Kinetic Speed Core 2",
+    "description": "Speed +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletSpeed",
+        "value": "50"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2501,
+      2502,
+      2503
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "Sniper"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2503": {
+    "index": 2,
+    "id": 2503,
+    "name": "Kinetic Speed Core 3",
+    "description": "Speed +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletSpeed",
+        "value": "75"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2501,
+      2502,
+      2503
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "Sniper"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2504": {
+    "index": 3,
+    "id": 2504,
+    "name": "Kinetic Collision Core 1",
+    "description": "Bullet Collision Volume +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletSize",
+        "value": "25"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2504,
+      2505,
+      2506
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2505": {
+    "index": 4,
+    "id": 2505,
+    "name": "Kinetic Collision Core 2",
+    "description": "Bullet Collision Volume +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletSize",
+        "value": "50"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2504,
+      2505,
+      2506
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2506": {
+    "index": 5,
+    "id": 2506,
+    "name": "Kinetic Collision Core 3",
+    "description": "Bullet Collision Volume +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletSize",
+        "value": "75"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2504,
+      2505,
+      2506
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2507": {
+    "index": 6,
+    "id": 2507,
+    "name": "Kinetic Strength Core 1",
+    "description": "The bullet has a <D0>% rate to knock back and stun the enemy after it lands.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletForce",
+        "value": "1"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2507,
+      2508,
+      2509
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2508": {
+    "index": 7,
+    "id": 2508,
+    "name": "Kinetic Strength Core 2",
+    "description": "The bullet has a <D0>% rate to knock back and stun the enemy after it lands.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletForce",
+        "value": "3"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2507,
+      2508,
+      2509
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2509": {
+    "index": 8,
+    "id": 2509,
+    "name": "Kinetic Strength Core 3",
+    "description": "The bullet has a <D0>% rate to knock back and stun the enemy after it lands.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletForce",
+        "value": "10"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2507,
+      2508,
+      2509
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2510": {
+    "index": 9,
+    "id": 2510,
+    "name": "Quick Reload Core 1",
+    "description": "Every Reload has a <D0>% rate to finish at once.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "InstantReload",
+        "value": "1"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2510,
+      2511,
+      2512,
+      2513
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2511": {
+    "index": 10,
+    "id": 2511,
+    "name": "Quick Reload Core 2",
+    "description": "Every Reload has a <D0>% rate to finish at once.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "InstantReload",
+        "value": "2"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2510,
+      2511,
+      2512,
+      2513
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2512": {
+    "index": 11,
+    "id": 2512,
+    "name": "Quick Reload Core 3",
+    "description": "Every Reload has a <D0>% rate to finish at once.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "InstantReload",
+        "value": "4"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2510,
+      2511,
+      2512,
+      2513
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2513": {
+    "index": 12,
+    "id": 2513,
+    "name": "Quick Reload Core 4",
+    "description": "Every Reload has a <D0>% rate to finish at once.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "InstantReload",
+        "value": "10"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2510,
+      2511,
+      2512,
+      2513
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2514": {
+    "index": 13,
+    "id": 2514,
+    "name": "Active Reload Core 1",
+    "description": "Active Reload Time decreases by <D0>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ManualReloadSpeed",
+        "value": "-5"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2514,
+      2515,
+      2516,
+      2517
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2515": {
+    "index": 14,
+    "id": 2515,
+    "name": "Active Reload Core 2",
+    "description": "Active Reload Time decreases by <D0>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ManualReloadSpeed",
+        "value": "-7"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2514,
+      2515,
+      2516,
+      2517
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2516": {
+    "index": 15,
+    "id": 2516,
+    "name": "Active Reload Core 3",
+    "description": "Active Reload Time decreases by <D0>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ManualReloadSpeed",
+        "value": "-10"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2514,
+      2515,
+      2516,
+      2517
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2517": {
+    "index": 16,
+    "id": 2517,
+    "name": "Active Reload Core 4",
+    "description": "Active Reload Time decreases by <D0>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ManualReloadSpeed",
+        "value": "-15"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2514,
+      2515,
+      2516,
+      2517
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ]
+  },
+  "2518": {
+    "index": 17,
+    "id": 2518,
+    "name": "Splitter Core A1",
+    "description": "The first bullet of every magazine shoots out in the form of <D0> Spreadshots (stackable).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FirstFireNum",
+        "value": "5"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2518,
+      2519,
+      2520
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2519": {
+    "index": 18,
+    "id": 2519,
+    "name": "Splitter Core A2",
+    "description": "The first bullet of every magazine shoots out in the form of <D0> Spreadshots (stackable).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FirstFireNum",
+        "value": "7"
+      }
+    ],
+    "price": 45,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2518,
+      2519,
+      2520
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2520": {
+    "index": 19,
+    "id": 2520,
+    "name": "Splitter Core A3",
+    "description": "The first bullet of every magazine shoots out in the form of <D0> Spreadshots (stackable).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FirstFireNum",
+        "value": "9"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2518,
+      2519,
+      2520
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2521": {
+    "index": 20,
+    "id": 2521,
+    "name": "Splitter Core B1",
+    "description": "The last bullet of every magazine shoots out in the form of <D0> Spreadshots (stackable).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LastFireNum",
+        "value": "5"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2521,
+      2522,
+      2523
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2522": {
+    "index": 21,
+    "id": 2522,
+    "name": "Splitter Core B2",
+    "description": "The last bullet of every magazine shoots out in the form of <D0> Spreadshots (stackable).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LastFireNum",
+        "value": "7"
+      }
+    ],
+    "price": 45,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2521,
+      2522,
+      2523
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2523": {
+    "index": 22,
+    "id": 2523,
+    "name": "Splitter Core B3",
+    "description": "The last bullet of every magazine shoots out in the form of <D0> Spreadshots (stackable).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LastFireNum",
+        "value": "9"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2521,
+      2522,
+      2523
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2524": {
+    "index": 23,
+    "id": 2524,
+    "name": "Kinetic Splitter Core C1",
+    "description": "Every bullet has a <D0>% rate to shoot out in the form of 3 Spreadshots. This rate improves by <D1>% for every 100 bullet Damage increased.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum3",
+        "value": "3"
+      },
+      {
+        "name": "FireNum3Add",
+        "value": "1"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2524,
+      2525,
+      2526
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2525": {
+    "index": 24,
+    "id": 2525,
+    "name": "Kinetic Splitter Core C2",
+    "description": "Every bullet has a <D0>% rate to shoot out in the form of 3 Spreadshots. This rate improves by <D1>% for every 100 bullet Damage increased.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum3",
+        "value": "5"
+      },
+      {
+        "name": "FireNum3Add",
+        "value": "2"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2524,
+      2525,
+      2526
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2526": {
+    "index": 25,
+    "id": 2526,
+    "name": "Kinetic Splitter Core C3",
+    "description": "Every bullet has a <D0>% rate to shoot out in the form of 3 Spreadshots. This rate improves by <D1>% for every 100 bullet Damage increased.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum3",
+        "value": "8"
+      },
+      {
+        "name": "FireNum3Add",
+        "value": "3"
+      }
+    ],
+    "price": 80,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2524,
+      2525,
+      2526
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2527": {
+    "index": 26,
+    "id": 2527,
+    "name": "Splitter Core 1",
+    "description": "Every bullet has a <D0>% rate to shoot out in the form of 3 Spreadshots.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum2",
+        "value": "3"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2527,
+      2528,
+      2529,
+      2530
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2528": {
+    "index": 27,
+    "id": 2528,
+    "name": "Splitter Core 2",
+    "description": "Every bullet has a <D0>% rate to shoot out in the form of 3 Spreadshots.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum2",
+        "value": "6"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2527,
+      2528,
+      2529,
+      2530
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2529": {
+    "index": 28,
+    "id": 2529,
+    "name": "Splitter Core 3",
+    "description": "Every bullet has a <D0>% rate to shoot out in the form of 3 Spreadshots.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum2",
+        "value": "10"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2527,
+      2528,
+      2529,
+      2530
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2530": {
+    "index": 29,
+    "id": 2530,
+    "name": "Splitter Core 4",
+    "description": "Every bullet has a <D0>% rate to shoot out in the form of 3 Spreadshots.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum2",
+        "value": "16"
+      }
+    ],
+    "price": 80,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2527,
+      2528,
+      2529,
+      2530
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2531": {
+    "index": 30,
+    "id": 2531,
+    "name": "Splitter Boost Core 1",
+    "description": "When the 'Spreadshot' effect is triggered， the bullet shots +<D0>.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddFireNum",
+        "value": "2"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2518_2530+2096_2099+2106_2109"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2531,
+      2532,
+      2533,
+      2534
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2532": {
+    "index": 31,
+    "id": 2532,
+    "name": "Splitter Boost Core 2",
+    "description": "When the 'Spreadshot' effect is triggered， the bullet shots +<D0>.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddFireNum",
+        "value": "3"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2518_2530+2096_2099+2106_2109"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2531,
+      2532,
+      2533,
+      2534
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2533": {
+    "index": 32,
+    "id": 2533,
+    "name": "Splitter Boost Core 3",
+    "description": "When the 'Spreadshot' effect is triggered， the bullet shots +<D0>.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddFireNum",
+        "value": "4"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2518_2530+2096_2099+2106_2109"
+      }
+    ],
+    "price": 42,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2531,
+      2532,
+      2533,
+      2534
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2534": {
+    "index": 33,
+    "id": 2534,
+    "name": "Splitter Boost Core 4",
+    "description": "When the 'Spreadshot' effect is triggered， the bullet shots +<D0>.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddFireNum",
+        "value": "5"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2518_2530+2096_2099+2106_2109"
+      }
+    ],
+    "price": 65,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2531,
+      2532,
+      2533,
+      2534
+    ],
+    "baseWeapons": [
+      {
+        "type": "Exclude",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2535": {
+    "index": 34,
+    "id": 2535,
+    "name": "Kinetic Blast Core 1",
+    "description": "Bullet Explosion rate +<D0>%\\n(The rate increases by 1% additionally for every 100 bullet Damage)\\n(affects only kinetic weapons)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "2"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2535,
+      2536,
+      2537
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2536": {
+    "index": 35,
+    "id": 2536,
+    "name": "Kinetic Blast Core 2",
+    "description": "Bullet Explosion rate +<D0>%\\n(The rate increases by 1% additionally for every 100 bullet Damage)\\n(affects only kinetic weapons)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "4"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2535,
+      2536,
+      2537
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2537": {
+    "index": 36,
+    "id": 2537,
+    "name": "Kinetic Blast Core 3",
+    "description": "Bullet Explosion rate +<D0>%\\n(The rate increases by 1% additionally for every 100 bullet Damage)\\n(affects only kinetic weapons)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "7"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2535,
+      2536,
+      2537
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2538": {
+    "index": 37,
+    "id": 2538,
+    "name": "Kinetic Burst Reaction Core 1",
+    "description": "When the bullet explosion effect is triggered， it has a <D0>% rate to turn into Explosive Bomb.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "HighExplodePoss",
+        "value": "20"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365+2535_2537+2092_2095+2109"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2538,
+      2539,
+      2540
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2539": {
+    "index": 38,
+    "id": 2539,
+    "name": "Kinetic Burst Reaction Core 2",
+    "description": "When the bullet explosion effect is triggered， it has a <D0>% rate to turn into Explosive Bomb.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "HighExplodePoss",
+        "value": "50"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365+2535_2537+2092_2095+2109"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2538,
+      2539,
+      2540
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2540": {
+    "index": 39,
+    "id": 2540,
+    "name": "Kinetic Burst Reaction Core 3",
+    "description": "When the bullet explosion effect is triggered， it has a <D0>% rate to turn into Explosive Bomb.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "HighExplodePoss",
+        "value": "80"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365+2535_2537+2092_2095+2109"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2538,
+      2539,
+      2540
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2541": {
+    "index": 40,
+    "id": 2541,
+    "name": "Kinetic Burst Element Core 1",
+    "description": "When the bullet explosion effect is triggered， it has a <D0>% rate to trigger Random Elemental Effects.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "EleExplodePoss",
+        "value": "20"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365+2535_2537+2092_2095+2109"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2541,
+      2542,
+      2543
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2542": {
+    "index": 41,
+    "id": 2542,
+    "name": "Kinetic Burst Element Core 2",
+    "description": "When the bullet explosion effect is triggered， it has a <D0>% rate to trigger Random Elemental Effects.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "EleExplodePoss",
+        "value": "50"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365+2535_2537+2092_2095+2109"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2541,
+      2542,
+      2543
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2543": {
+    "index": 42,
+    "id": 2543,
+    "name": "Kinetic Burst Element Core 3",
+    "description": "When the bullet explosion effect is triggered， it has a <D0>% rate to trigger Random Elemental Effects.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "EleExplodePoss",
+        "value": "80"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365+2535_2537+2092_2095+2109"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2541,
+      2542,
+      2543
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2544": {
+    "index": 43,
+    "id": 2544,
+    "name": "Mounted Grenade Core 1",
+    "description": "<D0> fewer bullets is comsumed for the mounted grenade to trigger the grenade effect (tripled effect on submachine guns).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SpecialProjectileMinus",
+        "value": "2"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2544,
+      2545,
+      2546
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2545": {
+    "index": 44,
+    "id": 2545,
+    "name": "Mounted Grenade Core 2",
+    "description": "<D0> fewer bullets is comsumed for the mounted grenade to trigger the grenade effect (tripled effect on submachine guns).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SpecialProjectileMinus",
+        "value": "3"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365"
+      }
+    ],
+    "price": 45,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2544,
+      2545,
+      2546
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2546": {
+    "index": 45,
+    "id": 2546,
+    "name": "Mounted Grenade Core 3",
+    "description": "<D0> fewer bullets is comsumed for the mounted grenade to trigger the grenade effect (tripled effect on submachine guns).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SpecialProjectileMinus",
+        "value": "6"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365"
+      }
+    ],
+    "price": 90,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2544,
+      2545,
+      2546
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2547": {
+    "index": 46,
+    "id": 2547,
+    "name": "Mounted Grenade Boost Core 1",
+    "description": "The mounted grenade has a <D0>% rate to split into 3 Spread Grenades every time.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SpecialProjectilePlus",
+        "value": "8"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2547,
+      2548,
+      2549
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2548": {
+    "index": 47,
+    "id": 2548,
+    "name": "Mounted Grenade Boost Core 2",
+    "description": "The mounted grenade has a <D0>% rate to split into 3 Spread Grenades every time.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SpecialProjectilePlus",
+        "value": "20"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365"
+      }
+    ],
+    "price": 45,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2547,
+      2548,
+      2549
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2549": {
+    "index": 48,
+    "id": 2549,
+    "name": "Mounted Grenade Boost Core 3",
+    "description": "The mounted grenade has a <D0>% rate to split into 3 Spread Grenades every time.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SpecialProjectilePlus",
+        "value": "40"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2272_2275+2363_2365"
+      }
+    ],
+    "price": 90,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2547,
+      2548,
+      2549
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "GuideRail"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2551": {
+    "index": 49,
+    "id": 2551,
+    "name": "High-Capacity Magazine Core 1",
+    "description": "Magazine Capacity +<D0>%， Reload Speed +<D1>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "33"
+      },
+      {
+        "name": "ReloadSpeed",
+        "value": "6"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2551,
+      2552,
+      2553
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2552": {
+    "index": 50,
+    "id": 2552,
+    "name": "High-Capacity Magazine Core 2",
+    "description": "Magazine Capacity +<D0>%， Reload Speed +<D1>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "66"
+      },
+      {
+        "name": "ReloadSpeed",
+        "value": "12"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2551,
+      2552,
+      2553
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2553": {
+    "index": 51,
+    "id": 2553,
+    "name": "High-Capacity Magazine Core 3",
+    "description": "Magazine Capacity +<D0>%， Reload Speed +<D1>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "100"
+      },
+      {
+        "name": "ReloadSpeed",
+        "value": "20"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2551,
+      2552,
+      2553
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2554": {
+    "index": 52,
+    "id": 2554,
+    "name": "Chamber Pressure Overload Core 1",
+    "description": "Firing rate -<D0>%， Reload Speed +<D1>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-6"
+      },
+      {
+        "name": "ReloadSpeed",
+        "value": "3"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2554,
+      2555,
+      2556
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2555": {
+    "index": 53,
+    "id": 2555,
+    "name": "Chamber Pressure Overload Core 2",
+    "description": "Firing rate -<D0>%， Reload Speed +<D1>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-9"
+      },
+      {
+        "name": "ReloadSpeed",
+        "value": "5"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2554,
+      2555,
+      2556
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2556": {
+    "index": 54,
+    "id": 2556,
+    "name": "Chamber Pressure Overload Core 3",
+    "description": "Firing rate -<D0>%， Reload Speed +<D1>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-12"
+      },
+      {
+        "name": "ReloadSpeed",
+        "value": "8"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2554,
+      2555,
+      2556
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Sniper"
+      },
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2557": {
+    "index": 55,
+    "id": 2557,
+    "name": "Super-large-capacity Drum Magazine Core 1",
+    "description": "Magazine Capacity +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "25"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2557,
+      2558,
+      2559,
+      2560
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2558": {
+    "index": 56,
+    "id": 2558,
+    "name": "Super-large-capacity Drum Magazine Core 2",
+    "description": "Magazine Capacity +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "35"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2557,
+      2558,
+      2559,
+      2560
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2559": {
+    "index": 57,
+    "id": 2559,
+    "name": "Super-large-capacity Drum Magazine Core 3",
+    "description": "Magazine Capacity +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "45"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2557,
+      2558,
+      2559,
+      2560
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2560": {
+    "index": 58,
+    "id": 2560,
+    "name": "Super-large-capacity Drum Magazine Core 4",
+    "description": "Magazine Capacity +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "50"
+      }
+    ],
+    "price": 150,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2557,
+      2558,
+      2559,
+      2560
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2561": {
+    "index": 59,
+    "id": 2561,
+    "name": "Bipod Core 1",
+    "description": "Firing while crouching， Spread <D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SeatAngleFloat",
+        "value": "-8"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2561,
+      2562,
+      2563
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2562": {
+    "index": 60,
+    "id": 2562,
+    "name": "Bipod Core 2",
+    "description": "Firing while crouching， Spread <D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SeatAngleFloat",
+        "value": "-20"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2561,
+      2562,
+      2563
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2563": {
+    "index": 61,
+    "id": 2563,
+    "name": "Bipod Core 3",
+    "description": "Firing while crouching， Spread <D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SeatAngleFloat",
+        "value": "-35"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2561,
+      2562,
+      2563
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "MachineGun"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2564": {
+    "index": 62,
+    "id": 2564,
+    "name": "Crit Core 1",
+    "description": "Crit Rate +<D0>",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CriticPossibility",
+        "value": "3"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2564,
+      2565,
+      2566,
+      2567
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2565": {
+    "index": 63,
+    "id": 2565,
+    "name": "Crit Core 2",
+    "description": "Crit Rate +<D0>",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CriticPossibility",
+        "value": "6"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2564,
+      2565,
+      2566,
+      2567
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2566": {
+    "index": 64,
+    "id": 2566,
+    "name": "Crit Core 3",
+    "description": "Crit Rate +<D0>",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CriticPossibility",
+        "value": "10"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2564,
+      2565,
+      2566,
+      2567
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2567": {
+    "index": 65,
+    "id": 2567,
+    "name": "Crit Core 4",
+    "description": "Crit Rate +<D0>",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CriticPossibility",
+        "value": "15"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2564,
+      2565,
+      2566,
+      2567
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2568": {
+    "index": 66,
+    "id": 2568,
+    "name": "Crit Damage  Core 1",
+    "description": "Crit Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CriticDamage",
+        "value": "20"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2568,
+      2569,
+      2570,
+      2571
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2569": {
+    "index": 67,
+    "id": 2569,
+    "name": "Crit Damage  Core 2",
+    "description": "Crit Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CriticDamage",
+        "value": "36"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2568,
+      2569,
+      2570,
+      2571
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2570": {
+    "index": 68,
+    "id": 2570,
+    "name": "Crit Damage  Core 3",
+    "description": "Crit Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CriticDamage",
+        "value": "64"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2568,
+      2569,
+      2570,
+      2571
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2571": {
+    "index": 69,
+    "id": 2571,
+    "name": "Crit Damage  Core 4",
+    "description": "Crit Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CriticDamage",
+        "value": "100"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2568,
+      2569,
+      2570,
+      2571
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2572": {
+    "index": 70,
+    "id": 2572,
+    "name": "Kinetic Damage Core 1",
+    "description": "Bullet Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "Damage",
+        "value": "10"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2572,
+      2573,
+      2574,
+      2575,
+      2576
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2573": {
+    "index": 71,
+    "id": 2573,
+    "name": "Kinetic Damage Core 2",
+    "description": "Bullet Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "Damage",
+        "value": "15"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2572,
+      2573,
+      2574,
+      2575,
+      2576
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2574": {
+    "index": 72,
+    "id": 2574,
+    "name": "Kinetic Damage Core 3",
+    "description": "Bullet Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "Damage",
+        "value": "24"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2572,
+      2573,
+      2574,
+      2575,
+      2576
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2575": {
+    "index": 73,
+    "id": 2575,
+    "name": "Kinetic Damage Core 4",
+    "description": "Bullet Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "Damage",
+        "value": "36"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2572,
+      2573,
+      2574,
+      2575,
+      2576
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2576": {
+    "index": 74,
+    "id": 2576,
+    "name": "Kinetic Damage Core 5",
+    "description": "Bullet Damage +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "Damage",
+        "value": "50"
+      }
+    ],
+    "price": 180,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2572,
+      2573,
+      2574,
+      2575,
+      2576
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2577": {
+    "index": 75,
+    "id": 2577,
+    "name": "Kinetic Powder Charge Core 1",
+    "description": "Applying Greasy Rate +<D0>%\\n(The duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddOil",
+        "value": "2"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2577,
+      2578,
+      2579,
+      2580
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2578": {
+    "index": 76,
+    "id": 2578,
+    "name": "Kinetic Powder Charge Core 2",
+    "description": "Applying Greasy Rate +<D0>%\\n(The duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddOil",
+        "value": "5"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2577,
+      2578,
+      2579,
+      2580
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2579": {
+    "index": 77,
+    "id": 2579,
+    "name": "Kinetic Powder Charge Core 3",
+    "description": "Applying Greasy Rate +<D0>%\\n(The duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddOil",
+        "value": "9"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2577,
+      2578,
+      2579,
+      2580
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2580": {
+    "index": 78,
+    "id": 2580,
+    "name": "Kinetic Powder Charge Core 4",
+    "description": "Applying Greasy Rate +<D0>%\\n(The duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddOil",
+        "value": "15"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2577,
+      2578,
+      2579,
+      2580
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2581": {
+    "index": 79,
+    "id": 2581,
+    "name": "Heat Core 1",
+    "description": "Applying Heat Rate +<D0>%\\n(The heat duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddHeat",
+        "value": "5"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2581,
+      2582,
+      2583,
+      2584
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2582": {
+    "index": 80,
+    "id": 2582,
+    "name": "Heat Core 2",
+    "description": "Applying Heat Rate +<D0>%\\n(The heat duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddHeat",
+        "value": "9"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2581,
+      2582,
+      2583,
+      2584
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2583": {
+    "index": 81,
+    "id": 2583,
+    "name": "Heat Core 3",
+    "description": "Applying Heat Rate +<D0>%\\n(The heat duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddHeat",
+        "value": "16"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2581,
+      2582,
+      2583,
+      2584
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2584": {
+    "index": 82,
+    "id": 2584,
+    "name": "Heat Core 4",
+    "description": "Applying Heat Rate +<D0>%\\n(The heat duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddHeat",
+        "value": "25"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2581,
+      2582,
+      2583,
+      2584
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2585": {
+    "index": 83,
+    "id": 2585,
+    "name": "Armor Melting Core 1",
+    "description": "Inflicts an additional <D0>% Armor Penetration on units with melting armor.",
+    "tag": "CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "MeltUp",
+        "value": "60"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2585,
+      2586,
+      2587,
+      2588
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2586": {
+    "index": 84,
+    "id": 2586,
+    "name": "Armor Melting Core 2",
+    "description": "Inflicts an additional <D0>% Armor Penetration on units with melting armor.",
+    "tag": "CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "MeltUp",
+        "value": "100"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2585,
+      2586,
+      2587,
+      2588
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2587": {
+    "index": 85,
+    "id": 2587,
+    "name": "Armor Melting Core 3",
+    "description": "Inflicts an additional <D0>% Armor Penetration on units with melting armor.",
+    "tag": "CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "MeltUp",
+        "value": "150"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2585,
+      2586,
+      2587,
+      2588
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2588": {
+    "index": 86,
+    "id": 2588,
+    "name": "Armor Melting Core 4",
+    "description": "Inflicts an additional <D0>% Armor Penetration on units with melting armor.",
+    "tag": "CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "MeltUp",
+        "value": "240"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2585,
+      2586,
+      2587,
+      2588
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2589": {
+    "index": 87,
+    "id": 2589,
+    "name": "Electromagnetic Kinetic Core 1",
+    "description": "Applying Electromagnetic Damage Rate +<D0>%\\n(The paralysis duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddElectric",
+        "value": "2"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2589,
+      2590,
+      2591,
+      2592
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2590": {
+    "index": 88,
+    "id": 2590,
+    "name": "Electromagnetic Kinetic Core 2",
+    "description": "Applying Electromagnetic Damage Rate +<D0>%\\n(The paralysis duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddElectric",
+        "value": "4"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2589,
+      2590,
+      2591,
+      2592
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2591": {
+    "index": 89,
+    "id": 2591,
+    "name": "Electromagnetic Kinetic Core 3",
+    "description": "Applying Electromagnetic Damage Rate +<D0>%\\n(The paralysis duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddElectric",
+        "value": "6"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2589,
+      2590,
+      2591,
+      2592
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2592": {
+    "index": 90,
+    "id": 2592,
+    "name": "Electromagnetic Kinetic Core 4",
+    "description": "Applying Electromagnetic Damage Rate +<D0>%\\n(The paralysis duration is related to the bullet Damage)",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddElectric",
+        "value": "9"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2589,
+      2590,
+      2591,
+      2592
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2593": {
+    "index": 91,
+    "id": 2593,
+    "name": "Electromagnetic Bullet Core 1",
+    "description": "Every bullet has a <D1>% rate to shoot out in the form of Electromagnetic Bullet.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddSpecialProjectile2",
+        "value": "BulletElectr_10"
+      },
+      {
+        "name": "Time",
+        "value": "10"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2593,
+      2594,
+      2595,
+      2596
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "Sniper"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2594": {
+    "index": 92,
+    "id": 2594,
+    "name": "Electromagnetic Bullet Core 2",
+    "description": "Every bullet has a <D1>% rate to shoot out in the form of Electromagnetic Bullet.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddSpecialProjectile2",
+        "value": "BulletElectr_15"
+      },
+      {
+        "name": "Time",
+        "value": "15"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2593,
+      2594,
+      2595,
+      2596
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "Sniper"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2595": {
+    "index": 93,
+    "id": 2595,
+    "name": "Electromagnetic Bullet Core 3",
+    "description": "Every bullet has a <D1>% rate to shoot out in the form of Electromagnetic Bullet.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddSpecialProjectile2",
+        "value": "BulletElectr_20"
+      },
+      {
+        "name": "Time",
+        "value": "20"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2593,
+      2594,
+      2595,
+      2596
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "Sniper"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2596": {
+    "index": 94,
+    "id": 2596,
+    "name": "Electromagnetic Bullet Core 4",
+    "description": "Every bullet has a <D1>% rate to shoot out in the form of Electromagnetic Bullet.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddSpecialProjectile2",
+        "value": "BulletElectr_25"
+      },
+      {
+        "name": "Time",
+        "value": "25"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2593,
+      2594,
+      2595,
+      2596
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Exclude",
+        "value": "Sniper"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2597": {
+    "index": 95,
+    "id": 2597,
+    "name": "Ray Anti-blast Core 1",
+    "description": "The unit hit by Ray has a <D0>% rate to explode.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "4"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2597,
+      2598,
+      2599,
+      2600
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2598": {
+    "index": 96,
+    "id": 2598,
+    "name": "Ray Anti-blast Core 2",
+    "description": "The unit hit by Ray has a <D0>% rate to explode.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "10"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2597,
+      2598,
+      2599,
+      2600
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2599": {
+    "index": 97,
+    "id": 2599,
+    "name": "Ray Anti-blast Core 3",
+    "description": "The unit hit by Ray has a <D0>% rate to explode.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "18"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2597,
+      2598,
+      2599,
+      2600
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2600": {
+    "index": 98,
+    "id": 2600,
+    "name": "Ray Anti-blast Core 4",
+    "description": "The unit hit by Ray has a <D0>% rate to explode.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "30"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2597,
+      2598,
+      2599,
+      2600
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2601": {
+    "index": 99,
+    "id": 2601,
+    "name": "Ray Power-blast Core 1",
+    "description": "The shield hit by Ray has a <D1>% rate to generate Fire Explosion.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldExplodePoss",
+        "value": "ExplosionFlameBig_5"
+      },
+      {
+        "name": "Time",
+        "value": "5"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2601,
+      2602,
+      2603,
+      2604
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2602": {
+    "index": 100,
+    "id": 2602,
+    "name": "Ray Power-blast Core 2",
+    "description": "The shield hit by Ray has a <D1>% rate to generate Fire Explosion.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldExplodePoss",
+        "value": "ExplosionFlameBig_12"
+      },
+      {
+        "name": "Time",
+        "value": "12"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2601,
+      2602,
+      2603,
+      2604
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2603": {
+    "index": 101,
+    "id": 2603,
+    "name": "Ray Power-blast Core 3",
+    "description": "The shield hit by Ray has a <D1>% rate to generate Fire Explosion.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldExplodePoss",
+        "value": "ExplosionFlameBig_30"
+      },
+      {
+        "name": "Time",
+        "value": "30"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2601,
+      2602,
+      2603,
+      2604
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2604": {
+    "index": 102,
+    "id": 2604,
+    "name": "Ray Power-blast Core 4",
+    "description": "The shield hit by Ray has a <D1>% rate to generate Fire Explosion.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldExplodePoss",
+        "value": "ExplosionFlameBig_50"
+      },
+      {
+        "name": "Time",
+        "value": "50"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2601,
+      2602,
+      2603,
+      2604
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2605": {
+    "index": 103,
+    "id": 2605,
+    "name": "Ray Fusing Core 1",
+    "description": "The heated unit hit by Ray has a <D0>% rate to suffer Armor Melting.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayMeltPoss",
+        "value": "10"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2605,
+      2606,
+      2607,
+      2608
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2606": {
+    "index": 104,
+    "id": 2606,
+    "name": "Ray Fusing Core 2",
+    "description": "The heated unit hit by Ray has a <D0>% rate to suffer Armor Melting.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayMeltPoss",
+        "value": "18"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2605,
+      2606,
+      2607,
+      2608
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2607": {
+    "index": 105,
+    "id": 2607,
+    "name": "Ray Fusing Core 3",
+    "description": "The heated unit hit by Ray has a <D0>% rate to suffer Armor Melting.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayMeltPoss",
+        "value": "30"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2605,
+      2606,
+      2607,
+      2608
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2608": {
+    "index": 106,
+    "id": 2608,
+    "name": "Ray Fusing Core 4",
+    "description": "The heated unit hit by Ray has a <D0>% rate to suffer Armor Melting.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayMeltPoss",
+        "value": "50"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2605,
+      2606,
+      2607,
+      2608
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2609": {
+    "index": 107,
+    "id": 2609,
+    "name": "Ray Welding Core 1",
+    "description": "The ray will cause an additional <D0>% Damage to units with melting armor.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayMeltAddDamage",
+        "value": "100"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2605_2608"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2609,
+      2610,
+      2611,
+      2612
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2610": {
+    "index": 108,
+    "id": 2610,
+    "name": "Ray Welding Core 2",
+    "description": "The ray will cause an additional <D0>% Damage to units with melting armor.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayMeltAddDamage",
+        "value": "200"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2605_2608"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2609,
+      2610,
+      2611,
+      2612
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2611": {
+    "index": 109,
+    "id": 2611,
+    "name": "Ray Welding Core 3",
+    "description": "The ray will cause an additional <D0>% Damage to units with melting armor.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayMeltAddDamage",
+        "value": "320"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2605_2608"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2609,
+      2610,
+      2611,
+      2612
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2612": {
+    "index": 110,
+    "id": 2612,
+    "name": "Ray Welding Core 4",
+    "description": "The ray will cause an additional <D0>% Damage to units with melting armor.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayMeltAddDamage",
+        "value": "450"
+      },
+      {
+        "name": "GenNeed",
+        "value": "2605_2608"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2609,
+      2610,
+      2611,
+      2612
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2613": {
+    "index": 111,
+    "id": 2613,
+    "name": "Ray Energy Core 1",
+    "description": "The ray will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "30"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2613,
+      2614,
+      2615,
+      2616,
+      2617,
+      2618
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2614": {
+    "index": 112,
+    "id": 2614,
+    "name": "Ray Energy Core 2",
+    "description": "The ray will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "60"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2613,
+      2614,
+      2615,
+      2616,
+      2617,
+      2618
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2615": {
+    "index": 113,
+    "id": 2615,
+    "name": "Ray Energy Core 3",
+    "description": "The ray will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "90"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2613,
+      2614,
+      2615,
+      2616,
+      2617,
+      2618
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2616": {
+    "index": 114,
+    "id": 2616,
+    "name": "Ray Energy Core 4",
+    "description": "The ray will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "120"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2613,
+      2614,
+      2615,
+      2616,
+      2617,
+      2618
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2617": {
+    "index": 115,
+    "id": 2617,
+    "name": "Ray Energy Core 5",
+    "description": "The ray will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "225"
+      }
+    ],
+    "price": 120,
+    "day": "999",
+    "level": 5,
+    "family": [
+      2613,
+      2614,
+      2615,
+      2616,
+      2617,
+      2618
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2618": {
+    "index": 116,
+    "id": 2618,
+    "name": "Ray Energy Core 6",
+    "description": "The ray will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "300"
+      }
+    ],
+    "price": 180,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2613,
+      2614,
+      2615,
+      2616,
+      2617,
+      2618
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2619": {
+    "index": 117,
+    "id": 2619,
+    "name": "Ray Refraction Core 1",
+    "description": "The ray has a <D0>% rate to bounce off in the opposite direction upon hitting the enemy (Halved Damage).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CanReflect",
+        "value": "50"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2619,
+      2620,
+      2621
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2620": {
+    "index": 118,
+    "id": 2620,
+    "name": "Ray Refraction Core 2",
+    "description": "The ray has a <D0>% rate to bounce off in the opposite direction upon hitting the enemy (Halved Damage).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CanReflect",
+        "value": "80"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2619,
+      2620,
+      2621
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2621": {
+    "index": 119,
+    "id": 2621,
+    "name": "Ray Refraction Core 3",
+    "description": "The ray has a <D0>% rate to bounce off in the opposite direction upon hitting the enemy (Halved Damage).",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "CanReflect",
+        "value": "100"
+      }
+    ],
+    "price": 135,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2619,
+      2620,
+      2621
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2622": {
+    "index": 120,
+    "id": 2622,
+    "name": "Ray Trident Core 1",
+    "description": "The ray has a <D0>% rate to split into 3 beams every time.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum3",
+        "value": "8"
+      },
+      {
+        "name": "FireNum3Add",
+        "value": "0"
+      },
+      {
+        "name": "AngleFloatSpecial",
+        "value": "5"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2622,
+      2623,
+      2624
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2623": {
+    "index": 121,
+    "id": 2623,
+    "name": "Ray Trident Core 2",
+    "description": "The ray has a <D0>% rate to split into 3 beams every time.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum3",
+        "value": "18"
+      },
+      {
+        "name": "FireNum3Add",
+        "value": "0"
+      },
+      {
+        "name": "AngleFloatSpecial",
+        "value": "8"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2622,
+      2623,
+      2624
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2624": {
+    "index": 122,
+    "id": 2624,
+    "name": "Ray Trident Core 3",
+    "description": "The ray has a <D0>% rate to split into 3 beams every time.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum3",
+        "value": "40"
+      },
+      {
+        "name": "FireNum3Add",
+        "value": "0"
+      },
+      {
+        "name": "AngleFloatSpecial",
+        "value": "10"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2622,
+      2623,
+      2624
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2625": {
+    "index": 123,
+    "id": 2625,
+    "name": "Ray Rapid-firing Core 1",
+    "description": "Weapon Firing Rate <D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-5"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2625,
+      2626,
+      2627
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2626": {
+    "index": 124,
+    "id": 2626,
+    "name": "Ray Rapid-firing Core 2",
+    "description": "Weapon Firing Rate <D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-8"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2625,
+      2626,
+      2627
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2627": {
+    "index": 125,
+    "id": 2627,
+    "name": "Ray Rapid-firing Core 3",
+    "description": "Weapon Firing Rate <D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-12"
+      }
+    ],
+    "price": 150,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2625,
+      2626,
+      2627
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "MachineGun"
+      }
+    ]
+  },
+  "2628": {
+    "index": 126,
+    "id": 2628,
+    "name": "Arc Anti-blast Core 1",
+    "description": "The unit hit by Arc has a <D0>% rate to explode.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "2"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2628,
+      2629,
+      2630,
+      2631
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2629": {
+    "index": 127,
+    "id": 2629,
+    "name": "Arc Anti-blast Core 2",
+    "description": "The unit hit by Arc has a <D0>% rate to explode.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "5"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2628,
+      2629,
+      2630,
+      2631
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2630": {
+    "index": 128,
+    "id": 2630,
+    "name": "Arc Anti-blast Core 3",
+    "description": "The unit hit by Arc has a <D0>% rate to explode.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "8"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2628,
+      2629,
+      2630,
+      2631
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2631": {
+    "index": 129,
+    "id": 2631,
+    "name": "Arc Anti-blast Core 4",
+    "description": "The unit hit by Arc has a <D0>% rate to explode.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "12"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2628,
+      2629,
+      2630,
+      2631
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2632": {
+    "index": 130,
+    "id": 2632,
+    "name": "Arc Power-blast Core 1",
+    "description": "The shield hit by Arc has a <D1>% rate to generate Frost Explosion.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldExplodePoss",
+        "value": "ExplosionIceBig_8"
+      },
+      {
+        "name": "Time",
+        "value": "8"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2632,
+      2633,
+      2634,
+      2635
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2633": {
+    "index": 131,
+    "id": 2633,
+    "name": "Arc Power-blast Core 2",
+    "description": "The shield hit by Arc has a <D1>% rate to generate Frost Explosion.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldExplodePoss",
+        "value": "ExplosionIceBig_15"
+      },
+      {
+        "name": "Time",
+        "value": "15"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2632,
+      2633,
+      2634,
+      2635
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2634": {
+    "index": 132,
+    "id": 2634,
+    "name": "Arc Power-blast Core 3",
+    "description": "The shield hit by Arc has a <D1>% rate to generate Frost Explosion.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldExplodePoss",
+        "value": "ExplosionIceBig_32"
+      },
+      {
+        "name": "Time",
+        "value": "32"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2632,
+      2633,
+      2634,
+      2635
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2635": {
+    "index": 133,
+    "id": 2635,
+    "name": "Arc Power-blast Core 4",
+    "description": "The shield hit by Arc has a <D1>% rate to generate Frost Explosion.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldExplodePoss",
+        "value": "ExplosionIceBig_60"
+      },
+      {
+        "name": "Time",
+        "value": "60"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2632,
+      2633,
+      2634,
+      2635
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2636": {
+    "index": 134,
+    "id": 2636,
+    "name": "Arc Inner Guide Core 1",
+    "description": "The shield hit by Arc has a <D1>% rate to trigger Paralysis on the body.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldDebuffPoss",
+        "value": "Electric_5"
+      },
+      {
+        "name": "Time",
+        "value": "5"
+      }
+    ],
+    "price": 24,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2636,
+      2637,
+      2638,
+      2639
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2637": {
+    "index": 135,
+    "id": 2637,
+    "name": "Arc Inner Guide Core 2",
+    "description": "The shield hit by Arc has a <D1>% rate to trigger Paralysis on the body.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldDebuffPoss",
+        "value": "Electric_8"
+      },
+      {
+        "name": "Time",
+        "value": "8"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2636,
+      2637,
+      2638,
+      2639
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2638": {
+    "index": 136,
+    "id": 2638,
+    "name": "Arc Inner Guide Core 3",
+    "description": "The shield hit by Arc has a <D1>% rate to trigger Paralysis on the body.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldDebuffPoss",
+        "value": "Electric_12"
+      },
+      {
+        "name": "Time",
+        "value": "12"
+      }
+    ],
+    "price": 75,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2636,
+      2637,
+      2638,
+      2639
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2639": {
+    "index": 137,
+    "id": 2639,
+    "name": "Arc Inner Guide Core 4",
+    "description": "The shield hit by Arc has a <D1>% rate to trigger Paralysis on the body.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ShieldDebuffPoss",
+        "value": "Electric_20"
+      },
+      {
+        "name": "Time",
+        "value": "20"
+      }
+    ],
+    "price": 135,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2636,
+      2637,
+      2638,
+      2639
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2640": {
+    "index": 138,
+    "id": 2640,
+    "name": "Arc Implosion Core 1",
+    "description": "The Arc will cause an additional <D0>% Damage to the shield if the body is already paralyzed.",
+    "tag": "CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningShieldElecDamage",
+        "value": "500"
+      }
+    ],
+    "price": 24,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2640,
+      2641,
+      2642,
+      2643
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2641": {
+    "index": 139,
+    "id": 2641,
+    "name": "Arc Implosion Core 2",
+    "description": "The Arc will cause an additional <D0>% Damage to the shield if the body is already paralyzed.",
+    "tag": "CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningShieldElecDamage",
+        "value": "1000"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2640,
+      2641,
+      2642,
+      2643
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2642": {
+    "index": 140,
+    "id": 2642,
+    "name": "Arc Implosion Core 3",
+    "description": "The Arc will cause an additional <D0>% Damage to the shield if the body is already paralyzed.",
+    "tag": "CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningShieldElecDamage",
+        "value": "2000"
+      }
+    ],
+    "price": 75,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2640,
+      2641,
+      2642,
+      2643
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2643": {
+    "index": 141,
+    "id": 2643,
+    "name": "Arc Implosion Core 4",
+    "description": "The Arc will cause an additional <D0>% Damage to the shield if the body is already paralyzed.",
+    "tag": "CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningShieldElecDamage",
+        "value": "3000"
+      }
+    ],
+    "price": 135,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2640,
+      2641,
+      2642,
+      2643
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2644": {
+    "index": 142,
+    "id": 2644,
+    "name": "Arc Expansion Core 1",
+    "description": "The aiming angle of Arc Weapon increases by <D0> degrees.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningAngle",
+        "value": "25"
+      }
+    ],
+    "price": 24,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2644,
+      2645,
+      2646
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2645": {
+    "index": 143,
+    "id": 2645,
+    "name": "Arc Expansion Core 2",
+    "description": "The aiming angle of Arc Weapon increases by <D0> degrees.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningAngle",
+        "value": "50"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2644,
+      2645,
+      2646
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2646": {
+    "index": 144,
+    "id": 2646,
+    "name": "Arc Expansion Core 3",
+    "description": "The aiming angle of Arc Weapon increases by <D0> degrees.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningAngle",
+        "value": "100"
+      }
+    ],
+    "price": 75,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2644,
+      2645,
+      2646
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      },
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2647": {
+    "index": 145,
+    "id": 2647,
+    "name": "Arc Reflection Core 1",
+    "description": "The Arc will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "20"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2647,
+      2648,
+      2649,
+      2650,
+      2651
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2648": {
+    "index": 146,
+    "id": 2648,
+    "name": "Arc Reflection Core 2",
+    "description": "The Arc will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "40"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2647,
+      2648,
+      2649,
+      2650,
+      2651
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2649": {
+    "index": 147,
+    "id": 2649,
+    "name": "Arc Reflection Core 3",
+    "description": "The Arc will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "80"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2647,
+      2648,
+      2649,
+      2650,
+      2651
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2650": {
+    "index": 148,
+    "id": 2650,
+    "name": "Arc Reflection Core 4",
+    "description": "The Arc will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "125"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2647,
+      2648,
+      2649,
+      2650,
+      2651
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2651": {
+    "index": 149,
+    "id": 2651,
+    "name": "Arc Reflection Core 5",
+    "description": "The Arc will cause +<D0>% Damage to the shield.",
+    "tag": "EnergyWeapon",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "RayShieldDamage",
+        "value": "200"
+      }
+    ],
+    "price": 120,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2647,
+      2648,
+      2649,
+      2650,
+      2651
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2652": {
+    "index": 150,
+    "id": 2652,
+    "name": "Arc Charging Core 1",
+    "description": "The Arc has a <D0>% rate to bounce doubled times.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningHitMulPoss",
+        "value": "3"
+      }
+    ],
+    "price": 10,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2652,
+      2653,
+      2654,
+      2655,
+      2656,
+      2657
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2653": {
+    "index": 151,
+    "id": 2653,
+    "name": "Arc Charging Core 2",
+    "description": "The Arc has a <D0>% rate to bounce doubled times.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningHitMulPoss",
+        "value": "6"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2652,
+      2653,
+      2654,
+      2655,
+      2656,
+      2657
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2654": {
+    "index": 152,
+    "id": 2654,
+    "name": "Arc Charging Core 3",
+    "description": "The Arc has a <D0>% rate to bounce doubled times.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningHitMulPoss",
+        "value": "8"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2652,
+      2653,
+      2654,
+      2655,
+      2656,
+      2657
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2655": {
+    "index": 153,
+    "id": 2655,
+    "name": "Arc Charging Core 4",
+    "description": "The Arc has a <D0>% rate to bounce doubled times.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningHitMulPoss",
+        "value": "10"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2652,
+      2653,
+      2654,
+      2655,
+      2656,
+      2657
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2656": {
+    "index": 154,
+    "id": 2656,
+    "name": "Arc Charging Core 5",
+    "description": "The Arc has a <D0>% rate to bounce doubled times.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningHitMulPoss",
+        "value": "12"
+      }
+    ],
+    "price": 120,
+    "day": "999",
+    "level": 5,
+    "family": [
+      2652,
+      2653,
+      2654,
+      2655,
+      2656,
+      2657
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2657": {
+    "index": 155,
+    "id": 2657,
+    "name": "Arc Charging Core 6",
+    "description": "The Arc has a <D0>% rate to bounce doubled times.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningHitMulPoss",
+        "value": "16"
+      }
+    ],
+    "price": 180,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2652,
+      2653,
+      2654,
+      2655,
+      2656,
+      2657
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2658": {
+    "index": 156,
+    "id": 2658,
+    "name": "Arc Blast-spread Core 1",
+    "description": "Has a <D0>% rate to fire 6 Electromagnetic Bullets every time hitting a target.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningBurstPoss",
+        "value": "10"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2658,
+      2659,
+      2660,
+      2661
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2659": {
+    "index": 157,
+    "id": 2659,
+    "name": "Arc Blast-spread Core 2",
+    "description": "Has a <D0>% rate to fire 6 Electromagnetic Bullets every time hitting a target.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningBurstPoss",
+        "value": "18"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2658,
+      2659,
+      2660,
+      2661
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2660": {
+    "index": 158,
+    "id": 2660,
+    "name": "Arc Blast-spread Core 3",
+    "description": "Has a <D0>% rate to fire 6 Electromagnetic Bullets every time hitting a target.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningBurstPoss",
+        "value": "30"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2658,
+      2659,
+      2660,
+      2661
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2661": {
+    "index": 159,
+    "id": 2661,
+    "name": "Arc Blast-spread Core 4",
+    "description": "Has a <D0>% rate to fire 6 Electromagnetic Bullets every time hitting a target.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "LightningBurstPoss",
+        "value": "50"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2658,
+      2659,
+      2660,
+      2661
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2662": {
+    "index": 160,
+    "id": 2662,
+    "name": "Explosive Splitter Core 1",
+    "description": "Bullet Capacity +<D0>， Firing Rate +<D1>",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum",
+        "value": "100"
+      },
+      {
+        "name": "FireRate",
+        "value": "50"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2662,
+      2663,
+      2664
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ]
+  },
+  "2663": {
+    "index": 161,
+    "id": 2663,
+    "name": "Explosive Splitter Core 2",
+    "description": "Bullet Capacity +<D0>， Firing Rate +<D1>",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum",
+        "value": "200"
+      },
+      {
+        "name": "FireRate",
+        "value": "90"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2662,
+      2663,
+      2664
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ]
+  },
+  "2664": {
+    "index": 162,
+    "id": 2664,
+    "name": "Explosive Splitter Core 3",
+    "description": "Bullet Capacity +<D0>， Firing Rate +<D1>",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "FireNum",
+        "value": "300"
+      },
+      {
+        "name": "FireRate",
+        "value": "150"
+      }
+    ],
+    "price": 110,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2662,
+      2663,
+      2664
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ]
+  },
+  "2665": {
+    "index": 163,
+    "id": 2665,
+    "name": "Chain Reaction Core 1",
+    "description": "Every cannon ball has a <D1>% rate to turn into Explosive Bomb.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddSpecialProjectile2",
+        "value": "BulletExplodeBig_10"
+      },
+      {
+        "name": "Time",
+        "value": "10"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2665,
+      2666,
+      2667
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2666": {
+    "index": 164,
+    "id": 2666,
+    "name": "Chain Reaction Core 2",
+    "description": "Every cannon ball has a <D1>% rate to turn into Explosive Bomb.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddSpecialProjectile2",
+        "value": "BulletExplodeBig_25"
+      },
+      {
+        "name": "Time",
+        "value": "25"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2665,
+      2666,
+      2667
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2667": {
+    "index": 165,
+    "id": 2667,
+    "name": "Chain Reaction Core 3",
+    "description": "Every cannon ball has a <D1>% rate to turn into Explosive Bomb.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddSpecialProjectile2",
+        "value": "BulletExplodeBig_50"
+      },
+      {
+        "name": "Time",
+        "value": "50"
+      }
+    ],
+    "price": 110,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2665,
+      2666,
+      2667
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "2668": {
+    "index": 166,
+    "id": 2668,
+    "name": "Delayed Fuse Core 1",
+    "description": "Bullet Range +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletRange",
+        "value": "12"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2668,
+      2669,
+      2670,
+      2671,
+      2672
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2669": {
+    "index": 167,
+    "id": 2669,
+    "name": "Delayed Fuse Core 2",
+    "description": "Bullet Range +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletRange",
+        "value": "20"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2668,
+      2669,
+      2670,
+      2671,
+      2672
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2670": {
+    "index": 168,
+    "id": 2670,
+    "name": "Delayed Fuse Core 3",
+    "description": "Bullet Range +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletRange",
+        "value": "36"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2668,
+      2669,
+      2670,
+      2671,
+      2672
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2671": {
+    "index": 169,
+    "id": 2671,
+    "name": "Delayed Fuse Core 4",
+    "description": "Bullet Range +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletRange",
+        "value": "64"
+      }
+    ],
+    "price": 110,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2668,
+      2669,
+      2670,
+      2671,
+      2672
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2672": {
+    "index": 170,
+    "id": 2672,
+    "name": "Delayed Fuse Core 5",
+    "description": "Bullet Range +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletRange",
+        "value": "100"
+      }
+    ],
+    "price": 180,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2668,
+      2669,
+      2670,
+      2671,
+      2672
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sniper"
+      }
+    ]
+  },
+  "2673": {
+    "index": 171,
+    "id": 2673,
+    "name": "Explosive Powder Charge Core",
+    "description": "Explosions apply oil damage but increase reload time by <D1>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "AddExplodeBuff",
+        "value": "Oil"
+      },
+      {
+        "name": "ReloadSpeed",
+        "value": "30"
+      }
+    ],
+    "price": 80,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2673
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2674": {
+    "index": 172,
+    "id": 2674,
+    "name": "Heated Gas Core 1",
+    "description": "The Spraying Weapon has a <D1>% rate to apply Heat every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "DebuffPoss",
+        "value": "Heat_18"
+      },
+      {
+        "name": "Time",
+        "value": "18"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2674,
+      2675,
+      2676
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2675": {
+    "index": 173,
+    "id": 2675,
+    "name": "Heated Gas Core 2",
+    "description": "The Spraying Weapon has a <D1>% rate to apply Heat every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "DebuffPoss",
+        "value": "Heat_32"
+      },
+      {
+        "name": "Time",
+        "value": "32"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2674,
+      2675,
+      2676
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2676": {
+    "index": 174,
+    "id": 2676,
+    "name": "Heated Gas Core 3",
+    "description": "The Spraying Weapon has a <D1>% rate to apply Heat every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "DebuffPoss",
+        "value": "Heat_60"
+      },
+      {
+        "name": "Time",
+        "value": "60"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2674,
+      2675,
+      2676
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Ray"
+      }
+    ]
+  },
+  "2677": {
+    "index": 175,
+    "id": 2677,
+    "name": "Magnetized Gas Core 1",
+    "description": "The Spraying Weapon has a <D1>% rate to apply Heat every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "DebuffPoss",
+        "value": "Electric_12"
+      },
+      {
+        "name": "Time",
+        "value": "12"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2677,
+      2678,
+      2679
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2678": {
+    "index": 176,
+    "id": 2678,
+    "name": "Magnetized Gas Core 2",
+    "description": "The Spraying Weapon has a <D1>% rate to apply Heat every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "DebuffPoss",
+        "value": "Electric_21"
+      },
+      {
+        "name": "Time",
+        "value": "21"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2677,
+      2678,
+      2679
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2679": {
+    "index": 177,
+    "id": 2679,
+    "name": "Magnetized Gas Core 3",
+    "description": "The Spraying Weapon has a <D1>% rate to apply Heat every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "DebuffPoss",
+        "value": "Electric_40"
+      },
+      {
+        "name": "Time",
+        "value": "40"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2677,
+      2678,
+      2679
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Arc"
+      },
+      {
+        "type": "Include",
+        "value": "Magnetoelectric"
+      }
+    ]
+  },
+  "2680": {
+    "index": 178,
+    "id": 2680,
+    "name": "Unstable Gas Core 1",
+    "description": "The unit within the spraying range has a <D0>% rate to explode every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "8"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2680,
+      2681,
+      2682
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2681": {
+    "index": 179,
+    "id": 2681,
+    "name": "Unstable Gas Core 2",
+    "description": "The unit within the spraying range has a <D0>% rate to explode every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "15"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2680,
+      2681,
+      2682
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2682": {
+    "index": 180,
+    "id": 2682,
+    "name": "Unstable Gas Core 3",
+    "description": "The unit within the spraying range has a <D0>% rate to explode every second.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "24"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2680,
+      2681,
+      2682
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Include",
+        "value": "Plasma"
+      }
+    ]
+  },
+  "2683": {
+    "index": 181,
+    "id": 2683,
+    "name": "Broad-nozzle Core 1",
+    "description": "The Spraying Weapon's Coverage Width +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SplitWidth",
+        "value": "25"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2683,
+      2684,
+      2685
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2684": {
+    "index": 182,
+    "id": 2684,
+    "name": "Broad-nozzle Core 2",
+    "description": "The Spraying Weapon's Coverage Width +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SplitWidth",
+        "value": "60"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2683,
+      2684,
+      2685
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2685": {
+    "index": 183,
+    "id": 2685,
+    "name": "Broad-nozzle Core 3",
+    "description": "The Spraying Weapon's Coverage Width +<D0>%",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SplitWidth",
+        "value": "100"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2683,
+      2684,
+      2685
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      },
+      {
+        "type": "Include",
+        "value": "Spraying"
+      }
+    ]
+  },
+  "2686": {
+    "index": 184,
+    "id": 2686,
+    "name": "Spread Constriction Core 1",
+    "description": "When fire while crouching， Spread -<D0>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SeatAngleFloat",
+        "value": "3"
+      }
+    ],
+    "price": 25,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2686,
+      2687,
+      2688,
+      2689
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ]
+  },
+  "2687": {
+    "index": 185,
+    "id": 2687,
+    "name": "Spread Constriction Core 2",
+    "description": "When fire while crouching， Spread -<D0>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SeatAngleFloat",
+        "value": "7"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2686,
+      2687,
+      2688,
+      2689
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ]
+  },
+  "2688": {
+    "index": 186,
+    "id": 2688,
+    "name": "Spread Constriction Core 3",
+    "description": "When fire while crouching， Spread -<D0>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SeatAngleFloat",
+        "value": "11"
+      }
+    ],
+    "price": 70,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2686,
+      2687,
+      2688,
+      2689
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ]
+  },
+  "2689": {
+    "index": 187,
+    "id": 2689,
+    "name": "Spread Constriction Core 4",
+    "description": "When fire while crouching， Spread -<D0>%.",
+    "tag": "",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "SeatAngleFloat",
+        "value": "15"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2686,
+      2687,
+      2688,
+      2689
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spreadshot"
+      }
+    ]
+  },
+  "2690": {
+    "index": 188,
+    "id": 2690,
+    "name": "Burst-fire Core P3",
+    "description": "Changes weapon firing mode to <D0> Burst-fire",
+    "tag": "CantDemo",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BurstsCnt",
+        "value": "3"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2690,
+      2691,
+      2692,
+      2693
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  "2691": {
+    "index": 189,
+    "id": 2691,
+    "name": "Burst-fire Core P8",
+    "description": "Changes weapon firing mode to <D0> Burst-fire",
+    "tag": "CantDemo",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BurstsCnt",
+        "value": "8"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2690,
+      2691,
+      2692,
+      2693
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  "2692": {
+    "index": 190,
+    "id": 2692,
+    "name": "Burst-fire Core P2",
+    "description": "Changes weapon firing mode to <D0> Burst-fire",
+    "tag": "CantDemo",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BurstsCnt",
+        "value": "2"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2690,
+      2691,
+      2692,
+      2693
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  "2693": {
+    "index": 191,
+    "id": 2693,
+    "name": "Burst-fire Core P4",
+    "description": "Changes weapon firing mode to <D0> Burst-fire",
+    "tag": "CantDemo",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BurstsCnt",
+        "value": "4"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2690,
+      2691,
+      2692,
+      2693
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  "2694": {
+    "index": 192,
+    "id": 2694,
+    "name": "Trajectory Core",
+    "description": "Bullets now follow a parabolic path.",
+    "tag": "CantDemo",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "BulletFlak",
+        "value": "1"
+      }
+    ],
+    "price": 5,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2694
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  "2801": {
+    "index": 193,
+    "id": 2801,
+    "name": "Close combat maintenance core 1",
+    "description": "wear rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "BrokePos",
+        "value": "-5"
+      }
+    ],
+    "price": 8,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2801,
+      2802,
+      2803,
+      2804,
+      2805
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  "2802": {
+    "index": 194,
+    "id": 2802,
+    "name": "Close combat maintenance core 2",
+    "description": "wear rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "BrokePos",
+        "value": "-10"
+      }
+    ],
+    "price": 16,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2801,
+      2802,
+      2803,
+      2804,
+      2805
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  "2803": {
+    "index": 195,
+    "id": 2803,
+    "name": "Close combat maintenance core 3",
+    "description": "wear rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "BrokePos",
+        "value": "-18"
+      }
+    ],
+    "price": 24,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2801,
+      2802,
+      2803,
+      2804,
+      2805
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  "2804": {
+    "index": 196,
+    "id": 2804,
+    "name": "Close combat maintenance core 4",
+    "description": "wear rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "BrokePos",
+        "value": "-32"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2801,
+      2802,
+      2803,
+      2804,
+      2805
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  "2805": {
+    "index": 197,
+    "id": 2805,
+    "name": "Close combat maintenance core 5",
+    "description": "wear rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "BrokePos",
+        "value": "-50"
+      }
+    ],
+    "price": 56,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2801,
+      2802,
+      2803,
+      2804,
+      2805
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  "2806": {
+    "index": 198,
+    "id": 2806,
+    "name": "Close combat differential core 1",
+    "description": "firing rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-4"
+      }
+    ],
+    "price": 9,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2806,
+      2807,
+      2808,
+      2809,
+      2810
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sword"
+      }
+    ]
+  },
+  "2807": {
+    "index": 199,
+    "id": 2807,
+    "name": "Close combat differential core 2",
+    "description": "firing rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-6"
+      }
+    ],
+    "price": 13,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2806,
+      2807,
+      2808,
+      2809,
+      2810
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sword"
+      }
+    ]
+  },
+  "2808": {
+    "index": 200,
+    "id": 2808,
+    "name": "Close combat differential core 3",
+    "description": "firing rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-8"
+      }
+    ],
+    "price": 17,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2806,
+      2807,
+      2808,
+      2809,
+      2810
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sword"
+      }
+    ]
+  },
+  "2809": {
+    "index": 201,
+    "id": 2809,
+    "name": "Close combat differential core 4",
+    "description": "firing rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-15"
+      }
+    ],
+    "price": 24,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2806,
+      2807,
+      2808,
+      2809,
+      2810
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sword"
+      }
+    ]
+  },
+  "2810": {
+    "index": 202,
+    "id": 2810,
+    "name": "Close combat differential core 5",
+    "description": "firing rate <D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "FireRate",
+        "value": "-20"
+      }
+    ],
+    "price": 32,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2806,
+      2807,
+      2808,
+      2809,
+      2810
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Sword"
+      }
+    ]
+  },
+  "2811": {
+    "index": 203,
+    "id": 2811,
+    "name": "Core of melee forces 1",
+    "description": "weapon repulsion +<D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordStrength",
+        "value": "25"
+      }
+    ],
+    "price": 8,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2811,
+      2812,
+      2813
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  "2812": {
+    "index": 204,
+    "id": 2812,
+    "name": "Core of melee forces 2",
+    "description": "weapon repulsion +<D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordStrength",
+        "value": "50"
+      }
+    ],
+    "price": 16,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2811,
+      2812,
+      2813
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  "2813": {
+    "index": 205,
+    "id": 2813,
+    "name": "Core of melee forces 3",
+    "description": "weapon repulsion +<D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordStrength",
+        "value": "100"
+      }
+    ],
+    "price": 24,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2811,
+      2812,
+      2813
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  "2814": {
+    "index": 206,
+    "id": 2814,
+    "name": "Close combat sharpeness core 1",
+    "description": "Melee weapon sharpeness +<D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordSharpen",
+        "value": "10"
+      }
+    ],
+    "price": 8,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2814,
+      2815,
+      2816,
+      2817,
+      2818
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2815": {
+    "index": 207,
+    "id": 2815,
+    "name": "Close combat sharpeness core 1",
+    "description": "Melee weapon sharpeness +<D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordSharpen",
+        "value": "30"
+      }
+    ],
+    "price": 16,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2814,
+      2815,
+      2816,
+      2817,
+      2818
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2816": {
+    "index": 208,
+    "id": 2816,
+    "name": "Close combat sharpeness core 1",
+    "description": "Melee weapon sharpeness +<D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordSharpen",
+        "value": "50"
+      }
+    ],
+    "price": 24,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2814,
+      2815,
+      2816,
+      2817,
+      2818
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2817": {
+    "index": 209,
+    "id": 2817,
+    "name": "Close combat sharpeness core 1",
+    "description": "Melee weapon sharpeness +<D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordSharpen",
+        "value": "75"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2814,
+      2815,
+      2816,
+      2817,
+      2818
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2818": {
+    "index": 210,
+    "id": 2818,
+    "name": "Close combat sharpeness core 1",
+    "description": "Melee weapon sharpeness +<D0>%",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordSharpen",
+        "value": "100"
+      }
+    ],
+    "price": 56,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2814,
+      2815,
+      2816,
+      2817,
+      2818
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2819": {
+    "index": 211,
+    "id": 2819,
+    "name": "Close combat focus core 1",
+    "description": "When releasing sword energy， Range+<D0>%",
+    "tag": "CantGen",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordBulletRange",
+        "value": "30"
+      }
+    ],
+    "price": 30,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2819,
+      2820,
+      2821
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Axe"
+      }
+    ]
+  },
+  "2820": {
+    "index": 212,
+    "id": 2820,
+    "name": "Close combat focus core 2",
+    "description": "When releasing sword energy， Range+<D0>%",
+    "tag": "CantGen",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordBulletRange",
+        "value": "60"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2819,
+      2820,
+      2821
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Axe"
+      }
+    ]
+  },
+  "2821": {
+    "index": 213,
+    "id": 2821,
+    "name": "Close combat focus core 3",
+    "description": "When releasing sword energy， Range+<D0>%",
+    "tag": "CantGen",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordBulletRange",
+        "value": "100"
+      }
+    ],
+    "price": 84,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2819,
+      2820,
+      2821
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Axe"
+      }
+    ]
+  },
+  "2822": {
+    "index": 214,
+    "id": 2822,
+    "name": "Melee throwing core 1",
+    "description": "Each melee has a <D0>% chance of being shot in the form of Sword Energy",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordBullet",
+        "value": "10"
+      }
+    ],
+    "price": 15,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2822,
+      2823,
+      2824,
+      2825,
+      2826
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      },
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Sword"
+      },
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2823": {
+    "index": 215,
+    "id": 2823,
+    "name": "Melee throwing core 2",
+    "description": "Each melee has a <D0>% chance of being shot in the form of Sword Energy",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordBullet",
+        "value": "18"
+      }
+    ],
+    "price": 28,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2822,
+      2823,
+      2824,
+      2825,
+      2826
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      },
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Sword"
+      },
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2824": {
+    "index": 216,
+    "id": 2824,
+    "name": "Melee throwing core 3",
+    "description": "Each melee has a <D0>% chance of being shot in the form of Sword Energy",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordBullet",
+        "value": "24"
+      }
+    ],
+    "price": 48,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2822,
+      2823,
+      2824,
+      2825,
+      2826
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      },
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Sword"
+      },
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2825": {
+    "index": 217,
+    "id": 2825,
+    "name": "Melee throwing core 4",
+    "description": "Each melee has a <D0>% chance of being shot in the form of Sword Energy",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordBullet",
+        "value": "30"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2822,
+      2823,
+      2824,
+      2825,
+      2826
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      },
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Sword"
+      },
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2826": {
+    "index": 218,
+    "id": 2826,
+    "name": "Melee throwing core 5",
+    "description": "Each melee has a <D0>% chance of being shot in the form of Sword Energy",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordBullet",
+        "value": "50"
+      }
+    ],
+    "price": 84,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2822,
+      2823,
+      2824,
+      2825,
+      2826
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      },
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Sword"
+      },
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2827": {
+    "index": 219,
+    "id": 2827,
+    "name": "Stun damage increasing core 1",
+    "description": "Deals an additional<D0>% damage to stun enemies",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordStunDamage",
+        "value": "10"
+      }
+    ],
+    "price": 8,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2827,
+      2828,
+      2829,
+      2830,
+      2831
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2828": {
+    "index": 220,
+    "id": 2828,
+    "name": "Stun damage increasing core 2",
+    "description": "Deals an additional<D0>% damage to stun enemies",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordStunDamage",
+        "value": "25"
+      }
+    ],
+    "price": 16,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2827,
+      2828,
+      2829,
+      2830,
+      2831
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2829": {
+    "index": 221,
+    "id": 2829,
+    "name": "Stun damage increasing core 3",
+    "description": "Deals an additional<D0>% damage to stun enemies",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordStunDamage",
+        "value": "50"
+      }
+    ],
+    "price": 24,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2827,
+      2828,
+      2829,
+      2830,
+      2831
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2830": {
+    "index": 222,
+    "id": 2830,
+    "name": "Stun damage increasing core 4",
+    "description": "Deals an additional<D0>% damage to stun enemies",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordStunDamage",
+        "value": "75"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2827,
+      2828,
+      2829,
+      2830,
+      2831
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2831": {
+    "index": 223,
+    "id": 2831,
+    "name": "Stun damage increasing core 5",
+    "description": "Deals an additional<D0>% damage to stun enemies",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordStunDamage",
+        "value": "100"
+      }
+    ],
+    "price": 56,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2827,
+      2828,
+      2829,
+      2830,
+      2831
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Boxing"
+      }
+    ]
+  },
+  "2832": {
+    "index": 224,
+    "id": 2832,
+    "name": "Close combat damage core 1",
+    "description": "Increases melee weapon attack by <D0>%.",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordAttatck",
+        "value": "20"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2832,
+      2833,
+      2834,
+      2835,
+      2836
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2833": {
+    "index": 225,
+    "id": 2833,
+    "name": "Close combat damage core 2",
+    "description": "Increases melee weapon attack by <D0>%.",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordAttatck",
+        "value": "30"
+      }
+    ],
+    "price": 35,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2832,
+      2833,
+      2834,
+      2835,
+      2836
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2834": {
+    "index": 226,
+    "id": 2834,
+    "name": "Close combat damage core 3",
+    "description": "Increases melee weapon attack by <D0>%.",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordAttatck",
+        "value": "50"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 3,
+    "family": [
+      2832,
+      2833,
+      2834,
+      2835,
+      2836
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2835": {
+    "index": 227,
+    "id": 2835,
+    "name": "Close combat damage core 4",
+    "description": "Increases melee weapon attack by <D0>%.",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordAttatck",
+        "value": "70"
+      }
+    ],
+    "price": 110,
+    "day": "999",
+    "level": 4,
+    "family": [
+      2832,
+      2833,
+      2834,
+      2835,
+      2836
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "2836": {
+    "index": 228,
+    "id": 2836,
+    "name": "Close combat damage core 5",
+    "description": "Increases melee weapon attack by <D0>%.",
+    "tag": "",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordAttatck",
+        "value": "100"
+      }
+    ],
+    "price": 180,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2832,
+      2833,
+      2834,
+      2835,
+      2836
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Axe"
+      },
+      {
+        "type": "Include",
+        "value": "Spear"
+      }
+    ]
+  },
+  "1451": {
+    "index": 229,
+    "id": 1451,
+    "name": "SMW Explo Element core",
+    "description": "Explosion by Shoulder mount weapon will cause random element effect， probability:<D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ExploRandomBuffPoss",
+        "value": "30"
+      }
+    ],
+    "price": 25,
+    "day": "999",
+    "level": 1,
+    "family": [
+      1451,
+      1452
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "EMP"
+      }
+    ]
+  },
+  "1452": {
+    "index": 230,
+    "id": 1452,
+    "name": "SMW Explo Element core +",
+    "description": "Explosion by Shoulder mount weapon will cause random element effect， probability:<D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ExploRandomBuffPoss",
+        "value": "50"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": -1,
+    "family": [
+      1451,
+      1452
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "EMP"
+      }
+    ]
+  },
+  "1453": {
+    "index": 231,
+    "id": 1453,
+    "name": "SMW Kinetic Element core",
+    "description": "Hit by Shoulder mount weapon will cause random element effect， probability:<D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "RandomBuffPoss",
+        "value": "10"
+      }
+    ],
+    "price": 25,
+    "day": "999",
+    "level": 1,
+    "family": [
+      1453,
+      1454
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "EMP"
+      }
+    ]
+  },
+  "1454": {
+    "index": 232,
+    "id": 1454,
+    "name": "SMW Kinetic Element core +",
+    "description": "Hit by Shoulder mount weapon will cause random element effect， probability:<D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "RandomBuffPoss",
+        "value": "18"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": -1,
+    "family": [
+      1453,
+      1454
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "EMP"
+      }
+    ]
+  },
+  "1455": {
+    "index": 233,
+    "id": 1455,
+    "name": "SMW Magazine core1",
+    "description": "Cooldown of Shoulder mount weapon <D0>",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ReloadShoulder",
+        "value": "-8"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      1455,
+      1456,
+      1457
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ]
+  },
+  "1456": {
+    "index": 234,
+    "id": 1456,
+    "name": "SMW Magazine core2",
+    "description": "Cooldown of Shoulder mount weapon <D0>",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ReloadShoulder",
+        "value": "-18"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 2,
+    "family": [
+      1455,
+      1456,
+      1457
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ]
+  },
+  "1457": {
+    "index": 235,
+    "id": 1457,
+    "name": "SMW Magazine core3",
+    "description": "Cooldown of Shoulder mount weapon <D0>",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ReloadShoulder",
+        "value": "-25"
+      }
+    ],
+    "price": 90,
+    "day": "999",
+    "level": -1,
+    "family": [
+      1455,
+      1456,
+      1457
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "All"
+      }
+    ]
+  },
+  "1458": {
+    "index": 236,
+    "id": 1458,
+    "name": "EMP amplification core",
+    "description": "Increase EMP range by <D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "BulletRange",
+        "value": "60"
+      }
+    ],
+    "price": 25,
+    "day": "999",
+    "level": 1,
+    "family": [
+      1458,
+      1459
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "EMP"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "EMP"
+      }
+    ]
+  },
+  "1459": {
+    "index": 237,
+    "id": 1459,
+    "name": "EMP amplification core+",
+    "description": "Increase EMP range by <D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "BulletRange",
+        "value": "100"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": -1,
+    "family": [
+      1458,
+      1459
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "EMP"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "EMP"
+      }
+    ]
+  },
+  "1460": {
+    "index": 238,
+    "id": 1460,
+    "name": "Tracking core",
+    "description": "Add a small amount of tracking effect to bullets",
+    "tag": "CantDemo",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "AddChase",
+        "value": ""
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -2,
+    "family": [
+      1460
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Explosive"
+      },
+      {
+        "type": "Exclude",
+        "value": "Rocket"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ]
+  },
+  "1461": {
+    "index": 239,
+    "id": 1461,
+    "name": "Tracking amplification core",
+    "description": "Bullet tracking effect becomes stronger",
+    "tag": "CantDemo",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ChasePlus",
+        "value": ""
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": -2,
+    "family": [
+      1461
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ]
+  },
+  "1462": {
+    "index": 240,
+    "id": 1462,
+    "name": "SMW Salvo core 1",
+    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "25"
+      }
+    ],
+    "price": 30,
+    "day": "999",
+    "level": 1,
+    "family": [
+      1462,
+      1463,
+      1464
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ]
+  },
+  "1463": {
+    "index": 241,
+    "id": 1463,
+    "name": "SMW Salvo core 2",
+    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "50"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 2,
+    "family": [
+      1462,
+      1463,
+      1464
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ]
+  },
+  "1464": {
+    "index": 242,
+    "id": 1464,
+    "name": "SMW Salvo core 3",
+    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ClipNum",
+        "value": "70"
+      }
+    ],
+    "price": 90,
+    "day": "999",
+    "level": -1,
+    "family": [
+      1462,
+      1463,
+      1464
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      },
+      {
+        "type": "Include",
+        "value": "Rocket"
+      }
+    ]
+  },
+  "1465": {
+    "index": 243,
+    "id": 1465,
+    "name": "SMW Kinetic Explo core",
+    "description": "Increases bullet explosion rate of Shoulder mount weapon by <D0>%.",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "6"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 1,
+    "family": [
+      1465,
+      1466
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "1466": {
+    "index": 244,
+    "id": 1466,
+    "name": "SMW Kinetic Explo core",
+    "description": "Increases bullet explosion rate of Shoulder mount weapon by <D0>%.",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "ExplodePoss",
+        "value": "15"
+      }
+    ],
+    "price": 90,
+    "day": "999",
+    "level": -1,
+    "family": [
+      1465,
+      1466
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Kinetic"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "1467": {
+    "index": 245,
+    "id": 1467,
+    "name": "SMW Explosion Damage core",
+    "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "AddExplodeDamage",
+        "value": "50"
+      }
+    ],
+    "price": 50,
+    "day": "999",
+    "level": 1,
+    "family": [
+      1467,
+      1468
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  },
+  "1468": {
+    "index": 246,
+    "id": 1468,
+    "name": "SMW Explosion Damage core+",
+    "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
+    "tag": "",
+    "weaponType": "HangShoulder",
+    "functions": [
+      {
+        "name": "AddExplodeDamage",
+        "value": "100"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      1467,
+      1468
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "Explosive"
+      }
+    ]
+  }
+}
