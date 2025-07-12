@@ -1,5 +1,4 @@
 ﻿using CavalryGirls.Inspector.Models;
-using CavalryGirls.Inspector.Repositories;
 using CavalryGirls.Inspector.Utils;
 
 namespace CavalryGirls.Inspector.Mappers;
@@ -66,12 +65,7 @@ public static class ItemMappers
             Description = description.Value,
             ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
             Tag = item.Tag ?? throw new ArgumentNullException(item.Tag),
-            WeaponType = item.Type switch
-            {
-                RawItemRepository.CLOSE_WEAPON_FUSION => WeaponType.Close,
-                RawItemRepository.HANG_SHOULDER_FUSION => WeaponType.HangShoulder,
-                _ => WeaponType.Weapon
-            },
+            WeaponType = item.Type.ConvertFusionToWeaponType(),
             Functions = item.Functions.SplitFunctions(),
             Price = item.Price,
             Day = item.Day ?? throw new ArgumentNullException(item.Day),
@@ -91,12 +85,7 @@ public static class ItemMappers
             Description = description.Value,
             ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
             Tag = item.Tag ?? throw new ArgumentNullException(item.Tag),
-            WeaponType = item.Type switch
-            {
-                RawItemRepository.CLOSE_WEAPON_MODULE => WeaponType.Close,
-                RawItemRepository.HANG_SHOULDER_MODULE => WeaponType.HangShoulder,
-                _ => WeaponType.Weapon
-            },
+            WeaponType = item.Type.ConvertModuleToWeaponType(),
             Functions = item.Functions.SplitFunctions(),
             Price = item.Price,
             Day = item.Day ?? throw new ArgumentNullException(item.Day),
@@ -106,21 +95,24 @@ public static class ItemMappers
         };
 
     public static Weapon ToWeapon(int index, RawItem item, Description description)
-        => new()
+    {
+        var weaponType = item.Tag is "RiotShiled" ? WeaponType.Close : item.Type.ConvertWeaponToWeaponType();
+        var functions = item.Functions.SplitFunctions();
+
+        var bulletFunction = functions.FirstOrDefault(x => x.Name is "Weapon" or "ArmorStrategy")
+                             ?? throw new InvalidDataException($"Weapon {item.Id} does not have a bullet");
+
+        return new Weapon
         {
             Index = index,
             Id = item.Id,
             Name = description.Name,
             Description = description.Value,
             ImageFileName = item.ImageFileName ?? throw new ArgumentNullException(item.ImageFileName),
-            Tag = item.Tag ?? throw new ArgumentNullException(item.Tag),
-            WeaponType = item.Type switch
-            {
-                RawItemRepository.CLOSE_WEAPON => WeaponType.Close,
-                RawItemRepository.HANG_SHOULDER => WeaponType.HangShoulder,
-                _ => WeaponType.Weapon
-            },
-            Functions = item.Functions.SplitFunctions(),
+            WeaponType = weaponType,
+            WeaponSubTypes = item.Tag.ToSubWeaponTypes(weaponType),
+            BulletId = bulletFunction.Value,
+            Functions = functions,
             Price = item.Price,
             Day = item.Day ?? throw new ArgumentNullException(item.Day),
             Level = item.Level,
@@ -128,4 +120,5 @@ public static class ItemMappers
             WeaponIds = item.Craft.SplitStringOr(),
             Materials = item.Materials.SplitCount()
         };
+    }
 }

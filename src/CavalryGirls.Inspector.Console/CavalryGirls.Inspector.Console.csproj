@@ -12,7 +12,6 @@
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>false</SelfContained>
     <UseAppHost>true</UseAppHost>
-    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
 
     <DebugType>embedded</DebugType>
     <DebugSymbols>true</DebugSymbols>

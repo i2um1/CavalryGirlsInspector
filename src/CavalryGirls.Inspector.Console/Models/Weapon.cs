@@ -7,8 +7,9 @@ public sealed class Weapon
     public required string Name { get; init; }
     public required string Description { get; init; }
     public required string ImageFileName { get; init; }
-    public required string Tag { get; init; }
     public WeaponType WeaponType { get; init; }
+    public required SubWeaponType[] WeaponSubTypes { get; init; }
+    public required string BulletId { get; init; }
     public required Function[] Functions { get; init; }
     public int Price { get; init; }
     public required string Day { get; init; }

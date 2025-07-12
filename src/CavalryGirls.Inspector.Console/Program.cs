@@ -1,4 +1,5 @@
 ﻿using CavalryGirls.Inspector.Mappers;
+using CavalryGirls.Inspector.Models;
 using CavalryGirls.Inspector.Repositories;
 using CavalryGirls.Inspector.Utils;
 
@@ -18,25 +19,9 @@ var weapons = await rawItemRepository.GetWeapons(itemDescriptions);
 
 var bullets = await rawBulletRepository.GetBullets();
 
+var weapon = weapons.Values.First(x => x.WeaponType is WeaponType.Weapon);
+
 var imagesFolder = "e:\\Projects\\1\\ExportedProject\\Assets\\Resources\\texture\\property";
 var atlas = await ImageAtlas.Create(weapons.ToImagePaths(imagesFolder), "result.webp");
 
 Console.WriteLine();
-
-/*
-NormalWeapon - Kinetic Weapon
-!Riffle
-Riffle - Sniper Weapon
-MG - Machine Gun
-All
-!ShotWeapon
-Rail - Guide Rail
-ExploWeapon - Explosive Weapon
-FlakeWeapon - Plasma Weapon
-ShotWeapon - Spreadshot Weapon
-SplitWeapon - Spraying Weapon
-!MG
-LaserWeapon - Ray Weapon
-ElectricWeapon - Arc Weapon
-MagWeapon  - Magnetoelectric Weapon
-*/
