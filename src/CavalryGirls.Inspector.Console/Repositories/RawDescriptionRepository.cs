@@ -73,18 +73,20 @@ public sealed class RawDescriptionRepository
             return null;
         }
 
+        var value = rawDescription.English.FixDescription();
+
         if (rawDescription.Id.StartsWith(name, StringComparison.InvariantCulture))
         {
             return new KeyValuePair<string, Description>(
                 rawDescription.Id[name.Length..],
-                new Description(rawDescription.English, string.Empty));
+                new Description(value, string.Empty));
         }
 
         if (rawDescription.Id.StartsWith(description, StringComparison.InvariantCulture))
         {
             return new KeyValuePair<string, Description>(
                 rawDescription.Id[description.Length..],
-                new Description(string.Empty, rawDescription.English));
+                new Description(string.Empty, value));
         }
 
         return null;

@@ -28,5 +28,6 @@
   <ItemGroup>
     <Using Include="System.Globalization" />
     <Using Include="System.Runtime.CompilerServices" />
+    <Using Include="System.Text.RegularExpressions" />
   </ItemGroup>
 </Project>

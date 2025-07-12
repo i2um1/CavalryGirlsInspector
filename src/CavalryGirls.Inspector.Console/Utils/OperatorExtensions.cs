@@ -77,6 +77,6 @@ public static class OperatorExtensions
         return (parts[0], parts[1]);
     }
 
-    public static int ToInt(this string value)
+    private static int ToInt(this string value)
         => int.Parse(value, CultureInfo.InvariantCulture);
 }

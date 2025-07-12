@@ -1,5 +1,4 @@
 ﻿using CavalryGirls.Inspector.Mappers;
-using CavalryGirls.Inspector.Models;
 using CavalryGirls.Inspector.Repositories;
 using CavalryGirls.Inspector.Utils;
 
@@ -18,10 +17,6 @@ var weaponModules = await rawItemRepository.GetWeaponModules(itemDescriptions);
 var weapons = await rawItemRepository.GetWeapons(itemDescriptions);
 
 var bullets = await rawBulletRepository.GetBullets();
-
-var weapon = weapons.Values.First(x => x.WeaponType is WeaponType.Weapon);
-var fusion = fusions.Values.First();
-var weaponModule = weaponModules.Values.First();
 
 var imagesFolder = "e:\\Projects\\1\\ExportedProject\\Assets\\Resources\\texture\\property";
 var atlas = await ImageAtlas.Create(weapons.ToImagePaths(imagesFolder), "result.webp");
