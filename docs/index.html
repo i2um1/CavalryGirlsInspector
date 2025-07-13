@@ -1,10 +1,32 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Cavalry Girls Inspector</title>
+    <link href="images/favicon.png" rel="icon" sizes="512x512" type="image/png">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.js"></script>
 </head>
 <body>
-Hello World
+<div id="loading-screen">Loading...</div>
+<div id="app">
+    <div class="header">
+        <h1>Cavalry Girls Inspector</h1>
+        <div class="theme-switcher">
+            <button @click="toggleTheme">
+                <img :alt="isLightTheme ? 'Light Theme' : 'Dark Theme'"
+                     :src="isLightTheme ? 'images/light-mode.svg' : 'images/dark-mode.svg'">
+            </button>
+        </div>
+    </div>
+    <nav>
+        <router-link to="/weapons">Weapons</router-link>
+        <router-link to="/enemies">Enemies</router-link>
+    </nav>
+    <router-view></router-view>
+</div>
+<script async src="main.js"></script>
 </body>
 </html>
