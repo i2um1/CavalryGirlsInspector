@@ -356,3 +356,8 @@ li {
 .data-box:nth-child(even) h3 {
     color: var(--data-second-color);
 }
+
+.data-box p {
+    white-space: pre-line;
+    margin: 7px 0;
+}

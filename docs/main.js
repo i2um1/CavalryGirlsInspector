@@ -339,14 +339,14 @@ const WeaponsPage = {
                       <div class="data-container">
                           <div v-if="firstWeapon" class="data-box">
                               <h3>{{ firstWeapon.id }}: {{ firstWeapon.name }}</h3>
-                              <p style="white-space: pre-line;">{{ getDescription(firstWeapon) }}</p>
+                              <p v-for="(line, index) in getDescription(firstWeapon)" :key="index">{{ line }}</p>
                           </div>
                           <div v-else class="data-box">
                               <h3>Weapon not selected</h3>
                           </div>
                           <div v-if="secondWeapon" class="data-box">
                               <h3>{{ secondWeapon.id }}: {{ secondWeapon.name }}</h3>
-                              <p style="white-space: pre-line;">{{ getDescription(secondWeapon) }}</p>
+                              <p v-for="(line, index) in getDescription(secondWeapon)" :key="index">{{ line }}</p>
                           </div>
                           <div v-else class="data-box">
                               <h3>Weapon not selected</h3>
@@ -397,7 +397,16 @@ const WeaponsPage = {
             },
             methods: {
                 getDescription(weapon) {
-                    return weapon.description.replace('\\n', '\n');
+                    return weapon.description
+                        .replace(/<D(\d+)>/g, (match, p1) => {
+                            const index = parseInt(p1, 10);
+                            if (index >= 0 && index < weapon.functions.length) {
+                                return weapon.functions[index].value;
+                            } else {
+                                return match;
+                            }
+                        })
+                        .split('\\n');
                 }
             }
         },
