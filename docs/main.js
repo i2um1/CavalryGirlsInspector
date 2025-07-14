@@ -14,10 +14,18 @@ async function fetchData(url) {
     }
 }
 
-function sortMapByIndex(values) {
+function byIndex(a, b) {
+    return a.index - b.index;
+}
+
+function filterWeapons(values, id, name, type, subType) {
     return Object.keys(values)
         .map(key => values[key])
-        .sort((a, b) => a.index - b.index);
+        .filter(weapon => !id || String(weapon.id).includes(id))
+        .filter(weapon => !name || weapon.name.includes(name))
+        .filter(weapon => !type || weapon.weaponType === type)
+        .filter(weapon => !subType || weapon.weaponSubTypes.includes(subType))
+        .sort(byIndex);
 }
 
 // --- Info box component ---
@@ -36,20 +44,131 @@ const InfoBox = {
     }
 };
 
+// --- Weapon filters ---
+const WeaponFilters = {
+    template: `
+              <div class="form">
+                  <div class="form-group">
+                      <input type="text" v-model="weaponIdFilter" id="weapon-id" class="weapon-input" placeholder="Weapon ID" autocomplete="off">
+                  </div>
+
+                  <div class="form-group">
+                      <input type="text" v-model="weaponNameFilter" id="weapon-name" class="weapon-input" placeholder="Weapon Name" autocomplete="off">
+                  </div>
+
+                  <div class="form-group">
+                      <select class="weapon-dropdown" v-model="selectedWeaponType" id="weapon-type">
+                          <option value="">All Weapon Type</option>
+                          <option v-for="(value, key) in weaponTypes" :key="key" :value="key">{{ value }}</option>
+                      </select>
+                  </div>
+
+                  <div class="form-group">
+                      <select class="weapon-dropdown" v-model="selectedWeaponSubType" id="weapon-sub-type">
+                          <option value="">All Weapon Subtype</option>
+                          <option v-for="(value, key) in weaponSubTypes" :key="key" :value="key">{{ value }}</option>
+                      </select>
+                  </div>
+              </div>
+              `,
+    props: {
+        weaponId: {
+            type: String,
+            default: '',
+        },
+        weaponName: {
+            type: String,
+            default: ''
+        },
+        weaponType: {
+            type: String,
+            default: ''
+        },
+        weaponSubType: {
+            type: String,
+            default: ''
+        }
+    },
+    data() {
+        const weaponTypes = {
+            'Weapon': 'Range Weapon',
+            'Close': 'Melee Weapon',
+            'HangShoulder': 'Hang Shoulder Weapon',
+        };
+
+        const weaponSubTypes = {
+            'Kinetic': 'Kinetic Weapon',
+            'Sniper': 'Sniper Weapon',
+            'MachineGun': 'Machine Gun',
+            'GuideRail': 'Guide Rail Weapon',
+            'Explosive': 'Explosive Weapon',
+            'Plasma': 'Plasma Weapon',
+            'Spreadshot': 'Spreadshot Weapon',
+            'Spraying': 'Spraying Weapon',
+            'Ray': 'Ray Weapon',
+            'Arc': 'Arc Weapon',
+            'Magnetoelectric': 'Magnetoelectric Weapon',
+            'Tech': 'Tech Weapon',
+
+            'CloseIn': 'Close-In Weapon',
+            'Boxing': 'Boxing Weapon',
+            'Sword': 'Sword',
+            'Axe': 'Axe',
+            'Spear': 'Spear',
+            'Dagger': 'Dagger',
+            'Shield': 'Shield',
+
+            'Rocket': 'Rocket Weapon',
+            'EMP': 'EMP',
+            'AntiAir': 'Anti-Air Weapon'
+        }
+
+        return {
+            weaponIdFilter: this.weaponId,
+            weaponNameFilter: this.weaponName,
+            weaponTypes: weaponTypes,
+            weaponSubTypes: weaponSubTypes,
+            selectedWeaponType: this.weaponType,
+            selectedWeaponSubType: this.weaponSubType
+        }
+    },
+    watch: {
+        weaponIdFilter(value) {
+            const newValue = value.replace(/\D/g, '');
+            if (newValue !== value) {
+                this.weaponIdFilter = newValue;
+            } else {
+                this.$emit('update:weaponId', newValue);
+            }
+        },
+        weaponNameFilter(value) {
+            this.$emit('update:weaponName', value);
+        },
+        selectedWeaponType(value) {
+            this.$emit('update:weaponType', value);
+        },
+        selectedWeaponSubType(value) {
+            this.$emit('update:weaponSubType', value);
+        }
+    }
+}
+
 // --- Atlas component ---
 const Atlas = {
     template: `
-              <div class="atlas">
+              <div class="atlas" v-if="images.length > 0">
                   <div
                       v-for="image in images"
                       :key="image.id"
                       class="atlas-item"
-                      :style="getImageStyle(image.index)"
                       :title="image.id + ': ' + image.name"
                       @click="handleLeftClick(image.id)"
                       @contextmenu.prevent="handleRightClick(image.id)"
-                      :class="{ 'first-selected': isFirstSelected(image.id), 'second-selected': isSecondSelected(image.id) }"
-                  ></div>
+                      :style="getItemStyle()"
+                      :class="getItemClasses(image.id)"
+                  >
+                    <div class="atlas-item-sprite" :style="getSpriteStyle(image.index)"></div>
+                  </div>
               </div>
               `,
     props: {
@@ -81,7 +200,19 @@ const Atlas = {
         }
     },
     methods: {
-        getImageStyle(index) {
+        getItemStyle() {
+            return {
+                width: `${this.displaySize}px`,
+                height: `${this.displaySize}px`
+            };
+        },
+        getItemClasses(imageId) {
+            return {
+                'first-selected': this.selectedFirstId === imageId,
+                'second-selected': this.selectedSecondId === imageId
+            };
+        },
+        getSpriteStyle(index) {
             const scaleFactor = this.displaySize / this.config.imageSize;
 
             const column = index % this.config.rows;
@@ -106,12 +237,6 @@ const Atlas = {
         },
         handleRightClick(imageId) {
             this.$emit('second-select', imageId);
-        },
-        isFirstSelected(imageId) {
-            return this.selectedFirstId === imageId;
-        },
-        isSecondSelected(imageId) {
-            return this.selectedSecondId === imageId;
         }
     }
 }
@@ -120,6 +245,11 @@ const Atlas = {
 const WeaponsPage = {
     template: `
               <div>
+                  <weapon-filters
+                      @update:weaponId="selectWeaponId"
+                      @update:weaponName="selectWeaponName"
+                      @update:weaponType="selectWeaponType"
+                      @update:weaponSubType="selectWeaponSubType"></weapon-filters>
                   <info-box :info-message="infoMessage" :is-error="!hasWeapons"></info-box>
                   <atlas
                       v-if="hasWeapons"
@@ -130,7 +260,7 @@ const WeaponsPage = {
                       @first-select="selectFirstWeapon"
                       @second-select="selectSecondWeapon"></atlas>
                   <weapon-component
-                      :first-weapon="firstWeapon" :second-weapon="secondWeapon"></weapon-component>
+                      :first-weapon="firstWeapon" :second-weapon="secondWeapon" :bullets="bullets"></weapon-component>
               </div>
               `,
     data() {
@@ -140,26 +270,31 @@ const WeaponsPage = {
             weaponsMap: {},
             weaponsArray: [],
             weaponsAtlas: {},
+            bullets: {},
             firstWeaponId: null,
             secondWeaponId: null,
             firstWeapon: null,
-            secondWeapon: null
+            secondWeapon: null,
+            weaponId: '',
+            weaponName: '',
+            weaponType: '',
+            weaponSubType: ''
         };
     },
     async created() {
         const weapons = await fetchData('assets/weapons.json');
         const weaponsAtlas = await fetchData('assets/weapons_atlas.json');
-        if (weapons && weaponsAtlas) {
+        const bullets = await fetchData('assets/bullets.json');
+        if (weapons && weaponsAtlas && bullets) {
             this.weaponsMap = weapons;
-            this.weaponsArray = sortMapByIndex(weapons);
+            this.weaponsArray = filterWeapons(weapons);
             this.weaponsAtlas = weaponsAtlas;
+            this.bullets = bullets;
         } else {
             this.hasWeapons = false;
         }
 
-        this.infoMessage = this.hasWeapons
-            ? 'Use the left and right mouse buttons to select a weapon.'
-            : 'Failed to fetch weapons or no data received.'
+        this.updateInfoMessage();
     },
     methods: {
         selectFirstWeapon(weaponId) {
@@ -169,6 +304,33 @@ const WeaponsPage = {
         selectSecondWeapon(weaponId) {
             this.secondWeaponId = weaponId;
             this.secondWeapon = this.weaponsMap[weaponId];
+        },
+        selectWeaponId(weaponId) {
+            this.weaponId = weaponId;
+            this.weaponsArray = filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+            this.updateInfoMessage();
+        },
+        selectWeaponName(weaponName) {
+            this.weaponName = weaponName;
+            this.weaponsArray = filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+            this.updateInfoMessage();
+        },
+        selectWeaponType(weaponType) {
+            this.weaponType = weaponType;
+            this.weaponsArray = filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+            this.updateInfoMessage();
+        },
+        selectWeaponSubType(weaponSubType) {
+            this.weaponSubType = weaponSubType;
+            this.weaponsArray = filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+            this.updateInfoMessage();
+        },
+        updateInfoMessage() {
+            this.infoMessage = this.hasWeapons
+                ? this.weaponsArray.length === 0
+                    ? 'No weapons'
+                    : 'Use the left and right mouse buttons to select a weapon.'
+                : 'Failed to fetch weapons or no data received.'
         }
     },
     components: {
@@ -177,42 +339,42 @@ const WeaponsPage = {
                       <div class="data-container">
                           <div v-if="firstWeapon" class="data-box">
                               <h3>{{ firstWeapon.id }}: {{ firstWeapon.name }}</h3>
-                              <p>{{ firstWeapon.description }}</p>
+                              <p style="white-space: pre-line;">{{ getDescription(firstWeapon) }}</p>
                           </div>
                           <div v-else class="data-box">
                               <h3>Weapon not selected</h3>
                           </div>
                           <div v-if="secondWeapon" class="data-box">
                               <h3>{{ secondWeapon.id }}: {{ secondWeapon.name }}</h3>
-                              <p>{{ secondWeapon.description }}</p>
+                              <p style="white-space: pre-line;">{{ getDescription(secondWeapon) }}</p>
                           </div>
                           <div v-else class="data-box">
                               <h3>Weapon not selected</h3>
                           </div>
                           <div v-if="firstWeapon" class="data-box">
-                              <h3>Test1</h3>
-                              <p>Text</p>
+                              <h3>Weapon Properties</h3>
+                              <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(firstWeapon, null, 2) }}</code></pre>
                           </div>
                           <div v-else class="data-box">
                               <h3>Weapon not selected</h3>
                           </div>
                           <div v-if="secondWeapon" class="data-box">
-                              <h3>Test2</h3>
-                              <p>Text</p>
+                              <h3>Weapon Properties</h3>
+                              <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(secondWeapon, null, 2) }}</code></pre>
                           </div>
                           <div v-else class="data-box">
                               <h3>Weapon not selected</h3>
                           </div>
                           <div v-if="firstWeapon" class="data-box">
-                              <h3>Test1</h3>
-                              <p>Text</p>
+                              <h3>Bullet Properties</h3>
+                              <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(bullets[firstWeapon.bulletId], null, 2) }}</code></pre>
                           </div>
                           <div v-else class="data-box">
                               <h3>Weapon not selected</h3>
                           </div>
                           <div v-if="secondWeapon" class="data-box">
-                              <h3>Test2</h3>
-                              <p>Text</p>
+                              <h3>Bullet Properties</h3>
+                              <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(bullets[secondWeapon.bulletId], null, 2) }}</code></pre>
                           </div>
                           <div v-else class="data-box">
                               <h3>Weapon not selected</h3>
@@ -227,10 +389,20 @@ const WeaponsPage = {
                 secondWeapon: {
                     type: Object,
                     default: () => null,
+                },
+                bullets: {
+                    type: Map,
+                    default: () => ({}),
+                }
+            },
+            methods: {
+                getDescription(weapon) {
+                    return weapon.description.replace('\\n', '\n');
                 }
             }
         },
         'info-box': InfoBox,
+        'weapon-filters': WeaponFilters,
         'atlas': Atlas
     }
 };

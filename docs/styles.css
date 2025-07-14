@@ -27,6 +27,11 @@
     --data-second-color: #ffee6b;
     --data-better-color: #a5d6a7;
     --data-worse-color: #ff6b6b;
+    --form-bg: #4c4c4c;
+    --form-text-color: #e0e0e0;
+    --form-border: #666;
+    --form-focus-border: #8ab4f8;
+    --dropdown-arrow-color: #e0e0e0;
 }
 
 /* Light theme */
@@ -58,6 +63,11 @@ body.light-theme {
     --data-second-color: #b8860b;
     --data-better-color: #2e7d32;
     --data-worse-color: #cc0000;
+    --form-bg: #fff;
+    --form-text-color: #333;
+    --form-border: #ccc;
+    --form-focus-border: #007bff;
+    --dropdown-arrow-color: #333;
 }
 
 body {
@@ -71,7 +81,7 @@ body {
 /* Main */
 
 #app {
-    min-width: 700px;
+    min-width: 600px;
     max-width: 1600px;
     margin: 0 auto;
     background-color: var(--card-bg);
@@ -192,6 +202,70 @@ li {
     pointer-events: none;
 }
 
+/* Weapon filters */
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 250px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.weapon-input,
+.weapon-dropdown {
+    padding: 10px 15px;
+    border: 1px solid var(--form-border);
+    border-radius: 5px;
+    background-color: var(--form-bg);
+    color: var(--form-text-color);
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 100%;
+}
+
+.weapon-input::placeholder {
+    color: var(--form-text-color);
+    opacity: 0.7;
+}
+
+.weapon-input:focus,
+.weapon-dropdown:focus {
+    outline: none;
+    border-color: var(--form-focus-border);
+    box-shadow: 0 0 0 3px rgba(var(--form-focus-border), 0.3);
+}
+
+.weapon-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, var(--dropdown-arrow-color) 50%),
+    linear-gradient(135deg, var(--dropdown-arrow-color) 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    padding-right: 35px;
+}
+
+.weapon-dropdown::-ms-expand {
+    display: none;
+}
+
 /* Info box component */
 
 .info-box {
@@ -220,14 +294,24 @@ li {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin: 20px auto;
+    margin: 20px auto 0;
 }
 
 .atlas-item {
     cursor: pointer;
     flex-shrink: 0;
     flex-grow: 0;
-    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.atlas-item-sprite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .atlas-item.first-selected {
@@ -238,13 +322,18 @@ li {
     background-color: var(--data-second-color);
 }
 
+.atlas-item.first-selected.second-selected {
+    background-image: linear-gradient(to right, var(--data-first-color) 50%, var(--data-second-color) 50%);
+}
+
 /* Data container */
 
 .data-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto;
     gap: 10px;
+    margin-top: 20px;
 }
 
 /* Data box */
