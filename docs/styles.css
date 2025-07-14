@@ -57,10 +57,10 @@ body.light-theme {
     --theme-button-bg: #e2e2e2;
     --theme-button-color: #e0e0e0;
     --theme-button-hover-bg: #00000080;
-    --data-bg: #e8f5e9;
+    --data-bg: #f5fff5;
     --data-border: #ccc;
-    --data-first-color: #0000cc;
-    --data-second-color: #b8860b;
+    --data-first-color: #3333e6;
+    --data-second-color: #d1ae2e;
     --data-better-color: #2e7d32;
     --data-worse-color: #cc0000;
     --form-bg: #fff;
