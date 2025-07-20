@@ -1,158 +1,6 @@
 ﻿const {createApp} = Vue;
 const {createRouter, createWebHashHistory} = VueRouter;
 
-async function fetchData(url) {
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            return null;
-        }
-
-        return await response.json();
-    } catch (error) {
-        return null;
-    }
-}
-
-function byIndex(a, b) {
-    return a.index - b.index;
-}
-
-function filterWeapons(values, id, name, type, subType) {
-    return Object.keys(values)
-        .map(key => values[key])
-        .filter(weapon => !id || String(weapon.id).includes(id))
-        .filter(weapon => !name || weapon.name.includes(name))
-        .filter(weapon => !type || weapon.weaponType === type)
-        .filter(weapon => !subType || weapon.weaponSubTypes.includes(subType))
-        .sort(byIndex);
-}
-
-// --- Info box component ---
-const InfoBox = {
-    template: `
-              <div class="info-box" :class="{ 'error': isError }">
-                  <p>{{ infoMessage }}</p>
-              </div>
-              `,
-    props: {
-        infoMessage: {
-            type: String,
-            default: 'No info message.'
-        },
-        isError: false
-    }
-};
-
-// --- Weapon filters ---
-const WeaponFilters = {
-    template: `
-              <div class="form">
-                  <div class="form-group">
-                      <input type="text" v-model="weaponIdFilter" id="weapon-id" class="weapon-input" placeholder="Weapon ID" autocomplete="off">
-                  </div>
-
-                  <div class="form-group">
-                      <input type="text" v-model="weaponNameFilter" id="weapon-name" class="weapon-input" placeholder="Weapon Name" autocomplete="off">
-                  </div>
-
-                  <div class="form-group">
-                      <select class="weapon-dropdown" v-model="selectedWeaponType" id="weapon-type">
-                          <option value="">All Weapon Type</option>
-                          <option v-for="(value, key) in weaponTypes" :key="key" :value="key">{{ value }}</option>
-                      </select>
-                  </div>
-
-                  <div class="form-group">
-                      <select class="weapon-dropdown" v-model="selectedWeaponSubType" id="weapon-sub-type">
-                          <option value="">All Weapon Subtype</option>
-                          <option v-for="(value, key) in weaponSubTypes" :key="key" :value="key">{{ value }}</option>
-                      </select>
-                  </div>
-              </div>
-              `,
-    props: {
-        weaponId: {
-            type: String,
-            default: '',
-        },
-        weaponName: {
-            type: String,
-            default: ''
-        },
-        weaponType: {
-            type: String,
-            default: ''
-        },
-        weaponSubType: {
-            type: String,
-            default: ''
-        }
-    },
-    data() {
-        const weaponTypes = {
-            'Weapon': 'Range Weapon',
-            'Close': 'Melee Weapon',
-            'HangShoulder': 'Hang Shoulder Weapon',
-        };
-
-        const weaponSubTypes = {
-            'Kinetic': 'Kinetic Weapon',
-            'Sniper': 'Sniper Weapon',
-            'MachineGun': 'Machine Gun',
-            'GuideRail': 'Guide Rail Weapon',
-            'Explosive': 'Explosive Weapon',
-            'Plasma': 'Plasma Weapon',
-            'Spreadshot': 'Spreadshot Weapon',
-            'Spraying': 'Spraying Weapon',
-            'Ray': 'Ray Weapon',
-            'Arc': 'Arc Weapon',
-            'Magnetoelectric': 'Magnetoelectric Weapon',
-            'Tech': 'Tech Weapon',
-
-            'CloseIn': 'Close-In Weapon',
-            'Boxing': 'Boxing Weapon',
-            'Sword': 'Sword',
-            'Axe': 'Axe',
-            'Spear': 'Spear',
-            'Dagger': 'Dagger',
-            'Shield': 'Shield',
-
-            'Rocket': 'Rocket Weapon',
-            'EMP': 'EMP',
-            'AntiAir': 'Anti-Air Weapon'
-        }
-
-        return {
-            weaponIdFilter: this.weaponId,
-            weaponNameFilter: this.weaponName,
-            weaponTypes: weaponTypes,
-            weaponSubTypes: weaponSubTypes,
-            selectedWeaponType: this.weaponType,
-            selectedWeaponSubType: this.weaponSubType
-        }
-    },
-    watch: {
-        weaponIdFilter(value) {
-            const newValue = value.replace(/\D/g, '');
-            if (newValue !== value) {
-                this.weaponIdFilter = newValue;
-            } else {
-                this.$emit('update:weaponId', newValue);
-            }
-        },
-        weaponNameFilter(value) {
-            this.$emit('update:weaponName', value);
-        },
-        selectedWeaponType(value) {
-            this.$emit('update:weaponType', value);
-        },
-        selectedWeaponSubType(value) {
-            this.$emit('update:weaponSubType', value);
-        }
-    }
-}
-
 // --- Atlas component ---
 const Atlas = {
     template: `
@@ -246,10 +94,10 @@ const WeaponsPage = {
     template: `
               <div>
                   <weapon-filters
-                      @update:weaponId="selectWeaponId"
-                      @update:weaponName="selectWeaponName"
-                      @update:weaponType="selectWeaponType"
-                      @update:weaponSubType="selectWeaponSubType"></weapon-filters>
+                      @update:id="selectWeaponId"
+                      @update:name="selectWeaponName"
+                      @update:type="selectWeaponType"
+                      @update:sub-type="selectWeaponSubType"></weapon-filters>
                   <info-box :info-message="infoMessage" :is-error="!hasWeapons"></info-box>
                   <atlas
                       v-if="hasWeapons"
@@ -282,12 +130,12 @@ const WeaponsPage = {
         };
     },
     async created() {
-        const weapons = await fetchData('assets/weapons.json');
-        const weaponsAtlas = await fetchData('assets/weapons_atlas.json');
-        const bullets = await fetchData('assets/bullets.json');
+        const weapons = await Utils.fetchData('assets/weapons.json');
+        const weaponsAtlas = await Utils.fetchData('assets/weapons_atlas.json');
+        const bullets = await Utils.fetchData('assets/bullets.json');
         if (weapons && weaponsAtlas && bullets) {
             this.weaponsMap = weapons;
-            this.weaponsArray = filterWeapons(weapons);
+            this.weaponsArray = Utils.filterWeapons(weapons);
             this.weaponsAtlas = weaponsAtlas;
             this.bullets = bullets;
         } else {
@@ -307,22 +155,22 @@ const WeaponsPage = {
         },
         selectWeaponId(weaponId) {
             this.weaponId = weaponId;
-            this.weaponsArray = filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
             this.updateInfoMessage();
         },
         selectWeaponName(weaponName) {
             this.weaponName = weaponName;
-            this.weaponsArray = filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
             this.updateInfoMessage();
         },
         selectWeaponType(weaponType) {
             this.weaponType = weaponType;
-            this.weaponsArray = filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
             this.updateInfoMessage();
         },
         selectWeaponSubType(weaponSubType) {
             this.weaponSubType = weaponSubType;
-            this.weaponsArray = filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
             this.updateInfoMessage();
         },
         updateInfoMessage() {
@@ -410,8 +258,8 @@ const WeaponsPage = {
                 }
             }
         },
-        'info-box': InfoBox,
-        'weapon-filters': WeaponFilters,
+        'info-box': Components.InfoBox,
+        'weapon-filters': Components.WeaponFilters,
         'atlas': Atlas
     }
 };
@@ -445,7 +293,7 @@ const EnemiesPage = {
                       </div>
                       `
         },
-        'info-box': InfoBox
+        'info-box': Components.InfoBox
     }
 };
 

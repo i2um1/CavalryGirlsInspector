@@ -202,7 +202,7 @@ li {
     pointer-events: none;
 }
 
-/* Weapon filters */
+/* Forms */
 
 .form {
     display: flex;
@@ -224,8 +224,10 @@ li {
     font-weight: bold;
 }
 
-.weapon-input,
-.weapon-dropdown {
+/* Filters */
+
+.text-filter,
+.dropdown-list-filter {
     padding: 10px 15px;
     border: 1px solid var(--form-border);
     border-radius: 5px;
@@ -237,19 +239,20 @@ li {
     width: 100%;
 }
 
-.weapon-input::placeholder {
+.text-filter::placeholder,
+.dropdown-list-filter::placeholder {
     color: var(--form-text-color);
     opacity: 0.7;
 }
 
-.weapon-input:focus,
-.weapon-dropdown:focus {
+.text-filter:focus,
+.dropdown-list-filter:focus {
     outline: none;
     border-color: var(--form-focus-border);
     box-shadow: 0 0 0 3px rgba(var(--form-focus-border), 0.3);
 }
 
-.weapon-dropdown {
+.dropdown-list-filter {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -262,7 +265,7 @@ li {
     padding-right: 35px;
 }
 
-.weapon-dropdown::-ms-expand {
+.dropdown-list-filter::-ms-expand {
     display: none;
 }
 
