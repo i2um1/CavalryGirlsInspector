@@ -162,7 +162,7 @@ const EnemiesPage = {
             <info-box :info-message="infoMessage" :is-error="!hasEnemies"></info-box>
             <atlas
                 v-if="hasEnemies"
-                :image-url="'assets/enemies.webp'" :config="enemiesAtlas"
+                :image-url="'assets/enemies.webp'" :add-gap="true" :config="enemiesAtlas"
                 :images="enemiesArray" :display-size="50"
                 :is-selectable="true" :selected-first-id="firstEnemyId" :selected-second-id="secondEnemyId"
                 @select:first="selectFirstEnemy" @select:second="selectSecondEnemy"></atlas>
@@ -202,7 +202,6 @@ const EnemiesPage = {
         selectFirstEnemy(enemyId) {
             this.firstEnemyId = enemyId;
             this.firstEnemy = this.enemiesMap[enemyId];
-            console.log(this.firstEnemy.index + ' ' + this.firstEnemy.name);
         },
         selectSecondEnemy(enemyId) {
             this.secondEnemyId = enemyId;

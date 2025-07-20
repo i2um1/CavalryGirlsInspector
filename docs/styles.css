@@ -317,6 +317,15 @@ li {
     height: 100%;
 }
 
+.atlas-item.gap {
+    padding: 5px;
+}
+
+.atlas-item.gap .atlas-item-sprite {
+    top: 5px;
+    left: 5px;
+}
+
 .atlas-item.first-selected {
     background-color: var(--data-first-color);
 }

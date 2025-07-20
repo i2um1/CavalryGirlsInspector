@@ -206,6 +206,10 @@
                 type: String,
                 required: true
             },
+            addGap: {
+                type: Boolean,
+                default: false
+            },
             displaySize: {
                 type: Number,
                 required: true
@@ -243,7 +247,8 @@
             getItemClasses(imageId) {
                 return {
                     'first-selected': this.selectedFirstId === imageId,
-                    'second-selected': this.selectedSecondId === imageId
+                    'second-selected': this.selectedSecondId === imageId,
+                    'gap': this.addGap
                 };
             },
             getSpriteStyle(index) {
