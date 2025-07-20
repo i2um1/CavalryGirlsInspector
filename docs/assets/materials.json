@@ -1,5 +1,5 @@
-{
-  "40001": {
+[
+  {
     "index": 0,
     "id": 40001,
     "name": "Scrap Iron",
@@ -10,7 +10,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40002": {
+  {
     "index": 1,
     "id": 40002,
     "name": "Waste Material",
@@ -21,7 +21,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40003": {
+  {
     "index": 2,
     "id": 40003,
     "name": "Bullet Shell",
@@ -32,7 +32,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40004": {
+  {
     "index": 3,
     "id": 40004,
     "name": "Warhead",
@@ -43,7 +43,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40005": {
+  {
     "index": 4,
     "id": 40005,
     "name": "Joining Component",
@@ -54,7 +54,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40006": {
+  {
     "index": 5,
     "id": 40006,
     "name": "Gear",
@@ -65,7 +65,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40007": {
+  {
     "index": 6,
     "id": 40007,
     "name": "Frame",
@@ -76,7 +76,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40008": {
+  {
     "index": 7,
     "id": 40008,
     "name": "Iron Pipe",
@@ -87,7 +87,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40009": {
+  {
     "index": 8,
     "id": 40009,
     "name": "Trigger",
@@ -98,7 +98,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40010": {
+  {
     "index": 9,
     "id": 40010,
     "name": "Detonator",
@@ -109,7 +109,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40011": {
+  {
     "index": 10,
     "id": 40011,
     "name": "Industrial Plastic",
@@ -120,7 +120,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40012": {
+  {
     "index": 11,
     "id": 40012,
     "name": "Ammunition Belt",
@@ -131,7 +131,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40013": {
+  {
     "index": 12,
     "id": 40013,
     "name": "Prism",
@@ -142,7 +142,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40014": {
+  {
     "index": 13,
     "id": 40014,
     "name": "Lens",
@@ -153,7 +153,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40015": {
+  {
     "index": 14,
     "id": 40015,
     "name": "Igniter",
@@ -164,7 +164,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40016": {
+  {
     "index": 15,
     "id": 40016,
     "name": "Condenser",
@@ -175,7 +175,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40017": {
+  {
     "index": 16,
     "id": 40017,
     "name": "Coil",
@@ -186,7 +186,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40018": {
+  {
     "index": 17,
     "id": 40018,
     "name": "Capacitor",
@@ -197,7 +197,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40019": {
+  {
     "index": 18,
     "id": 40019,
     "name": "Inductor",
@@ -208,7 +208,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40020": {
+  {
     "index": 19,
     "id": 40020,
     "name": "Transistor",
@@ -219,7 +219,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40021": {
+  {
     "index": 20,
     "id": 40021,
     "name": "Lubricating Oil",
@@ -230,7 +230,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40022": {
+  {
     "index": 21,
     "id": 40022,
     "name": "Spark Plug",
@@ -241,7 +241,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40023": {
+  {
     "index": 22,
     "id": 40023,
     "name": "Refrigerant",
@@ -252,7 +252,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40024": {
+  {
     "index": 23,
     "id": 40024,
     "name": "Armor",
@@ -263,7 +263,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40025": {
+  {
     "index": 24,
     "id": 40025,
     "name": "Heavy Armor",
@@ -274,7 +274,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40026": {
+  {
     "index": 25,
     "id": 40026,
     "name": "Force Field Generator",
@@ -285,7 +285,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40027": {
+  {
     "index": 26,
     "id": 40027,
     "name": "Force Field Membrane",
@@ -296,7 +296,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40028": {
+  {
     "index": 27,
     "id": 40028,
     "name": "Resonator",
@@ -307,7 +307,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40029": {
+  {
     "index": 28,
     "id": 40029,
     "name": "Blade",
@@ -318,7 +318,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40030": {
+  {
     "index": 29,
     "id": 40030,
     "name": "Oscillator",
@@ -329,7 +329,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40031": {
+  {
     "index": 30,
     "id": 40031,
     "name": "Coating",
@@ -340,7 +340,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40032": {
+  {
     "index": 31,
     "id": 40032,
     "name": "Core",
@@ -351,7 +351,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40033": {
+  {
     "index": 32,
     "id": 40033,
     "name": "Flight unit",
@@ -362,7 +362,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40034": {
+  {
     "index": 33,
     "id": 40034,
     "name": "Propeller",
@@ -373,7 +373,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40201": {
+  {
     "index": 34,
     "id": 40201,
     "name": "Furniture parts",
@@ -384,7 +384,7 @@
     "level": 1,
     "stackSize": 99
   },
-  "40202": {
+  {
     "index": 35,
     "id": 40202,
     "name": "Advanced tool parts",
@@ -395,4 +395,4 @@
     "level": 1,
     "stackSize": 99
   }
-}
+]

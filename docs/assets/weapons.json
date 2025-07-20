@@ -1,9 +1,9 @@
-{
-  "10000": {
+[
+  {
     "index": 0,
     "id": 10000,
     "name": "Antique Rifle",
-    "description": "The most basic type of weapon， with its fast reloading being its sole advantage.\\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The most basic type of weapon， with its fast reloading being its sole advantage.\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -52,11 +52,11 @@
       }
     ]
   },
-  "10001": {
+  {
     "index": 1,
     "id": 10001,
     "name": "Service Rifle",
-    "description": "A standard-issue service weapon. Its limited capabilities are still better than those of the antique rifle's.\\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A standard-issue service weapon. Its limited capabilities are still better than those of the antique rifle's.\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -109,11 +109,11 @@
       }
     ]
   },
-  "10002": {
+  {
     "index": 2,
     "id": 10002,
     "name": "Shotgun",
-    "description": "Standard shotgun with adequate speed and range.\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Standard shotgun with adequate speed and range.\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -162,11 +162,11 @@
       }
     ]
   },
-  "10003": {
+  {
     "index": 3,
     "id": 10003,
     "name": "Pump-Action Shotgun",
-    "description": "A pump-action shotgun with a large magazine， long reload time， and low armor-piercing. It's only effective against a large group of enemies with weak or no armor.\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A pump-action shotgun with a large magazine， long reload time， and low armor-piercing. It's only effective against a large group of enemies with weak or no armor.\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -211,11 +211,11 @@
       }
     ]
   },
-  "10004": {
+  {
     "index": 4,
     "id": 10004,
     "name": "Heavy Sniper",
-    "description": "A power single-shot weapon with high range， damage， and slow firing rate.\\nHeavy; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A power single-shot weapon with high range， damage， and slow firing rate.\nHeavy; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -275,11 +275,11 @@
       }
     ]
   },
-  "10005": {
+  {
     "index": 5,
     "id": 10005,
     "name": "Rapid-Firing Gun",
-    "description": "Its adequate accuracy and damage are balanced by its slow reload time and average Armor Penetration.\\nHeavy; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Its adequate accuracy and damage are balanced by its slow reload time and average Armor Penetration.\nHeavy; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -337,11 +337,11 @@
       }
     ]
   },
-  "10006": {
+  {
     "index": 6,
     "id": 10006,
     "name": "Submachine Gun",
-    "description": "A suppressing weapon with high firing rate， damage， and weak Armor Penetration.\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A suppressing weapon with high firing rate， damage， and weak Armor Penetration.\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -394,11 +394,11 @@
       }
     ]
   },
-  "10007": {
+  {
     "index": 7,
     "id": 10007,
     "name": "Cannon",
-    "description": "Careful you don't accidentally get shot by the cannon balls.\\nHeavy; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Careful you don't accidentally get shot by the cannon balls.\nHeavy; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -445,11 +445,11 @@
       }
     ]
   },
-  "10008": {
+  {
     "index": 8,
     "id": 10008,
     "name": "Howitzer",
-    "description": "The howitzer shoots a lot of cannons that pose a threat to the user. Extremely long reload time.\\nVery heavy; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The howitzer shoots a lot of cannons that pose a threat to the user. Extremely long reload time.\nVery heavy; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -499,11 +499,11 @@
       }
     ]
   },
-  "10009": {
+  {
     "index": 9,
     "id": 10009,
     "name": "Armor-Piercing Rifle",
-    "description": "A service rifle with high armor penetration at the cost of attack power.\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A service rifle with high armor penetration at the cost of attack power.\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -554,11 +554,11 @@
       }
     ]
   },
-  "10010": {
+  {
     "index": 10,
     "id": 10010,
     "name": "Flame Thrower",
-    "description": "Shoots flame that burns victims.\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots flame that burns victims.\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -612,11 +612,11 @@
       }
     ]
   },
-  "10011": {
+  {
     "index": 11,
     "id": 10011,
     "name": "Frost Spray",
-    "description": "Shoots frost that colds victims.\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots frost that colds victims.\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -670,11 +670,11 @@
       }
     ]
   },
-  "10013": {
+  {
     "index": 12,
     "id": 10013,
     "name": "Heavy Machine Gun",
-    "description": "A rapid-fire weapon with a large magazine and horrifyingly long reload time.\\nVery heavy; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A rapid-fire weapon with a large magazine and horrifyingly long reload time.\nVery heavy; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -734,11 +734,11 @@
       }
     ]
   },
-  "10014": {
+  {
     "index": 13,
     "id": 10014,
     "name": "Vulcan Cannon",
-    "description": "The ultimate weapon with a large magazine， great firepower， and reload time so long that it will cause you to question your existence.\\nAs heavy as a literal turret; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The ultimate weapon with a large magazine， great firepower， and reload time so long that it will cause you to question your existence.\nAs heavy as a literal turret; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -798,11 +798,11 @@
       }
     ]
   },
-  "10015": {
+  {
     "index": 14,
     "id": 10015,
     "name": "Light Sniper",
-    "description": "The Light Sniper Rifle has high accuracy， long range， but sub-par power.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The Light Sniper Rifle has high accuracy， long range， but sub-par power.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -850,11 +850,11 @@
       }
     ]
   },
-  "10016": {
+  {
     "index": 15,
     "id": 10016,
     "name": "Service Rifle B2",
-    "description": "A standard-issue service weapon. Its heavy weight allows for a large magazine.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A standard-issue service weapon. Its heavy weight allows for a large magazine.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -909,11 +909,11 @@
       }
     ]
   },
-  "10017": {
+  {
     "index": 16,
     "id": 10017,
     "name": "Service Rifle B1",
-    "description": "A standard-issue service weapon. Its instability allows for a large magazine.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A standard-issue service weapon. Its instability allows for a large magazine.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -968,11 +968,11 @@
       }
     ]
   },
-  "10018": {
+  {
     "index": 17,
     "id": 10018,
     "name": "Service Rifle A3",
-    "description": "While it's got a small magazine， it is capable of maintaining constant output and has high stability.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "While it's got a small magazine， it is capable of maintaining constant output and has high stability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1023,11 +1023,11 @@
       }
     ]
   },
-  "10019": {
+  {
     "index": 18,
     "id": 10019,
     "name": "Antique Rifle A1",
-    "description": "While it only fires single-shots， there is no gap between firing.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "While it only fires single-shots， there is no gap between firing.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1076,11 +1076,11 @@
       }
     ]
   },
-  "10020": {
+  {
     "index": 19,
     "id": 10020,
     "name": "Double-Barreled Shotgun",
-    "description": "Without an additional magazine， it has great firepower， but requires frequent reloading.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Without an additional magazine， it has great firepower， but requires frequent reloading.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1148,11 +1148,11 @@
       }
     ]
   },
-  "10021": {
+  {
     "index": 20,
     "id": 10021,
     "name": "Submachine Gun B2",
-    "description": "Its large magazine allows for constant output， balanced by its heavy weight and slow reload time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Its large magazine allows for constant output， balanced by its heavy weight and slow reload time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1201,11 +1201,11 @@
       }
     ]
   },
-  "10022": {
+  {
     "index": 21,
     "id": 10022,
     "name": "Submachine Gun A2",
-    "description": "Its added warhead damage and low spread is balanced by its small magazine and firing rate.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Its added warhead damage and low spread is balanced by its small magazine and firing rate.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1254,11 +1254,11 @@
       }
     ]
   },
-  "10023": {
+  {
     "index": 22,
     "id": 10023,
     "name": "Buckshot",
-    "description": "A powerful spreadshot weapon with sub-par firepower.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A powerful spreadshot weapon with sub-par firepower.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1330,11 +1330,11 @@
       }
     ]
   },
-  "10024": {
+  {
     "index": 23,
     "id": 10024,
     "name": "Light Machine Gun",
-    "description": "A rapid-fire power with a large magazine and long reload time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A rapid-fire power with a large magazine and long reload time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1384,11 +1384,11 @@
       }
     ]
   },
-  "10025": {
+  {
     "index": 24,
     "id": 10025,
     "name": "Rapid Spreadshot",
-    "description": "Its low bullet capacity is balanced by improved firing rate and magazine capacity.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Its low bullet capacity is balanced by improved firing rate and magazine capacity.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1450,11 +1450,11 @@
       }
     ]
   },
-  "10026": {
+  {
     "index": 25,
     "id": 10026,
     "name": "Rapid Grenade",
-    "description": "Shoots grenades with high suppression capability.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots grenades with high suppression capability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1513,11 +1513,11 @@
       }
     ]
   },
-  "10027": {
+  {
     "index": 26,
     "id": 10027,
     "name": "Slicing Ray",
-    "description": "Shoots rays that constantly slice targets. Its low damage is balanced by its constant output and the ability to ignore armor. Weak against regular enemies and shield effects.\\n(Ray weapons have a chance to cause very brief high-temperature damage.)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots rays that constantly slice targets. Its low damage is balanced by its constant output and the ability to ignore armor. Weak against regular enemies and shield effects.\n(Ray weapons have a chance to cause very brief high-temperature damage.)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1565,11 +1565,11 @@
       }
     ]
   },
-  "10028": {
+  {
     "index": 27,
     "id": 10028,
     "name": "Telephoto Ray",
-    "description": "Shoots rays that constantly slice targets. Its long reload time is balanced by its long range and the ability to ignore armor. Weak against regular enemies and shield effects.\\n(Ray weapons have a chance to cause very brief high-temperature damage.)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots rays that constantly slice targets. Its long reload time is balanced by its long range and the ability to ignore armor. Weak against regular enemies and shield effects.\n(Ray weapons have a chance to cause very brief high-temperature damage.)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1617,11 +1617,11 @@
       }
     ]
   },
-  "10029": {
+  {
     "index": 28,
     "id": 10029,
     "name": "Focused Ray",
-    "description": "Shoots long-range， high-damage rays that require warming up. High single-target damage.\\n(Ray weapons have a chance to cause very brief high-temperature damage.)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots long-range， high-damage rays that require warming up. High single-target damage.\n(Ray weapons have a chance to cause very brief high-temperature damage.)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1679,11 +1679,11 @@
       }
     ]
   },
-  "10030": {
+  {
     "index": 29,
     "id": 10030,
     "name": "Long-Range Focused Ray",
-    "description": "Shoots very long-range， high-damage rays that require warming up. High single-target damage.\\n(Ray weapons have a chance to cause very brief high-temperature damage.)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots very long-range， high-damage rays that require warming up. High single-target damage.\n(Ray weapons have a chance to cause very brief high-temperature damage.)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1745,11 +1745,11 @@
       }
     ]
   },
-  "10031": {
+  {
     "index": 30,
     "id": 10031,
     "name": "Arc Gun",
-    "description": "Shoots electric arcs that bounce between enemies and are weak against shield effects.\\n(Electromagnetic weapons have a chance to cause very brief paralysis damage.)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots electric arcs that bounce between enemies and are weak against shield effects.\n(Electromagnetic weapons have a chance to cause very brief paralysis damage.)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1797,11 +1797,11 @@
       }
     ]
   },
-  "10032": {
+  {
     "index": 31,
     "id": 10032,
     "name": "Long-Range Arc Gun",
-    "description": "Shoots long-range electric arcs that bounce between enemies and are weak against shield effects.\\n(Electromagnetic weapons have a chance to cause very brief paralysis damage.)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots long-range electric arcs that bounce between enemies and are weak against shield effects.\n(Electromagnetic weapons have a chance to cause very brief paralysis damage.)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1849,11 +1849,11 @@
       }
     ]
   },
-  "10033": {
+  {
     "index": 32,
     "id": 10033,
     "name": "Focused Arc Gun",
-    "description": "Shoots powerful focused electric arcs.\\n(Electromagnetic weapons have a chance to cause very brief paralysis damage.)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots powerful focused electric arcs.\n(Electromagnetic weapons have a chance to cause very brief paralysis damage.)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1911,11 +1911,11 @@
       }
     ]
   },
-  "10034": {
+  {
     "index": 33,
     "id": 10034,
     "name": "Electric Cannon",
-    "description": "Shoots short-range electric arcs that bounce many times between enemies.\\n(Electromagnetic weapons have a chance to cause very brief paralysis damage.)\\nMovement speed: <D1>%; Rotational speed: <D2>%\\n[Arc weapon]",
+    "description": "Shoots short-range electric arcs that bounce many times between enemies.\n(Electromagnetic weapons have a chance to cause very brief paralysis damage.)\nMovement speed: <D1>%; Rotational speed: <D2>%\n[Arc weapon]",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -1977,11 +1977,11 @@
       }
     ]
   },
-  "10035": {
+  {
     "index": 34,
     "id": 10035,
     "name": "Healing Gun",
-    "description": "Shoots healing rays that can also be used by AI.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Shoots healing rays that can also be used by AI.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2011,11 +2011,11 @@
     ],
     "materials": []
   },
-  "10036": {
+  {
     "index": 35,
     "id": 10036,
     "name": "Oil Spray Gun",
-    "description": "Weapon that can spray oil and cause a greasy effect\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Weapon that can spray oil and cause a greasy effect\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2065,11 +2065,11 @@
       }
     ]
   },
-  "10037": {
+  {
     "index": 36,
     "id": 10037,
     "name": "Water Spray Gun",
-    "description": "Weapon that can spray water and cause a wet effect.\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Weapon that can spray water and cause a wet effect.\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2120,11 +2120,11 @@
       }
     ]
   },
-  "10038": {
+  {
     "index": 37,
     "id": 10038,
     "name": "Water Bullet Gun",
-    "description": "Weapon that can shoot water bullets and cause a wet effect. (The bullets must penetrate to trigger the effect)\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Weapon that can shoot water bullets and cause a wet effect. (The bullets must penetrate to trigger the effect)\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2175,11 +2175,11 @@
       }
     ]
   },
-  "10039": {
+  {
     "index": 38,
     "id": 10039,
     "name": "Electromagnetic Submachine Gun",
-    "description": "Submachine gun that can shoot electromagnetic bullets causing paralysis effect. (The bullets must penetrate to trigger the effect)\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Submachine gun that can shoot electromagnetic bullets causing paralysis effect. (The bullets must penetrate to trigger the effect)\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2236,11 +2236,11 @@
       }
     ]
   },
-  "10040": {
+  {
     "index": 39,
     "id": 10040,
     "name": "Electromagnetic Sniper Rifle",
-    "description": "Sniper rifle capable of shooting electromagnetic bullets that cause paralysis effect. (The bullets must penetrate to trigger the effect)\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Sniper rifle capable of shooting electromagnetic bullets that cause paralysis effect. (The bullets must penetrate to trigger the effect)\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2297,11 +2297,11 @@
       }
     ]
   },
-  "10041": {
+  {
     "index": 40,
     "id": 10041,
     "name": "Riot shield",
-    "description": "Use shooting to lift the shield（Resistance 500）， which can cover most of the area in front of you， but at the same time， you can not attack\\n【Attention】Can be equiped when holding with both hands\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Use shooting to lift the shield（Resistance 500）， which can cover most of the area in front of you， but at the same time， you can not attack\n【Attention】Can be equiped when holding with both hands\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -2346,11 +2346,11 @@
       }
     ]
   },
-  "10042": {
+  {
     "index": 41,
     "id": 10042,
     "name": "Miniature handcannon",
-    "description": "Light artillery weapons with relatively small power and loading capacity， but they excel in being lightweight\\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Light artillery weapons with relatively small power and loading capacity， but they excel in being lightweight\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2397,11 +2397,11 @@
       }
     ]
   },
-  "10043": {
+  {
     "index": 42,
     "id": 10043,
     "name": "Standard pistol",
-    "description": "Light single shot weapon with small payload and short range， but with impressive power\\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Light single shot weapon with small payload and short range， but with impressive power\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2448,11 +2448,11 @@
       }
     ]
   },
-  "10044": {
+  {
     "index": 43,
     "id": 10044,
     "name": "Plasma Machine Gun",
-    "description": "This energy weapon is a heavy firearm that can rapidly fire green plasma balls， which can ignore the physical armor.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This energy weapon is a heavy firearm that can rapidly fire green plasma balls， which can ignore the physical armor.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2500,11 +2500,11 @@
       }
     ]
   },
-  "10045": {
+  {
     "index": 44,
     "id": 10045,
     "name": "B·H Magnum Pistol",
-    "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. It has short single-shot range. A charged shot (using 3 bullets) can penetrate shields.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. It has short single-shot range. A charged shot (using 3 bullets) can penetrate shields.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2559,11 +2559,11 @@
       }
     ]
   },
-  "10046": {
+  {
     "index": 45,
     "id": 10046,
     "name": "Bouncing Mine Launcher",
-    "description": "A weapon that can launch bouncing mines. The mine will bounce towards the enemy's position when they approach. The mine deals little damage before it's fully deployed.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A weapon that can launch bouncing mines. The mine will bounce towards the enemy's position when they approach. The mine deals little damage before it's fully deployed.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2609,11 +2609,11 @@
       }
     ]
   },
-  "10047": {
+  {
     "index": 46,
     "id": 10047,
     "name": "Teleport Gun",
-    "description": "A gun that can fire two bullets to create two portals. Any mecha can teleport between the two portals.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A gun that can fire two bullets to create two portals. Any mecha can teleport between the two portals.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2641,11 +2641,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10048": {
+  {
     "index": 47,
     "id": 10048,
     "name": "Electromagnetic Shotgun",
-    "description": "A shotgun that can fire electromagnetic bullets， which can shoot paralyzing bullets (the bullets must penetrate the armor to trigger the effect).\\nThe weapon is very effective in breaking shields.\\nModerate weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A shotgun that can fire electromagnetic bullets， which can shoot paralyzing bullets (the bullets must penetrate the armor to trigger the effect).\nThe weapon is very effective in breaking shields.\nModerate weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2719,11 +2719,11 @@
       }
     ]
   },
-  "10049": {
+  {
     "index": 48,
     "id": 10049,
     "name": "Plasma Shotgun",
-    "description": "This energy weapon's attack can ignore armor.\\nBut its bullets will be absorbed by shield.\\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This energy weapon's attack can ignore armor.\nBut its bullets will be absorbed by shield.\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2783,11 +2783,11 @@
       }
     ]
   },
-  "10080": {
+  {
     "index": 49,
     "id": 10080,
     "name": "Plasma Sniper Rifle",
-    "description": "This energy weapon's attack can ignore armor.\\nBut its bullets will be absorbed by shield.\\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This energy weapon's attack can ignore armor.\nBut its bullets will be absorbed by shield.\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2848,11 +2848,11 @@
       }
     ]
   },
-  "10081": {
+  {
     "index": 50,
     "id": 10081,
     "name": "Mortar",
-    "description": "A weapon can fire projectiles， can hit targets directly.\\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A weapon can fire projectiles， can hit targets directly.\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2898,11 +2898,11 @@
       }
     ]
   },
-  "10082": {
+  {
     "index": 51,
     "id": 10082,
     "name": "Hand-held Rocket Launcher",
-    "description": "A weapon can launch homing missiles， which can hit targets directly.\\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A weapon can launch homing missiles， which can hit targets directly.\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -2961,11 +2961,11 @@
       }
     ]
   },
-  "10100": {
+  {
     "index": 52,
     "id": 10100,
     "name": "Antique Rifle B2",
-    "description": "An enhanced antique rifle with a large bullet capacity and slightly more weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced antique rifle with a large bullet capacity and slightly more weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3002,11 +3002,11 @@
     ],
     "materials": []
   },
-  "10101": {
+  {
     "index": 53,
     "id": 10101,
     "name": "Service Rifle M1",
-    "description": "An enhanced service rifle with slightly more weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced service rifle with slightly more weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3043,11 +3043,11 @@
     ],
     "materials": []
   },
-  "10102": {
+  {
     "index": 54,
     "id": 10102,
     "name": "Shotgun A1",
-    "description": "An enhanced shotgun with higher firing rate， lower choke， and lower bullet capacity.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced shotgun with higher firing rate， lower choke， and lower bullet capacity.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3084,11 +3084,11 @@
     ],
     "materials": []
   },
-  "10103": {
+  {
     "index": 55,
     "id": 10103,
     "name": "Pump-Action Shotgun O2",
-    "description": "An enhanced pump-action shotgun with improved spread and bullet capacity.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced pump-action shotgun with improved spread and bullet capacity.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3125,11 +3125,11 @@
     ],
     "materials": []
   },
-  "10104": {
+  {
     "index": 56,
     "id": 10104,
     "name": "Heavy Sniper M1",
-    "description": "An enhanced Heavy Sniper Rifle with all stats improved and weighs more.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced Heavy Sniper Rifle with all stats improved and weighs more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3163,11 +3163,11 @@
     ],
     "materials": []
   },
-  "10105": {
+  {
     "index": 57,
     "id": 10105,
     "name": "Rapid-Firing Gun W1",
-    "description": "An enhanced rapid-firing gun with lighter weight at the cost of stability.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced rapid-firing gun with lighter weight at the cost of stability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3204,11 +3204,11 @@
     ],
     "materials": []
   },
-  "10106": {
+  {
     "index": 58,
     "id": 10106,
     "name": "Submachine Gun S5",
-    "description": "An enhanced submachine gun with lower wear rate at the cost of slightly higher reload time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced submachine gun with lower wear rate at the cost of slightly higher reload time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3245,11 +3245,11 @@
     ],
     "materials": []
   },
-  "10107": {
+  {
     "index": 59,
     "id": 10107,
     "name": "Cannon W1",
-    "description": "An enhanced cannon with lighter weight at the cost of a lower firing rate.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced cannon with lighter weight at the cost of a lower firing rate.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3283,11 +3283,11 @@
     ],
     "materials": []
   },
-  "10108": {
+  {
     "index": 60,
     "id": 10108,
     "name": "Howitzer B1",
-    "description": "An enhanced howitzer with a larger magazine at the cost of bullet capacity.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced howitzer with a larger magazine at the cost of bullet capacity.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3320,11 +3320,11 @@
     ],
     "materials": []
   },
-  "10109": {
+  {
     "index": 61,
     "id": 10109,
     "name": "Armor-Piercing Rifle B1",
-    "description": "A service rifle with high Armor Penetration and increased bullet capacity，firing rate，and weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A service rifle with high Armor Penetration and increased bullet capacity，firing rate，and weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3359,11 +3359,11 @@
     ],
     "materials": []
   },
-  "10110": {
+  {
     "index": 62,
     "id": 10110,
     "name": "Flame Thrower M1",
-    "description": "An enhanced flame thrower with all stats and weight increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced flame thrower with all stats and weight increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3398,11 +3398,11 @@
     ],
     "materials": []
   },
-  "10111": {
+  {
     "index": 63,
     "id": 10111,
     "name": "Frost Spray M2",
-    "description": "An enhanced frost spray with all stats and weight increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced frost spray with all stats and weight increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3437,11 +3437,11 @@
     ],
     "materials": []
   },
-  "10113": {
+  {
     "index": 64,
     "id": 10113,
     "name": "Heavy Machine Gun W3",
-    "description": "A lighter heavy machine gun balanced by its lower firing rate.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A lighter heavy machine gun balanced by its lower firing rate.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3475,11 +3475,11 @@
     ],
     "materials": []
   },
-  "10114": {
+  {
     "index": 65,
     "id": 10114,
     "name": "Vulcan Cannon W",
-    "description": "A lighter Vulcan cannon balanced by lower overall stats.\\nAs heavy as a literal turret; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "A lighter Vulcan cannon balanced by lower overall stats.\nAs heavy as a literal turret; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3510,11 +3510,11 @@
     ],
     "materials": []
   },
-  "10115": {
+  {
     "index": 66,
     "id": 10115,
     "name": "Light Sniper M",
-    "description": "An enhanced light sniper with improved all stats and more weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced light sniper with improved all stats and more weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3548,11 +3548,11 @@
     ],
     "materials": []
   },
-  "10116": {
+  {
     "index": 67,
     "id": 10116,
     "name": "Service Rifle B2a",
-    "description": "An enhanced version of the service rifle B2 that weighs more and holds as many bullets as a submachine gun.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle B2 that weighs more and holds as many bullets as a submachine gun.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3586,11 +3586,11 @@
     ],
     "materials": []
   },
-  "10117": {
+  {
     "index": 68,
     "id": 10117,
     "name": "Service Rifle B1a",
-    "description": "An enhanced version of the service rifle B1 with shorter life and holds as many bullets as a submachine gun.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle B1 with shorter life and holds as many bullets as a submachine gun.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3623,11 +3623,11 @@
     ],
     "materials": []
   },
-  "10118": {
+  {
     "index": 69,
     "id": 10118,
     "name": "Service Rifle A3M",
-    "description": "An enhanced version of the service rifle A3 with improved stats and weighs more.\\n[Equipped with a grenade ejection device that can store energy for firing ，consuming 4 bullets each time].\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle A3 with improved stats and weighs more.\n[Equipped with a grenade ejection device that can store energy for firing ，consuming 4 bullets each time].\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3661,11 +3661,11 @@
     ],
     "materials": []
   },
-  "10119": {
+  {
     "index": 70,
     "id": 10119,
     "name": "Antique Rifle A1S",
-    "description": "An enhanced version of the antique rifle A1 with lower wear rate.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the antique rifle A1 with lower wear rate.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3700,11 +3700,11 @@
     ],
     "materials": []
   },
-  "10120": {
+  {
     "index": 71,
     "id": 10120,
     "name": "Double-Barreled Shotgun OS",
-    "description": "By increasing its reload time， it is able to shoot more bullets with increased durability.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "By increasing its reload time， it is able to shoot more bullets with increased durability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3740,11 +3740,11 @@
     ],
     "materials": []
   },
-  "10121": {
+  {
     "index": 72,
     "id": 10121,
     "name": "Submachine Gun B12",
-    "description": "An enhanced version of the submachine gun B2. Weighs a ton and holds an amazing amount of bullets.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun B2. Weighs a ton and holds an amazing amount of bullets.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3779,11 +3779,11 @@
     ],
     "materials": []
   },
-  "10122": {
+  {
     "index": 73,
     "id": 10122,
     "name": "Submachine Gun A2S",
-    "description": "An enhanced version of the submachine gun A2 with lower firing rate and lasts longer.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun A2 with lower firing rate and lasts longer.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3818,11 +3818,11 @@
     ],
     "materials": []
   },
-  "10123": {
+  {
     "index": 74,
     "id": 10123,
     "name": "Buckshot M1",
-    "description": "An enhanced version of the buckshot that shoots more bullets with higher reload time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the buckshot that shoots more bullets with higher reload time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3857,11 +3857,11 @@
     ],
     "materials": []
   },
-  "10124": {
+  {
     "index": 75,
     "id": 10124,
     "name": "Light Machine Gun M2",
-    "description": "An enhanced version of the light machine gun with lower reload time at the cost of magazine capacity.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the light machine gun with lower reload time at the cost of magazine capacity.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3896,11 +3896,11 @@
     ],
     "materials": []
   },
-  "10125": {
+  {
     "index": 76,
     "id": 10125,
     "name": "Rapid Spreadshot M",
-    "description": "An enhanced version of the Rapid Spreadshot with significantly higher firing rate at the cost of weight and reload time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the Rapid Spreadshot with significantly higher firing rate at the cost of weight and reload time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3935,11 +3935,11 @@
     ],
     "materials": []
   },
-  "10126": {
+  {
     "index": 77,
     "id": 10126,
     "name": "Rapid Grenade W",
-    "description": "An enhanced version of the rapid grenade with less weight and lower durability.\\nChanging shooting mode to mortar\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the rapid grenade with less weight and lower durability.\nChanging shooting mode to mortar\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -3972,11 +3972,11 @@
     ],
     "materials": []
   },
-  "10127": {
+  {
     "index": 78,
     "id": 10127,
     "name": "Slicing Ray M",
-    "description": "An incremental all-stat enhancement has been applied to the slicing ray， resulting in a slight decrease in durability.\\n(Ray weapons have a chance to cause very brief high-temperature damage)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An incremental all-stat enhancement has been applied to the slicing ray， resulting in a slight decrease in durability.\n(Ray weapons have a chance to cause very brief high-temperature damage)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4009,11 +4009,11 @@
     ],
     "materials": []
   },
-  "10128": {
+  {
     "index": 79,
     "id": 10128,
     "name": "Telephoto Ray S",
-    "description": "The telephoto ray has been reinforced to improve its durability， resulting in an increase in weight.\\n(Ray weapons have a chance to cause very brief high-temperature damage)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The telephoto ray has been reinforced to improve its durability， resulting in an increase in weight.\n(Ray weapons have a chance to cause very brief high-temperature damage)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4046,11 +4046,11 @@
     ],
     "materials": []
   },
-  "10129": {
+  {
     "index": 80,
     "id": 10129,
     "name": "Focused Ray M",
-    "description": "An incremental all-stat enhancement has been applied to the focused ray， resulting in a slight decrease in durability.\\n(Ray weapons have a chance to cause very brief high-temperature damage)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An incremental all-stat enhancement has been applied to the focused ray， resulting in a slight decrease in durability.\n(Ray weapons have a chance to cause very brief high-temperature damage)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4082,11 +4082,11 @@
     ],
     "materials": []
   },
-  "10130": {
+  {
     "index": 81,
     "id": 10130,
     "name": "Long-Range Focused Ray S",
-    "description": "The long-range focused ray has been reinforced to improve its durability， resulting in an increase in weight.\\n(Ray weapons have a chance to cause very brief high-temperature damage)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The long-range focused ray has been reinforced to improve its durability， resulting in an increase in weight.\n(Ray weapons have a chance to cause very brief high-temperature damage)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4119,11 +4119,11 @@
     ],
     "materials": []
   },
-  "10131": {
+  {
     "index": 82,
     "id": 10131,
     "name": "Arc Gun M",
-    "description": "An incremental all-stat enhancement has been applied to the arc gun， resulting in a slight decrease in durability.\\n(Electromagnetic weapons have a chance to cause very brief paralysis damage)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An incremental all-stat enhancement has been applied to the arc gun， resulting in a slight decrease in durability.\n(Electromagnetic weapons have a chance to cause very brief paralysis damage)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4157,11 +4157,11 @@
     ],
     "materials": []
   },
-  "10132": {
+  {
     "index": 83,
     "id": 10132,
     "name": "Long-Range Arc Gun S",
-    "description": "The long-range arc gun has been reinforced to improve its durability， resulting in an increase in weight.\\n(Electromagnetic weapons have a chance to cause very brief paralysis damage)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The long-range arc gun has been reinforced to improve its durability， resulting in an increase in weight.\n(Electromagnetic weapons have a chance to cause very brief paralysis damage)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4193,11 +4193,11 @@
     ],
     "materials": []
   },
-  "10133": {
+  {
     "index": 84,
     "id": 10133,
     "name": "Focused Arc Gun S",
-    "description": "The focused arc gun has been reinforced to improve its durability， resulting in an increase in weight.\\n(Electromagnetic weapons have a chance to cause very brief paralysis damage)\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The focused arc gun has been reinforced to improve its durability， resulting in an increase in weight.\n(Electromagnetic weapons have a chance to cause very brief paralysis damage)\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4229,11 +4229,11 @@
     ],
     "materials": []
   },
-  "10134": {
+  {
     "index": 85,
     "id": 10134,
     "name": "Electric Cannon X",
-    "description": "Enhancements have been made to the electric cannon， resulting in increased arc projection， but with a shorter durability.\\n(Electromagnetic weapons have a chance to cause very brief paralysis damage)\\nMovement speed: <D1>%; Rotational speed: <D2>%\\n[Arc Weapon]",
+    "description": "Enhancements have been made to the electric cannon， resulting in increased arc projection， but with a shorter durability.\n(Electromagnetic weapons have a chance to cause very brief paralysis damage)\nMovement speed: <D1>%; Rotational speed: <D2>%\n[Arc Weapon]",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4267,11 +4267,11 @@
     ],
     "materials": []
   },
-  "10136": {
+  {
     "index": 86,
     "id": 10136,
     "name": "High-Pressure Oil Spray Gun",
-    "description": "The oil spray gun has been enhanced to cause greasy effects， with enhancements to all stats and a slight increase in weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The oil spray gun has been enhanced to cause greasy effects， with enhancements to all stats and a slight increase in weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4306,11 +4306,11 @@
     ],
     "materials": []
   },
-  "10137": {
+  {
     "index": 87,
     "id": 10137,
     "name": "High-Pressure Water Spray Gun",
-    "description": "The water spray gun has been enhanced to cause wet effects， with enhancements to all stat and a slight increase in weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The water spray gun has been enhanced to cause wet effects， with enhancements to all stat and a slight increase in weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4346,11 +4346,11 @@
     ],
     "materials": []
   },
-  "10138": {
+  {
     "index": 88,
     "id": 10138,
     "name": "High-Pressure Water Bullet Gun",
-    "description": "The water bullet gun has been enhanced to cause wet effects (the bullet must penetrate to trigger this effect)， increasing its attack power and range， but also adding weight.\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The water bullet gun has been enhanced to cause wet effects (the bullet must penetrate to trigger this effect)， increasing its attack power and range， but also adding weight.\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4386,11 +4386,11 @@
     ],
     "materials": []
   },
-  "10139": {
+  {
     "index": 89,
     "id": 10139,
     "name": "Electromagnetic Submachine Gun M1",
-    "description": "The enhanced version of the submachine gun that can shoot electromagnetic bullets with paralyzing effect (the bullet must penetrate to trigger this effect).\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The enhanced version of the submachine gun that can shoot electromagnetic bullets with paralyzing effect (the bullet must penetrate to trigger this effect).\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4427,11 +4427,11 @@
     ],
     "materials": []
   },
-  "10140": {
+  {
     "index": 90,
     "id": 10140,
     "name": "Electromagnetic Sniper Rifle M2",
-    "description": "The enhanced version of the sniper rifle that can shoot electromagnetic bullets with paralyzing effect (the bullet must penetrate to trigger this effect).\\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The enhanced version of the sniper rifle that can shoot electromagnetic bullets with paralyzing effect (the bullet must penetrate to trigger this effect).\nMedium weight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4469,11 +4469,11 @@
     ],
     "materials": []
   },
-  "10142": {
+  {
     "index": 91,
     "id": 10142,
     "name": "Miniature handcannon S",
-    "description": "The enhanced version of Light handcannon， making it more powerful， but the loading capacity has decreased\\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The enhanced version of Light handcannon， making it more powerful， but the loading capacity has decreased\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4507,11 +4507,11 @@
     ],
     "materials": []
   },
-  "10143": {
+  {
     "index": 92,
     "id": 10143,
     "name": "Standard pistol S",
-    "description": "The enhanced version of Standard pistol， with a reduced loading capacity but a significant increase in power\\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The enhanced version of Standard pistol， with a reduced loading capacity but a significant increase in power\nLight; Movement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4546,11 +4546,11 @@
     ],
     "materials": []
   },
-  "10144": {
+  {
     "index": 93,
     "id": 10144,
     "name": "Plasma Machine Gun MK1",
-    "description": "This machine gun is a heavy firearm that can rapidly fire green plasma balls， which can ignore the physical armor.\\nCompared with the original version， it reduces weight and increases shooting accuracy.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This machine gun is a heavy firearm that can rapidly fire green plasma balls， which can ignore the physical armor.\nCompared with the original version， it reduces weight and increases shooting accuracy.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4585,11 +4585,11 @@
     ],
     "materials": []
   },
-  "10145": {
+  {
     "index": 94,
     "id": 10145,
     "name": "B·P Magnum Rifle",
-    "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. It enhanced bullet power and magazine capacity. A charged shot (using 3 bullets) can penetrate shields.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. It enhanced bullet power and magazine capacity. A charged shot (using 3 bullets) can penetrate shields.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4623,11 +4623,11 @@
     ],
     "materials": []
   },
-  "10146": {
+  {
     "index": 95,
     "id": 10146,
     "name": "Heavy Mine Launcher",
-    "description": "A weapon that can launch heavy mines. The mine deals extremely high damage once it's fully deployed.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A weapon that can launch heavy mines. The mine deals extremely high damage once it's fully deployed.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4657,11 +4657,11 @@
     ],
     "materials": []
   },
-  "10148": {
+  {
     "index": 96,
     "id": 10148,
     "name": "Electromagnetic Shotgun M1",
-    "description": "A shotgun that can fire electromagnetic bullets， which can shoot paralyzing bullets (the bullets must penetrate the armor to trigger the effect) and its attributes are all slightly increased.\\nThe weapon is very effective in breaking shields.\\nModerate weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A shotgun that can fire electromagnetic bullets， which can shoot paralyzing bullets (the bullets must penetrate the armor to trigger the effect) and its attributes are all slightly increased.\nThe weapon is very effective in breaking shields.\nModerate weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4699,11 +4699,11 @@
     ],
     "materials": []
   },
-  "10149": {
+  {
     "index": 97,
     "id": 10149,
     "name": "Plasma Shotgun M1",
-    "description": "Its attack can ignore armor and its attributes are all slightly increased.\\nBut its bullets will be absorbed by shield.\\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "Its attack can ignore armor and its attributes are all slightly increased.\nBut its bullets will be absorbed by shield.\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4740,11 +4740,11 @@
     ],
     "materials": []
   },
-  "10180": {
+  {
     "index": 98,
     "id": 10180,
     "name": "Plasma Sniper Rifle M2",
-    "description": "Its attack can ignore armor and its attributes are all slightly increased.\\nBut its bullets will be absorbed by shield.\\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "Its attack can ignore armor and its attributes are all slightly increased.\nBut its bullets will be absorbed by shield.\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4781,7 +4781,7 @@
     ],
     "materials": []
   },
-  "10181": {
+  {
     "index": 99,
     "id": 10181,
     "name": "Heavy Mortar",
@@ -4820,11 +4820,11 @@
     ],
     "materials": []
   },
-  "10182": {
+  {
     "index": 100,
     "id": 10182,
     "name": "Multiple Rocket Launcher B1",
-    "description": "A weapon can launch homing missiles， its ammo capacity is increased and now it can have repeated firings before reloading.\\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A weapon can launch homing missiles， its ammo capacity is increased and now it can have repeated firings before reloading.\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4858,11 +4858,11 @@
     ],
     "materials": []
   },
-  "10200": {
+  {
     "index": 101,
     "id": 10200,
     "name": "Antique Rifle B2M1",
-    "description": "An enhanced version of the antique rifle B2 with improved stats and lower durability.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the antique rifle B2 with improved stats and lower durability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4894,11 +4894,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10201": {
+  {
     "index": 102,
     "id": 10201,
     "name": "Service Rifle M1S",
-    "description": "An enhanced version of the service rifle M1 with an added maintenance module and weighs more.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle M1 with an added maintenance module and weighs more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4932,11 +4932,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10202": {
+  {
     "index": 103,
     "id": 10202,
     "name": "Shotgun A1S",
-    "description": "An enhanced version of the shotgun with an added maintenance module and weighs more.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the shotgun with an added maintenance module and weighs more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -4969,11 +4969,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10203": {
+  {
     "index": 104,
     "id": 10203,
     "name": "Pump-Action Shotgun O2M2",
-    "description": "An enhanced version of the pump-action shotgun that shoots an impressive amount of bullets with shorter life.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the pump-action shotgun that shoots an impressive amount of bullets with shorter life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5004,11 +5004,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10204": {
+  {
     "index": 105,
     "id": 10204,
     "name": "Heavy Sniper M1a",
-    "description": "By enhancing the warheads of the Heavy Sniper Rifle， armor-piercing is significantly increased at the cost of bullet capacity and life.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "By enhancing the warheads of the Heavy Sniper Rifle， armor-piercing is significantly increased at the cost of bullet capacity and life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5039,11 +5039,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10205": {
+  {
     "index": 106,
     "id": 10205,
     "name": "Rapid-Firing Gun W1m",
-    "description": "An enhanced version of the Rapid-Firing Gun W1 with all stats improved and shorter life.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the Rapid-Firing Gun W1 with all stats improved and shorter life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5075,11 +5075,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10206": {
+  {
     "index": 107,
     "id": 10206,
     "name": "Submachine Gun S5M",
-    "description": "An enhanced version of the submachine gun S5 that weighs a lot more.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun S5 that weighs a lot more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5113,11 +5113,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10209": {
+  {
     "index": 108,
     "id": 10209,
     "name": "Armor-Piercing Rifle C6",
-    "description": "This service rifle is designed with high armor penetration rate. By changing its shooting mode， its rate of fire can be increased for a short period of time.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This service rifle is designed with high armor penetration rate. By changing its shooting mode， its rate of fire can be increased for a short period of time.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5148,11 +5148,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10210": {
+  {
     "index": 109,
     "id": 10210,
     "name": "High-Pressure Flame Thrower M1",
-    "description": "An enhanced flame thrower M1 with all stats and weight increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced flame thrower M1 with all stats and weight increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5183,11 +5183,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10211": {
+  {
     "index": 110,
     "id": 10211,
     "name": "High-Pressure Frost Spray M2",
-    "description": "An enhanced frost spray M2 with all stats and weight increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced frost spray M2 with all stats and weight increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5218,11 +5218,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10213": {
+  {
     "index": 111,
     "id": 10213,
     "name": "Heavy Machine Gun W3M",
-    "description": "An enhanced version of the heavy machine gun S3 that lasts significantly shorter.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the heavy machine gun S3 that lasts significantly shorter.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5253,11 +5253,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10215": {
+  {
     "index": 112,
     "id": 10215,
     "name": "Light Sniper M10",
-    "description": "An enhanced version of the Light Sniper Rifle M1 with all stats improved that weighs slightly more with shorter life.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the Light Sniper Rifle M1 with all stats improved that weighs slightly more with shorter life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5288,11 +5288,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10216": {
+  {
     "index": 113,
     "id": 10216,
     "name": "Service Rifle B2as",
-    "description": "An enhanced version of the service rifle B2a that weighs more and lasts longer.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle B2a that weighs more and lasts longer.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5324,11 +5324,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10217": {
+  {
     "index": 114,
     "id": 10217,
     "name": "FRAN Bathykolpian mk6",
-    "description": "A high-damage heavy rifle that can be equipped with machine gun modules. Thanks to stricter quality control and its materials having larger tolerances， it has high durability and low wear rate.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A high-damage heavy rifle that can be equipped with machine gun modules. Thanks to stricter quality control and its materials having larger tolerances， it has high durability and low wear rate.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5377,11 +5377,11 @@
       }
     ]
   },
-  "10218": {
+  {
     "index": 115,
     "id": 10218,
     "name": "Service Rifle A3M1",
-    "description": "An enhanced version of the service rifle A3 with improved stats and weighs more.\\n[Equipped with a grenade ejection device that can store energy for firing ，consuming 4 bullets each time].\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle A3 with improved stats and weighs more.\n[Equipped with a grenade ejection device that can store energy for firing ，consuming 4 bullets each time].\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5414,11 +5414,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10219": {
+  {
     "index": 116,
     "id": 10219,
     "name": "Antique Rifle A1Sm",
-    "description": "An enhanced version of the antique rifle A1S with all stats improved.\\nAutomatic locking function added\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the antique rifle A1S with all stats improved.\nAutomatic locking function added\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5450,11 +5450,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10220": {
+  {
     "index": 117,
     "id": 10220,
     "name": "Double-Barreled Shotgun Osm",
-    "description": "An enhanced version of the double-barreled shotgun OS with extra firing chances  at the cost of added weight and higher reload time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the double-barreled shotgun OS with extra firing chances  at the cost of added weight and higher reload time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5486,11 +5486,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10221": {
+  {
     "index": 118,
     "id": 10221,
     "name": "Submachine Gun B12M",
-    "description": "An enhanced version of the submachine gun B12 with all stats improved and shorter life.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun B12 with all stats improved and shorter life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5522,11 +5522,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10222": {
+  {
     "index": 119,
     "id": 10222,
     "name": "Submachine Gun A2S1",
-    "description": "An enhanced version of the submachine gun A2S with all stats slightly improved.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun A2S with all stats slightly improved.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5558,11 +5558,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10223": {
+  {
     "index": 120,
     "id": 10223,
     "name": "Buckshot M11",
-    "description": "An enhanced version of the buckshot S1 with higher firing rate and reload time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the buckshot S1 with higher firing rate and reload time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5594,11 +5594,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10224": {
+  {
     "index": 121,
     "id": 10224,
     "name": "Light Machine Gun M12",
-    "description": "An enhanced version of the light machine gun M2 with all stats improved and weighs more.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the light machine gun M2 with all stats improved and weighs more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5629,11 +5629,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10225": {
+  {
     "index": 122,
     "id": 10225,
     "name": "Rapid Spreadshot MS",
-    "description": "An enhanced version of the Rapid Spreadshot M with increased durability at the cost of reload time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the Rapid Spreadshot M with increased durability at the cost of reload time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5665,11 +5665,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10227": {
+  {
     "index": 123,
     "id": 10227,
     "name": "Lighthouse Keeper",
-    "description": "A lightweight and multi-functional ray weapon.\\nIts normal attack is a scattered ray， its charged attack is a concentrated Ray， and its long-term charge will fire a focused Ray.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A lightweight and multi-functional ray weapon.\nIts normal attack is a scattered ray， its charged attack is a concentrated Ray， and its long-term charge will fire a focused Ray.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5716,11 +5716,11 @@
       }
     ]
   },
-  "10228": {
+  {
     "index": 124,
     "id": 10228,
     "name": "Nightstar Beamcaster",
-    "description": "It can fire one single and highly accurate laser at a time. It can be charged for a powerful shot.\\nYou can also have a two-stage charge (using 3 bullets) to get a more powerful shot. \\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "It can fire one single and highly accurate laser at a time. It can be charged for a powerful shot.\nYou can also have a two-stage charge (using 3 bullets) to get a more powerful shot. \nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5769,11 +5769,11 @@
       }
     ]
   },
-  "10230": {
+  {
     "index": 125,
     "id": 10230,
     "name": "Long-Range Focused Ray SM2",
-    "description": "The long-range focused ray S has undergone all stats enhancement， greatly reducing its life.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The long-range focused ray S has undergone all stats enhancement， greatly reducing its life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5803,11 +5803,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10232": {
+  {
     "index": 126,
     "id": 10232,
     "name": "Long-Range Arc Gun SM2",
-    "description": "The long-range arc gun S has undergone all stats enhancement， greatly reducing its life.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The long-range arc gun S has undergone all stats enhancement， greatly reducing its life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5837,11 +5837,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10233": {
+  {
     "index": 127,
     "id": 10233,
     "name": "Focused Arc Gun SX",
-    "description": "An enhanced version of the Focused Arc Gun S with all stats improved and weighs more.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the Focused Arc Gun S with all stats improved and weighs more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5871,11 +5871,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10236": {
+  {
     "index": 128,
     "id": 10236,
     "name": "High-Pressure Oil Spray Gun M1",
-    "description": "The High-Pressure oil spray gun has been enhanced to cause greasy effects， with enhancements to all stats and a slight increase in weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The High-Pressure oil spray gun has been enhanced to cause greasy effects， with enhancements to all stats and a slight increase in weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5905,11 +5905,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10237": {
+  {
     "index": 129,
     "id": 10237,
     "name": "High-Pressure Water Spray Gun M2",
-    "description": "The High-Pressure water spray gun has been enhanced to cause wet effects， with enhancements to all stat and a slight increase in weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The High-Pressure water spray gun has been enhanced to cause wet effects， with enhancements to all stat and a slight increase in weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5939,11 +5939,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10239": {
+  {
     "index": 130,
     "id": 10239,
     "name": "Magnetoelectric Heavy Submachine Gun",
-    "description": "This is the enhanced model of the magnetoelectric heavy submachine gun， and it can fire an astonishing number of magnetoelectric bullets in a very short time.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is the enhanced model of the magnetoelectric heavy submachine gun， and it can fire an astonishing number of magnetoelectric bullets in a very short time.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -5973,11 +5973,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10240": {
+  {
     "index": 131,
     "id": 10240,
     "name": "Magnetoelectric Heavy Sniper Rifle",
-    "description": "This is an all-around upgraded version of the magnetoelectric sniper rifle. Its weight has increased significantly.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is an all-around upgraded version of the magnetoelectric sniper rifle. Its weight has increased significantly.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6007,11 +6007,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10244": {
+  {
     "index": 132,
     "id": 10244,
     "name": "Plasma Machine Gun MK2",
-    "description": "This machine gun is a heavy firearm that can rapidly fire green plasma balls， which can ignore the physical armor.\\nCompared with the MK1 version， it reduces weight and increases shooting accuracy.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This machine gun is a heavy firearm that can rapidly fire green plasma balls， which can ignore the physical armor.\nCompared with the MK1 version， it reduces weight and increases shooting accuracy.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6043,11 +6043,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10245": {
+  {
     "index": 133,
     "id": 10245,
     "name": "B·P Magnum Rifle V1",
-    "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. Its shooting mode has been upgraded to a 3-round burst. A charged shot (using 3 bullets) can penetrate shields.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. Its shooting mode has been upgraded to a 3-round burst. A charged shot (using 3 bullets) can penetrate shields.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6079,11 +6079,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10248": {
+  {
     "index": 134,
     "id": 10248,
     "name": "Magnetoelectric Heavy Shotgun",
-    "description": "This is an all-around upgraded version of the magnetoelectric shotgun. Its weight has increased significantly.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is an all-around upgraded version of the magnetoelectric shotgun. Its weight has increased significantly.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6113,11 +6113,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10249": {
+  {
     "index": 135,
     "id": 10249,
     "name": "Plasma Heavy Shotgun",
-    "description": "This is an enhanced version of the plasma shotgun. It can use 3 bullets as a charged shot.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is an enhanced version of the plasma shotgun. It can use 3 bullets as a charged shot.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6149,11 +6149,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10280": {
+  {
     "index": 136,
     "id": 10280,
     "name": "Plasma Heavy Sniper Rifle",
-    "description": "This is a heavier version of the plasma sniper rifle. Its weight has increased significantly. It can use 4 bullets as a charged shot to fire a powerful plasma ball.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is a heavier version of the plasma sniper rifle. Its weight has increased significantly. It can use 4 bullets as a charged shot to fire a powerful plasma ball.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6185,11 +6185,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10300": {
+  {
     "index": 137,
     "id": 10300,
     "name": "Antique Rifle B2M11",
-    "description": "An enhance version of the antique rifle B2M1 with improved stats and lower durability.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhance version of the antique rifle B2M1 with improved stats and lower durability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6220,11 +6220,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10301": {
+  {
     "index": 138,
     "id": 10301,
     "name": "Service Rifle M11S",
-    "description": "An enhanced version of the service rifle M1S with all stats slightly increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle M1S with all stats slightly increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6255,11 +6255,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10303": {
+  {
     "index": 139,
     "id": 10303,
     "name": "Pump-Action Shotgun O2M12",
-    "description": "An enhanced version of the pump-action shotgun with all stats increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the pump-action shotgun with all stats increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6290,11 +6290,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10304": {
+  {
     "index": 140,
     "id": 10304,
     "name": "Super Heavy Sniper",
-    "description": "By enhancing the warhead of the Heavy Sniper Rifle M1a， the damage is increased while life and bullet capacity is decreased and its weight increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "By enhancing the warhead of the Heavy Sniper Rifle M1a， the damage is increased while life and bullet capacity is decreased and its weight increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6327,11 +6327,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10305": {
+  {
     "index": 141,
     "id": 10305,
     "name": "Rapid-Firing Gun W1m15",
-    "description": "This is an all-around upgraded version of the Rapid-Firing Gun W1m.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is an all-around upgraded version of the Rapid-Firing Gun W1m.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6364,11 +6364,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10306": {
+  {
     "index": 142,
     "id": 10306,
     "name": "Submachine Gun S5M",
-    "description": "An enhanced version of the submachine gun S5m that weighs a lot more.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun S5m that weighs a lot more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6399,11 +6399,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10315": {
+  {
     "index": 143,
     "id": 10315,
     "name": "Light Sniper M24",
-    "description": "An enhanced version of the light sniper M10 with all stats improved that weighs slightly more with shorter life.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the light sniper M10 with all stats improved that weighs slightly more with shorter life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6434,11 +6434,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10316": {
+  {
     "index": 144,
     "id": 10316,
     "name": "Service Rifle B2ASW",
-    "description": "An enhanced version of the service rifle B2as with lower firing rate and weighs less.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle B2as with lower firing rate and weighs less.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6470,11 +6470,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10318": {
+  {
     "index": 145,
     "id": 10318,
     "name": "Service Rifle A3M13",
-    "description": "An enhanced version of the service rifle A3M with improved stats and weighs more.\\n[Equipped with a heavy grenade ejection device that can store energy for firing ，consuming 6 bullets each time].\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle A3M with improved stats and weighs more.\n[Equipped with a heavy grenade ejection device that can store energy for firing ，consuming 6 bullets each time].\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6505,11 +6505,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10319": {
+  {
     "index": 146,
     "id": 10319,
     "name": "Descartes Smart Gun",
-    "description": "A smart gun that can fire multiple bullets at a time. It will track the enemy from multiple angles to ensure a 100% hit.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A smart gun that can fire multiple bullets at a time. It will track the enemy from multiple angles to ensure a 100% hit.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6555,11 +6555,11 @@
       }
     ]
   },
-  "10320": {
+  {
     "index": 147,
     "id": 10320,
     "name": "Double-Barreled Shotgun Osm2",
-    "description": "An enhanced version of the double-barreled shotgun OS with extra firing chances and lower reload time at the cost of added weight.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the double-barreled shotgun OS with extra firing chances and lower reload time at the cost of added weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6590,11 +6590,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10321": {
+  {
     "index": 148,
     "id": 10321,
     "name": "Submachine Gun B12M12",
-    "description": "An enhanced version of the submachine gun B12 with all stats increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun B12 with all stats increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6625,11 +6625,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10322": {
+  {
     "index": 149,
     "id": 10322,
     "name": "Submachine Gun A2S12",
-    "description": "An enhanced version of the submachine gun A2S1 with increased durability.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun A2S1 with increased durability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6660,11 +6660,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10324": {
+  {
     "index": 150,
     "id": 10324,
     "name": "Light Machine Gun M12A1",
-    "description": "An enhanced version of the light machine gun M12 with increased accuracy， stability， and lower bullet capacity.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the light machine gun M12 with increased accuracy， stability， and lower bullet capacity.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6696,11 +6696,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10330": {
+  {
     "index": 151,
     "id": 10330,
     "name": "Positron Cannons",
-    "description": "The ultimate weapon transformed from Long-Range Focused Ray SM2，The aiming time is extremely long， but it can release incredibly exaggerated energy.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The ultimate weapon transformed from Long-Range Focused Ray SM2，The aiming time is extremely long， but it can release incredibly exaggerated energy.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6731,11 +6731,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10333": {
+  {
     "index": 152,
     "id": 10333,
     "name": "Thor Cannon",
-    "description": "Large scale transformation of the Focused Arc Gun SX，It can release extremely destructive ultra-high voltage arcs， causing astonishing damage\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Large scale transformation of the Focused Arc Gun SX，It can release extremely destructive ultra-high voltage arcs， causing astonishing damage\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6766,11 +6766,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10345": {
+  {
     "index": 153,
     "id": 10345,
     "name": "Magnum Beam Rifle 'R·L'",
-    "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. Its shooting mode has been upgraded to a 5-round burst. A charged shot (using 5 bullets) can fire a high DMG particle beam which can penetrate shields. Its shooting range has also been upgraded.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. Its shooting mode has been upgraded to a 5-round burst. A charged shot (using 5 bullets) can fire a high DMG particle beam which can penetrate shields. Its shooting range has also been upgraded.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6800,11 +6800,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10400": {
+  {
     "index": 154,
     "id": 10400,
     "name": "Antique Rifle B2M12",
-    "description": "An enhanced version of the antique rifle B2M11 with increased durability and weighs more.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the antique rifle B2M11 with increased durability and weighs more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6835,11 +6835,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10401": {
+  {
     "index": 155,
     "id": 10401,
     "name": "Service Rifle M21S1",
-    "description": "An enhanced version of the service rifle M11S with all stats slightly increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the service rifle M11S with all stats slightly increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6870,11 +6870,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10405": {
+  {
     "index": 156,
     "id": 10405,
     "name": "88mm Dual-purpose Rapid-Firing Gun",
-    "description": "A specialized Rapid-Firing Gun， can fire bullets that explode at the sight. It excels in anti-air combat while remaining highly effective against ground troops. Features a controlled burst-fire mechanism.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A specialized Rapid-Firing Gun， can fire bullets that explode at the sight. It excels in anti-air combat while remaining highly effective against ground troops. Features a controlled burst-fire mechanism.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6921,11 +6921,11 @@
       }
     ]
   },
-  "10406": {
+  {
     "index": 157,
     "id": 10406,
     "name": "Submachine Gun S5M10",
-    "description": "An enhanced version of the submachine gun S5M with all stats slightly increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the submachine gun S5M with all stats slightly increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6954,11 +6954,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10415": {
+  {
     "index": 158,
     "id": 10415,
     "name": "Light Sniper M45",
-    "description": "An enhanced version of the Light Sniper Rifle M24 with all stats slightly increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "An enhanced version of the Light Sniper Rifle M24 with all stats slightly increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -6990,11 +6990,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10416": {
+  {
     "index": 159,
     "id": 10416,
     "name": "Service Rifle B2ASW-X",
-    "description": "This is an all-around upgraded version of the Service Rifle B2ASW. It sacrifices various attributes for power， designed to counter elite enemies.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is an all-around upgraded version of the Service Rifle B2ASW. It sacrifices various attributes for power， designed to counter elite enemies.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7023,11 +7023,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10418": {
+  {
     "index": 160,
     "id": 10418,
     "name": "Service Rifle M16A1",
-    "description": "A specialized service rifle that can fire a large number of bullets in a short period of time.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A specialized service rifle that can fire a large number of bullets in a short period of time.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7073,11 +7073,11 @@
       }
     ]
   },
-  "10421": {
+  {
     "index": 161,
     "id": 10421,
     "name": "Vector Submachine Gun",
-    "description": "A specialized submachine gun with impressive firepower and can provide almost continuous firepower. It has a vast expansion potential and can support various forms of modification， but it also has a very high wear rate.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A specialized submachine gun with impressive firepower and can provide almost continuous firepower. It has a vast expansion potential and can support various forms of modification， but it also has a very high wear rate.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7123,11 +7123,11 @@
       }
     ]
   },
-  "10422": {
+  {
     "index": 162,
     "id": 10422,
     "name": "Dily's special needs",
-    "description": "A specialized submachine gun， with impressive firepower and can provide almost continuous firepower， but has a high wear rate.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A specialized submachine gun， with impressive firepower and can provide almost continuous firepower， but has a high wear rate.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7173,11 +7173,11 @@
       }
     ]
   },
-  "10424": {
+  {
     "index": 163,
     "id": 10424,
     "name": "Light Machine Gun M12A1s",
-    "description": "The enhanced version of the M12A1 has slightly reduced attributes and improved overall durability\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The enhanced version of the M12A1 has slightly reduced attributes and improved overall durability\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7208,11 +7208,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10430": {
+  {
     "index": 164,
     "id": 10430,
     "name": "Tachyon Spear",
-    "description": "An enhanced version of the positron cannon. When it hits the target， it will release a powerful electric arc storm.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "An enhanced version of the positron cannon. When it hits the target， it will release a powerful electric arc storm.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7258,11 +7258,11 @@
       }
     ]
   },
-  "10444": {
+  {
     "index": 165,
     "id": 10444,
     "name": "Plasma Projector",
-    "description": "This is a heavy firearm that can fire very slowly but powerful green plasma balls， which can ignore the physical armor.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is a heavy firearm that can fire very slowly but powerful green plasma balls， which can ignore the physical armor.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7293,11 +7293,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10500": {
+  {
     "index": 166,
     "id": 10500,
     "name": "Emperor's Majesty",
-    "description": "This rifle was designed and constructed by the Royal Design Bureau under the order of the Emperor and was praised as the key for the empire to win the war. Due to insufficient production capacity， it can only be equipped to the Royal Guard.\\nHigh armor penetration rate， ignores shields， deals DMG twice， and explodes 0.1s after hitting.\\nMovement speed: <D1>%， Rotational speed: <D2>%",
+    "description": "This rifle was designed and constructed by the Royal Design Bureau under the order of the Emperor and was praised as the key for the empire to win the war. Due to insufficient production capacity， it can only be equipped to the Royal Guard.\nHigh armor penetration rate， ignores shields， deals DMG twice， and explodes 0.1s after hitting.\nMovement speed: <D1>%， Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7348,11 +7348,11 @@
       }
     ]
   },
-  "10504": {
+  {
     "index": 167,
     "id": 10504,
     "name": "Gauss sniper rifle",
-    "description": "The ultimate form of kinetic weapons that accelerates the projectile to break through 23 Mach through magnetic force， crushing all conventional materials into powder. Almost no conventional material can withstand its destructive force.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The ultimate form of kinetic weapons that accelerates the projectile to break through 23 Mach through magnetic force， crushing all conventional materials into powder. Almost no conventional material can withstand its destructive force.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7396,11 +7396,11 @@
       }
     ]
   },
-  "10507": {
+  {
     "index": 168,
     "id": 10507,
     "name": "Magnetic railgun",
-    "description": "The caliber is justice， and that the cloud explosive shell with extremely large charges can only be fired with powerful electromagnetic induction， with astonishing destructive power in a single shot.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The caliber is justice， and that the cloud explosive shell with extremely large charges can only be fired with powerful electromagnetic induction， with astonishing destructive power in a single shot.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7445,11 +7445,11 @@
       }
     ]
   },
-  "10510": {
+  {
     "index": 169,
     "id": 10510,
     "name": "Lava spray",
-    "description": "By configuring a large capacity fuel tank， the effect of mixed fuel loading is achieved， so that the spray has its own high temperature， which can melt the enemy's armor.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "By configuring a large capacity fuel tank， the effect of mixed fuel loading is achieved， so that the spray has its own high temperature， which can melt the enemy's armor.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7497,11 +7497,11 @@
       }
     ]
   },
-  "10515": {
+  {
     "index": 170,
     "id": 10515,
     "name": "Electromagnetic Triple-Barreled Cannon",
-    "description": "This is a high-tech weapon smuggled from other countries. It can be classified as a light electromagnetic cannon， which is actually a kinetic weapon with 3 barrels， and the shooting method is high-precision 3-round burst. It is expensive and has powerful weapon performance. However， it's too sophisticated to maintain and has high maintenance costs and wear rate. Still， it is a powerful weapon. \\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is a high-tech weapon smuggled from other countries. It can be classified as a light electromagnetic cannon， which is actually a kinetic weapon with 3 barrels， and the shooting method is high-precision 3-round burst. It is expensive and has powerful weapon performance. However， it's too sophisticated to maintain and has high maintenance costs and wear rate. Still， it is a powerful weapon. \nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7530,11 +7530,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10524": {
+  {
     "index": 171,
     "id": 10524,
     "name": "Flak gun",
-    "description": "A specialized machine gun， can fire bullets that explode at the sight. It excels in anti-air combat while remaining highly effective against ground troops.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A specialized machine gun， can fire bullets that explode at the sight. It excels in anti-air combat while remaining highly effective against ground troops.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7580,11 +7580,11 @@
       }
     ]
   },
-  "10530": {
+  {
     "index": 172,
     "id": 10530,
     "name": "Purgatory ray",
-    "description": "The ultimate form of ray weapons solves the cooling problem of positron guns， making rapid firing possible.\\nAn energy storage mechanism has been added， which can be used to store energy by long pressing and firing. It can emits powerful particle beams that can penetrate the shield， consuming 2 bullets each time.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The ultimate form of ray weapons solves the cooling problem of positron guns， making rapid firing possible.\nAn energy storage mechanism has been added， which can be used to store energy by long pressing and firing. It can emits powerful particle beams that can penetrate the shield， consuming 2 bullets each time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7635,11 +7635,11 @@
       }
     ]
   },
-  "10630": {
+  {
     "index": 173,
     "id": 10630,
     "name": "Glaring Cannon ZM12A1+I54",
-    "description": "A product of combining the ultimate models of ray weapons and electric arc weapons.\\nIt can fire an astonishingly high-energy particle stream. The target hit by the particle stream will be destroyed by sky-burning arcs， leaving nothing but flames.\\nIt's extremely heavy.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "A product of combining the ultimate models of ray weapons and electric arc weapons.\nIt can fire an astonishingly high-energy particle stream. The target hit by the particle stream will be destroyed by sky-burning arcs， leaving nothing but flames.\nIt's extremely heavy.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7683,11 +7683,11 @@
       }
     ]
   },
-  "10533": {
+  {
     "index": 174,
     "id": 10533,
     "name": "Thor Burning Cannon",
-    "description": "The ultimate form of arc weapons is further enhanced with attributes based on the Thor Cannon. Wherever an arc strikes， it leaves behind a blazing flame， like a god of thunder descending to earth.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The ultimate form of arc weapons is further enhanced with attributes based on the Thor Cannon. Wherever an arc strikes， it leaves behind a blazing flame， like a god of thunder descending to earth.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7736,11 +7736,11 @@
       }
     ]
   },
-  "10544": {
+  {
     "index": 175,
     "id": 10544,
     "name": "Plasma Energy Cannon",
-    "description": "This is the ultimate version of the plasma weapon. It can fire multiple plasma balls and deal massive damage.\\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "description": "This is the ultimate version of the plasma weapon. It can fire multiple plasma balls and deal massive damage.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All",
@@ -7787,11 +7787,11 @@
       }
     ]
   },
-  "10050": {
+  {
     "index": 176,
     "id": 10050,
     "name": "Power Gloves",
-    "description": "The gloves have a low damage output but can knock back enemies.\\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The gloves have a low damage output but can knock back enemies.\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -7822,11 +7822,11 @@
     "weaponIds": [],
     "materials": []
   },
-  "10051": {
+  {
     "index": 177,
     "id": 10051,
     "name": "High-Power Gloves",
-    "description": "Its heavy weight allows for higher damage output and knock-back range.\\n[Combo attack]After several light hits， smash the ground and cause a short time stun to the enemy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Its heavy weight allows for higher damage output and knock-back range.\n[Combo attack]After several light hits， smash the ground and cause a short time stun to the enemy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -7870,11 +7870,11 @@
       }
     ]
   },
-  "10052": {
+  {
     "index": 178,
     "id": 10052,
     "name": "Lightsaber",
-    "description": "Slashes targets.\\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Slashes targets.\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -7919,11 +7919,11 @@
       }
     ]
   },
-  "10053": {
+  {
     "index": 179,
     "id": 10053,
     "name": "Photon Naginata",
-    "description": "Slashes targets with faster speed.\\n[Combo attack]After multiple light strikes， perform a multi-stage slash ahead\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Slashes targets with faster speed.\n[Combo attack]After multiple light strikes， perform a multi-stage slash ahead\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -7970,11 +7970,11 @@
       }
     ]
   },
-  "10054": {
+  {
     "index": 180,
     "id": 10054,
     "name": "Lightning Ax",
-    "description": "Slashes enemies in a large radius with adequate strength damage.\\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Slashes enemies in a large radius with adequate strength damage.\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8021,11 +8021,11 @@
       }
     ]
   },
-  "10055": {
+  {
     "index": 181,
     "id": 10055,
     "name": "High-Power Lightning Axe",
-    "description": "Slashes enemies in a large radius with high strength damage. \\n[Combo attack]The final attack can release powerful sword energy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Slashes enemies in a large radius with high strength damage. \n[Combo attack]The final attack can release powerful sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8082,11 +8082,11 @@
       }
     ]
   },
-  "10056": {
+  {
     "index": 182,
     "id": 10056,
     "name": "Light Spear",
-    "description": "Thrusts enemies.\\n[Combo attack]The final thrust will cause the body to sprint forward\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Thrusts enemies.\n[Combo attack]The final thrust will cause the body to sprint forward\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8132,11 +8132,11 @@
       }
     ]
   },
-  "10057": {
+  {
     "index": 183,
     "id": 10057,
     "name": "Light Gun",
-    "description": "Thrusts enemies. faster than the light spear.\\n[Combo attack]After several light strikes， perform a multiple spikes in front of you\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Thrusts enemies. faster than the light spear.\n[Combo attack]After several light strikes， perform a multiple spikes in front of you\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8189,11 +8189,11 @@
       }
     ]
   },
-  "10058": {
+  {
     "index": 184,
     "id": 10058,
     "name": "Light Halberd",
-    "description": "Thrusts enemies with Long range.\\n[Combo attack]The final attack can release powerful sword energy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Thrusts enemies with Long range.\n[Combo attack]The final attack can release powerful sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8246,11 +8246,11 @@
       }
     ]
   },
-  "10059": {
+  {
     "index": 185,
     "id": 10059,
     "name": "Electric Wakizashi",
-    "description": "Capable of slashing multiple times in a certain radius.\\n[Combo attack]Normal attack and Combo attack can both deal a sword energy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Capable of slashing multiple times in a certain radius.\n[Combo attack]Normal attack and Combo attack can both deal a sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8282,11 +8282,11 @@
     ],
     "materials": []
   },
-  "10065": {
+  {
     "index": 186,
     "id": 10065,
     "name": "Electric Dagger",
-    "description": "Weapons that can be used for assassination after being equipped.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Weapons that can be used for assassination after being equipped.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8319,11 +8319,11 @@
     ],
     "materials": []
   },
-  "10063": {
+  {
     "index": 187,
     "id": 10063,
     "name": "Sharp shield",
-    "description": "After equipping， it can cover a small area in front of the body， and the shooting operation is to perform a shield reaction. If you successfully counter the enemy's melee attack， it can cause a stun effect on the enemy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "After equipping， it can cover a small area in front of the body， and the shooting operation is to perform a shield reaction. If you successfully counter the enemy's melee attack， it can cause a stun effect on the enemy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8368,11 +8368,11 @@
       }
     ]
   },
-  "10151": {
+  {
     "index": 188,
     "id": 10151,
     "name": "Super High-Power Gloves",
-    "description": "Its heavy weight allows for higher damage output and knock-back range.\\n[Combo attack]After several light hits， smash the ground and cause a long time stun to the enemy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Its heavy weight allows for higher damage output and knock-back range.\n[Combo attack]After several light hits， smash the ground and cause a long time stun to the enemy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8403,11 +8403,11 @@
     ],
     "materials": []
   },
-  "10152": {
+  {
     "index": 189,
     "id": 10152,
     "name": "Lightsabre S2",
-    "description": "Slashes targets.\\n[Combo attack]The final attack can release powerful sword energy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Slashes targets.\n[Combo attack]The final attack can release powerful sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8440,11 +8440,11 @@
     ],
     "materials": []
   },
-  "10153": {
+  {
     "index": 190,
     "id": 10153,
     "name": "Photon Naginata M3",
-    "description": "Slashes targets with faster speed.\\n[Combo attack]After multiple light strikes， perform a strong multi-stage slash ahead\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Slashes targets with faster speed.\n[Combo attack]After multiple light strikes， perform a strong multi-stage slash ahead\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8477,11 +8477,11 @@
     ],
     "materials": []
   },
-  "10154": {
+  {
     "index": 191,
     "id": 10154,
     "name": "Lightning Axe M",
-    "description": "Slashes enemies in a large radius with adequate strength damage.\\n[Combo attack]The final attack can release powerful sword energy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Slashes enemies in a large radius with adequate strength damage.\n[Combo attack]The final attack can release powerful sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8514,11 +8514,11 @@
     ],
     "materials": []
   },
-  "10155": {
+  {
     "index": 192,
     "id": 10155,
     "name": "High-Power Lightning Axe M",
-    "description": "Slashes enemies in a large radius with high strength damage. \\n[Combo attack]Normal attack and Combo attack can both deal a sword energy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Slashes enemies in a large radius with high strength damage. \n[Combo attack]Normal attack and Combo attack can both deal a sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8549,11 +8549,11 @@
     ],
     "materials": []
   },
-  "10156": {
+  {
     "index": 193,
     "id": 10156,
     "name": "Light Spear S",
-    "description": "Thrusts enemies.\\n[Combo attack]The final thrust will cause the body to sprint forward and deal a heavy strike\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Thrusts enemies.\n[Combo attack]The final thrust will cause the body to sprint forward and deal a heavy strike\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8587,11 +8587,11 @@
     ],
     "materials": []
   },
-  "10157": {
+  {
     "index": 194,
     "id": 10157,
     "name": "Light Gun S",
-    "description": "Thrusts enemies. faster than the light spear.\\n[Combo attack]After several light strikes， perform a strong multiple spikes in front of you\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Thrusts enemies. faster than the light spear.\n[Combo attack]After several light strikes， perform a strong multiple spikes in front of you\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8625,11 +8625,11 @@
     ],
     "materials": []
   },
-  "10158": {
+  {
     "index": 195,
     "id": 10158,
     "name": "High-Power Light Halberd",
-    "description": "Thrusts enemies with Long range.\\n[Combo attack]Normal attack and Combo attack can both deal a sword energy\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Thrusts enemies with Long range.\n[Combo attack]Normal attack and Combo attack can both deal a sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8663,11 +8663,11 @@
     ],
     "materials": []
   },
-  "10159": {
+  {
     "index": 196,
     "id": 10159,
     "name": "High-Power Electric Wakizashi",
-    "description": "Capable of slashing multiple times in a certain radius.\\n[Combo attack]Normal attack and Combo attack can both deal a sword energy and the last sword energy is enhanced\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "Capable of slashing multiple times in a certain radius.\n[Combo attack]Normal attack and Combo attack can both deal a sword energy and the last sword energy is enhanced\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8697,11 +8697,11 @@
     ],
     "materials": []
   },
-  "10165": {
+  {
     "index": 197,
     "id": 10165,
     "name": "High-Power Electric Dagger",
-    "description": "The enhanced version of the Electric Dagger，The performance has not changed， but the slot size has increased.\\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "description": "The enhanced version of the Electric Dagger，The performance has not changed， but the slot size has increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
@@ -8732,11 +8732,11 @@
     ],
     "materials": []
   },
-  "1250": {
+  {
     "index": 198,
     "id": 1250,
     "name": "Shoulder-mounted Rocket Launcher",
-    "description": "Mounts a rocket launcher on the shoulder that shoots rockets， effective against large groups far away. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts a rocket launcher on the shoulder that shoots rockets， effective against large groups far away. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -8790,11 +8790,11 @@
       }
     ]
   },
-  "1251": {
+  {
     "index": 199,
     "id": 1251,
     "name": "Heavy Shoulder-mounted Rocket Launcher",
-    "description": "Mounts a heavy rocket launcher on the shoulder that shoots rockets， effective against large groups far away. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts a heavy rocket launcher on the shoulder that shoots rockets， effective against large groups far away. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -8835,11 +8835,11 @@
     ],
     "materials": []
   },
-  "1252": {
+  {
     "index": 200,
     "id": 1252,
     "name": "Shoulder-mounted Cannon",
-    "description": "Mounts a rocket launcher on the shoulder that shoots cluster bombs. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts a rocket launcher on the shoulder that shoots cluster bombs. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -8892,11 +8892,11 @@
       }
     ]
   },
-  "1253": {
+  {
     "index": 201,
     "id": 1253,
     "name": "Heavy Shoulder-mounted Cannon",
-    "description": "Mounts a heavy rocket launcher on the shoulder that shoots cluster bombs. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts a heavy rocket launcher on the shoulder that shoots cluster bombs. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -8935,11 +8935,11 @@
     ],
     "materials": []
   },
-  "1254": {
+  {
     "index": 202,
     "id": 1254,
     "name": "Shoulder-mounted Aircraft Artillery",
-    "description": "Mounts aircraft artillery on the shoulder that shoots machine guns，The weapon has good air and ground suppression effects. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts aircraft artillery on the shoulder that shoots machine guns，The weapon has good air and ground suppression effects. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -8992,11 +8992,11 @@
       }
     ]
   },
-  "1255": {
+  {
     "index": 203,
     "id": 1255,
     "name": "Shoulder-mounted Phalanx",
-    "description": "Mounts a cluster array on the shoulder that shoots machine guns，The weapon has good air and ground suppression effects. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts a cluster array on the shoulder that shoots machine guns，The weapon has good air and ground suppression effects. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -9035,11 +9035,11 @@
     ],
     "materials": []
   },
-  "1256": {
+  {
     "index": 204,
     "id": 1256,
     "name": "Shoulder-mounted EMP",
-    "description": "Mounts an EMP on the shoulder that paralyzes enemies in a small radius. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts an EMP on the shoulder that paralyzes enemies in a small radius. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -9088,11 +9088,11 @@
       }
     ]
   },
-  "1257": {
+  {
     "index": 205,
     "id": 1257,
     "name": "Heavy Shoulder-mounted EMP",
-    "description": "Mounts an EMP on the shoulder that paralyzes enemies in a large radius. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts an EMP on the shoulder that paralyzes enemies in a large radius. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -9131,11 +9131,11 @@
     ],
     "materials": []
   },
-  "1258": {
+  {
     "index": 206,
     "id": 1258,
     "name": "Shoulder-mounted Anti-air missile Launcher",
-    "description": "Mounts a rocket launcher on the shoulder that shoots Anti-air missiles，it will prioritize attacking flying units and have good suppression ability against flying units . Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts a rocket launcher on the shoulder that shoots Anti-air missiles，it will prioritize attacking flying units and have good suppression ability against flying units . Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -9195,11 +9195,11 @@
       }
     ]
   },
-  "1259": {
+  {
     "index": 207,
     "id": 1259,
     "name": "Heavy Shoulder-mounted Anti-air missile Launcher",
-    "description": "Mounts a heavy rocket launcher on the shoulder that shoots Anti-air missiles，it will prioritize attacking flying units and have good suppression ability against flying units. Cooldown: <D1>s.\\n(Activated in Strategy)\\nMovement speed: <D2>%; rotational speed: <D3>%",
+    "description": "Mounts a heavy rocket launcher on the shoulder that shoots Anti-air missiles，it will prioritize attacking flying units and have good suppression ability against flying units. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -9242,11 +9242,11 @@
     ],
     "materials": []
   },
-  "1260": {
+  {
     "index": 208,
     "id": 1260,
     "name": "Shoulder-mounted Slicing Ray",
-    "description": "Mounts a slicing ray on your shoulder and it's more powerful and lasting than the handheld slicing ray.\\nCooldown: <D1>s\\n(Activated in Strategy)\\nMovement speed: <D2>%， Rotational speed: <D3>%.",
+    "description": "Mounts a slicing ray on your shoulder and it's more powerful and lasting than the handheld slicing ray.\nCooldown: <D1>s\n(Activated in Strategy)\nMovement speed: <D2>%， Rotational speed: <D3>%.",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -9305,11 +9305,11 @@
       }
     ]
   },
-  "1261": {
+  {
     "index": 209,
     "id": 1261,
     "name": "Heavy Shoulder-mounted Slicing Ray",
-    "description": "Mounts a slicing ray on your shoulder and it's more powerful and lasting than the normal one.\\nCooldown: <D1>s\\n(Activated in Strategy)\\nMovement speed: <D2>%， Rotational speed: <D3>%.",
+    "description": "Mounts a slicing ray on your shoulder and it's more powerful and lasting than the normal one.\nCooldown: <D1>s\n(Activated in Strategy)\nMovement speed: <D2>%， Rotational speed: <D3>%.",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -9368,11 +9368,11 @@
       }
     ]
   },
-  "1262": {
+  {
     "index": 210,
     "id": 1262,
     "name": "Strike-Type Dual Missile Launcher",
-    "description": "Mounts a rocket launcher on your shoulder that can fire two rockets at the same time. These rockets have short cooldown time and can suppress the enemy continuously.\\nCooldown: <D1>s\\n(Activated in Strategy)\\nMovement speed: <D2>%， Rotational speed: <D3>%.",
+    "description": "Mounts a rocket launcher on your shoulder that can fire two rockets at the same time. These rockets have short cooldown time and can suppress the enemy continuously.\nCooldown: <D1>s\n(Activated in Strategy)\nMovement speed: <D2>%， Rotational speed: <D3>%.",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All",
@@ -9429,4 +9429,4 @@
       }
     ]
   }
-}
+]

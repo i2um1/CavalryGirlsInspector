@@ -1,5 +1,5 @@
-{
-  "2001": {
+[
+  {
     "index": 0,
     "id": 2001,
     "name": "Differential",
@@ -39,7 +39,7 @@
       }
     ]
   },
-  "2002": {
+  {
     "index": 1,
     "id": 2002,
     "name": "Differential+",
@@ -64,7 +64,7 @@
     ],
     "materials": []
   },
-  "2003": {
+  {
     "index": 2,
     "id": 2003,
     "name": "Advanced Differential",
@@ -89,7 +89,7 @@
     ],
     "materials": []
   },
-  "2004": {
+  {
     "index": 3,
     "id": 2004,
     "name": "Standard Differential",
@@ -114,7 +114,7 @@
     ],
     "materials": []
   },
-  "2005": {
+  {
     "index": 4,
     "id": 2005,
     "name": "Choke",
@@ -158,7 +158,7 @@
       }
     ]
   },
-  "2006": {
+  {
     "index": 5,
     "id": 2006,
     "name": "Choke+",
@@ -202,7 +202,7 @@
     ],
     "materials": []
   },
-  "2007": {
+  {
     "index": 6,
     "id": 2007,
     "name": "Advanced Choke",
@@ -228,7 +228,7 @@
     ],
     "materials": []
   },
-  "2008": {
+  {
     "index": 7,
     "id": 2008,
     "name": "Standard Choke",
@@ -254,11 +254,11 @@
     ],
     "materials": []
   },
-  "2009": {
+  {
     "index": 8,
     "id": 2009,
     "name": "Magazine",
-    "description": "Increases bullets shot by <D0>%.\\n(affects only spreadshots)",
+    "description": "Increases bullets shot by <D0>%.\n(affects only spreadshots)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Spreadshot"
@@ -316,11 +316,11 @@
       }
     ]
   },
-  "2010": {
+  {
     "index": 9,
     "id": 2010,
     "name": "Magazine+",
-    "description": "Increases bullets shot by <D0>%.\\n(affects only spreadshots)",
+    "description": "Increases bullets shot by <D0>%.\n(affects only spreadshots)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Spreadshot"
@@ -339,11 +339,11 @@
     ],
     "materials": []
   },
-  "2011": {
+  {
     "index": 10,
     "id": 2011,
     "name": "Advanced Magazine",
-    "description": "Increases bullets shot by <D0>%.\\n(affects only spreadshots)",
+    "description": "Increases bullets shot by <D0>%.\n(affects only spreadshots)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Spreadshot"
@@ -362,11 +362,11 @@
     ],
     "materials": []
   },
-  "2012": {
+  {
     "index": 11,
     "id": 2012,
     "name": "Standard Magazine",
-    "description": "Increases bullets shot by <D0>%.\\n(affects only spreadshots)",
+    "description": "Increases bullets shot by <D0>%.\n(affects only spreadshots)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Spreadshot"
@@ -385,7 +385,7 @@
     ],
     "materials": []
   },
-  "2013": {
+  {
     "index": 12,
     "id": 2013,
     "name": "Drum Magazine",
@@ -423,7 +423,7 @@
       }
     ]
   },
-  "2014": {
+  {
     "index": 13,
     "id": 2014,
     "name": "Drum Magazine+",
@@ -446,7 +446,7 @@
     ],
     "materials": []
   },
-  "2015": {
+  {
     "index": 14,
     "id": 2015,
     "name": "Advanced Drum Magazine",
@@ -469,7 +469,7 @@
     ],
     "materials": []
   },
-  "2016": {
+  {
     "index": 15,
     "id": 2016,
     "name": "Standard Drum Magazine",
@@ -492,7 +492,7 @@
     ],
     "materials": []
   },
-  "2017": {
+  {
     "index": 16,
     "id": 2017,
     "name": "Reloading Module",
@@ -534,11 +534,11 @@
       }
     ]
   },
-  "2018": {
+  {
     "index": 17,
     "id": 2018,
     "name": "Reloading Module+",
-    "description": "Reload Speed <D0>%.\\nWear rate <D1>%.",
+    "description": "Reload Speed <D0>%.\nWear rate <D1>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All"
@@ -561,11 +561,11 @@
     ],
     "materials": []
   },
-  "2019": {
+  {
     "index": 18,
     "id": 2019,
     "name": "Advanced Reloading Module",
-    "description": "Reload Speed <D0>%.\\nWear rate <D1>%.",
+    "description": "Reload Speed <D0>%.\nWear rate <D1>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All"
@@ -588,11 +588,11 @@
     ],
     "materials": []
   },
-  "2020": {
+  {
     "index": 19,
     "id": 2020,
     "name": "Standard Reloading Module",
-    "description": "Reload Speed <D0>%.\\nWear rate <D1>%.",
+    "description": "Reload Speed <D0>%.\nWear rate <D1>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "All"
@@ -615,7 +615,7 @@
     ],
     "materials": []
   },
-  "2021": {
+  {
     "index": 20,
     "id": 2021,
     "name": "Spitzer Bullet",
@@ -657,7 +657,7 @@
       }
     ]
   },
-  "2022": {
+  {
     "index": 21,
     "id": 2022,
     "name": "Spitzer Bullet+",
@@ -680,7 +680,7 @@
     ],
     "materials": []
   },
-  "2023": {
+  {
     "index": 22,
     "id": 2023,
     "name": "Advanced Spitzer Bullet",
@@ -703,7 +703,7 @@
     ],
     "materials": []
   },
-  "2024": {
+  {
     "index": 23,
     "id": 2024,
     "name": "Standard Spitzer Bullet",
@@ -726,7 +726,7 @@
     ],
     "materials": []
   },
-  "2025": {
+  {
     "index": 24,
     "id": 2025,
     "name": "Damage Module",
@@ -768,11 +768,11 @@
       }
     ]
   },
-  "2026": {
+  {
     "index": 25,
     "id": 2026,
     "name": "Damage Module+",
-    "description": "Increases bullet damage by <D0>%.\\nDamage to shields <D1>%",
+    "description": "Increases bullet damage by <D0>%.\nDamage to shields <D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -795,11 +795,11 @@
     ],
     "materials": []
   },
-  "2027": {
+  {
     "index": 26,
     "id": 2027,
     "name": "Advanced Damage Module",
-    "description": "Increases bullet damage by <D0>%.\\nDamage to shields <D1>%",
+    "description": "Increases bullet damage by <D0>%.\nDamage to shields <D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -822,11 +822,11 @@
     ],
     "materials": []
   },
-  "2028": {
+  {
     "index": 27,
     "id": 2028,
     "name": "Standard Damage Module",
-    "description": "Increases bullet damage by <D0>%.\\nDamage to shields <D1>%",
+    "description": "Increases bullet damage by <D0>%.\nDamage to shields <D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -849,7 +849,7 @@
     ],
     "materials": []
   },
-  "2029": {
+  {
     "index": 28,
     "id": 2029,
     "name": "Hard Warhead Module",
@@ -889,7 +889,7 @@
       }
     ]
   },
-  "2030": {
+  {
     "index": 29,
     "id": 2030,
     "name": "Hard Warhead Module+",
@@ -912,7 +912,7 @@
     ],
     "materials": []
   },
-  "2031": {
+  {
     "index": 30,
     "id": 2031,
     "name": "Advanced Hard Warhead Module",
@@ -935,7 +935,7 @@
     ],
     "materials": []
   },
-  "2032": {
+  {
     "index": 31,
     "id": 2032,
     "name": "Standard Hard Warhead Module",
@@ -958,11 +958,11 @@
     ],
     "materials": []
   },
-  "2033": {
+  {
     "index": 32,
     "id": 2033,
     "name": "Fire Module",
-    "description": "Increases burning damage rate by <D0>%.\\n(burning time is based on bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1006,11 +1006,11 @@
       }
     ]
   },
-  "2034": {
+  {
     "index": 33,
     "id": 2034,
     "name": "Fire Module+",
-    "description": "Increases burning damage rate by <D0>%.\\n(burning time is based on bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1029,11 +1029,11 @@
     ],
     "materials": []
   },
-  "2035": {
+  {
     "index": 34,
     "id": 2035,
     "name": "Fire Module++",
-    "description": "Increases burning damage rate by <D0>%.\\n(burning time is based on bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1052,11 +1052,11 @@
     ],
     "materials": []
   },
-  "2036": {
+  {
     "index": 35,
     "id": 2036,
     "name": "Electromagnetic Module",
-    "description": "Increases Paralysis damage rate by <D0>%.\\n(paralyzing time is based on bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1100,11 +1100,11 @@
       }
     ]
   },
-  "2037": {
+  {
     "index": 36,
     "id": 2037,
     "name": "Electromagnetic Module+",
-    "description": "Increases Paralysis damage rate by <D0>%.\\n(paralyzing time is based on bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1123,11 +1123,11 @@
     ],
     "materials": []
   },
-  "2038": {
+  {
     "index": 37,
     "id": 2038,
     "name": "Electromagnetic Module++",
-    "description": "Increases Paralysis damage rate by <D0>%.\\n(paralyzing time is based on bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1146,11 +1146,11 @@
     ],
     "materials": []
   },
-  "2039": {
+  {
     "index": 38,
     "id": 2039,
     "name": "Frost Module",
-    "description": "Increases Cold damage rate by <D0>%.\\n(freezing time is based on bullet damage )\\n(affects only kinetic weapons)",
+    "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1194,11 +1194,11 @@
       }
     ]
   },
-  "2040": {
+  {
     "index": 39,
     "id": 2040,
     "name": "Frost Module+",
-    "description": "Increases Cold damage rate by <D0>%.\\n(freezing time is based on bullet damage )\\n(affects only kinetic weapons)",
+    "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1217,11 +1217,11 @@
     ],
     "materials": []
   },
-  "2041": {
+  {
     "index": 40,
     "id": 2041,
     "name": "Frost Module++",
-    "description": "Increases Cold damage rate by <D0>%.\\n(freezing time is based on bullet damage )\\n(affects only kinetic weapons)",
+    "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1240,7 +1240,7 @@
     ],
     "materials": []
   },
-  "2066": {
+  {
     "index": 41,
     "id": 2066,
     "name": "Crit Module",
@@ -1289,11 +1289,11 @@
       }
     ]
   },
-  "2067": {
+  {
     "index": 42,
     "id": 2067,
     "name": "Crit Module+",
-    "description": "Increases crit rate by <D0>.\\nReload time +<D1>%",
+    "description": "Increases crit rate by <D0>.\nReload time +<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -1318,11 +1318,11 @@
     ],
     "materials": []
   },
-  "2068": {
+  {
     "index": 43,
     "id": 2068,
     "name": "Advanced Crit Module",
-    "description": "Increases crit rate by <D0>.\\nReload time +<D1>%",
+    "description": "Increases crit rate by <D0>.\nReload time +<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -1347,11 +1347,11 @@
     ],
     "materials": []
   },
-  "2069": {
+  {
     "index": 44,
     "id": 2069,
     "name": "Standard Crit Module",
-    "description": "Increases crit rate by <D0>.\\nReload time +<D1>%",
+    "description": "Increases crit rate by <D0>.\nReload time +<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -1376,7 +1376,7 @@
     ],
     "materials": []
   },
-  "2070": {
+  {
     "index": 45,
     "id": 2070,
     "name": "Crit Damage Module",
@@ -1426,11 +1426,11 @@
       }
     ]
   },
-  "2071": {
+  {
     "index": 46,
     "id": 2071,
     "name": "Crit Damage Module+",
-    "description": "Increases crit damage by <D0>%.\\nReload time +<D1>%",
+    "description": "Increases crit damage by <D0>%.\nReload time +<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -1455,11 +1455,11 @@
     ],
     "materials": []
   },
-  "2072": {
+  {
     "index": 47,
     "id": 2072,
     "name": "Advanced Crit Damage Module",
-    "description": "Increases crit damage by <D0>%.\\nReload time +<D1>%",
+    "description": "Increases crit damage by <D0>%.\nReload time +<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -1484,11 +1484,11 @@
     ],
     "materials": []
   },
-  "2073": {
+  {
     "index": 48,
     "id": 2073,
     "name": "Standard Crit Damage Module",
-    "description": "Increases crit damage by <D0>%.\\nReload time +<D1>%",
+    "description": "Increases crit damage by <D0>%.\nReload time +<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -1513,11 +1513,11 @@
     ],
     "materials": []
   },
-  "2074": {
+  {
     "index": 49,
     "id": 2074,
     "name": "ArP Module 1",
-    "description": "Increases armor penetration by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases armor penetration by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1551,11 +1551,11 @@
       }
     ]
   },
-  "2075": {
+  {
     "index": 50,
     "id": 2075,
     "name": "ArP Module 2",
-    "description": "Increases armor penetration by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases armor penetration by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1574,11 +1574,11 @@
     ],
     "materials": []
   },
-  "2076": {
+  {
     "index": 51,
     "id": 2076,
     "name": "ArP Module 3",
-    "description": "Increases armor penetration by <D0>%.\\nDamage to shields <D1>%\\n(affects only kinetic weapons)",
+    "description": "Increases armor penetration by <D0>%.\nDamage to shields <D1>%\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1601,11 +1601,11 @@
     ],
     "materials": []
   },
-  "2077": {
+  {
     "index": 52,
     "id": 2077,
     "name": "ArP Module 4",
-    "description": "Increases armor penetration by <D0>%.\\nDamage to shields <D1>%\\n(affects only kinetic weapons)",
+    "description": "Increases armor penetration by <D0>%.\nDamage to shields <D1>%\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1628,11 +1628,11 @@
     ],
     "materials": []
   },
-  "2078": {
+  {
     "index": 53,
     "id": 2078,
     "name": "ArP Bullet Module",
-    "description": "Increases armor penetration by <D0>%.\\nDamage by <D1>%.\\n(affects only kinetic weapons)",
+    "description": "Increases armor penetration by <D0>%.\nDamage by <D1>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1668,11 +1668,11 @@
       }
     ]
   },
-  "2079": {
+  {
     "index": 54,
     "id": 2079,
     "name": "ArP Bullet Module+",
-    "description": "Increases armor penetration by <D0>%.\\nDamage by <D1>%.\\n(affects only kinetic weapons)",
+    "description": "Increases armor penetration by <D0>%.\nDamage by <D1>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1695,11 +1695,11 @@
     ],
     "materials": []
   },
-  "2080": {
+  {
     "index": 55,
     "id": 2080,
     "name": "ArP Bullet Module++",
-    "description": "Increases armor penetration by <D0>%.\\nDamage by <D1>%.\\n(affects only kinetic weapons)",
+    "description": "Increases armor penetration by <D0>%.\nDamage by <D1>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1722,11 +1722,11 @@
     ],
     "materials": []
   },
-  "2081": {
+  {
     "index": 56,
     "id": 2081,
     "name": "Soft-Point Bullet Module",
-    "description": "Increases damage by <D0>%.\\nArmor Penetration by <D1>%.",
+    "description": "Increases damage by <D0>%.\nArmor Penetration by <D1>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1764,11 +1764,11 @@
       }
     ]
   },
-  "2082": {
+  {
     "index": 57,
     "id": 2082,
     "name": "Soft-Point Bullet Module+",
-    "description": "Increases damage by <D0>%.\\nArmor Penetration by <D1>%.\\nDamage to shields <D2>%.",
+    "description": "Increases damage by <D0>%.\nArmor Penetration by <D1>%.\nDamage to shields <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1795,11 +1795,11 @@
     ],
     "materials": []
   },
-  "2083": {
+  {
     "index": 58,
     "id": 2083,
     "name": "Soft-Point Bullet Module++",
-    "description": "Increases damage by <D0>%.\\nArmor Penetration by <D1>%.\\nDamage to shields <D2>%.",
+    "description": "Increases damage by <D0>%.\nArmor Penetration by <D1>%.\nDamage to shields <D2>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1826,11 +1826,11 @@
     ],
     "materials": []
   },
-  "2084": {
+  {
     "index": 59,
     "id": 2084,
     "name": "Energetic Bullet Module 1",
-    "description": "Increases damage against shields by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against shields by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1868,11 +1868,11 @@
       }
     ]
   },
-  "2085": {
+  {
     "index": 60,
     "id": 2085,
     "name": "Energetic Bullet Module 2",
-    "description": "Increases damage against shields by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against shields by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1891,11 +1891,11 @@
     ],
     "materials": []
   },
-  "2086": {
+  {
     "index": 61,
     "id": 2086,
     "name": "Energetic Bullet Module 3",
-    "description": "Increases damage against shields by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against shields by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1914,11 +1914,11 @@
     ],
     "materials": []
   },
-  "2087": {
+  {
     "index": 62,
     "id": 2087,
     "name": "Energetic Bullet Module 4",
-    "description": "Increases damage against shields by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against shields by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -1937,11 +1937,11 @@
     ],
     "materials": []
   },
-  "2088": {
+  {
     "index": 63,
     "id": 2088,
     "name": "Advanced Energetic Bullet Module 1",
-    "description": "Increases damage against shields by <D0>%.\\n(affects only kinetic weapons)\\nDamage by <D1>%.",
+    "description": "Increases damage against shields by <D0>%.\n(affects only kinetic weapons)\nDamage by <D1>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Magnetoelectric"
@@ -1966,11 +1966,11 @@
     ],
     "materials": []
   },
-  "2089": {
+  {
     "index": 64,
     "id": 2089,
     "name": "Advanced Energetic Bullet Module 2",
-    "description": "Increases damage against shields by <D0>%.\\n(affects only kinetic weapons)\\nDamage by <D1>%.",
+    "description": "Increases damage against shields by <D0>%.\n(affects only kinetic weapons)\nDamage by <D1>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Magnetoelectric"
@@ -1993,11 +1993,11 @@
     ],
     "materials": []
   },
-  "2090": {
+  {
     "index": 65,
     "id": 2090,
     "name": "Advanced Energetic Bullet Module 3",
-    "description": "Increases damage against shields by <D0>%.\\n(affects only kinetic weapons)\\nDamage by <D1>%.",
+    "description": "Increases damage against shields by <D0>%.\n(affects only kinetic weapons)\nDamage by <D1>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Magnetoelectric"
@@ -2020,11 +2020,11 @@
     ],
     "materials": []
   },
-  "2091": {
+  {
     "index": 66,
     "id": 2091,
     "name": "Advanced Energetic Bullet Module 4",
-    "description": "Increases damage against shields by <D0>%.\\n(affects only kinetic weapons)\\nDamage by <D1>%.",
+    "description": "Increases damage against shields by <D0>%.\n(affects only kinetic weapons)\nDamage by <D1>%.",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Magnetoelectric"
@@ -2047,11 +2047,11 @@
     ],
     "materials": []
   },
-  "2092": {
+  {
     "index": 67,
     "id": 2092,
     "name": "Explosion Module",
-    "description": "Increases bullet explosion rate by <D0>%.\\n(+1% for every 100 bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases bullet explosion rate by <D0>%.\n(+1% for every 100 bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2086,11 +2086,11 @@
       }
     ]
   },
-  "2093": {
+  {
     "index": 68,
     "id": 2093,
     "name": "Explosion Module+",
-    "description": "Increases bullet explosion rate by <D0>%.\\n(+1% for every 100 bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases bullet explosion rate by <D0>%.\n(+1% for every 100 bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2109,11 +2109,11 @@
     ],
     "materials": []
   },
-  "2094": {
+  {
     "index": 69,
     "id": 2094,
     "name": "Advanced Explosion Module",
-    "description": "Increases bullet explosion rate by <D0>%.\\n(+1% for every 100 bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases bullet explosion rate by <D0>%.\n(+1% for every 100 bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2132,11 +2132,11 @@
     ],
     "materials": []
   },
-  "2095": {
+  {
     "index": 70,
     "id": 2095,
     "name": "Standard Explosion Module",
-    "description": "Increases bullet explosion rate by <D0>%.\\n(+1% for every 100 bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases bullet explosion rate by <D0>%.\n(+1% for every 100 bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2155,11 +2155,11 @@
     ],
     "materials": []
   },
-  "2096": {
+  {
     "index": 71,
     "id": 2096,
     "name": "Splitter Module",
-    "description": "Increases bullet splitting rate by <D0>%.\\n(every bounce has a chance of splitting; +1% for every 100 bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases bullet splitting rate by <D0>%.\n(every bounce has a chance of splitting; +1% for every 100 bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2193,11 +2193,11 @@
       }
     ]
   },
-  "2097": {
+  {
     "index": 72,
     "id": 2097,
     "name": "Splitter Module+",
-    "description": "Increases bullet splitting rate by <D0>%.\\n(every bounce has a chance of splitting; +1% for every 100 bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases bullet splitting rate by <D0>%.\n(every bounce has a chance of splitting; +1% for every 100 bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2216,11 +2216,11 @@
     ],
     "materials": []
   },
-  "2098": {
+  {
     "index": 73,
     "id": 2098,
     "name": "Advanced Splitter Module",
-    "description": "Increases bullet splitting rate by <D0>%.\\n(every bounce has a chance of splitting; +1% for every 100 bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases bullet splitting rate by <D0>%.\n(every bounce has a chance of splitting; +1% for every 100 bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2239,11 +2239,11 @@
     ],
     "materials": []
   },
-  "2099": {
+  {
     "index": 74,
     "id": 2099,
     "name": "Standard Splitter Module",
-    "description": "Increases bullet splitting rate by <D0>%.\\n(every bounce has a chance of splitting; +1% for every 100 bullet damage)\\n(affects only kinetic weapons)",
+    "description": "Increases bullet splitting rate by <D0>%.\n(every bounce has a chance of splitting; +1% for every 100 bullet damage)\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2262,11 +2262,11 @@
     ],
     "materials": []
   },
-  "2100": {
+  {
     "index": 75,
     "id": 2100,
     "name": "Decapitation Module",
-    "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2314,11 +2314,11 @@
       }
     ]
   },
-  "2101": {
+  {
     "index": 76,
     "id": 2101,
     "name": "Decapitation Module+",
-    "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2337,11 +2337,11 @@
     ],
     "materials": []
   },
-  "2102": {
+  {
     "index": 77,
     "id": 2102,
     "name": "Decapitation Module++",
-    "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2360,11 +2360,11 @@
     ],
     "materials": []
   },
-  "2103": {
+  {
     "index": 78,
     "id": 2103,
     "name": "First-Attack Module",
-    "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2412,11 +2412,11 @@
       }
     ]
   },
-  "2104": {
+  {
     "index": 79,
     "id": 2104,
     "name": "First-Attack Module+",
-    "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2435,11 +2435,11 @@
     ],
     "materials": []
   },
-  "2105": {
+  {
     "index": 80,
     "id": 2105,
     "name": "First-Attack Module++",
-    "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2458,11 +2458,11 @@
     ],
     "materials": []
   },
-  "2106": {
+  {
     "index": 81,
     "id": 2106,
     "name": "Crit-Splitter Module",
-    "description": "Splits <D0> bullet(s) on crits.\\n(affects only kinetic weapons)",
+    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -2503,11 +2503,11 @@
       }
     ]
   },
-  "2107": {
+  {
     "index": 82,
     "id": 2107,
     "name": "Crit-Splitter Module+",
-    "description": "Splits <D0> bullet(s) on crits.\\n(affects only kinetic weapons)",
+    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -2528,11 +2528,11 @@
     ],
     "materials": []
   },
-  "2108": {
+  {
     "index": 83,
     "id": 2108,
     "name": "Crit-Splitter Module++",
-    "description": "Splits <D0> bullet(s) on crits.\\n(affects only kinetic weapons)",
+    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic",
@@ -2553,11 +2553,11 @@
     ],
     "materials": []
   },
-  "2109": {
+  {
     "index": 84,
     "id": 2109,
     "name": "Crit Explosion Module",
-    "description": "Bullets explode on crits.\\n(affects only kinetic weapons)\\n(applies only to bullet with a final damage of 500 or more)",
+    "description": "Bullets explode on crits.\n(affects only kinetic weapons)\n(applies only to bullet with a final damage of 500 or more)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -2595,7 +2595,7 @@
       }
     ]
   },
-  "2118": {
+  {
     "index": 85,
     "id": 2118,
     "name": "Execution Module",
@@ -2638,7 +2638,7 @@
       }
     ]
   },
-  "2119": {
+  {
     "index": 86,
     "id": 2119,
     "name": "Execution Module+",
@@ -2664,7 +2664,7 @@
     ],
     "materials": []
   },
-  "2120": {
+  {
     "index": 87,
     "id": 2120,
     "name": "Execution Module++",
@@ -2690,11 +2690,11 @@
     ],
     "materials": []
   },
-  "2155": {
+  {
     "index": 88,
     "id": 2155,
     "name": "Explosion Damage Module 1",
-    "description": "Increases explosion damage by <D0>%\\n(affects only explosive weapons)",
+    "description": "Increases explosion damage by <D0>%\n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive",
@@ -2745,11 +2745,11 @@
       }
     ]
   },
-  "2156": {
+  {
     "index": 89,
     "id": 2156,
     "name": "Explosion Damage Module 2",
-    "description": "Increases explosion damage by <D0>%\\n(affects only explosive weapons)",
+    "description": "Increases explosion damage by <D0>%\n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive",
@@ -2787,11 +2787,11 @@
     ],
     "materials": []
   },
-  "2157": {
+  {
     "index": 90,
     "id": 2157,
     "name": "Explosion Damage Module 3",
-    "description": "Increases explosion damage by <D0>%\\n(affects only explosive weapons)",
+    "description": "Increases explosion damage by <D0>%\n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive",
@@ -2812,11 +2812,11 @@
     ],
     "materials": []
   },
-  "2158": {
+  {
     "index": 91,
     "id": 2158,
     "name": "Explosion Damage Module 4",
-    "description": "Increases explosion damage by <D0>%\\n(affects only explosive weapons)",
+    "description": "Increases explosion damage by <D0>%\n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive",
@@ -2837,11 +2837,11 @@
     ],
     "materials": []
   },
-  "2159": {
+  {
     "index": 92,
     "id": 2159,
     "name": "Fire Bomb Module",
-    "description": "Explosions apply fire damage but increase reload time by <D1>%.\\n(affects only explosive weapons)",
+    "description": "Explosions apply fire damage but increase reload time by <D1>%.\n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -2892,11 +2892,11 @@
       }
     ]
   },
-  "2160": {
+  {
     "index": 93,
     "id": 2160,
     "name": "Ice Bomb Module",
-    "description": "Explosions apply Cold damage but increase reload time by <D1>%. \\n(affects only explosive weapons)",
+    "description": "Explosions apply Cold damage but increase reload time by <D1>%. \n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -2947,11 +2947,11 @@
       }
     ]
   },
-  "2161": {
+  {
     "index": 94,
     "id": 2161,
     "name": "Electromagnetic Bomb Module",
-    "description": "Explosions apply Paralysis damage but increase reload time by <D1>%.\\n(affects only explosive weapons)",
+    "description": "Explosions apply Paralysis damage but increase reload time by <D1>%.\n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -3002,11 +3002,11 @@
       }
     ]
   },
-  "2162": {
+  {
     "index": 95,
     "id": 2162,
     "name": "Magnetic Flux Amplifier 1",
-    "description": "Increases ray damage by <D0>%.\\n(affects only ray and arc weapons)",
+    "description": "Increases ray damage by <D0>%.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Plasma",
@@ -3056,11 +3056,11 @@
       }
     ]
   },
-  "2163": {
+  {
     "index": 96,
     "id": 2163,
     "name": "Magnetic Flux Amplifier 2",
-    "description": "Increases ray damage by <D0>%.\\n(affects only ray and arc weapons)",
+    "description": "Increases ray damage by <D0>%.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Plasma",
@@ -3093,11 +3093,11 @@
     ],
     "materials": []
   },
-  "2164": {
+  {
     "index": 97,
     "id": 2164,
     "name": "Magnetic Flux Amplifier 3",
-    "description": "Increases ray damage by <D0>%.\\n(affects only ray and arc weapons)",
+    "description": "Increases ray damage by <D0>%.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Plasma",
@@ -3130,11 +3130,11 @@
     ],
     "materials": []
   },
-  "2165": {
+  {
     "index": 98,
     "id": 2165,
     "name": "Magnetic Flux Amplifier 4",
-    "description": "Increases ray damage by <D0>%.\\n(affects only ray and arc weapons)",
+    "description": "Increases ray damage by <D0>%.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Plasma",
@@ -3167,11 +3167,11 @@
     ],
     "materials": []
   },
-  "2166": {
+  {
     "index": 99,
     "id": 2166,
     "name": "Synergistic Lens Module 1",
-    "description": "Increases ray range by <D0>%.\\n(affects only ray and arc weapons)",
+    "description": "Increases ray range by <D0>%.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Ray",
@@ -3211,11 +3211,11 @@
       }
     ]
   },
-  "2167": {
+  {
     "index": 100,
     "id": 2167,
     "name": "Synergistic Lens Module 2",
-    "description": "Increases ray range by <D0>%.\\n(affects only ray and arc weapons)",
+    "description": "Increases ray range by <D0>%.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Ray",
@@ -3238,11 +3238,11 @@
     ],
     "materials": []
   },
-  "2168": {
+  {
     "index": 101,
     "id": 2168,
     "name": "Synergistic Lens Module 3",
-    "description": "Increases ray range by <D0>%.\\n(affects only ray and arc weapons)",
+    "description": "Increases ray range by <D0>%.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Ray",
@@ -3265,11 +3265,11 @@
     ],
     "materials": []
   },
-  "2169": {
+  {
     "index": 102,
     "id": 2169,
     "name": "Synergistic Lens Module 4",
-    "description": "Increases ray range by <D0>%.\\n(affects only ray and arc weapons)",
+    "description": "Increases ray range by <D0>%.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Ray",
@@ -3292,11 +3292,11 @@
     ],
     "materials": []
   },
-  "2170": {
+  {
     "index": 103,
     "id": 2170,
     "name": "Laser Fire Module",
-    "description": "Rays apply fire damage but increase reload time by <D1>%. The effect does not stack.\\n(affects only ray and arc weapons)",
+    "description": "Rays apply fire damage but increase reload time by <D1>%. The effect does not stack.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Ray",
@@ -3334,11 +3334,11 @@
       }
     ]
   },
-  "2171": {
+  {
     "index": 104,
     "id": 2171,
     "name": "Laser Frost Module",
-    "description": "Rays apply Cold damage but increase reload time by <D1>%. The effect does not stack.\\n(affects only ray and arc weapons)",
+    "description": "Rays apply Cold damage but increase reload time by <D1>%. The effect does not stack.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Ray",
@@ -3376,11 +3376,11 @@
       }
     ]
   },
-  "2172": {
+  {
     "index": 105,
     "id": 2172,
     "name": "Laser Electromagnetic Module",
-    "description": "Rays apply Paralysis damage but increase reload time by <D1>%. The effect does not stack.\\n(affects only ray and arc weapons)",
+    "description": "Rays apply Paralysis damage but increase reload time by <D1>%. The effect does not stack.\n(affects only ray and arc weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Ray",
@@ -3418,7 +3418,7 @@
       }
     ]
   },
-  "2250": {
+  {
     "index": 106,
     "id": 2250,
     "name": "Stabilizer",
@@ -3456,7 +3456,7 @@
       }
     ]
   },
-  "2251": {
+  {
     "index": 107,
     "id": 2251,
     "name": "Stabilizer 2",
@@ -3480,7 +3480,7 @@
     ],
     "materials": []
   },
-  "2252": {
+  {
     "index": 108,
     "id": 2252,
     "name": "Stabilizer 3",
@@ -3504,7 +3504,7 @@
     ],
     "materials": []
   },
-  "2253": {
+  {
     "index": 109,
     "id": 2253,
     "name": "Maintenance Module",
@@ -3542,7 +3542,7 @@
       }
     ]
   },
-  "2254": {
+  {
     "index": 110,
     "id": 2254,
     "name": "Maintenance Module 2",
@@ -3563,11 +3563,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2255": {
+  {
     "index": 111,
     "id": 2255,
     "name": "Implosion Module",
-    "description": "Increases explosive weapons' damage against structures by <D0>%.\\n(affects only explosive weapons)",
+    "description": "Increases explosive weapons' damage against structures by <D0>%.\n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -3620,11 +3620,11 @@
       }
     ]
   },
-  "2256": {
+  {
     "index": 112,
     "id": 2256,
     "name": "Implosion Module+",
-    "description": "Increases explosive weapons' damage against structures by <D0>%.\\n(affects only explosive weapons)",
+    "description": "Increases explosive weapons' damage against structures by <D0>%.\n(affects only explosive weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -3654,11 +3654,11 @@
     ],
     "materials": []
   },
-  "2257": {
+  {
     "index": 113,
     "id": 2257,
     "name": "Fortification Module",
-    "description": "Increases kinetic weapons' damage against structures by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases kinetic weapons' damage against structures by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -3696,11 +3696,11 @@
       }
     ]
   },
-  "2258": {
+  {
     "index": 114,
     "id": 2258,
     "name": "Fortification Module+",
-    "description": "Increases kinetic weapons' damage against structures by <D0>%.\\n(affects only kinetic weapons)",
+    "description": "Increases kinetic weapons' damage against structures by <D0>%.\n(affects only kinetic weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -3719,7 +3719,7 @@
     ],
     "materials": []
   },
-  "2259": {
+  {
     "index": 115,
     "id": 2259,
     "name": "Coil Module",
@@ -3756,7 +3756,7 @@
       }
     ]
   },
-  "2260": {
+  {
     "index": 116,
     "id": 2260,
     "name": "Coil Module+",
@@ -3780,7 +3780,7 @@
     ],
     "materials": []
   },
-  "2261": {
+  {
     "index": 117,
     "id": 2261,
     "name": "Coil Module++",
@@ -3804,7 +3804,7 @@
     ],
     "materials": []
   },
-  "2262": {
+  {
     "index": 118,
     "id": 2262,
     "name": "High-frequency vibration module 1",
@@ -3844,7 +3844,7 @@
       }
     ]
   },
-  "2263": {
+  {
     "index": 119,
     "id": 2263,
     "name": "High-frequency vibration module 2",
@@ -3867,7 +3867,7 @@
     ],
     "materials": []
   },
-  "2264": {
+  {
     "index": 120,
     "id": 2264,
     "name": "High-frequency vibration module 3",
@@ -3890,11 +3890,11 @@
     ],
     "materials": []
   },
-  "2265": {
+  {
     "index": 121,
     "id": 2265,
     "name": "Tactical Bayonet",
-    "description": "When crosshair is within minimum range， switches to melee attacks (This skill has a <D0>s cooldown， module effects do not stack)\\n(For guide rail weapons only)",
+    "description": "When crosshair is within minimum range， switches to melee attacks (This skill has a <D0>s cooldown， module effects do not stack)\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -3924,11 +3924,11 @@
       }
     ]
   },
-  "2266": {
+  {
     "index": 122,
     "id": 2266,
     "name": "Tactical Bayonet+",
-    "description": "When crosshair is within minimum range， switches to melee attacks (This skill has a <D0>s cooldown， module effects do not stack)\\n(For guide rail weapons only)",
+    "description": "When crosshair is within minimum range， switches to melee attacks (This skill has a <D0>s cooldown， module effects do not stack)\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -3945,11 +3945,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2267": {
+  {
     "index": 123,
     "id": 2267,
     "name": "Standard Tactical Bayonet",
-    "description": "When crosshair is within minimum range， switches to melee attacks (This skill has a <D0>s cooldown， module effects do not stack)\\n(For guide rail weapons only)",
+    "description": "When crosshair is within minimum range， switches to melee attacks (This skill has a <D0>s cooldown， module effects do not stack)\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -3966,11 +3966,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2268": {
+  {
     "index": 124,
     "id": 2268,
     "name": "Red Dot Sight",
-    "description": "Minimum range <D0>%， Weapon spread <D1>% when the target is within two-thirds of the range， otherwise +<D2>% \\n(For kinetic weapons only)",
+    "description": "Minimum range <D0>%， Weapon spread <D1>% when the target is within two-thirds of the range， otherwise +<D2>% \n(For kinetic weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -4016,11 +4016,11 @@
       }
     ]
   },
-  "2269": {
+  {
     "index": 125,
     "id": 2269,
     "name": "Red Dot Sight+",
-    "description": "Minimum range <D0>%， Weapon spread <D1>% when the target is within two-thirds of the range， otherwise +<D2>% \\n(For kinetic weapons only)",
+    "description": "Minimum range <D0>%， Weapon spread <D1>% when the target is within two-thirds of the range， otherwise +<D2>% \n(For kinetic weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -4045,11 +4045,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2270": {
+  {
     "index": 126,
     "id": 2270,
     "name": "Magnification Module",
-    "description": "When the crosshair is at maximum range， weapon spread <D0>%， otherwise weapon spread +<D1>%\\n(For kinetic weapons only)",
+    "description": "When the crosshair is at maximum range， weapon spread <D0>%， otherwise weapon spread +<D1>%\n(For kinetic weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -4091,11 +4091,11 @@
       }
     ]
   },
-  "2271": {
+  {
     "index": 127,
     "id": 2271,
     "name": "Magnification Module+",
-    "description": "When the crosshair is at maximum range， weapon spread <D0>%， otherwise weapon spread +<D1>%\\n(For kinetic weapons only)",
+    "description": "When the crosshair is at maximum range， weapon spread <D0>%， otherwise weapon spread +<D1>%\n(For kinetic weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -4116,11 +4116,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2272": {
+  {
     "index": 128,
     "id": 2272,
     "name": "Tactical Grenade Launcher",
-    "description": "Eject one [Light Tactical Grenade] per <D1> rounds (excluding drones)\\n (or <D2> rounds if submachine gun)  \\n (can only be equipped on rail weapons)",
+    "description": "Eject one [Light Tactical Grenade] per <D1> rounds (excluding drones)\n (or <D2> rounds if submachine gun)  \n (can only be equipped on rail weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4162,11 +4162,11 @@
       }
     ]
   },
-  "2273": {
+  {
     "index": 129,
     "id": 2273,
     "name": "Heavy Tactical Grenade Launcher",
-    "description": "Eject one [Tactical Grenade] per <D1> rounds (excluding drones)\\n(or <D2> rounds if submachine gun)  \\n (can only be equipped on rail weapons)",
+    "description": "Eject one [Tactical Grenade] per <D1> rounds (excluding drones)\n(or <D2> rounds if submachine gun)  \n (can only be equipped on rail weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4193,11 +4193,11 @@
     ],
     "materials": []
   },
-  "2274": {
+  {
     "index": 130,
     "id": 2274,
     "name": "Tactical External Grenade Launcher",
-    "description": "Eject one [Heavy Tactical Grenade] per <D1> rounds (excluding drones)\\n(or <D2> rounds if submachine gun)  \\n (can only be equipped on rail weapons)",
+    "description": "Eject one [Heavy Tactical Grenade] per <D1> rounds (excluding drones)\n(or <D2> rounds if submachine gun)  \n (can only be equipped on rail weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4239,11 +4239,11 @@
       }
     ]
   },
-  "2275": {
+  {
     "index": 131,
     "id": 2275,
     "name": "Heavy Tactical External Grenade Launcher",
-    "description": "Eject one [Tactical Shrapnel] per <D1> rounds (excluding drones)\\n(or <D2> rounds if submachine gun)  \\n (can only be equipped on rail weapons)",
+    "description": "Eject one [Tactical Shrapnel] per <D1> rounds (excluding drones)\n(or <D2> rounds if submachine gun)  \n (can only be equipped on rail weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4270,11 +4270,11 @@
     ],
     "materials": []
   },
-  "2276": {
+  {
     "index": 132,
     "id": 2276,
     "name": "Tactical Bipod",
-    "description": "Firing while crouching， spread <D0>%\\n(For machine guns only)",
+    "description": "Firing while crouching， spread <D0>%\n(For machine guns only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "MachineGun"
@@ -4319,11 +4319,11 @@
       }
     ]
   },
-  "2277": {
+  {
     "index": 133,
     "id": 2277,
     "name": "Tactical Bipod+",
-    "description": "Firing while crouching， spread <D0>%\\n(For machine guns only)",
+    "description": "Firing while crouching， spread <D0>%\n(For machine guns only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "MachineGun"
@@ -4351,11 +4351,11 @@
     ],
     "materials": []
   },
-  "2278": {
+  {
     "index": 134,
     "id": 2278,
     "name": "Tactical Flashlight",
-    "description": "During night combat， the built-in light on the mecha increases its distance by <D0>%\\n(For guide rail weapons only)",
+    "description": "During night combat， the built-in light on the mecha increases its distance by <D0>%\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4389,11 +4389,11 @@
       }
     ]
   },
-  "2279": {
+  {
     "index": 135,
     "id": 2279,
     "name": "Tactical Flashlight+",
-    "description": "During night combat， the built-in light on the mecha increases its distance by <D0>%\\n(For guide rail weapons only)",
+    "description": "During night combat， the built-in light on the mecha increases its distance by <D0>%\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4410,11 +4410,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2280": {
+  {
     "index": 136,
     "id": 2280,
     "name": "Tactical Light",
-    "description": "During night combat， the built-in light on the mecha increases its illumination width by <D0>%\\n(For guide rail weapons only)",
+    "description": "During night combat， the built-in light on the mecha increases its illumination width by <D0>%\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4448,11 +4448,11 @@
       }
     ]
   },
-  "2281": {
+  {
     "index": 137,
     "id": 2281,
     "name": "Tactical Light+",
-    "description": "During night combat， the built-in light on the mecha increases its illumination width by <D0>%\\n(For guide rail weapons only)",
+    "description": "During night combat， the built-in light on the mecha increases its illumination width by <D0>%\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4469,11 +4469,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2282": {
+  {
     "index": 138,
     "id": 2282,
     "name": "Tactical Grip",
-    "description": "Weapon Instability <D0>%， weapon spread <D1>%， but movement speed while shooting <D2>%\\n(For guide rail weapons only)",
+    "description": "Weapon Instability <D0>%， weapon spread <D1>%， but movement speed while shooting <D2>%\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4515,11 +4515,11 @@
       }
     ]
   },
-  "2283": {
+  {
     "index": 139,
     "id": 2283,
     "name": "Tactical Grip+",
-    "description": "Weapon Instability <D0>%， weapon spread <D1>%， but movement speed while shooting <D2>%\\n(For guide rail weapons only)",
+    "description": "Weapon Instability <D0>%， weapon spread <D1>%， but movement speed while shooting <D2>%\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4544,11 +4544,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2284": {
+  {
     "index": 140,
     "id": 2284,
     "name": "Advanced Tactical Grip",
-    "description": "Weapon Instability <D0>%， weapon spread <D1>%， but movement speed while shooting <D2>%\\n(For guide rail weapons only)",
+    "description": "Weapon Instability <D0>%， weapon spread <D1>%， but movement speed while shooting <D2>%\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4573,11 +4573,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2285": {
+  {
     "index": 141,
     "id": 2285,
     "name": "Standard Tactical Grip",
-    "description": "Weapon Instability <D0>%， weapon spread <D1>%， but movement speed while shooting <D2>%\\n(For guide rail weapons only)",
+    "description": "Weapon Instability <D0>%， weapon spread <D1>%， but movement speed while shooting <D2>%\n(For guide rail weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -4602,11 +4602,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2286": {
+  {
     "index": 142,
     "id": 2286,
     "name": "Magazine",
-    "description": "Reload Speed <D0>%\\nWear rate +<D1>%\\n(For machine guns only)",
+    "description": "Reload Speed <D0>%\nWear rate +<D1>%\n(For machine guns only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "MachineGun"
@@ -4659,11 +4659,11 @@
       }
     ]
   },
-  "2287": {
+  {
     "index": 143,
     "id": 2287,
     "name": "High-capacity Magazine",
-    "description": "Reload Speed <D0>%\\nWear rate +<D1>%\\n(For machine guns only)",
+    "description": "Reload Speed <D0>%\nWear rate +<D1>%\n(For machine guns only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "MachineGun"
@@ -4695,11 +4695,11 @@
     ],
     "materials": []
   },
-  "2288": {
+  {
     "index": 144,
     "id": 2288,
     "name": "Full-auto Magazine",
-    "description": "Reload Speed <D0>%\\nWear rate +<D1>%\\n(For machine guns only)",
+    "description": "Reload Speed <D0>%\nWear rate +<D1>%\n(For machine guns only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "MachineGun"
@@ -4731,11 +4731,11 @@
     ],
     "materials": []
   },
-  "2289": {
+  {
     "index": 145,
     "id": 2289,
     "name": "Ammunition Box",
-    "description": "Magazine capacity +<D0>%\\n(For machine guns only)",
+    "description": "Magazine capacity +<D0>%\n(For machine guns only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "MachineGun"
@@ -4780,11 +4780,11 @@
       }
     ]
   },
-  "2290": {
+  {
     "index": 146,
     "id": 2290,
     "name": "High-capacity Ammunition Box",
-    "description": "Magazine capacity +<D0>%\\n(For machine guns only)",
+    "description": "Magazine capacity +<D0>%\n(For machine guns only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "MachineGun"
@@ -4812,11 +4812,11 @@
     ],
     "materials": []
   },
-  "2291": {
+  {
     "index": 147,
     "id": 2291,
     "name": "Ultra-high-capacity Ammunition Box",
-    "description": "Magazine capacity +<D0>%\\n(For machine guns only)",
+    "description": "Magazine capacity +<D0>%\n(For machine guns only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "MachineGun"
@@ -4844,11 +4844,11 @@
     ],
     "materials": []
   },
-  "2292": {
+  {
     "index": 148,
     "id": 2292,
     "name": "4x Scope Module",
-    "description": "Bullet range +<D0>%， Minimum range +<D0>%\\n(For sniper weapons only)",
+    "description": "Bullet range +<D0>%， Minimum range +<D0>%\n(For sniper weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Sniper"
@@ -4903,11 +4903,11 @@
       }
     ]
   },
-  "2293": {
+  {
     "index": 149,
     "id": 2293,
     "name": "8x Scope Module",
-    "description": "Bullet range +<D0>%， Minimum range +<D0>%\\n(For sniper weapons only)",
+    "description": "Bullet range +<D0>%， Minimum range +<D0>%\n(For sniper weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Sniper"
@@ -4941,11 +4941,11 @@
     ],
     "materials": []
   },
-  "2294": {
+  {
     "index": 150,
     "id": 2294,
     "name": "16x Scope Module",
-    "description": "Bullet range +<D0>%， Minimum range +<D0>%\\n(For sniper weapons only)",
+    "description": "Bullet range +<D0>%， Minimum range +<D0>%\n(For sniper weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Sniper"
@@ -4979,11 +4979,11 @@
     ],
     "materials": []
   },
-  "2295": {
+  {
     "index": 151,
     "id": 2295,
     "name": "Tracer Rounds",
-    "description": "Bullet Overpenetration rate <D0>%\\n(For sniper weapons only)",
+    "description": "Bullet Overpenetration rate <D0>%\n(For sniper weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Sniper"
@@ -5030,11 +5030,11 @@
       }
     ]
   },
-  "2296": {
+  {
     "index": 152,
     "id": 2296,
     "name": "Tracer Rounds+",
-    "description": "Bullet Overpenetration rate <D0>%\\n(For sniper weapons only)",
+    "description": "Bullet Overpenetration rate <D0>%\n(For sniper weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Sniper"
@@ -5064,11 +5064,11 @@
     ],
     "materials": []
   },
-  "2297": {
+  {
     "index": 153,
     "id": 2297,
     "name": "Tracer Rounds++",
-    "description": "Bullet Overpenetration rate <D0>%\\n(For sniper weapons only)",
+    "description": "Bullet Overpenetration rate <D0>%\n(For sniper weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Sniper"
@@ -5098,11 +5098,11 @@
     ],
     "materials": []
   },
-  "2298": {
+  {
     "index": 154,
     "id": 2298,
     "name": "Choke Coil",
-    "description": "Weapon spread <D0>%\\n(For spreadshot weapons only)",
+    "description": "Weapon spread <D0>%\n(For spreadshot weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Spreadshot"
@@ -5160,11 +5160,11 @@
       }
     ]
   },
-  "2299": {
+  {
     "index": 155,
     "id": 2299,
     "name": "Choke Coil+",
-    "description": "Weapon spread <D0>%\\n(For spreadshot weapons only)",
+    "description": "Weapon spread <D0>%\n(For spreadshot weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Spreadshot"
@@ -5201,11 +5201,11 @@
     ],
     "materials": []
   },
-  "2300": {
+  {
     "index": 156,
     "id": 2300,
     "name": "Choke Coil++",
-    "description": "Weapon spread <D0>%\\n(For spreadshot weapons only)",
+    "description": "Weapon spread <D0>%\n(For spreadshot weapons only)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Spreadshot"
@@ -5242,7 +5242,7 @@
     ],
     "materials": []
   },
-  "2335": {
+  {
     "index": 157,
     "id": 2335,
     "name": "Nozzle",
@@ -5293,7 +5293,7 @@
       }
     ]
   },
-  "2336": {
+  {
     "index": 158,
     "id": 2336,
     "name": "Advanced Nozzle",
@@ -5323,7 +5323,7 @@
     ],
     "materials": []
   },
-  "2337": {
+  {
     "index": 159,
     "id": 2337,
     "name": "Standard Nozzle",
@@ -5353,7 +5353,7 @@
     ],
     "materials": []
   },
-  "2338": {
+  {
     "index": 160,
     "id": 2338,
     "name": "High-capacity Tank 1",
@@ -5404,7 +5404,7 @@
       }
     ]
   },
-  "2339": {
+  {
     "index": 161,
     "id": 2339,
     "name": "High-capacity Tank 2",
@@ -5434,7 +5434,7 @@
     ],
     "materials": []
   },
-  "2340": {
+  {
     "index": 162,
     "id": 2340,
     "name": "High-capacity Tank 3",
@@ -5464,7 +5464,7 @@
     ],
     "materials": []
   },
-  "2341": {
+  {
     "index": 163,
     "id": 2341,
     "name": "Blasting penetration module 1",
@@ -5518,7 +5518,7 @@
       }
     ]
   },
-  "2342": {
+  {
     "index": 164,
     "id": 2342,
     "name": "Blasting penetration module 2",
@@ -5542,7 +5542,7 @@
     ],
     "materials": []
   },
-  "2343": {
+  {
     "index": 165,
     "id": 2343,
     "name": "Blasting penetration module 3",
@@ -5566,7 +5566,7 @@
     ],
     "materials": []
   },
-  "2344": {
+  {
     "index": 166,
     "id": 2344,
     "name": "Shock module",
@@ -5608,7 +5608,7 @@
       }
     ]
   },
-  "2345": {
+  {
     "index": 167,
     "id": 2345,
     "name": "Shock module +",
@@ -5631,7 +5631,7 @@
     ],
     "materials": []
   },
-  "2346": {
+  {
     "index": 168,
     "id": 2346,
     "name": "Advanced Shock module",
@@ -5654,7 +5654,7 @@
     ],
     "materials": []
   },
-  "2347": {
+  {
     "index": 169,
     "id": 2347,
     "name": "Standard Shock module",
@@ -5677,7 +5677,7 @@
     ],
     "materials": []
   },
-  "2348": {
+  {
     "index": 170,
     "id": 2348,
     "name": "High-temperature bullet",
@@ -5719,7 +5719,7 @@
       }
     ]
   },
-  "2349": {
+  {
     "index": 171,
     "id": 2349,
     "name": "High-temperature bullet +",
@@ -5742,7 +5742,7 @@
     ],
     "materials": []
   },
-  "2350": {
+  {
     "index": 172,
     "id": 2350,
     "name": "Advanced High-temperature bullet",
@@ -5765,7 +5765,7 @@
     ],
     "materials": []
   },
-  "2351": {
+  {
     "index": 173,
     "id": 2351,
     "name": "Standard High-temperature bullet",
@@ -5788,7 +5788,7 @@
     ],
     "materials": []
   },
-  "2352": {
+  {
     "index": 174,
     "id": 2352,
     "name": "Acid tank",
@@ -5839,7 +5839,7 @@
       }
     ]
   },
-  "2353": {
+  {
     "index": 175,
     "id": 2353,
     "name": "Acid tank +",
@@ -5869,7 +5869,7 @@
     ],
     "materials": []
   },
-  "2354": {
+  {
     "index": 176,
     "id": 2354,
     "name": "Advanced Acid tank",
@@ -5899,7 +5899,7 @@
     ],
     "materials": []
   },
-  "2355": {
+  {
     "index": 177,
     "id": 2355,
     "name": "Standard Acid tank",
@@ -5929,7 +5929,7 @@
     ],
     "materials": []
   },
-  "2356": {
+  {
     "index": 178,
     "id": 2356,
     "name": "Ray heating lens",
@@ -5966,7 +5966,7 @@
       }
     ]
   },
-  "2357": {
+  {
     "index": 179,
     "id": 2357,
     "name": "Electromagnetic shaped inductor",
@@ -6011,7 +6011,7 @@
       }
     ]
   },
-  "2358": {
+  {
     "index": 180,
     "id": 2358,
     "name": "Particle Transition Module 1",
@@ -6057,7 +6057,7 @@
       }
     ]
   },
-  "2359": {
+  {
     "index": 181,
     "id": 2359,
     "name": "Particle Transition Module 2",
@@ -6082,7 +6082,7 @@
     ],
     "materials": []
   },
-  "2360": {
+  {
     "index": 182,
     "id": 2360,
     "name": "Particle Transition Module 3",
@@ -6107,7 +6107,7 @@
     ],
     "materials": []
   },
-  "2361": {
+  {
     "index": 183,
     "id": 2361,
     "name": "Particle Transition Module 4",
@@ -6132,7 +6132,7 @@
     ],
     "materials": []
   },
-  "2362": {
+  {
     "index": 184,
     "id": 2362,
     "name": "Particle Transition Module 5",
@@ -6157,11 +6157,11 @@
     ],
     "materials": []
   },
-  "2363": {
+  {
     "index": 185,
     "id": 2363,
     "name": "Tactical Fire Grenade Launcher",
-    "description": "Eject one [Tactical Fire Grenade] per <D1> rounds(excluding drones)\\n (or <D2> rounds if submachine gun)  \\n (can only be equipped on rail weapons)",
+    "description": "Eject one [Tactical Fire Grenade] per <D1> rounds(excluding drones)\n (or <D2> rounds if submachine gun)  \n (can only be equipped on rail weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -6209,11 +6209,11 @@
       }
     ]
   },
-  "2364": {
+  {
     "index": 186,
     "id": 2364,
     "name": "Tactical Ice Grenade Launcher",
-    "description": "Eject one [Tactical Fire Grenade] per <D1> rounds(excluding drones)\\n (or <D2> rounds if submachine gun)  \\n (can only be equipped on rail weapons)",
+    "description": "Eject one [Tactical Fire Grenade] per <D1> rounds(excluding drones)\n (or <D2> rounds if submachine gun)  \n (can only be equipped on rail weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -6261,11 +6261,11 @@
       }
     ]
   },
-  "2365": {
+  {
     "index": 187,
     "id": 2365,
     "name": "Tactical Electromagnetic Grenade Launcher",
-    "description": "Eject one [Tactical Fire Grenade] per <D1> rounds(excluding drones)\\n (or <D2> rounds if submachine gun)  \\n (can only be equipped on rail weapons)",
+    "description": "Eject one [Tactical Fire Grenade] per <D1> rounds(excluding drones)\n (or <D2> rounds if submachine gun)  \n (can only be equipped on rail weapons)",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -6313,11 +6313,11 @@
       }
     ]
   },
-  "2366": {
+  {
     "index": 188,
     "id": 2366,
     "name": "Anti-air module 1",
-    "description": "Weapon Anti-air +<D0>%\\n（Damage possibility to flight units）",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -6347,11 +6347,11 @@
       }
     ]
   },
-  "2367": {
+  {
     "index": 189,
     "id": 2367,
     "name": "Anti-air module 2",
-    "description": "Weapon Anti-air +<D0>%\\n（Damage possibility to flight units）",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -6368,11 +6368,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2368": {
+  {
     "index": 190,
     "id": 2368,
     "name": "Anti-air module 3",
-    "description": "Weapon Anti-air +<D0>%\\n（Damage possibility to flight units）",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -6389,11 +6389,11 @@
     "modulesIds": [],
     "materials": []
   },
-  "2369": {
+  {
     "index": 191,
     "id": 2369,
     "name": "External anti-air lens",
-    "description": "Weapon Anti-air +<D0>%\\n（Damage possibility to flight units）",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -6423,11 +6423,11 @@
       }
     ]
   },
-  "2370": {
+  {
     "index": 192,
     "id": 2370,
     "name": "External anti-air lens +",
-    "description": "Weapon Anti-air +<D0>%\\n（Damage possibility to flight units）",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "GuideRail"
@@ -6444,7 +6444,7 @@
     "modulesIds": [],
     "materials": []
   },
-  "2371": {
+  {
     "index": 193,
     "id": 2371,
     "name": "Ray penetration lens 1",
@@ -6481,7 +6481,7 @@
       }
     ]
   },
-  "2372": {
+  {
     "index": 194,
     "id": 2372,
     "name": "Ray penetration lens 2",
@@ -6505,7 +6505,7 @@
     ],
     "materials": []
   },
-  "2373": {
+  {
     "index": 195,
     "id": 2373,
     "name": "Ray penetration lens 3",
@@ -6529,7 +6529,7 @@
     ],
     "materials": []
   },
-  "2374": {
+  {
     "index": 196,
     "id": 2374,
     "name": "Ray attenuation correction module",
@@ -6566,7 +6566,7 @@
       }
     ]
   },
-  "2375": {
+  {
     "index": 197,
     "id": 2375,
     "name": "Ray attenuation correction module+",
@@ -6590,7 +6590,7 @@
     ],
     "materials": []
   },
-  "2376": {
+  {
     "index": 198,
     "id": 2376,
     "name": "Arc attenuation correction module",
@@ -6635,7 +6635,7 @@
       }
     ]
   },
-  "2377": {
+  {
     "index": 199,
     "id": 2377,
     "name": "Arc attenuation correction module+",
@@ -6659,11 +6659,11 @@
     ],
     "materials": []
   },
-  "2378": {
+  {
     "index": 200,
     "id": 2378,
     "name": "Explosive anti-air module 1",
-    "description": "Bomb explosion Anti-air +<D0>%\\n（Damage possibility to flight units）",
+    "description": "Bomb explosion Anti-air +<D0>%\n（Damage possibility to flight units）",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -6702,11 +6702,11 @@
       }
     ]
   },
-  "2379": {
+  {
     "index": 201,
     "id": 2379,
     "name": "Explosive anti-air module 2",
-    "description": "Bomb explosion Anti-air +<D0>%\\n（Damage possibility to flight units）",
+    "description": "Bomb explosion Anti-air +<D0>%\n（Damage possibility to flight units）",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -6736,11 +6736,11 @@
     ],
     "materials": []
   },
-  "2380": {
+  {
     "index": 202,
     "id": 2380,
     "name": "Explosive anti-air module 3",
-    "description": "Bomb explosion Anti-air +<D0>%\\n（Damage possibility to flight units）",
+    "description": "Bomb explosion Anti-air +<D0>%\n（Damage possibility to flight units）",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -6770,11 +6770,11 @@
     ],
     "materials": []
   },
-  "2381": {
+  {
     "index": 203,
     "id": 2381,
     "name": "Anti-air chip",
-    "description": "Weapon Anti-air +<D0>%\\n（Damage possibility to flight units）\\nDamage <D0>%，",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）\nDamage <D0>%，",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -6816,11 +6816,11 @@
       }
     ]
   },
-  "2382": {
+  {
     "index": 204,
     "id": 2382,
     "name": "Airburst mode chip",
-    "description": "Weapon Anti-air +<D0>%\\n（Damage possibility to flight units）\\nDamage <D0>%，",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）\nDamage <D0>%，",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -6875,7 +6875,7 @@
       }
     ]
   },
-  "2700": {
+  {
     "index": 205,
     "id": 2700,
     "name": "Magnetoelectric Transition Module 1",
@@ -6924,7 +6924,7 @@
       }
     ]
   },
-  "2701": {
+  {
     "index": 206,
     "id": 2701,
     "name": "Magnetoelectric Transition Module 2",
@@ -6947,7 +6947,7 @@
     ],
     "materials": []
   },
-  "2702": {
+  {
     "index": 207,
     "id": 2702,
     "name": "Magnetoelectric Transition Module 3",
@@ -6970,7 +6970,7 @@
     ],
     "materials": []
   },
-  "2703": {
+  {
     "index": 208,
     "id": 2703,
     "name": "Magnetoelectric Thunderstorm Module",
@@ -7011,7 +7011,7 @@
       }
     ]
   },
-  "2704": {
+  {
     "index": 209,
     "id": 2704,
     "name": "Magnetoelectric Thunderstorm Module",
@@ -7034,7 +7034,7 @@
     ],
     "materials": []
   },
-  "2705": {
+  {
     "index": 210,
     "id": 2705,
     "name": "Magnetoelectric Superconducting Module +",
@@ -7075,7 +7075,7 @@
       }
     ]
   },
-  "2706": {
+  {
     "index": 211,
     "id": 2706,
     "name": "Magnetoelectric Superconducting Module +",
@@ -7098,7 +7098,7 @@
     ],
     "materials": []
   },
-  "2707": {
+  {
     "index": 212,
     "id": 2707,
     "name": "Magnetoelectric Armor-Melting Module 1",
@@ -7143,7 +7143,7 @@
       }
     ]
   },
-  "2708": {
+  {
     "index": 213,
     "id": 2708,
     "name": "Magnetoelectric Armor-Melting Module 2",
@@ -7166,7 +7166,7 @@
     ],
     "materials": []
   },
-  "2709": {
+  {
     "index": 214,
     "id": 2709,
     "name": "Magnetoelectric Armor-Melting Module 3",
@@ -7189,7 +7189,7 @@
     ],
     "materials": []
   },
-  "2710": {
+  {
     "index": 215,
     "id": 2710,
     "name": "Magnetoelectric Armor-Melting Module 4",
@@ -7212,7 +7212,7 @@
     ],
     "materials": []
   },
-  "2711": {
+  {
     "index": 216,
     "id": 2711,
     "name": "Plasma Delayed Module 1",
@@ -7261,7 +7261,7 @@
       }
     ]
   },
-  "2712": {
+  {
     "index": 217,
     "id": 2712,
     "name": "Plasma Delayed Module 2",
@@ -7284,7 +7284,7 @@
     ],
     "materials": []
   },
-  "2713": {
+  {
     "index": 218,
     "id": 2713,
     "name": "Plasma Delayed Module 3",
@@ -7307,7 +7307,7 @@
     ],
     "materials": []
   },
-  "2714": {
+  {
     "index": 219,
     "id": 2714,
     "name": "Plasma Power Module 1",
@@ -7344,7 +7344,7 @@
       }
     ]
   },
-  "2715": {
+  {
     "index": 220,
     "id": 2715,
     "name": "Plasma Power Module 2",
@@ -7367,7 +7367,7 @@
     ],
     "materials": []
   },
-  "2716": {
+  {
     "index": 221,
     "id": 2716,
     "name": "Plasma Power Module 3",
@@ -7390,7 +7390,7 @@
     ],
     "materials": []
   },
-  "2717": {
+  {
     "index": 222,
     "id": 2717,
     "name": "Plasma Melt Module 1",
@@ -7427,7 +7427,7 @@
       }
     ]
   },
-  "2718": {
+  {
     "index": 223,
     "id": 2718,
     "name": "Plasma Melt Module 2",
@@ -7450,7 +7450,7 @@
     ],
     "materials": []
   },
-  "2719": {
+  {
     "index": 224,
     "id": 2719,
     "name": "Plasma Melt Module 3",
@@ -7473,7 +7473,7 @@
     ],
     "materials": []
   },
-  "2200": {
+  {
     "index": 225,
     "id": 2200,
     "name": "Melee High Temperature Module",
@@ -7494,7 +7494,7 @@
     "modulesIds": [],
     "materials": []
   },
-  "2201": {
+  {
     "index": 226,
     "id": 2201,
     "name": "Melee Phase Module",
@@ -7521,7 +7521,7 @@
     ],
     "materials": []
   },
-  "2202": {
+  {
     "index": 227,
     "id": 2202,
     "name": "Melee Energy Module 1",
@@ -7555,7 +7555,7 @@
       }
     ]
   },
-  "2203": {
+  {
     "index": 228,
     "id": 2203,
     "name": "Melee Energy Module 2",
@@ -7578,7 +7578,7 @@
     ],
     "materials": []
   },
-  "2204": {
+  {
     "index": 229,
     "id": 2204,
     "name": "Melee Energy Module 3",
@@ -7601,7 +7601,7 @@
     ],
     "materials": []
   },
-  "2205": {
+  {
     "index": 230,
     "id": 2205,
     "name": "Melee Sharpeness Module 1",
@@ -7635,7 +7635,7 @@
       }
     ]
   },
-  "2206": {
+  {
     "index": 231,
     "id": 2206,
     "name": "Melee Sharpeness Module 2",
@@ -7658,7 +7658,7 @@
     ],
     "materials": []
   },
-  "2207": {
+  {
     "index": 232,
     "id": 2207,
     "name": "Melee Sharpeness Module 3",
@@ -7681,7 +7681,7 @@
     ],
     "materials": []
   },
-  "2208": {
+  {
     "index": 233,
     "id": 2208,
     "name": "Iaido Chip",
@@ -7717,7 +7717,7 @@
       }
     ]
   },
-  "2209": {
+  {
     "index": 234,
     "id": 2209,
     "name": "Step-Back Chip",
@@ -7753,7 +7753,7 @@
       }
     ]
   },
-  "2210": {
+  {
     "index": 235,
     "id": 2210,
     "name": "Whirlwind Chip",
@@ -7793,7 +7793,7 @@
       }
     ]
   },
-  "2211": {
+  {
     "index": 236,
     "id": 2211,
     "name": "Melee Reloading Module",
@@ -7831,11 +7831,11 @@
       }
     ]
   },
-  "2212": {
+  {
     "index": 237,
     "id": 2212,
     "name": "Melee Reloading Module+",
-    "description": "Melee weapon attack interval <D0>%.\\nIncreases wear rate by <D1>%.",
+    "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All"
@@ -7858,11 +7858,11 @@
     ],
     "materials": []
   },
-  "2213": {
+  {
     "index": 238,
     "id": 2213,
     "name": "Advanced Melee Reloading Module",
-    "description": "Melee weapon attack interval <D0>%.\\nIncreases wear rate by <D1>%.",
+    "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All"
@@ -7885,11 +7885,11 @@
     ],
     "materials": []
   },
-  "2214": {
+  {
     "index": 239,
     "id": 2214,
     "name": "Standard Melee Reloading Module",
-    "description": "Melee weapon attack interval <D0>%.\\nIncreases wear rate by <D1>%.",
+    "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All"
@@ -7912,7 +7912,7 @@
     ],
     "materials": []
   },
-  "2215": {
+  {
     "index": 240,
     "id": 2215,
     "name": "Melee Fire Module",
@@ -7956,7 +7956,7 @@
       }
     ]
   },
-  "2216": {
+  {
     "index": 241,
     "id": 2216,
     "name": "Melee Frost Module",
@@ -8000,7 +8000,7 @@
       }
     ]
   },
-  "2217": {
+  {
     "index": 242,
     "id": 2217,
     "name": "Melee Electromagnetic Module",
@@ -8044,7 +8044,7 @@
       }
     ]
   },
-  "2218": {
+  {
     "index": 243,
     "id": 2218,
     "name": "Assassination Efficiency Module 1",
@@ -8068,7 +8068,7 @@
     ],
     "materials": []
   },
-  "2219": {
+  {
     "index": 244,
     "id": 2219,
     "name": "Assassination Efficiency Module 2",
@@ -8092,7 +8092,7 @@
     ],
     "materials": []
   },
-  "2220": {
+  {
     "index": 245,
     "id": 2220,
     "name": "Assassination Efficiency Module 3",
@@ -8116,7 +8116,7 @@
     ],
     "materials": []
   },
-  "2221": {
+  {
     "index": 246,
     "id": 2221,
     "name": "Assassination concealment module 1",
@@ -8140,7 +8140,7 @@
     ],
     "materials": []
   },
-  "2222": {
+  {
     "index": 247,
     "id": 2222,
     "name": "Assassination concealment module 2",
@@ -8164,7 +8164,7 @@
     ],
     "materials": []
   },
-  "2223": {
+  {
     "index": 248,
     "id": 2223,
     "name": "Assassination concealment module 3",
@@ -8188,7 +8188,7 @@
     ],
     "materials": []
   },
-  "2224": {
+  {
     "index": 249,
     "id": 2224,
     "name": "Assassination width module 1",
@@ -8212,7 +8212,7 @@
     ],
     "materials": []
   },
-  "2225": {
+  {
     "index": 250,
     "id": 2225,
     "name": "Assassination width module 2",
@@ -8236,7 +8236,7 @@
     ],
     "materials": []
   },
-  "2226": {
+  {
     "index": 251,
     "id": 2226,
     "name": "Assassination width module 3",
@@ -8260,7 +8260,7 @@
     ],
     "materials": []
   },
-  "1401": {
+  {
     "index": 252,
     "id": 1401,
     "name": "SMW Magazine 1",
@@ -8300,7 +8300,7 @@
       }
     ]
   },
-  "1402": {
+  {
     "index": 253,
     "id": 1402,
     "name": "SMW Magazine 2",
@@ -8323,7 +8323,7 @@
     ],
     "materials": []
   },
-  "1403": {
+  {
     "index": 254,
     "id": 1403,
     "name": "SMW Magazine 3",
@@ -8346,11 +8346,11 @@
     ],
     "materials": []
   },
-  "1404": {
+  {
     "index": 255,
     "id": 1404,
     "name": "SMW torque",
-    "description": "Shoulder mount weapon weight reduction\\nMovement speed: <D0>%; Rotational speed: <D1>%",
+    "description": "Shoulder mount weapon weight reduction\nMovement speed: <D0>%; Rotational speed: <D1>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All"
@@ -8386,11 +8386,11 @@
       }
     ]
   },
-  "1405": {
+  {
     "index": 256,
     "id": 1405,
     "name": "SMW torque+",
-    "description": "Shoulder mount weapon weight reduction\\nMovement speed: <D0>%; Rotational speed: <D1>%",
+    "description": "Shoulder mount weapon weight reduction\nMovement speed: <D0>%; Rotational speed: <D1>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "All"
@@ -8413,7 +8413,7 @@
     ],
     "materials": []
   },
-  "1406": {
+  {
     "index": 257,
     "id": 1406,
     "name": "SMW Explosion Damage Module 1",
@@ -8449,7 +8449,7 @@
       }
     ]
   },
-  "1407": {
+  {
     "index": 258,
     "id": 1407,
     "name": "SMW Explosion Damage Module 2",
@@ -8472,7 +8472,7 @@
     ],
     "materials": []
   },
-  "1408": {
+  {
     "index": 259,
     "id": 1408,
     "name": "SMW Explosion Damage Module 3",
@@ -8495,7 +8495,7 @@
     ],
     "materials": []
   },
-  "1409": {
+  {
     "index": 260,
     "id": 1409,
     "name": "SMW Explosion Damage Module 4",
@@ -8518,7 +8518,7 @@
     ],
     "materials": []
   },
-  "1410": {
+  {
     "index": 261,
     "id": 1410,
     "name": "SMW Explosion Damage Module 5",
@@ -8541,7 +8541,7 @@
     ],
     "materials": []
   },
-  "1411": {
+  {
     "index": 262,
     "id": 1411,
     "name": "SMW Blasting penetration module 1",
@@ -8577,7 +8577,7 @@
       }
     ]
   },
-  "1412": {
+  {
     "index": 263,
     "id": 1412,
     "name": "SMW Blasting penetration module 2",
@@ -8600,7 +8600,7 @@
     ],
     "materials": []
   },
-  "1413": {
+  {
     "index": 264,
     "id": 1413,
     "name": "SMW Blasting penetration module 3",
@@ -8623,7 +8623,7 @@
     ],
     "materials": []
   },
-  "1414": {
+  {
     "index": 265,
     "id": 1414,
     "name": "SMW ArP Module 1",
@@ -8664,7 +8664,7 @@
       }
     ]
   },
-  "1415": {
+  {
     "index": 266,
     "id": 1415,
     "name": "SMW ArP Module 2",
@@ -8688,7 +8688,7 @@
     ],
     "materials": []
   },
-  "1416": {
+  {
     "index": 267,
     "id": 1416,
     "name": "SMW ArP Module 3",
@@ -8712,7 +8712,7 @@
     ],
     "materials": []
   },
-  "1417": {
+  {
     "index": 268,
     "id": 1417,
     "name": "SMW ArP Module 4",
@@ -8736,7 +8736,7 @@
     ],
     "materials": []
   },
-  "1418": {
+  {
     "index": 269,
     "id": 1418,
     "name": "SMW ArP Module 5",
@@ -8760,11 +8760,11 @@
     ],
     "materials": []
   },
-  "1419": {
+  {
     "index": 270,
     "id": 1419,
     "name": "SMW Salvo Module 1",
-    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\\nfiring interval<D1>%",
+    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\nfiring interval<D1>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "Kinetic",
@@ -8808,11 +8808,11 @@
       }
     ]
   },
-  "1420": {
+  {
     "index": 271,
     "id": 1420,
     "name": "SMW Salvo Module 2",
-    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\\nfiring interval<D1>%",
+    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\nfiring interval<D1>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "Kinetic",
@@ -8839,11 +8839,11 @@
     ],
     "materials": []
   },
-  "1421": {
+  {
     "index": 272,
     "id": 1421,
     "name": "SMW Salvo Module 3",
-    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\\nfiring interval<D1>%",
+    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\nfiring interval<D1>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "Kinetic",
@@ -8870,11 +8870,11 @@
     ],
     "materials": []
   },
-  "1422": {
+  {
     "index": 273,
     "id": 1422,
     "name": "SMW Salvo Module 4",
-    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\\nfiring interval<D1>%",
+    "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\nfiring interval<D1>%",
     "weaponType": "HangShoulder",
     "weaponSubTypes": [
       "Kinetic",
@@ -8901,7 +8901,7 @@
     ],
     "materials": []
   },
-  "1423": {
+  {
     "index": 274,
     "id": 1423,
     "name": "EMP amplification module",
@@ -8942,7 +8942,7 @@
       }
     ]
   },
-  "1424": {
+  {
     "index": 275,
     "id": 1424,
     "name": "EMP amplification module+",
@@ -8966,7 +8966,7 @@
     ],
     "materials": []
   },
-  "1425": {
+  {
     "index": 276,
     "id": 1425,
     "name": "EMP combustion module",
@@ -9003,7 +9003,7 @@
       }
     ]
   },
-  "1426": {
+  {
     "index": 277,
     "id": 1426,
     "name": "EMP Ice Module",
@@ -9040,7 +9040,7 @@
       }
     ]
   },
-  "1427": {
+  {
     "index": 278,
     "id": 1427,
     "name": "SMW Magnetic Flux Amplifier 1",
@@ -9080,7 +9080,7 @@
       }
     ]
   },
-  "1428": {
+  {
     "index": 279,
     "id": 1428,
     "name": "SMW Magnetic Flux Amplifier 2",
@@ -9103,7 +9103,7 @@
     ],
     "materials": []
   },
-  "1429": {
+  {
     "index": 280,
     "id": 1429,
     "name": "SMW Magnetic Flux Amplifier 3",
@@ -9126,7 +9126,7 @@
     ],
     "materials": []
   },
-  "1430": {
+  {
     "index": 281,
     "id": 1430,
     "name": "SMW Magnetic Flux Amplifier 4",
@@ -9149,4 +9149,4 @@
     ],
     "materials": []
   }
-}
+]

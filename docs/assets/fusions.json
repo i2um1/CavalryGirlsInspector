@@ -1,5 +1,5 @@
-{
-  "2501": {
+[
+  {
     "index": 0,
     "id": 2501,
     "name": "Kinetic Speed Core 1",
@@ -37,7 +37,7 @@
       }
     ]
   },
-  "2502": {
+  {
     "index": 1,
     "id": 2502,
     "name": "Kinetic Speed Core 2",
@@ -75,7 +75,7 @@
       }
     ]
   },
-  "2503": {
+  {
     "index": 2,
     "id": 2503,
     "name": "Kinetic Speed Core 3",
@@ -113,7 +113,7 @@
       }
     ]
   },
-  "2504": {
+  {
     "index": 3,
     "id": 2504,
     "name": "Kinetic Collision Core 1",
@@ -147,7 +147,7 @@
       }
     ]
   },
-  "2505": {
+  {
     "index": 4,
     "id": 2505,
     "name": "Kinetic Collision Core 2",
@@ -181,7 +181,7 @@
       }
     ]
   },
-  "2506": {
+  {
     "index": 5,
     "id": 2506,
     "name": "Kinetic Collision Core 3",
@@ -215,7 +215,7 @@
       }
     ]
   },
-  "2507": {
+  {
     "index": 6,
     "id": 2507,
     "name": "Kinetic Strength Core 1",
@@ -257,7 +257,7 @@
       }
     ]
   },
-  "2508": {
+  {
     "index": 7,
     "id": 2508,
     "name": "Kinetic Strength Core 2",
@@ -299,7 +299,7 @@
       }
     ]
   },
-  "2509": {
+  {
     "index": 8,
     "id": 2509,
     "name": "Kinetic Strength Core 3",
@@ -341,7 +341,7 @@
       }
     ]
   },
-  "2510": {
+  {
     "index": 9,
     "id": 2510,
     "name": "Quick Reload Core 1",
@@ -376,7 +376,7 @@
       }
     ]
   },
-  "2511": {
+  {
     "index": 10,
     "id": 2511,
     "name": "Quick Reload Core 2",
@@ -411,7 +411,7 @@
       }
     ]
   },
-  "2512": {
+  {
     "index": 11,
     "id": 2512,
     "name": "Quick Reload Core 3",
@@ -446,7 +446,7 @@
       }
     ]
   },
-  "2513": {
+  {
     "index": 12,
     "id": 2513,
     "name": "Quick Reload Core 4",
@@ -481,7 +481,7 @@
       }
     ]
   },
-  "2514": {
+  {
     "index": 13,
     "id": 2514,
     "name": "Active Reload Core 1",
@@ -516,7 +516,7 @@
       }
     ]
   },
-  "2515": {
+  {
     "index": 14,
     "id": 2515,
     "name": "Active Reload Core 2",
@@ -551,7 +551,7 @@
       }
     ]
   },
-  "2516": {
+  {
     "index": 15,
     "id": 2516,
     "name": "Active Reload Core 3",
@@ -586,7 +586,7 @@
       }
     ]
   },
-  "2517": {
+  {
     "index": 16,
     "id": 2517,
     "name": "Active Reload Core 4",
@@ -621,7 +621,7 @@
       }
     ]
   },
-  "2518": {
+  {
     "index": 17,
     "id": 2518,
     "name": "Splitter Core A1",
@@ -671,7 +671,7 @@
       }
     ]
   },
-  "2519": {
+  {
     "index": 18,
     "id": 2519,
     "name": "Splitter Core A2",
@@ -721,7 +721,7 @@
       }
     ]
   },
-  "2520": {
+  {
     "index": 19,
     "id": 2520,
     "name": "Splitter Core A3",
@@ -771,7 +771,7 @@
       }
     ]
   },
-  "2521": {
+  {
     "index": 20,
     "id": 2521,
     "name": "Splitter Core B1",
@@ -821,7 +821,7 @@
       }
     ]
   },
-  "2522": {
+  {
     "index": 21,
     "id": 2522,
     "name": "Splitter Core B2",
@@ -871,7 +871,7 @@
       }
     ]
   },
-  "2523": {
+  {
     "index": 22,
     "id": 2523,
     "name": "Splitter Core B3",
@@ -921,7 +921,7 @@
       }
     ]
   },
-  "2524": {
+  {
     "index": 23,
     "id": 2524,
     "name": "Kinetic Splitter Core C1",
@@ -967,7 +967,7 @@
       }
     ]
   },
-  "2525": {
+  {
     "index": 24,
     "id": 2525,
     "name": "Kinetic Splitter Core C2",
@@ -1013,7 +1013,7 @@
       }
     ]
   },
-  "2526": {
+  {
     "index": 25,
     "id": 2526,
     "name": "Kinetic Splitter Core C3",
@@ -1059,7 +1059,7 @@
       }
     ]
   },
-  "2527": {
+  {
     "index": 26,
     "id": 2527,
     "name": "Splitter Core 1",
@@ -1114,7 +1114,7 @@
       }
     ]
   },
-  "2528": {
+  {
     "index": 27,
     "id": 2528,
     "name": "Splitter Core 2",
@@ -1169,7 +1169,7 @@
       }
     ]
   },
-  "2529": {
+  {
     "index": 28,
     "id": 2529,
     "name": "Splitter Core 3",
@@ -1224,7 +1224,7 @@
       }
     ]
   },
-  "2530": {
+  {
     "index": 29,
     "id": 2530,
     "name": "Splitter Core 4",
@@ -1279,7 +1279,7 @@
       }
     ]
   },
-  "2531": {
+  {
     "index": 30,
     "id": 2531,
     "name": "Splitter Boost Core 1",
@@ -1338,7 +1338,7 @@
       }
     ]
   },
-  "2532": {
+  {
     "index": 31,
     "id": 2532,
     "name": "Splitter Boost Core 2",
@@ -1397,7 +1397,7 @@
       }
     ]
   },
-  "2533": {
+  {
     "index": 32,
     "id": 2533,
     "name": "Splitter Boost Core 3",
@@ -1456,7 +1456,7 @@
       }
     ]
   },
-  "2534": {
+  {
     "index": 33,
     "id": 2534,
     "name": "Splitter Boost Core 4",
@@ -1515,11 +1515,11 @@
       }
     ]
   },
-  "2535": {
+  {
     "index": 34,
     "id": 2535,
     "name": "Kinetic Blast Core 1",
-    "description": "Bullet Explosion rate +<D0>%\\n(The rate increases by 1% additionally for every 100 bullet Damage)\\n(affects only kinetic weapons)",
+    "description": "Bullet Explosion rate +<D0>%\n(The rate increases by 1% additionally for every 100 bullet Damage)\n(affects only kinetic weapons)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -1557,11 +1557,11 @@
       }
     ]
   },
-  "2536": {
+  {
     "index": 35,
     "id": 2536,
     "name": "Kinetic Blast Core 2",
-    "description": "Bullet Explosion rate +<D0>%\\n(The rate increases by 1% additionally for every 100 bullet Damage)\\n(affects only kinetic weapons)",
+    "description": "Bullet Explosion rate +<D0>%\n(The rate increases by 1% additionally for every 100 bullet Damage)\n(affects only kinetic weapons)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -1599,11 +1599,11 @@
       }
     ]
   },
-  "2537": {
+  {
     "index": 36,
     "id": 2537,
     "name": "Kinetic Blast Core 3",
-    "description": "Bullet Explosion rate +<D0>%\\n(The rate increases by 1% additionally for every 100 bullet Damage)\\n(affects only kinetic weapons)",
+    "description": "Bullet Explosion rate +<D0>%\n(The rate increases by 1% additionally for every 100 bullet Damage)\n(affects only kinetic weapons)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -1641,7 +1641,7 @@
       }
     ]
   },
-  "2538": {
+  {
     "index": 37,
     "id": 2538,
     "name": "Kinetic Burst Reaction Core 1",
@@ -1691,7 +1691,7 @@
       }
     ]
   },
-  "2539": {
+  {
     "index": 38,
     "id": 2539,
     "name": "Kinetic Burst Reaction Core 2",
@@ -1741,7 +1741,7 @@
       }
     ]
   },
-  "2540": {
+  {
     "index": 39,
     "id": 2540,
     "name": "Kinetic Burst Reaction Core 3",
@@ -1791,7 +1791,7 @@
       }
     ]
   },
-  "2541": {
+  {
     "index": 40,
     "id": 2541,
     "name": "Kinetic Burst Element Core 1",
@@ -1841,7 +1841,7 @@
       }
     ]
   },
-  "2542": {
+  {
     "index": 41,
     "id": 2542,
     "name": "Kinetic Burst Element Core 2",
@@ -1891,7 +1891,7 @@
       }
     ]
   },
-  "2543": {
+  {
     "index": 42,
     "id": 2543,
     "name": "Kinetic Burst Element Core 3",
@@ -1941,7 +1941,7 @@
       }
     ]
   },
-  "2544": {
+  {
     "index": 43,
     "id": 2544,
     "name": "Mounted Grenade Core 1",
@@ -1979,7 +1979,7 @@
       }
     ]
   },
-  "2545": {
+  {
     "index": 44,
     "id": 2545,
     "name": "Mounted Grenade Core 2",
@@ -2017,7 +2017,7 @@
       }
     ]
   },
-  "2546": {
+  {
     "index": 45,
     "id": 2546,
     "name": "Mounted Grenade Core 3",
@@ -2055,7 +2055,7 @@
       }
     ]
   },
-  "2547": {
+  {
     "index": 46,
     "id": 2547,
     "name": "Mounted Grenade Boost Core 1",
@@ -2093,7 +2093,7 @@
       }
     ]
   },
-  "2548": {
+  {
     "index": 47,
     "id": 2548,
     "name": "Mounted Grenade Boost Core 2",
@@ -2131,7 +2131,7 @@
       }
     ]
   },
-  "2549": {
+  {
     "index": 48,
     "id": 2549,
     "name": "Mounted Grenade Boost Core 3",
@@ -2169,7 +2169,7 @@
       }
     ]
   },
-  "2551": {
+  {
     "index": 49,
     "id": 2551,
     "name": "High-Capacity Magazine Core 1",
@@ -2219,7 +2219,7 @@
       }
     ]
   },
-  "2552": {
+  {
     "index": 50,
     "id": 2552,
     "name": "High-Capacity Magazine Core 2",
@@ -2269,7 +2269,7 @@
       }
     ]
   },
-  "2553": {
+  {
     "index": 51,
     "id": 2553,
     "name": "High-Capacity Magazine Core 3",
@@ -2319,7 +2319,7 @@
       }
     ]
   },
-  "2554": {
+  {
     "index": 52,
     "id": 2554,
     "name": "Chamber Pressure Overload Core 1",
@@ -2369,7 +2369,7 @@
       }
     ]
   },
-  "2555": {
+  {
     "index": 53,
     "id": 2555,
     "name": "Chamber Pressure Overload Core 2",
@@ -2419,7 +2419,7 @@
       }
     ]
   },
-  "2556": {
+  {
     "index": 54,
     "id": 2556,
     "name": "Chamber Pressure Overload Core 3",
@@ -2469,7 +2469,7 @@
       }
     ]
   },
-  "2557": {
+  {
     "index": 55,
     "id": 2557,
     "name": "Super-large-capacity Drum Magazine Core 1",
@@ -2504,7 +2504,7 @@
       }
     ]
   },
-  "2558": {
+  {
     "index": 56,
     "id": 2558,
     "name": "Super-large-capacity Drum Magazine Core 2",
@@ -2539,7 +2539,7 @@
       }
     ]
   },
-  "2559": {
+  {
     "index": 57,
     "id": 2559,
     "name": "Super-large-capacity Drum Magazine Core 3",
@@ -2574,7 +2574,7 @@
       }
     ]
   },
-  "2560": {
+  {
     "index": 58,
     "id": 2560,
     "name": "Super-large-capacity Drum Magazine Core 4",
@@ -2609,7 +2609,7 @@
       }
     ]
   },
-  "2561": {
+  {
     "index": 59,
     "id": 2561,
     "name": "Bipod Core 1",
@@ -2647,7 +2647,7 @@
       }
     ]
   },
-  "2562": {
+  {
     "index": 60,
     "id": 2562,
     "name": "Bipod Core 2",
@@ -2685,7 +2685,7 @@
       }
     ]
   },
-  "2563": {
+  {
     "index": 61,
     "id": 2563,
     "name": "Bipod Core 3",
@@ -2723,7 +2723,7 @@
       }
     ]
   },
-  "2564": {
+  {
     "index": 62,
     "id": 2564,
     "name": "Crit Core 1",
@@ -2766,7 +2766,7 @@
       }
     ]
   },
-  "2565": {
+  {
     "index": 63,
     "id": 2565,
     "name": "Crit Core 2",
@@ -2809,7 +2809,7 @@
       }
     ]
   },
-  "2566": {
+  {
     "index": 64,
     "id": 2566,
     "name": "Crit Core 3",
@@ -2852,7 +2852,7 @@
       }
     ]
   },
-  "2567": {
+  {
     "index": 65,
     "id": 2567,
     "name": "Crit Core 4",
@@ -2895,7 +2895,7 @@
       }
     ]
   },
-  "2568": {
+  {
     "index": 66,
     "id": 2568,
     "name": "Crit Damage  Core 1",
@@ -2938,7 +2938,7 @@
       }
     ]
   },
-  "2569": {
+  {
     "index": 67,
     "id": 2569,
     "name": "Crit Damage  Core 2",
@@ -2981,7 +2981,7 @@
       }
     ]
   },
-  "2570": {
+  {
     "index": 68,
     "id": 2570,
     "name": "Crit Damage  Core 3",
@@ -3024,7 +3024,7 @@
       }
     ]
   },
-  "2571": {
+  {
     "index": 69,
     "id": 2571,
     "name": "Crit Damage  Core 4",
@@ -3067,7 +3067,7 @@
       }
     ]
   },
-  "2572": {
+  {
     "index": 70,
     "id": 2572,
     "name": "Kinetic Damage Core 1",
@@ -3103,7 +3103,7 @@
       }
     ]
   },
-  "2573": {
+  {
     "index": 71,
     "id": 2573,
     "name": "Kinetic Damage Core 2",
@@ -3139,7 +3139,7 @@
       }
     ]
   },
-  "2574": {
+  {
     "index": 72,
     "id": 2574,
     "name": "Kinetic Damage Core 3",
@@ -3175,7 +3175,7 @@
       }
     ]
   },
-  "2575": {
+  {
     "index": 73,
     "id": 2575,
     "name": "Kinetic Damage Core 4",
@@ -3211,7 +3211,7 @@
       }
     ]
   },
-  "2576": {
+  {
     "index": 74,
     "id": 2576,
     "name": "Kinetic Damage Core 5",
@@ -3247,11 +3247,11 @@
       }
     ]
   },
-  "2577": {
+  {
     "index": 75,
     "id": 2577,
     "name": "Kinetic Powder Charge Core 1",
-    "description": "Applying Greasy Rate +<D0>%\\n(The duration is related to the bullet Damage)",
+    "description": "Applying Greasy Rate +<D0>%\n(The duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3282,11 +3282,11 @@
       }
     ]
   },
-  "2578": {
+  {
     "index": 76,
     "id": 2578,
     "name": "Kinetic Powder Charge Core 2",
-    "description": "Applying Greasy Rate +<D0>%\\n(The duration is related to the bullet Damage)",
+    "description": "Applying Greasy Rate +<D0>%\n(The duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3317,11 +3317,11 @@
       }
     ]
   },
-  "2579": {
+  {
     "index": 77,
     "id": 2579,
     "name": "Kinetic Powder Charge Core 3",
-    "description": "Applying Greasy Rate +<D0>%\\n(The duration is related to the bullet Damage)",
+    "description": "Applying Greasy Rate +<D0>%\n(The duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3352,11 +3352,11 @@
       }
     ]
   },
-  "2580": {
+  {
     "index": 78,
     "id": 2580,
     "name": "Kinetic Powder Charge Core 4",
-    "description": "Applying Greasy Rate +<D0>%\\n(The duration is related to the bullet Damage)",
+    "description": "Applying Greasy Rate +<D0>%\n(The duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3387,11 +3387,11 @@
       }
     ]
   },
-  "2581": {
+  {
     "index": 79,
     "id": 2581,
     "name": "Heat Core 1",
-    "description": "Applying Heat Rate +<D0>%\\n(The heat duration is related to the bullet Damage)",
+    "description": "Applying Heat Rate +<D0>%\n(The heat duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3426,11 +3426,11 @@
       }
     ]
   },
-  "2582": {
+  {
     "index": 80,
     "id": 2582,
     "name": "Heat Core 2",
-    "description": "Applying Heat Rate +<D0>%\\n(The heat duration is related to the bullet Damage)",
+    "description": "Applying Heat Rate +<D0>%\n(The heat duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3465,11 +3465,11 @@
       }
     ]
   },
-  "2583": {
+  {
     "index": 81,
     "id": 2583,
     "name": "Heat Core 3",
-    "description": "Applying Heat Rate +<D0>%\\n(The heat duration is related to the bullet Damage)",
+    "description": "Applying Heat Rate +<D0>%\n(The heat duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3504,11 +3504,11 @@
       }
     ]
   },
-  "2584": {
+  {
     "index": 82,
     "id": 2584,
     "name": "Heat Core 4",
-    "description": "Applying Heat Rate +<D0>%\\n(The heat duration is related to the bullet Damage)",
+    "description": "Applying Heat Rate +<D0>%\n(The heat duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3543,7 +3543,7 @@
       }
     ]
   },
-  "2585": {
+  {
     "index": 83,
     "id": 2585,
     "name": "Armor Melting Core 1",
@@ -3582,7 +3582,7 @@
       }
     ]
   },
-  "2586": {
+  {
     "index": 84,
     "id": 2586,
     "name": "Armor Melting Core 2",
@@ -3621,7 +3621,7 @@
       }
     ]
   },
-  "2587": {
+  {
     "index": 85,
     "id": 2587,
     "name": "Armor Melting Core 3",
@@ -3660,7 +3660,7 @@
       }
     ]
   },
-  "2588": {
+  {
     "index": 86,
     "id": 2588,
     "name": "Armor Melting Core 4",
@@ -3699,11 +3699,11 @@
       }
     ]
   },
-  "2589": {
+  {
     "index": 87,
     "id": 2589,
     "name": "Electromagnetic Kinetic Core 1",
-    "description": "Applying Electromagnetic Damage Rate +<D0>%\\n(The paralysis duration is related to the bullet Damage)",
+    "description": "Applying Electromagnetic Damage Rate +<D0>%\n(The paralysis duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3738,11 +3738,11 @@
       }
     ]
   },
-  "2590": {
+  {
     "index": 88,
     "id": 2590,
     "name": "Electromagnetic Kinetic Core 2",
-    "description": "Applying Electromagnetic Damage Rate +<D0>%\\n(The paralysis duration is related to the bullet Damage)",
+    "description": "Applying Electromagnetic Damage Rate +<D0>%\n(The paralysis duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3777,11 +3777,11 @@
       }
     ]
   },
-  "2591": {
+  {
     "index": 89,
     "id": 2591,
     "name": "Electromagnetic Kinetic Core 3",
-    "description": "Applying Electromagnetic Damage Rate +<D0>%\\n(The paralysis duration is related to the bullet Damage)",
+    "description": "Applying Electromagnetic Damage Rate +<D0>%\n(The paralysis duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3816,11 +3816,11 @@
       }
     ]
   },
-  "2592": {
+  {
     "index": 90,
     "id": 2592,
     "name": "Electromagnetic Kinetic Core 4",
-    "description": "Applying Electromagnetic Damage Rate +<D0>%\\n(The paralysis duration is related to the bullet Damage)",
+    "description": "Applying Electromagnetic Damage Rate +<D0>%\n(The paralysis duration is related to the bullet Damage)",
     "tag": "",
     "weaponType": "Weapon",
     "functions": [
@@ -3855,7 +3855,7 @@
       }
     ]
   },
-  "2593": {
+  {
     "index": 91,
     "id": 2593,
     "name": "Electromagnetic Bullet Core 1",
@@ -3902,7 +3902,7 @@
       }
     ]
   },
-  "2594": {
+  {
     "index": 92,
     "id": 2594,
     "name": "Electromagnetic Bullet Core 2",
@@ -3949,7 +3949,7 @@
       }
     ]
   },
-  "2595": {
+  {
     "index": 93,
     "id": 2595,
     "name": "Electromagnetic Bullet Core 3",
@@ -3996,7 +3996,7 @@
       }
     ]
   },
-  "2596": {
+  {
     "index": 94,
     "id": 2596,
     "name": "Electromagnetic Bullet Core 4",
@@ -4043,7 +4043,7 @@
       }
     ]
   },
-  "2597": {
+  {
     "index": 95,
     "id": 2597,
     "name": "Ray Anti-blast Core 1",
@@ -4078,7 +4078,7 @@
       }
     ]
   },
-  "2598": {
+  {
     "index": 96,
     "id": 2598,
     "name": "Ray Anti-blast Core 2",
@@ -4113,7 +4113,7 @@
       }
     ]
   },
-  "2599": {
+  {
     "index": 97,
     "id": 2599,
     "name": "Ray Anti-blast Core 3",
@@ -4148,7 +4148,7 @@
       }
     ]
   },
-  "2600": {
+  {
     "index": 98,
     "id": 2600,
     "name": "Ray Anti-blast Core 4",
@@ -4183,7 +4183,7 @@
       }
     ]
   },
-  "2601": {
+  {
     "index": 99,
     "id": 2601,
     "name": "Ray Power-blast Core 1",
@@ -4222,7 +4222,7 @@
       }
     ]
   },
-  "2602": {
+  {
     "index": 100,
     "id": 2602,
     "name": "Ray Power-blast Core 2",
@@ -4261,7 +4261,7 @@
       }
     ]
   },
-  "2603": {
+  {
     "index": 101,
     "id": 2603,
     "name": "Ray Power-blast Core 3",
@@ -4300,7 +4300,7 @@
       }
     ]
   },
-  "2604": {
+  {
     "index": 102,
     "id": 2604,
     "name": "Ray Power-blast Core 4",
@@ -4339,7 +4339,7 @@
       }
     ]
   },
-  "2605": {
+  {
     "index": 103,
     "id": 2605,
     "name": "Ray Fusing Core 1",
@@ -4378,7 +4378,7 @@
       }
     ]
   },
-  "2606": {
+  {
     "index": 104,
     "id": 2606,
     "name": "Ray Fusing Core 2",
@@ -4417,7 +4417,7 @@
       }
     ]
   },
-  "2607": {
+  {
     "index": 105,
     "id": 2607,
     "name": "Ray Fusing Core 3",
@@ -4456,7 +4456,7 @@
       }
     ]
   },
-  "2608": {
+  {
     "index": 106,
     "id": 2608,
     "name": "Ray Fusing Core 4",
@@ -4495,7 +4495,7 @@
       }
     ]
   },
-  "2609": {
+  {
     "index": 107,
     "id": 2609,
     "name": "Ray Welding Core 1",
@@ -4538,7 +4538,7 @@
       }
     ]
   },
-  "2610": {
+  {
     "index": 108,
     "id": 2610,
     "name": "Ray Welding Core 2",
@@ -4581,7 +4581,7 @@
       }
     ]
   },
-  "2611": {
+  {
     "index": 109,
     "id": 2611,
     "name": "Ray Welding Core 3",
@@ -4624,7 +4624,7 @@
       }
     ]
   },
-  "2612": {
+  {
     "index": 110,
     "id": 2612,
     "name": "Ray Welding Core 4",
@@ -4667,7 +4667,7 @@
       }
     ]
   },
-  "2613": {
+  {
     "index": 111,
     "id": 2613,
     "name": "Ray Energy Core 1",
@@ -4716,7 +4716,7 @@
       }
     ]
   },
-  "2614": {
+  {
     "index": 112,
     "id": 2614,
     "name": "Ray Energy Core 2",
@@ -4765,7 +4765,7 @@
       }
     ]
   },
-  "2615": {
+  {
     "index": 113,
     "id": 2615,
     "name": "Ray Energy Core 3",
@@ -4814,7 +4814,7 @@
       }
     ]
   },
-  "2616": {
+  {
     "index": 114,
     "id": 2616,
     "name": "Ray Energy Core 4",
@@ -4863,7 +4863,7 @@
       }
     ]
   },
-  "2617": {
+  {
     "index": 115,
     "id": 2617,
     "name": "Ray Energy Core 5",
@@ -4912,7 +4912,7 @@
       }
     ]
   },
-  "2618": {
+  {
     "index": 116,
     "id": 2618,
     "name": "Ray Energy Core 6",
@@ -4961,7 +4961,7 @@
       }
     ]
   },
-  "2619": {
+  {
     "index": 117,
     "id": 2619,
     "name": "Ray Refraction Core 1",
@@ -4999,7 +4999,7 @@
       }
     ]
   },
-  "2620": {
+  {
     "index": 118,
     "id": 2620,
     "name": "Ray Refraction Core 2",
@@ -5037,7 +5037,7 @@
       }
     ]
   },
-  "2621": {
+  {
     "index": 119,
     "id": 2621,
     "name": "Ray Refraction Core 3",
@@ -5075,7 +5075,7 @@
       }
     ]
   },
-  "2622": {
+  {
     "index": 120,
     "id": 2622,
     "name": "Ray Trident Core 1",
@@ -5121,7 +5121,7 @@
       }
     ]
   },
-  "2623": {
+  {
     "index": 121,
     "id": 2623,
     "name": "Ray Trident Core 2",
@@ -5167,7 +5167,7 @@
       }
     ]
   },
-  "2624": {
+  {
     "index": 122,
     "id": 2624,
     "name": "Ray Trident Core 3",
@@ -5213,7 +5213,7 @@
       }
     ]
   },
-  "2625": {
+  {
     "index": 123,
     "id": 2625,
     "name": "Ray Rapid-firing Core 1",
@@ -5251,7 +5251,7 @@
       }
     ]
   },
-  "2626": {
+  {
     "index": 124,
     "id": 2626,
     "name": "Ray Rapid-firing Core 2",
@@ -5289,7 +5289,7 @@
       }
     ]
   },
-  "2627": {
+  {
     "index": 125,
     "id": 2627,
     "name": "Ray Rapid-firing Core 3",
@@ -5327,7 +5327,7 @@
       }
     ]
   },
-  "2628": {
+  {
     "index": 126,
     "id": 2628,
     "name": "Arc Anti-blast Core 1",
@@ -5362,7 +5362,7 @@
       }
     ]
   },
-  "2629": {
+  {
     "index": 127,
     "id": 2629,
     "name": "Arc Anti-blast Core 2",
@@ -5397,7 +5397,7 @@
       }
     ]
   },
-  "2630": {
+  {
     "index": 128,
     "id": 2630,
     "name": "Arc Anti-blast Core 3",
@@ -5432,7 +5432,7 @@
       }
     ]
   },
-  "2631": {
+  {
     "index": 129,
     "id": 2631,
     "name": "Arc Anti-blast Core 4",
@@ -5467,7 +5467,7 @@
       }
     ]
   },
-  "2632": {
+  {
     "index": 130,
     "id": 2632,
     "name": "Arc Power-blast Core 1",
@@ -5506,7 +5506,7 @@
       }
     ]
   },
-  "2633": {
+  {
     "index": 131,
     "id": 2633,
     "name": "Arc Power-blast Core 2",
@@ -5545,7 +5545,7 @@
       }
     ]
   },
-  "2634": {
+  {
     "index": 132,
     "id": 2634,
     "name": "Arc Power-blast Core 3",
@@ -5584,7 +5584,7 @@
       }
     ]
   },
-  "2635": {
+  {
     "index": 133,
     "id": 2635,
     "name": "Arc Power-blast Core 4",
@@ -5623,7 +5623,7 @@
       }
     ]
   },
-  "2636": {
+  {
     "index": 134,
     "id": 2636,
     "name": "Arc Inner Guide Core 1",
@@ -5666,7 +5666,7 @@
       }
     ]
   },
-  "2637": {
+  {
     "index": 135,
     "id": 2637,
     "name": "Arc Inner Guide Core 2",
@@ -5709,7 +5709,7 @@
       }
     ]
   },
-  "2638": {
+  {
     "index": 136,
     "id": 2638,
     "name": "Arc Inner Guide Core 3",
@@ -5752,7 +5752,7 @@
       }
     ]
   },
-  "2639": {
+  {
     "index": 137,
     "id": 2639,
     "name": "Arc Inner Guide Core 4",
@@ -5795,7 +5795,7 @@
       }
     ]
   },
-  "2640": {
+  {
     "index": 138,
     "id": 2640,
     "name": "Arc Implosion Core 1",
@@ -5834,7 +5834,7 @@
       }
     ]
   },
-  "2641": {
+  {
     "index": 139,
     "id": 2641,
     "name": "Arc Implosion Core 2",
@@ -5873,7 +5873,7 @@
       }
     ]
   },
-  "2642": {
+  {
     "index": 140,
     "id": 2642,
     "name": "Arc Implosion Core 3",
@@ -5912,7 +5912,7 @@
       }
     ]
   },
-  "2643": {
+  {
     "index": 141,
     "id": 2643,
     "name": "Arc Implosion Core 4",
@@ -5951,7 +5951,7 @@
       }
     ]
   },
-  "2644": {
+  {
     "index": 142,
     "id": 2644,
     "name": "Arc Expansion Core 1",
@@ -5993,7 +5993,7 @@
       }
     ]
   },
-  "2645": {
+  {
     "index": 143,
     "id": 2645,
     "name": "Arc Expansion Core 2",
@@ -6035,7 +6035,7 @@
       }
     ]
   },
-  "2646": {
+  {
     "index": 144,
     "id": 2646,
     "name": "Arc Expansion Core 3",
@@ -6077,7 +6077,7 @@
       }
     ]
   },
-  "2647": {
+  {
     "index": 145,
     "id": 2647,
     "name": "Arc Reflection Core 1",
@@ -6113,7 +6113,7 @@
       }
     ]
   },
-  "2648": {
+  {
     "index": 146,
     "id": 2648,
     "name": "Arc Reflection Core 2",
@@ -6149,7 +6149,7 @@
       }
     ]
   },
-  "2649": {
+  {
     "index": 147,
     "id": 2649,
     "name": "Arc Reflection Core 3",
@@ -6185,7 +6185,7 @@
       }
     ]
   },
-  "2650": {
+  {
     "index": 148,
     "id": 2650,
     "name": "Arc Reflection Core 4",
@@ -6221,7 +6221,7 @@
       }
     ]
   },
-  "2651": {
+  {
     "index": 149,
     "id": 2651,
     "name": "Arc Reflection Core 5",
@@ -6257,7 +6257,7 @@
       }
     ]
   },
-  "2652": {
+  {
     "index": 150,
     "id": 2652,
     "name": "Arc Charging Core 1",
@@ -6298,7 +6298,7 @@
       }
     ]
   },
-  "2653": {
+  {
     "index": 151,
     "id": 2653,
     "name": "Arc Charging Core 2",
@@ -6339,7 +6339,7 @@
       }
     ]
   },
-  "2654": {
+  {
     "index": 152,
     "id": 2654,
     "name": "Arc Charging Core 3",
@@ -6380,7 +6380,7 @@
       }
     ]
   },
-  "2655": {
+  {
     "index": 153,
     "id": 2655,
     "name": "Arc Charging Core 4",
@@ -6421,7 +6421,7 @@
       }
     ]
   },
-  "2656": {
+  {
     "index": 154,
     "id": 2656,
     "name": "Arc Charging Core 5",
@@ -6462,7 +6462,7 @@
       }
     ]
   },
-  "2657": {
+  {
     "index": 155,
     "id": 2657,
     "name": "Arc Charging Core 6",
@@ -6503,7 +6503,7 @@
       }
     ]
   },
-  "2658": {
+  {
     "index": 156,
     "id": 2658,
     "name": "Arc Blast-spread Core 1",
@@ -6542,7 +6542,7 @@
       }
     ]
   },
-  "2659": {
+  {
     "index": 157,
     "id": 2659,
     "name": "Arc Blast-spread Core 2",
@@ -6581,7 +6581,7 @@
       }
     ]
   },
-  "2660": {
+  {
     "index": 158,
     "id": 2660,
     "name": "Arc Blast-spread Core 3",
@@ -6620,7 +6620,7 @@
       }
     ]
   },
-  "2661": {
+  {
     "index": 159,
     "id": 2661,
     "name": "Arc Blast-spread Core 4",
@@ -6659,7 +6659,7 @@
       }
     ]
   },
-  "2662": {
+  {
     "index": 160,
     "id": 2662,
     "name": "Explosive Splitter Core 1",
@@ -6701,7 +6701,7 @@
       }
     ]
   },
-  "2663": {
+  {
     "index": 161,
     "id": 2663,
     "name": "Explosive Splitter Core 2",
@@ -6743,7 +6743,7 @@
       }
     ]
   },
-  "2664": {
+  {
     "index": 162,
     "id": 2664,
     "name": "Explosive Splitter Core 3",
@@ -6785,7 +6785,7 @@
       }
     ]
   },
-  "2665": {
+  {
     "index": 163,
     "id": 2665,
     "name": "Chain Reaction Core 1",
@@ -6823,7 +6823,7 @@
       }
     ]
   },
-  "2666": {
+  {
     "index": 164,
     "id": 2666,
     "name": "Chain Reaction Core 2",
@@ -6861,7 +6861,7 @@
       }
     ]
   },
-  "2667": {
+  {
     "index": 165,
     "id": 2667,
     "name": "Chain Reaction Core 3",
@@ -6899,7 +6899,7 @@
       }
     ]
   },
-  "2668": {
+  {
     "index": 166,
     "id": 2668,
     "name": "Delayed Fuse Core 1",
@@ -6939,7 +6939,7 @@
       }
     ]
   },
-  "2669": {
+  {
     "index": 167,
     "id": 2669,
     "name": "Delayed Fuse Core 2",
@@ -6979,7 +6979,7 @@
       }
     ]
   },
-  "2670": {
+  {
     "index": 168,
     "id": 2670,
     "name": "Delayed Fuse Core 3",
@@ -7019,7 +7019,7 @@
       }
     ]
   },
-  "2671": {
+  {
     "index": 169,
     "id": 2671,
     "name": "Delayed Fuse Core 4",
@@ -7059,7 +7059,7 @@
       }
     ]
   },
-  "2672": {
+  {
     "index": 170,
     "id": 2672,
     "name": "Delayed Fuse Core 5",
@@ -7099,7 +7099,7 @@
       }
     ]
   },
-  "2673": {
+  {
     "index": 171,
     "id": 2673,
     "name": "Explosive Powder Charge Core",
@@ -7139,7 +7139,7 @@
       }
     ]
   },
-  "2674": {
+  {
     "index": 172,
     "id": 2674,
     "name": "Heated Gas Core 1",
@@ -7177,7 +7177,7 @@
       }
     ]
   },
-  "2675": {
+  {
     "index": 173,
     "id": 2675,
     "name": "Heated Gas Core 2",
@@ -7215,7 +7215,7 @@
       }
     ]
   },
-  "2676": {
+  {
     "index": 174,
     "id": 2676,
     "name": "Heated Gas Core 3",
@@ -7253,7 +7253,7 @@
       }
     ]
   },
-  "2677": {
+  {
     "index": 175,
     "id": 2677,
     "name": "Magnetized Gas Core 1",
@@ -7295,7 +7295,7 @@
       }
     ]
   },
-  "2678": {
+  {
     "index": 176,
     "id": 2678,
     "name": "Magnetized Gas Core 2",
@@ -7337,7 +7337,7 @@
       }
     ]
   },
-  "2679": {
+  {
     "index": 177,
     "id": 2679,
     "name": "Magnetized Gas Core 3",
@@ -7379,7 +7379,7 @@
       }
     ]
   },
-  "2680": {
+  {
     "index": 178,
     "id": 2680,
     "name": "Unstable Gas Core 1",
@@ -7417,7 +7417,7 @@
       }
     ]
   },
-  "2681": {
+  {
     "index": 179,
     "id": 2681,
     "name": "Unstable Gas Core 2",
@@ -7455,7 +7455,7 @@
       }
     ]
   },
-  "2682": {
+  {
     "index": 180,
     "id": 2682,
     "name": "Unstable Gas Core 3",
@@ -7493,7 +7493,7 @@
       }
     ]
   },
-  "2683": {
+  {
     "index": 181,
     "id": 2683,
     "name": "Broad-nozzle Core 1",
@@ -7531,7 +7531,7 @@
       }
     ]
   },
-  "2684": {
+  {
     "index": 182,
     "id": 2684,
     "name": "Broad-nozzle Core 2",
@@ -7569,7 +7569,7 @@
       }
     ]
   },
-  "2685": {
+  {
     "index": 183,
     "id": 2685,
     "name": "Broad-nozzle Core 3",
@@ -7607,7 +7607,7 @@
       }
     ]
   },
-  "2686": {
+  {
     "index": 184,
     "id": 2686,
     "name": "Spread Constriction Core 1",
@@ -7642,7 +7642,7 @@
       }
     ]
   },
-  "2687": {
+  {
     "index": 185,
     "id": 2687,
     "name": "Spread Constriction Core 2",
@@ -7677,7 +7677,7 @@
       }
     ]
   },
-  "2688": {
+  {
     "index": 186,
     "id": 2688,
     "name": "Spread Constriction Core 3",
@@ -7712,7 +7712,7 @@
       }
     ]
   },
-  "2689": {
+  {
     "index": 187,
     "id": 2689,
     "name": "Spread Constriction Core 4",
@@ -7747,7 +7747,7 @@
       }
     ]
   },
-  "2690": {
+  {
     "index": 188,
     "id": 2690,
     "name": "Burst-fire Core P3",
@@ -7772,7 +7772,7 @@
     "baseWeapons": [],
     "fusionWeapons": []
   },
-  "2691": {
+  {
     "index": 189,
     "id": 2691,
     "name": "Burst-fire Core P8",
@@ -7797,7 +7797,7 @@
     "baseWeapons": [],
     "fusionWeapons": []
   },
-  "2692": {
+  {
     "index": 190,
     "id": 2692,
     "name": "Burst-fire Core P2",
@@ -7822,7 +7822,7 @@
     "baseWeapons": [],
     "fusionWeapons": []
   },
-  "2693": {
+  {
     "index": 191,
     "id": 2693,
     "name": "Burst-fire Core P4",
@@ -7847,7 +7847,7 @@
     "baseWeapons": [],
     "fusionWeapons": []
   },
-  "2694": {
+  {
     "index": 192,
     "id": 2694,
     "name": "Trajectory Core",
@@ -7869,7 +7869,7 @@
     "baseWeapons": [],
     "fusionWeapons": []
   },
-  "2801": {
+  {
     "index": 193,
     "id": 2801,
     "name": "Close combat maintenance core 1",
@@ -7905,7 +7905,7 @@
       }
     ]
   },
-  "2802": {
+  {
     "index": 194,
     "id": 2802,
     "name": "Close combat maintenance core 2",
@@ -7941,7 +7941,7 @@
       }
     ]
   },
-  "2803": {
+  {
     "index": 195,
     "id": 2803,
     "name": "Close combat maintenance core 3",
@@ -7977,7 +7977,7 @@
       }
     ]
   },
-  "2804": {
+  {
     "index": 196,
     "id": 2804,
     "name": "Close combat maintenance core 4",
@@ -8013,7 +8013,7 @@
       }
     ]
   },
-  "2805": {
+  {
     "index": 197,
     "id": 2805,
     "name": "Close combat maintenance core 5",
@@ -8049,7 +8049,7 @@
       }
     ]
   },
-  "2806": {
+  {
     "index": 198,
     "id": 2806,
     "name": "Close combat differential core 1",
@@ -8085,7 +8085,7 @@
       }
     ]
   },
-  "2807": {
+  {
     "index": 199,
     "id": 2807,
     "name": "Close combat differential core 2",
@@ -8121,7 +8121,7 @@
       }
     ]
   },
-  "2808": {
+  {
     "index": 200,
     "id": 2808,
     "name": "Close combat differential core 3",
@@ -8157,7 +8157,7 @@
       }
     ]
   },
-  "2809": {
+  {
     "index": 201,
     "id": 2809,
     "name": "Close combat differential core 4",
@@ -8193,7 +8193,7 @@
       }
     ]
   },
-  "2810": {
+  {
     "index": 202,
     "id": 2810,
     "name": "Close combat differential core 5",
@@ -8229,7 +8229,7 @@
       }
     ]
   },
-  "2811": {
+  {
     "index": 203,
     "id": 2811,
     "name": "Core of melee forces 1",
@@ -8263,7 +8263,7 @@
       }
     ]
   },
-  "2812": {
+  {
     "index": 204,
     "id": 2812,
     "name": "Core of melee forces 2",
@@ -8297,7 +8297,7 @@
       }
     ]
   },
-  "2813": {
+  {
     "index": 205,
     "id": 2813,
     "name": "Core of melee forces 3",
@@ -8331,7 +8331,7 @@
       }
     ]
   },
-  "2814": {
+  {
     "index": 206,
     "id": 2814,
     "name": "Close combat sharpeness core 1",
@@ -8367,7 +8367,7 @@
       }
     ]
   },
-  "2815": {
+  {
     "index": 207,
     "id": 2815,
     "name": "Close combat sharpeness core 1",
@@ -8403,7 +8403,7 @@
       }
     ]
   },
-  "2816": {
+  {
     "index": 208,
     "id": 2816,
     "name": "Close combat sharpeness core 1",
@@ -8439,7 +8439,7 @@
       }
     ]
   },
-  "2817": {
+  {
     "index": 209,
     "id": 2817,
     "name": "Close combat sharpeness core 1",
@@ -8475,7 +8475,7 @@
       }
     ]
   },
-  "2818": {
+  {
     "index": 210,
     "id": 2818,
     "name": "Close combat sharpeness core 1",
@@ -8511,7 +8511,7 @@
       }
     ]
   },
-  "2819": {
+  {
     "index": 211,
     "id": 2819,
     "name": "Close combat focus core 1",
@@ -8545,7 +8545,7 @@
       }
     ]
   },
-  "2820": {
+  {
     "index": 212,
     "id": 2820,
     "name": "Close combat focus core 2",
@@ -8579,7 +8579,7 @@
       }
     ]
   },
-  "2821": {
+  {
     "index": 213,
     "id": 2821,
     "name": "Close combat focus core 3",
@@ -8613,7 +8613,7 @@
       }
     ]
   },
-  "2822": {
+  {
     "index": 214,
     "id": 2822,
     "name": "Melee throwing core 1",
@@ -8661,7 +8661,7 @@
       }
     ]
   },
-  "2823": {
+  {
     "index": 215,
     "id": 2823,
     "name": "Melee throwing core 2",
@@ -8709,7 +8709,7 @@
       }
     ]
   },
-  "2824": {
+  {
     "index": 216,
     "id": 2824,
     "name": "Melee throwing core 3",
@@ -8757,7 +8757,7 @@
       }
     ]
   },
-  "2825": {
+  {
     "index": 217,
     "id": 2825,
     "name": "Melee throwing core 4",
@@ -8805,7 +8805,7 @@
       }
     ]
   },
-  "2826": {
+  {
     "index": 218,
     "id": 2826,
     "name": "Melee throwing core 5",
@@ -8853,7 +8853,7 @@
       }
     ]
   },
-  "2827": {
+  {
     "index": 219,
     "id": 2827,
     "name": "Stun damage increasing core 1",
@@ -8889,7 +8889,7 @@
       }
     ]
   },
-  "2828": {
+  {
     "index": 220,
     "id": 2828,
     "name": "Stun damage increasing core 2",
@@ -8925,7 +8925,7 @@
       }
     ]
   },
-  "2829": {
+  {
     "index": 221,
     "id": 2829,
     "name": "Stun damage increasing core 3",
@@ -8961,7 +8961,7 @@
       }
     ]
   },
-  "2830": {
+  {
     "index": 222,
     "id": 2830,
     "name": "Stun damage increasing core 4",
@@ -8997,7 +8997,7 @@
       }
     ]
   },
-  "2831": {
+  {
     "index": 223,
     "id": 2831,
     "name": "Stun damage increasing core 5",
@@ -9033,7 +9033,7 @@
       }
     ]
   },
-  "2832": {
+  {
     "index": 224,
     "id": 2832,
     "name": "Close combat damage core 1",
@@ -9073,7 +9073,7 @@
       }
     ]
   },
-  "2833": {
+  {
     "index": 225,
     "id": 2833,
     "name": "Close combat damage core 2",
@@ -9113,7 +9113,7 @@
       }
     ]
   },
-  "2834": {
+  {
     "index": 226,
     "id": 2834,
     "name": "Close combat damage core 3",
@@ -9153,7 +9153,7 @@
       }
     ]
   },
-  "2835": {
+  {
     "index": 227,
     "id": 2835,
     "name": "Close combat damage core 4",
@@ -9193,7 +9193,7 @@
       }
     ]
   },
-  "2836": {
+  {
     "index": 228,
     "id": 2836,
     "name": "Close combat damage core 5",
@@ -9233,7 +9233,7 @@
       }
     ]
   },
-  "1451": {
+  {
     "index": 229,
     "id": 1451,
     "name": "SMW Explo Element core",
@@ -9266,7 +9266,7 @@
       }
     ]
   },
-  "1452": {
+  {
     "index": 230,
     "id": 1452,
     "name": "SMW Explo Element core +",
@@ -9299,7 +9299,7 @@
       }
     ]
   },
-  "1453": {
+  {
     "index": 231,
     "id": 1453,
     "name": "SMW Kinetic Element core",
@@ -9332,7 +9332,7 @@
       }
     ]
   },
-  "1454": {
+  {
     "index": 232,
     "id": 1454,
     "name": "SMW Kinetic Element core +",
@@ -9365,7 +9365,7 @@
       }
     ]
   },
-  "1455": {
+  {
     "index": 233,
     "id": 1455,
     "name": "SMW Magazine core1",
@@ -9399,7 +9399,7 @@
       }
     ]
   },
-  "1456": {
+  {
     "index": 234,
     "id": 1456,
     "name": "SMW Magazine core2",
@@ -9433,7 +9433,7 @@
       }
     ]
   },
-  "1457": {
+  {
     "index": 235,
     "id": 1457,
     "name": "SMW Magazine core3",
@@ -9467,7 +9467,7 @@
       }
     ]
   },
-  "1458": {
+  {
     "index": 236,
     "id": 1458,
     "name": "EMP amplification core",
@@ -9500,7 +9500,7 @@
       }
     ]
   },
-  "1459": {
+  {
     "index": 237,
     "id": 1459,
     "name": "EMP amplification core+",
@@ -9533,7 +9533,7 @@
       }
     ]
   },
-  "1460": {
+  {
     "index": 238,
     "id": 1460,
     "name": "Tracking core",
@@ -9573,7 +9573,7 @@
       }
     ]
   },
-  "1461": {
+  {
     "index": 239,
     "id": 1461,
     "name": "Tracking amplification core",
@@ -9605,7 +9605,7 @@
       }
     ]
   },
-  "1462": {
+  {
     "index": 240,
     "id": 1462,
     "name": "SMW Salvo core 1",
@@ -9647,7 +9647,7 @@
       }
     ]
   },
-  "1463": {
+  {
     "index": 241,
     "id": 1463,
     "name": "SMW Salvo core 2",
@@ -9689,7 +9689,7 @@
       }
     ]
   },
-  "1464": {
+  {
     "index": 242,
     "id": 1464,
     "name": "SMW Salvo core 3",
@@ -9731,7 +9731,7 @@
       }
     ]
   },
-  "1465": {
+  {
     "index": 243,
     "id": 1465,
     "name": "SMW Kinetic Explo core",
@@ -9764,7 +9764,7 @@
       }
     ]
   },
-  "1466": {
+  {
     "index": 244,
     "id": 1466,
     "name": "SMW Kinetic Explo core",
@@ -9797,7 +9797,7 @@
       }
     ]
   },
-  "1467": {
+  {
     "index": 245,
     "id": 1467,
     "name": "SMW Explosion Damage core",
@@ -9830,7 +9830,7 @@
       }
     ]
   },
-  "1468": {
+  {
     "index": 246,
     "id": 1468,
     "name": "SMW Explosion Damage core+",
@@ -9863,4 +9863,4 @@
       }
     ]
   }
-}
+]

@@ -1,5 +1,5 @@
-{
-  "0": {
+[
+  {
     "id": 0,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -29,7 +29,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1": {
+  {
     "id": 1,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -59,7 +59,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "2": {
+  {
     "id": 2,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -89,7 +89,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "3": {
+  {
     "id": 3,
     "type": "BulletMinu",
     "bulletRange": 16,
@@ -119,7 +119,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "4": {
+  {
     "id": 4,
     "type": "BulletLarge",
     "bulletRange": 28,
@@ -149,7 +149,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "5": {
+  {
     "id": 5,
     "type": "BulletLargeMinu",
     "bulletRange": 27,
@@ -179,7 +179,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "6": {
+  {
     "id": 6,
     "type": "BulletMinu",
     "bulletRange": 16,
@@ -209,7 +209,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "7": {
+  {
     "id": 7,
     "type": "BulletExplode",
     "bulletRange": 28,
@@ -239,7 +239,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "8": {
+  {
     "id": 8,
     "type": "BulletExplodeMin",
     "bulletRange": 24,
@@ -269,7 +269,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "9": {
+  {
     "id": 9,
     "type": "BulletPierce",
     "bulletRange": 20,
@@ -299,7 +299,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "10": {
+  {
     "id": 10,
     "type": "Thrower-Fire",
     "bulletRange": 15,
@@ -329,7 +329,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "11": {
+  {
     "id": 11,
     "type": "Thrower-Freeze",
     "bulletRange": 15,
@@ -359,7 +359,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "12": {
+  {
     "id": 12,
     "type": "BulletElectr",
     "bulletRange": 16,
@@ -389,7 +389,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "13": {
+  {
     "id": 13,
     "type": "BulletBig",
     "bulletRange": 24,
@@ -424,7 +424,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "14": {
+  {
     "id": 14,
     "type": "BulletLargeMinu",
     "bulletRange": 27,
@@ -459,7 +459,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "15": {
+  {
     "id": 15,
     "type": "BulletBigFar",
     "bulletRange": 26,
@@ -489,7 +489,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "16": {
+  {
     "id": 16,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -519,7 +519,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "17": {
+  {
     "id": 17,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -549,7 +549,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "18": {
+  {
     "id": 18,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -581,7 +581,7 @@
       2692
     ]
   },
-  "19": {
+  {
     "id": 19,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -611,7 +611,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "20": {
+  {
     "id": 20,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -641,7 +641,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "21": {
+  {
     "id": 21,
     "type": "BulletMinu",
     "bulletRange": 16,
@@ -671,7 +671,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "22": {
+  {
     "id": 22,
     "type": "BulletMinu2",
     "bulletRange": 18,
@@ -701,7 +701,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "23": {
+  {
     "id": 23,
     "type": "BulletBig2",
     "bulletRange": 26,
@@ -731,7 +731,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "24": {
+  {
     "id": 24,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -761,7 +761,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "25": {
+  {
     "id": 25,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -791,7 +791,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "26": {
+  {
     "id": 26,
     "type": "BulletExplodeMin2",
     "bulletRange": 24,
@@ -821,7 +821,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "27": {
+  {
     "id": 27,
     "type": "RayNormal",
     "bulletRange": 17,
@@ -851,7 +851,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "28": {
+  {
     "id": 28,
     "type": "RayNormalLong",
     "bulletRange": 24,
@@ -881,7 +881,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "29": {
+  {
     "id": 29,
     "type": "RayBurst",
     "bulletRange": 18,
@@ -911,7 +911,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "30": {
+  {
     "id": 30,
     "type": "RayBurstLong",
     "bulletRange": 28,
@@ -941,7 +941,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "31": {
+  {
     "id": 31,
     "type": "Lightning",
     "bulletRange": 18,
@@ -971,7 +971,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "32": {
+  {
     "id": 32,
     "type": "LightningLong",
     "bulletRange": 30,
@@ -1001,7 +1001,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "33": {
+  {
     "id": 33,
     "type": "LightningDamage",
     "bulletRange": 20,
@@ -1031,7 +1031,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "34": {
+  {
     "id": 34,
     "type": "LightningBurst",
     "bulletRange": 14,
@@ -1061,7 +1061,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "35": {
+  {
     "id": 35,
     "type": "Lightning_Treat",
     "bulletRange": 20,
@@ -1091,7 +1091,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "36": {
+  {
     "id": 36,
     "type": "Thrower-Oil",
     "bulletRange": 15,
@@ -1121,7 +1121,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "37": {
+  {
     "id": 37,
     "type": "Thrower-Water",
     "bulletRange": 15,
@@ -1151,7 +1151,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "38": {
+  {
     "id": 38,
     "type": "BulletWater",
     "bulletRange": 16,
@@ -1181,7 +1181,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "39": {
+  {
     "id": 39,
     "type": "BulletElectrMin",
     "bulletRange": 15,
@@ -1211,7 +1211,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "40": {
+  {
     "id": 40,
     "type": "BulletElectrLarge",
     "bulletRange": 28,
@@ -1241,7 +1241,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "41": {
+  {
     "id": 41,
     "type": "GunShield",
     "bulletRange": 3,
@@ -1271,7 +1271,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "42": {
+  {
     "id": 42,
     "type": "BulletExplodeMin2",
     "bulletRange": 24,
@@ -1301,7 +1301,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "43": {
+  {
     "id": 43,
     "type": "BulletLargeMinu0",
     "bulletRange": 16,
@@ -1331,7 +1331,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "44": {
+  {
     "id": 44,
     "type": "BulletEner",
     "bulletRange": 22,
@@ -1361,7 +1361,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "45": {
+  {
     "id": 45,
     "type": "BulletEner",
     "bulletRange": 22,
@@ -1396,7 +1396,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "46": {
+  {
     "id": 46,
     "type": "BulletGrenadeProjMine",
     "bulletRange": 18,
@@ -1426,7 +1426,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "47": {
+  {
     "id": 47,
     "type": "BulletTeleport",
     "bulletRange": 20,
@@ -1465,7 +1465,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "48": {
+  {
     "id": 48,
     "type": "BulletElectr",
     "bulletRange": 16,
@@ -1495,7 +1495,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "49": {
+  {
     "id": 49,
     "type": "BulletEner",
     "bulletRange": 22,
@@ -1525,7 +1525,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "80": {
+  {
     "id": 80,
     "type": "BulletEnerLarge",
     "bulletRange": 26,
@@ -1555,7 +1555,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "81": {
+  {
     "id": 81,
     "type": "BulletExplodeHigh",
     "bulletRange": 28,
@@ -1592,7 +1592,7 @@
       2694
     ]
   },
-  "82": {
+  {
     "id": 82,
     "type": "BulletExplode",
     "bulletRange": 28,
@@ -1625,7 +1625,7 @@
       1461
     ]
   },
-  "100": {
+  {
     "id": 100,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -1655,7 +1655,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "101": {
+  {
     "id": 101,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -1685,7 +1685,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "102": {
+  {
     "id": 102,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -1715,7 +1715,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "103": {
+  {
     "id": 103,
     "type": "BulletMinu",
     "bulletRange": 16,
@@ -1745,7 +1745,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "104": {
+  {
     "id": 104,
     "type": "BulletLarge",
     "bulletRange": 28,
@@ -1775,7 +1775,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "105": {
+  {
     "id": 105,
     "type": "BulletLargeMinu",
     "bulletRange": 27,
@@ -1805,7 +1805,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "106": {
+  {
     "id": 106,
     "type": "BulletMinu",
     "bulletRange": 16,
@@ -1835,7 +1835,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "107": {
+  {
     "id": 107,
     "type": "BulletExplode",
     "bulletRange": 28,
@@ -1865,7 +1865,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "108": {
+  {
     "id": 108,
     "type": "BulletExplodeMin",
     "bulletRange": 24,
@@ -1895,7 +1895,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "109": {
+  {
     "id": 109,
     "type": "BulletPierce",
     "bulletRange": 20,
@@ -1925,7 +1925,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "110": {
+  {
     "id": 110,
     "type": "Thrower-Fire",
     "bulletRange": 15,
@@ -1955,7 +1955,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "111": {
+  {
     "id": 111,
     "type": "Thrower-Freeze",
     "bulletRange": 15,
@@ -1985,7 +1985,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "113": {
+  {
     "id": 113,
     "type": "BulletBig",
     "bulletRange": 24,
@@ -2020,7 +2020,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "114": {
+  {
     "id": 114,
     "type": "BulletLargeMinu",
     "bulletRange": 27,
@@ -2055,7 +2055,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "115": {
+  {
     "id": 115,
     "type": "BulletBigFar",
     "bulletRange": 26,
@@ -2085,7 +2085,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "116": {
+  {
     "id": 116,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -2115,7 +2115,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "117": {
+  {
     "id": 117,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -2145,7 +2145,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "118": {
+  {
     "id": 118,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -2182,7 +2182,7 @@
       2692
     ]
   },
-  "119": {
+  {
     "id": 119,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -2212,7 +2212,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "120": {
+  {
     "id": 120,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -2242,7 +2242,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "121": {
+  {
     "id": 121,
     "type": "BulletMinu",
     "bulletRange": 16,
@@ -2272,7 +2272,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "122": {
+  {
     "id": 122,
     "type": "BulletMinu2",
     "bulletRange": 18,
@@ -2302,7 +2302,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "123": {
+  {
     "id": 123,
     "type": "BulletBig2",
     "bulletRange": 26,
@@ -2332,7 +2332,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "124": {
+  {
     "id": 124,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -2362,7 +2362,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "125": {
+  {
     "id": 125,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -2392,7 +2392,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "126": {
+  {
     "id": 126,
     "type": "BulletExplodeMinHigh",
     "bulletRange": 26,
@@ -2429,7 +2429,7 @@
       2694
     ]
   },
-  "127": {
+  {
     "id": 127,
     "type": "RayNormal2",
     "bulletRange": 20,
@@ -2459,7 +2459,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "128": {
+  {
     "id": 128,
     "type": "RayNormalLong2",
     "bulletRange": 36,
@@ -2489,7 +2489,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "129": {
+  {
     "id": 129,
     "type": "RayBurst2",
     "bulletRange": 20,
@@ -2519,7 +2519,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "130": {
+  {
     "id": 130,
     "type": "RayBurstLong2",
     "bulletRange": 28,
@@ -2549,7 +2549,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "131": {
+  {
     "id": 131,
     "type": "Lightning2",
     "bulletRange": 18,
@@ -2579,7 +2579,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "132": {
+  {
     "id": 132,
     "type": "LightningLong2",
     "bulletRange": 32,
@@ -2609,7 +2609,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "133": {
+  {
     "id": 133,
     "type": "LightningDamage2",
     "bulletRange": 21,
@@ -2639,7 +2639,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "134": {
+  {
     "id": 134,
     "type": "LightningBurst2",
     "bulletRange": 14,
@@ -2669,7 +2669,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "136": {
+  {
     "id": 136,
     "type": "Thrower-Oil",
     "bulletRange": 15,
@@ -2699,7 +2699,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "137": {
+  {
     "id": 137,
     "type": "Thrower-Water",
     "bulletRange": 15,
@@ -2729,7 +2729,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "138": {
+  {
     "id": 138,
     "type": "BulletWater2",
     "bulletRange": 18,
@@ -2759,7 +2759,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "139": {
+  {
     "id": 139,
     "type": "BulletElectrMin2",
     "bulletRange": 16,
@@ -2789,7 +2789,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "140": {
+  {
     "id": 140,
     "type": "BulletElectrLarge2",
     "bulletRange": 30,
@@ -2819,7 +2819,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "142": {
+  {
     "id": 142,
     "type": "BulletExplodeMin",
     "bulletRange": 24,
@@ -2849,7 +2849,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "143": {
+  {
     "id": 143,
     "type": "BulletLargeMinu0b",
     "bulletRange": 19,
@@ -2879,7 +2879,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "144": {
+  {
     "id": 144,
     "type": "BulletEner",
     "bulletRange": 22,
@@ -2909,7 +2909,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "145": {
+  {
     "id": 145,
     "type": "BulletEner2",
     "bulletRange": 24,
@@ -2944,7 +2944,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "146": {
+  {
     "id": 146,
     "type": "BulletGrenadeProjMineBig",
     "bulletRange": 15,
@@ -2974,7 +2974,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "148": {
+  {
     "id": 148,
     "type": "BulletElectr2",
     "bulletRange": 17,
@@ -3004,7 +3004,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "149": {
+  {
     "id": 149,
     "type": "BulletEner2",
     "bulletRange": 24,
@@ -3034,7 +3034,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "180": {
+  {
     "id": 180,
     "type": "BulletEnerLarge2",
     "bulletRange": 28,
@@ -3064,7 +3064,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "181": {
+  {
     "id": 181,
     "type": "BulletExplodeHigh2",
     "bulletRange": 33,
@@ -3101,7 +3101,7 @@
       2694
     ]
   },
-  "182": {
+  {
     "id": 182,
     "type": "BulletExplodeMin",
     "bulletRange": 24,
@@ -3135,7 +3135,7 @@
       2690
     ]
   },
-  "200": {
+  {
     "id": 200,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -3165,7 +3165,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "201": {
+  {
     "id": 201,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -3195,7 +3195,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "202": {
+  {
     "id": 202,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -3225,7 +3225,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "203": {
+  {
     "id": 203,
     "type": "BulletMinu2",
     "bulletRange": 18,
@@ -3255,7 +3255,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "204": {
+  {
     "id": 204,
     "type": "BulletLargePierce",
     "bulletRange": 28,
@@ -3290,7 +3290,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "205": {
+  {
     "id": 205,
     "type": "BulletLargeMinu2",
     "bulletRange": 27,
@@ -3320,7 +3320,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "206": {
+  {
     "id": 206,
     "type": "BulletMinu2",
     "bulletRange": 18,
@@ -3350,7 +3350,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "209": {
+  {
     "id": 209,
     "type": "BulletPierce",
     "bulletRange": 20,
@@ -3382,7 +3382,7 @@
       2690
     ]
   },
-  "210": {
+  {
     "id": 210,
     "type": "Thrower-Fire",
     "bulletRange": 15,
@@ -3412,7 +3412,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "211": {
+  {
     "id": 211,
     "type": "Thrower-Freeze",
     "bulletRange": 15,
@@ -3442,7 +3442,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "213": {
+  {
     "id": 213,
     "type": "BulletBig",
     "bulletRange": 24,
@@ -3477,7 +3477,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "215": {
+  {
     "id": 215,
     "type": "BulletBigFar2",
     "bulletRange": 28,
@@ -3507,7 +3507,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "216": {
+  {
     "id": 216,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -3537,7 +3537,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "217": {
+  {
     "id": 217,
     "type": "BulletNormal5",
     "bulletRange": 24,
@@ -3572,7 +3572,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "218": {
+  {
     "id": 218,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -3609,7 +3609,7 @@
       2690
     ]
   },
-  "219": {
+  {
     "id": 219,
     "type": "BulletNormalFollow",
     "bulletRange": 22,
@@ -3642,7 +3642,7 @@
       1461
     ]
   },
-  "220": {
+  {
     "id": 220,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -3672,7 +3672,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "221": {
+  {
     "id": 221,
     "type": "BulletMinu2",
     "bulletRange": 18,
@@ -3702,7 +3702,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "222": {
+  {
     "id": 222,
     "type": "BulletMinu3",
     "bulletRange": 18,
@@ -3732,7 +3732,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "223": {
+  {
     "id": 223,
     "type": "BulletBig2",
     "bulletRange": 26,
@@ -3762,7 +3762,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "224": {
+  {
     "id": 224,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -3792,7 +3792,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "225": {
+  {
     "id": 225,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -3822,7 +3822,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "227": {
+  {
     "id": 227,
     "type": "RayNormalMinu",
     "bulletRange": 16,
@@ -3857,7 +3857,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "228": {
+  {
     "id": 228,
     "type": "RayNormalLong2",
     "bulletRange": 36,
@@ -3892,7 +3892,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "230": {
+  {
     "id": 230,
     "type": "RayBurstLong3",
     "bulletRange": 33,
@@ -3922,7 +3922,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "232": {
+  {
     "id": 232,
     "type": "LightningLong3",
     "bulletRange": 35,
@@ -3952,7 +3952,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "233": {
+  {
     "id": 233,
     "type": "LightningDamage3",
     "bulletRange": 23,
@@ -3982,7 +3982,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "236": {
+  {
     "id": 236,
     "type": "Thrower-Oil",
     "bulletRange": 15,
@@ -4012,7 +4012,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "237": {
+  {
     "id": 237,
     "type": "Thrower-Water",
     "bulletRange": 15,
@@ -4042,7 +4042,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "239": {
+  {
     "id": 239,
     "type": "BulletElectrMin2",
     "bulletRange": 16,
@@ -4074,7 +4074,7 @@
       2691
     ]
   },
-  "240": {
+  {
     "id": 240,
     "type": "BulletElectrLarge2",
     "bulletRange": 30,
@@ -4104,7 +4104,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "244": {
+  {
     "id": 244,
     "type": "BulletEner2",
     "bulletRange": 24,
@@ -4134,7 +4134,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "245": {
+  {
     "id": 245,
     "type": "BulletEner2",
     "bulletRange": 24,
@@ -4171,7 +4171,7 @@
       2690
     ]
   },
-  "248": {
+  {
     "id": 248,
     "type": "BulletElectr2",
     "bulletRange": 17,
@@ -4201,7 +4201,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "249": {
+  {
     "id": 249,
     "type": "BulletEner2",
     "bulletRange": 24,
@@ -4236,7 +4236,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "280": {
+  {
     "id": 280,
     "type": "BulletEnerLarge2",
     "bulletRange": 28,
@@ -4271,7 +4271,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "300": {
+  {
     "id": 300,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -4301,7 +4301,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "301": {
+  {
     "id": 301,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -4331,7 +4331,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "303": {
+  {
     "id": 303,
     "type": "BulletMinu3",
     "bulletRange": 18,
@@ -4361,7 +4361,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "304": {
+  {
     "id": 304,
     "type": "BulletLargeKill",
     "bulletRange": 28,
@@ -4396,7 +4396,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "305": {
+  {
     "id": 305,
     "type": "BulletLargeMinu2",
     "bulletRange": 27,
@@ -4426,7 +4426,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "306": {
+  {
     "id": 306,
     "type": "BulletMinu2",
     "bulletRange": 18,
@@ -4456,7 +4456,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "315": {
+  {
     "id": 315,
     "type": "BulletBigFar2",
     "bulletRange": 28,
@@ -4486,7 +4486,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "316": {
+  {
     "id": 316,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -4516,7 +4516,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "318": {
+  {
     "id": 318,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -4553,7 +4553,7 @@
       2690
     ]
   },
-  "319": {
+  {
     "id": 319,
     "type": "BulletNormalFollow",
     "bulletRange": 22,
@@ -4587,7 +4587,7 @@
       2693
     ]
   },
-  "320": {
+  {
     "id": 320,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -4617,7 +4617,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "321": {
+  {
     "id": 321,
     "type": "BulletMinu2",
     "bulletRange": 18,
@@ -4647,7 +4647,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "322": {
+  {
     "id": 322,
     "type": "BulletMinu3",
     "bulletRange": 18,
@@ -4677,7 +4677,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "324": {
+  {
     "id": 324,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -4707,7 +4707,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "330": {
+  {
     "id": 330,
     "type": "RayBoss",
     "bulletRange": 42,
@@ -4737,7 +4737,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "333": {
+  {
     "id": 333,
     "type": "LightningDamage4",
     "bulletRange": 27,
@@ -4767,7 +4767,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "345": {
+  {
     "id": 345,
     "type": "BulletEner2",
     "bulletRange": 24,
@@ -4804,7 +4804,7 @@
       2691
     ]
   },
-  "400": {
+  {
     "id": 400,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -4834,7 +4834,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "401": {
+  {
     "id": 401,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -4864,7 +4864,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "405": {
+  {
     "id": 405,
     "type": "BulletLargeMinuAntiAirExplode",
     "bulletRange": 25,
@@ -4896,7 +4896,7 @@
       2690
     ]
   },
-  "406": {
+  {
     "id": 406,
     "type": "BulletMinu3",
     "bulletRange": 18,
@@ -4926,7 +4926,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "415": {
+  {
     "id": 415,
     "type": "BulletLargeMinu",
     "bulletRange": 27,
@@ -4956,7 +4956,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "416": {
+  {
     "id": 416,
     "type": "BulletNormal4",
     "bulletRange": 24,
@@ -4986,7 +4986,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "418": {
+  {
     "id": 418,
     "type": "BulletNormal3",
     "bulletRange": 22,
@@ -5018,7 +5018,7 @@
       2691
     ]
   },
-  "421": {
+  {
     "id": 421,
     "type": "BulletMinu4",
     "bulletRange": 20,
@@ -5050,7 +5050,7 @@
       2691
     ]
   },
-  "422": {
+  {
     "id": 422,
     "type": "BulletMinu3",
     "bulletRange": 18,
@@ -5082,7 +5082,7 @@
       2691
     ]
   },
-  "424": {
+  {
     "id": 424,
     "type": "BulletBigFar",
     "bulletRange": 26,
@@ -5112,7 +5112,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "430": {
+  {
     "id": 430,
     "type": "RayBossLight",
     "bulletRange": 45,
@@ -5142,7 +5142,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "444": {
+  {
     "id": 444,
     "type": "BulletEnerBig",
     "bulletRange": 27,
@@ -5172,7 +5172,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "500": {
+  {
     "id": 500,
     "type": "BulletNormalPin",
     "bulletRange": 28,
@@ -5209,7 +5209,7 @@
       2692
     ]
   },
-  "504": {
+  {
     "id": 504,
     "type": "BulletLargeKill2",
     "bulletRange": 30,
@@ -5244,7 +5244,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "507": {
+  {
     "id": 507,
     "type": "BulletExplodeMegaMini",
     "bulletRange": 32,
@@ -5281,7 +5281,7 @@
       2694
     ]
   },
-  "510": {
+  {
     "id": 510,
     "type": "Thrower-Melt",
     "bulletRange": 15,
@@ -5311,7 +5311,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "515": {
+  {
     "id": 515,
     "type": "BulletLargeMinu",
     "bulletRange": 27,
@@ -5343,7 +5343,7 @@
       2690
     ]
   },
-  "524": {
+  {
     "id": 524,
     "type": "BulletExplodeMinAir",
     "bulletRange": 24,
@@ -5373,7 +5373,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "530": {
+  {
     "id": 530,
     "type": "RayBoss2",
     "bulletRange": 50,
@@ -5408,7 +5408,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "630": {
+  {
     "id": 630,
     "type": "RayBossLight2",
     "bulletRange": 45,
@@ -5438,7 +5438,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "533": {
+  {
     "id": 533,
     "type": "LightningDamage5",
     "bulletRange": 27,
@@ -5468,7 +5468,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "544": {
+  {
     "id": 544,
     "type": "BulletEnerBig",
     "bulletRange": 27,
@@ -5498,7 +5498,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1098": {
+  {
     "id": 1098,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -5528,7 +5528,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1099": {
+  {
     "id": 1099,
     "type": "BulletExplodeMin",
     "bulletRange": 24,
@@ -5558,7 +5558,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1100": {
+  {
     "id": 1100,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -5588,7 +5588,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1101": {
+  {
     "id": 1101,
     "type": "BulletLarge",
     "bulletRange": 28,
@@ -5618,7 +5618,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1102": {
+  {
     "id": 1102,
     "type": "BulletMinu",
     "bulletRange": 16,
@@ -5648,7 +5648,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1103": {
+  {
     "id": 1103,
     "type": "BulletLarge",
     "bulletRange": 28,
@@ -5678,7 +5678,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1104": {
+  {
     "id": 1104,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -5708,7 +5708,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1105": {
+  {
     "id": 1105,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -5738,7 +5738,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1106": {
+  {
     "id": 1106,
     "type": "BulletLarge",
     "bulletRange": 28,
@@ -5768,7 +5768,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1107": {
+  {
     "id": 1107,
     "type": "BulletElectrMin",
     "bulletRange": 15,
@@ -5798,7 +5798,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1108": {
+  {
     "id": 1108,
     "type": "BulletElectr",
     "bulletRange": 16,
@@ -5828,7 +5828,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1109": {
+  {
     "id": 1109,
     "type": "BulletElectrLarge",
     "bulletRange": 28,
@@ -5858,7 +5858,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1110": {
+  {
     "id": 1110,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -5888,7 +5888,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1111": {
+  {
     "id": 1111,
     "type": "RayNormal",
     "bulletRange": 17,
@@ -5918,7 +5918,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1112": {
+  {
     "id": 1112,
     "type": "RayBoss",
     "bulletRange": 42,
@@ -5948,7 +5948,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1113": {
+  {
     "id": 1113,
     "type": "BulletFollow",
     "bulletRange": 25,
@@ -5978,7 +5978,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1114": {
+  {
     "id": 1114,
     "type": "BulletExplodeFollow",
     "bulletRange": 25,
@@ -6008,7 +6008,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1115": {
+  {
     "id": 1115,
     "type": "BulletFollow",
     "bulletRange": 25,
@@ -6038,7 +6038,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1116": {
+  {
     "id": 1116,
     "type": "BulletBig",
     "bulletRange": 24,
@@ -6068,7 +6068,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1117": {
+  {
     "id": 1117,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -6098,7 +6098,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1118": {
+  {
     "id": 1118,
     "type": "BulletLargeKill",
     "bulletRange": 28,
@@ -6128,7 +6128,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1119": {
+  {
     "id": 1119,
     "type": "BulletBig",
     "bulletRange": 24,
@@ -6158,7 +6158,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1120": {
+  {
     "id": 1120,
     "type": "BulletNormal",
     "bulletRange": 20,
@@ -6188,7 +6188,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1121": {
+  {
     "id": 1121,
     "type": "BulletExplodeFollowDestructible",
     "bulletRange": 50,
@@ -6218,7 +6218,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1122": {
+  {
     "id": 1122,
     "type": "BulletExplodeDestructible",
     "bulletRange": 20,
@@ -6248,7 +6248,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1123": {
+  {
     "id": 1123,
     "type": "RayBurstSpecialLong",
     "bulletRange": 100,
@@ -6278,7 +6278,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1124": {
+  {
     "id": 1124,
     "type": "RayBurstLongEne",
     "bulletRange": 50,
@@ -6308,7 +6308,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1125": {
+  {
     "id": 1125,
     "type": "BulletLargeMinu",
     "bulletRange": 27,
@@ -6338,7 +6338,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1126": {
+  {
     "id": 1126,
     "type": "BulletElectrLarge",
     "bulletRange": 28,
@@ -6368,7 +6368,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1127": {
+  {
     "id": 1127,
     "type": "BulletBig",
     "bulletRange": 24,
@@ -6398,7 +6398,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1128": {
+  {
     "id": 1128,
     "type": "RayBoss",
     "bulletRange": 42,
@@ -6428,7 +6428,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1129": {
+  {
     "id": 1129,
     "type": "Aurablade",
     "bulletRange": 23,
@@ -6458,7 +6458,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1130": {
+  {
     "id": 1130,
     "type": "BulletLarge",
     "bulletRange": 28,
@@ -6488,7 +6488,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1131": {
+  {
     "id": 1131,
     "type": "BulletExplodeFollowDestructible",
     "bulletRange": 50,
@@ -6518,7 +6518,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1132": {
+  {
     "id": 1132,
     "type": "BulletExplodeFollowDestructible",
     "bulletRange": 50,
@@ -6548,7 +6548,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1133": {
+  {
     "id": 1133,
     "type": "BulletExplodeHighFar",
     "bulletRange": 200,
@@ -6580,7 +6580,7 @@
       2694
     ]
   },
-  "50": {
+  {
     "id": 50,
     "type": "SlashSword0",
     "bulletRange": 3,
@@ -6615,7 +6615,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "51": {
+  {
     "id": 51,
     "type": "SlashSword0b",
     "bulletRange": 5,
@@ -6650,7 +6650,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "52": {
+  {
     "id": 52,
     "type": "SlashSword1",
     "bulletRange": 3,
@@ -6685,7 +6685,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "53": {
+  {
     "id": 53,
     "type": "SlashSword1b",
     "bulletRange": 3,
@@ -6720,7 +6720,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "54": {
+  {
     "id": 54,
     "type": "SlashSword2",
     "bulletRange": 5,
@@ -6755,7 +6755,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "55": {
+  {
     "id": 55,
     "type": "SlashSword2b",
     "bulletRange": 5,
@@ -6790,7 +6790,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "56": {
+  {
     "id": 56,
     "type": "SlashSword3",
     "bulletRange": 6,
@@ -6825,7 +6825,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "57": {
+  {
     "id": 57,
     "type": "SlashSword3b",
     "bulletRange": 6,
@@ -6860,7 +6860,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "58": {
+  {
     "id": 58,
     "type": "SlashSword3c",
     "bulletRange": 9,
@@ -6895,7 +6895,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "59": {
+  {
     "id": 59,
     "type": "SlashSword1e",
     "bulletRange": 3,
@@ -6934,7 +6934,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "65": {
+  {
     "id": 65,
     "type": "SlashSword1",
     "bulletRange": 3,
@@ -6969,7 +6969,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "151": {
+  {
     "id": 151,
     "type": "SlashSword0b2",
     "bulletRange": 5,
@@ -7004,7 +7004,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "152": {
+  {
     "id": 152,
     "type": "SlashSword1",
     "bulletRange": 3,
@@ -7039,7 +7039,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "153": {
+  {
     "id": 153,
     "type": "SlashSword1b",
     "bulletRange": 3,
@@ -7074,7 +7074,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "154": {
+  {
     "id": 154,
     "type": "SlashSword2",
     "bulletRange": 5,
@@ -7109,7 +7109,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "155": {
+  {
     "id": 155,
     "type": "SlashSword2b",
     "bulletRange": 5,
@@ -7148,7 +7148,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "156": {
+  {
     "id": 156,
     "type": "SlashSword3",
     "bulletRange": 6,
@@ -7183,7 +7183,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "157": {
+  {
     "id": 157,
     "type": "SlashSword3b",
     "bulletRange": 6,
@@ -7218,7 +7218,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "158": {
+  {
     "id": 158,
     "type": "SlashSword3c2",
     "bulletRange": 9,
@@ -7257,7 +7257,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "159": {
+  {
     "id": 159,
     "type": "SlashSword1e",
     "bulletRange": 3,
@@ -7296,7 +7296,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "165": {
+  {
     "id": 165,
     "type": "SlashSword1",
     "bulletRange": 3,
@@ -7331,7 +7331,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "60": {
+  {
     "id": 60,
     "type": "SlashSwordEneBig",
     "bulletRange": 5,
@@ -7361,7 +7361,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "61": {
+  {
     "id": 61,
     "type": "SlashSwordEne",
     "bulletRange": 3,
@@ -7391,7 +7391,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "62": {
+  {
     "id": 62,
     "type": "SlashSwordEnemyBossFinal",
     "bulletRange": 4,
@@ -7421,7 +7421,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "63": {
+  {
     "id": 63,
     "type": "SlashSwordShield",
     "bulletRange": 3,
@@ -7451,7 +7451,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1201": {
+  {
     "id": 1201,
     "type": "SlashSwordEneMiddle",
     "bulletRange": 4,
@@ -7481,7 +7481,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1202": {
+  {
     "id": 1202,
     "type": "SlashSwordGiant",
     "bulletRange": 3,
@@ -7511,7 +7511,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1203": {
+  {
     "id": 1203,
     "type": "SlashSword3c3",
     "bulletRange": 9,
@@ -7541,7 +7541,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1204": {
+  {
     "id": 1204,
     "type": "SlashSwordEneBig2",
     "bulletRange": 5,
@@ -7571,7 +7571,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1205": {
+  {
     "id": 1205,
     "type": "SlashSwordShiAttack",
     "bulletRange": 3,
@@ -7601,7 +7601,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1206": {
+  {
     "id": 1206,
     "type": "SlashSwordEneBig",
     "bulletRange": 5,
@@ -7631,7 +7631,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1250": {
+  {
     "id": 1250,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7661,7 +7661,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1251": {
+  {
     "id": 1251,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7693,7 +7693,7 @@
     ],
     "defaultFusion": []
   },
-  "1252": {
+  {
     "id": 1252,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7725,7 +7725,7 @@
       2694
     ]
   },
-  "1253": {
+  {
     "id": 1253,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7759,7 +7759,7 @@
       2694
     ]
   },
-  "1254": {
+  {
     "id": 1254,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7789,7 +7789,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1255": {
+  {
     "id": 1255,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7821,7 +7821,7 @@
     ],
     "defaultFusion": []
   },
-  "1256": {
+  {
     "id": 1256,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7851,7 +7851,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1257": {
+  {
     "id": 1257,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7881,7 +7881,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1258": {
+  {
     "id": 1258,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7911,7 +7911,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1259": {
+  {
     "id": 1259,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7943,7 +7943,7 @@
     ],
     "defaultFusion": []
   },
-  "1260": {
+  {
     "id": 1260,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -7973,7 +7973,7 @@
     "defaultModule": [],
     "defaultFusion": []
   },
-  "1261": {
+  {
     "id": 1261,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -8005,7 +8005,7 @@
     ],
     "defaultFusion": []
   },
-  "1262": {
+  {
     "id": 1262,
     "type": "HangShoulder",
     "bulletRange": 0,
@@ -8035,4 +8035,4 @@
     "defaultModule": [],
     "defaultFusion": []
   }
-}
+]

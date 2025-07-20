@@ -1,0 +1,4390 @@
+[
+  {
+    "index": 0,
+    "id": "0",
+    "name": "Spear",
+    "description": "Fast but fragile.",
+    "hp": 100,
+    "movementSpeed": 28,
+    "rotationalSpeed": 1,
+    "armor": 0,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1102
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.2,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 1,
+    "id": "1",
+    "name": "Saber",
+    "description": "The most basic type of enemy.",
+    "hp": 200,
+    "movementSpeed": 7,
+    "rotationalSpeed": 0.5,
+    "armor": 5,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1100
+    ],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [
+      "Attack"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 2,
+    "id": "2",
+    "name": "Sword",
+    "description": "A slight improvement over the most basic type of enemy.",
+    "hp": 450,
+    "movementSpeed": 40,
+    "rotationalSpeed": 0.5,
+    "armor": 18,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1100,
+      1100
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 3,
+    "id": "3",
+    "name": "Curved Blade",
+    "description": "Armored and prioritizes mecha.",
+    "hp": 500,
+    "movementSpeed": 175,
+    "rotationalSpeed": 1,
+    "armor": 15,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1100
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 4,
+    "id": "4",
+    "name": "Sniper",
+    "description": "Move perpendicularly to its muzzle to avoid being sniped.",
+    "hp": 800,
+    "movementSpeed": 50,
+    "rotationalSpeed": 0.75,
+    "armor": 10,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1101
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Damage"
+    ],
+    "parameters": [],
+    "preFireTime": 1.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 5,
+    "id": "5",
+    "name": "Suppressor",
+    "description": "Heavily armored with strong firepower and weak armor Penetration.",
+    "hp": 2800,
+    "movementSpeed": 300,
+    "rotationalSpeed": 0.75,
+    "armor": 27,
+    "explosiveResistance": 25,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      6
+    ],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor"
+    ],
+    "parameters": [],
+    "preFireTime": 0.15,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 6,
+    "id": "6",
+    "name": "Breaker",
+    "description": "Heavily armored with adequate firepower.",
+    "hp": 2000,
+    "movementSpeed": 250,
+    "rotationalSpeed": 0.75,
+    "armor": 27,
+    "explosiveResistance": 25,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor"
+    ],
+    "parameters": [],
+    "preFireTime": 0.15,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 7,
+    "id": "7",
+    "name": "Pourer",
+    "description": "Sniper mecha with superior firepower. Move perpendicularly to its muzzle to avoid being sniped.",
+    "hp": 2000,
+    "movementSpeed": 120,
+    "rotationalSpeed": 0.75,
+    "armor": 18,
+    "explosiveResistance": 35,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1103
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Damage",
+      "MG"
+    ],
+    "parameters": [],
+    "preFireTime": 2.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 8,
+    "id": "8",
+    "name": "Steel Shield",
+    "description": "Strong armor on the front with a weak backside.",
+    "hp": 1250,
+    "movementSpeed": 200,
+    "rotationalSpeed": 0.5,
+    "armor": 0,
+    "explosiveResistance": 40,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      6
+    ],
+    "fieldOfVision": 16,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 9,
+    "id": "9",
+    "name": "Bullet Rain",
+    "description": "Wields a shotgun with high burst.",
+    "hp": 1500,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 10,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1104,
+      1104
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Shot"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 10,
+    "id": "10",
+    "name": "Wasp",
+    "description": "Strong armor on both sides with a weak front.",
+    "hp": 2000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 0.5,
+    "armor": 0,
+    "explosiveResistance": 10,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1120,
+      1120
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "MG"
+    ],
+    "parameters": [],
+    "preFireTime": 0.25,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 11,
+    "id": "11",
+    "name": "Tyrant",
+    "description": "Shoots cannons， extremely dangerous.",
+    "hp": 2000,
+    "movementSpeed": 125,
+    "rotationalSpeed": 0.5,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 25,
+    "statResistance": 30,
+    "weaponIds": [
+      7,
+      6,
+      6
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 12,
+    "id": "12",
+    "name": "Goliath",
+    "description": "A suicide bomber mecha that runs straight for the gate.",
+    "hp": 100,
+    "movementSpeed": 200,
+    "rotationalSpeed": 0.75,
+    "armor": 0,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 1,
+    "isFlying": false,
+    "drop": [
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 13,
+    "id": "13",
+    "name": "Carrier",
+    "description": "Extremely heavily armored. Continuously spawns Goliaths.",
+    "hp": 1500,
+    "movementSpeed": 150,
+    "rotationalSpeed": 0.75,
+    "armor": 20,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Split"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 14,
+    "id": "14",
+    "name": "Iron Buddha",
+    "description": "An attacker with an energy shield.",
+    "hp": 1000,
+    "movementSpeed": 50,
+    "rotationalSpeed": 0.75,
+    "armor": 10,
+    "explosiveResistance": 30,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1100,
+      1100
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Energy"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 15,
+    "id": "15",
+    "name": "Trampler",
+    "description": "Heavily armored with a thick shield. Continuously spawns soldiers while itself is rather weak.",
+    "hp": 500,
+    "movementSpeed": 200,
+    "rotationalSpeed": 0.75,
+    "armor": 0,
+    "explosiveResistance": 30,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      6
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Energy",
+      "Split"
+    ],
+    "parameters": [],
+    "preFireTime": 0.1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 16,
+    "id": "16",
+    "name": "Guardian",
+    "description": "Weak with an extremely shield. Spawns soldiers.",
+    "hp": 500,
+    "movementSpeed": 70,
+    "rotationalSpeed": 0.75,
+    "armor": 0,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 31,
+    "isFlying": false,
+    "drop": [
+      "Armor",
+      "Energy",
+      "Split"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 17,
+    "id": "17",
+    "name": "Guerrilla",
+    "description": "A brawler capable of invisibility.",
+    "hp": 600,
+    "movementSpeed": 150,
+    "rotationalSpeed": 0.75,
+    "armor": 18,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1100
+    ],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Fade"
+    ],
+    "parameters": [],
+    "preFireTime": 0.25,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 18,
+    "id": "18",
+    "name": "Assassin",
+    "description": "An extremely dangerous sniper capable of invisibility.",
+    "hp": 1000,
+    "movementSpeed": 100,
+    "rotationalSpeed": 0.75,
+    "armor": 18,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1101
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Fade",
+      "Damage"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 19,
+    "id": "19",
+    "name": "Throat Cutter",
+    "description": "An extremely dangerous shotgun-wielding enemy capable of invisibility.",
+    "hp": 1200,
+    "movementSpeed": 200,
+    "rotationalSpeed": 0.75,
+    "armor": 25,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1104,
+      1104
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Fade",
+      "Shot"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 20,
+    "id": "20",
+    "name": "Fire Mage",
+    "description": "Highly mobile and shoots fire.",
+    "hp": 200,
+    "movementSpeed": 100,
+    "rotationalSpeed": 0.75,
+    "armor": 25,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      10,
+      10
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Flame",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 21,
+    "id": "21",
+    "name": "Ice Mage",
+    "description": "Highly mobile and shoots ice.",
+    "hp": 200,
+    "movementSpeed": 100,
+    "rotationalSpeed": 0.75,
+    "armor": 25,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      11,
+      6
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Freeze",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 22,
+    "id": "22",
+    "name": "Hunter",
+    "description": "An agile enemy with high movement speed， low durability and strong armor.",
+    "hp": 60,
+    "movementSpeed": 600,
+    "rotationalSpeed": 5,
+    "armor": 20,
+    "explosiveResistance": 90,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1110
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 23,
+    "id": "23",
+    "name": "Chain Saw",
+    "description": "Gets close and slices targets. Extremely fast.",
+    "hp": 220,
+    "movementSpeed": 500,
+    "rotationalSpeed": 3,
+    "armor": 15,
+    "explosiveResistance": 90,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 1,
+    "isFlying": false,
+    "drop": [
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 24,
+    "id": "24",
+    "name": "Disruptor",
+    "description": "Runs around in circles at high speed， only stopping when firing.",
+    "hp": 180,
+    "movementSpeed": 70,
+    "rotationalSpeed": 5,
+    "armor": 5,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1102
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 25,
+    "id": "25",
+    "name": "Assaulter",
+    "description": "Charges toward targets and melee attacks them.",
+    "hp": 200,
+    "movementSpeed": 20,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 10,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Melee"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 26,
+    "id": "26",
+    "name": "Splitter",
+    "description": "An enemy with high firepower. Splits upon death.",
+    "hp": 1200,
+    "movementSpeed": 300,
+    "rotationalSpeed": 1,
+    "armor": 30,
+    "explosiveResistance": 40,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1,
+      1
+    ],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Split"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 27,
+    "id": "27",
+    "name": "Bomber",
+    "description": "Guides bombs to attack targets from afar. Low survivability.",
+    "hp": 1000,
+    "movementSpeed": 300,
+    "rotationalSpeed": 0.25,
+    "armor": 30,
+    "explosiveResistance": 90,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 28,
+    "id": "28",
+    "name": "Prism",
+    "description": "Runs around in circles at high speed， attacking with laser.",
+    "hp": 220,
+    "movementSpeed": 100,
+    "rotationalSpeed": 5,
+    "armor": 15,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1111
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Laser",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 29,
+    "id": "29",
+    "name": "Light",
+    "description": "Attacks with laser.",
+    "hp": 600,
+    "movementSpeed": 100,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      28
+    ],
+    "fieldOfVision": 20,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.25,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 30,
+    "id": "30",
+    "name": "Blinder",
+    "description": "Attacks with burst laser that requires warming up.",
+    "hp": 2000,
+    "movementSpeed": 300,
+    "rotationalSpeed": 1,
+    "armor": 35,
+    "explosiveResistance": 30,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      30
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 1.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 31,
+    "id": "31",
+    "name": "Dissector",
+    "description": "Enemies with strong armor and powerful firepower.",
+    "hp": 1500,
+    "movementSpeed": 150,
+    "rotationalSpeed": 0.6,
+    "armor": 15,
+    "explosiveResistance": 50,
+    "statImmunity": 10,
+    "statResistance": 30,
+    "weaponIds": [
+      1117
+    ],
+    "fieldOfVision": 20,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "MG"
+    ],
+    "parameters": [],
+    "preFireTime": 0.25,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 32,
+    "id": "32",
+    "name": "Regicide",
+    "description": "Aircraft equipped with machine guns， extremely dangerous.",
+    "hp": 2000,
+    "movementSpeed": 125,
+    "rotationalSpeed": 1.2,
+    "armor": 60,
+    "explosiveResistance": 50,
+    "statImmunity": 10,
+    "statResistance": 30,
+    "weaponIds": [
+      1116,
+      1116
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "MG"
+    ],
+    "parameters": [],
+    "preFireTime": 1.25,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 33,
+    "id": "33",
+    "name": "Butcher's Knife",
+    "description": "Advanced mass-produced units with overall improvements compared to basic mass-produced units.",
+    "hp": 600,
+    "movementSpeed": 100,
+    "rotationalSpeed": 1,
+    "armor": 25,
+    "explosiveResistance": 20,
+    "statImmunity": 10,
+    "statResistance": 30,
+    "weaponIds": [
+      1120
+    ],
+    "fieldOfVision": 16,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "MG"
+    ],
+    "parameters": [],
+    "preFireTime": 0.25,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 34,
+    "id": "34",
+    "name": "Sword rider",
+    "description": "A basic flying unit. Its speed is slow",
+    "hp": 300,
+    "movementSpeed": 20,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1100
+    ],
+    "fieldOfVision": 18,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 35,
+    "id": "35",
+    "name": "Nightmare",
+    "description": "A flying unit that can orbit at high speed",
+    "hp": 100,
+    "movementSpeed": 9,
+    "rotationalSpeed": 3,
+    "armor": 0,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1102
+    ],
+    "fieldOfVision": 12,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Speed",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 36,
+    "id": "36",
+    "name": "Sun flame",
+    "description": "A flying unit that can orbit at high speed. Use laser attack",
+    "hp": 100,
+    "movementSpeed": 12,
+    "rotationalSpeed": 5,
+    "armor": 15,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1111
+    ],
+    "fieldOfVision": 12,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Laser",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 37,
+    "id": "Boss3",
+    "name": "Elite Hundred-Armed Giant",
+    "description": "A mecha with five cannons with extremely high firepower on the front. Do not engage it head-to-head.",
+    "hp": 25000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 0.4,
+    "armor": 40,
+    "explosiveResistance": 35,
+    "statImmunity": 50,
+    "statResistance": 60,
+    "weaponIds": [
+      7,
+      8,
+      1105,
+      1105,
+      2
+    ],
+    "fieldOfVision": 31,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Armor",
+      "Shot"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 38,
+    "id": "Boss3_",
+    "name": "Hundred-Armed Giant",
+    "description": "A mecha with five cannons with extremely high firepower on the front. Do not engage it head-to-head.",
+    "hp": 15000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 0.6,
+    "armor": 20,
+    "explosiveResistance": 15,
+    "statImmunity": 20,
+    "statResistance": 50,
+    "weaponIds": [
+      3,
+      3,
+      1105,
+      1105,
+      1105
+    ],
+    "fieldOfVision": 31,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Armor",
+      "Shot",
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 39,
+    "id": "Boss2",
+    "name": "Elite Multiplier",
+    "description": "A factory with high durability and armor that continuously produces regular soldiers.",
+    "hp": 30000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 1,
+    "armor": 15,
+    "explosiveResistance": 35,
+    "statImmunity": 25,
+    "statResistance": 30,
+    "weaponIds": [],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [
+      "Ellite",
+      "Split",
+      "Armor"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 40,
+    "id": "Boss2_",
+    "name": "Multiplier",
+    "description": "A factory with high durability and armor that continuously produces regular soldiers.",
+    "hp": 20000,
+    "movementSpeed": 100,
+    "rotationalSpeed": 1,
+    "armor": 8,
+    "explosiveResistance": 15,
+    "statImmunity": 20,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [
+      "Ellite",
+      "Split",
+      "Armor"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 41,
+    "id": "Boss1",
+    "name": "Elite Steel slug",
+    "description": "An advanced mecha that spawns mecha with higher vitality upon death.",
+    "hp": 25000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 0.5,
+    "armor": 0,
+    "explosiveResistance": 35,
+    "statImmunity": 25,
+    "statResistance": 30,
+    "weaponIds": [
+      1103,
+      1103
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Split",
+      "Armor",
+      "Damage"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 42,
+    "id": "Boss1_",
+    "name": "Steel slug",
+    "description": "An advanced mecha that spawns mecha with higher vitality upon death.",
+    "hp": 20000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 0.5,
+    "armor": 0,
+    "explosiveResistance": 15,
+    "statImmunity": 15,
+    "statResistance": 30,
+    "weaponIds": [
+      1101,
+      1101
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Split",
+      "Armor",
+      "Damage"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 43,
+    "id": "Boss1a",
+    "name": "Steel slug Clone 1",
+    "description": "Steel slug's phase one clone.",
+    "hp": 4000,
+    "movementSpeed": 100,
+    "rotationalSpeed": 1,
+    "armor": 15,
+    "explosiveResistance": 15,
+    "statImmunity": 15,
+    "statResistance": 30,
+    "weaponIds": [
+      1101,
+      1101
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 44,
+    "id": "Boss1b",
+    "name": "Steel slug Clone 2",
+    "description": "Steel slug's phase two clone.",
+    "hp": 2000,
+    "movementSpeed": 125,
+    "rotationalSpeed": 1,
+    "armor": 45,
+    "explosiveResistance": 45,
+    "statImmunity": 25,
+    "statResistance": 30,
+    "weaponIds": [
+      0,
+      0
+    ],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 45,
+    "id": "Boss1c",
+    "name": "Steel slug Clone 3",
+    "description": "Steel slug's phase three clone.",
+    "hp": 1000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 1,
+    "armor": 90,
+    "explosiveResistance": 90,
+    "statImmunity": 45,
+    "statResistance": 90,
+    "weaponIds": [
+      1,
+      1
+    ],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 46,
+    "id": "101A",
+    "name": "Armored Hunter",
+    "description": "An agile， small enemy with heavy armor.",
+    "hp": 500,
+    "movementSpeed": 500,
+    "rotationalSpeed": 1,
+    "armor": 45,
+    "explosiveResistance": 50,
+    "statImmunity": 20,
+    "statResistance": 25,
+    "weaponIds": [
+      1102
+    ],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor"
+    ],
+    "parameters": [],
+    "preFireTime": 0.1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 47,
+    "id": "102A",
+    "name": "Armored Chain Saw",
+    "description": "Gets close and slices targets. Heavily armored， but weak against explosives.",
+    "hp": 500,
+    "movementSpeed": 1000,
+    "rotationalSpeed": 1,
+    "armor": 45,
+    "explosiveResistance": 20,
+    "statImmunity": 20,
+    "statResistance": 25,
+    "weaponIds": [],
+    "fieldOfVision": 1,
+    "isFlying": false,
+    "drop": [
+      "Melee",
+      "Armor"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 48,
+    "id": "103A",
+    "name": "Undertaker",
+    "description": "Pulls victims to itself with a tractor-beam and rain down with great firepower on them. The tractor-beam will be disabled when it's attacked.",
+    "hp": 8000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 75,
+    "explosiveResistance": 50,
+    "statImmunity": 20,
+    "statResistance": 10,
+    "weaponIds": [
+      2,
+      2,
+      2
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Shot",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 49,
+    "id": "104A",
+    "name": "Meat Grinder",
+    "description": "Pulls victims to itself with a tractor-beam and attacks them with a chain saw. The tractor-beam will be disabled when it's attacked.",
+    "hp": 8000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 75,
+    "explosiveResistance": 50,
+    "statImmunity": 20,
+    "statResistance": 10,
+    "weaponIds": [],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Melee",
+      "Armor",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 50,
+    "id": "105A",
+    "name": "Force Mage",
+    "description": "Heavily armored with high firepower and low Explosive Resistance. Pushes enemies away.",
+    "hp": 4000,
+    "movementSpeed": 100,
+    "rotationalSpeed": 1,
+    "armor": 45,
+    "explosiveResistance": 0,
+    "statImmunity": 20,
+    "statResistance": 25,
+    "weaponIds": [
+      5
+    ],
+    "fieldOfVision": 20,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Damage"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 51,
+    "id": "106A",
+    "name": "Twister",
+    "description": "Able to distort the force field to affect bullet trajectory while also capable of crafting chain saws.",
+    "hp": 4000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 20,
+    "statResistance": 10,
+    "weaponIds": [],
+    "fieldOfVision": 31,
+    "isFlying": false,
+    "drop": [
+      "Energy",
+      "Armor",
+      "Split",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 52,
+    "id": "107A",
+    "name": "Gladiator",
+    "description": "The mecha holds one strong shield and a powerful turret.",
+    "hp": 5000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 75,
+    "explosiveResistance": 50,
+    "statImmunity": 20,
+    "statResistance": 10,
+    "weaponIds": [
+      1,
+      1,
+      1,
+      7
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 53,
+    "id": "108A",
+    "name": "Pusher",
+    "description": "While it only holds a small machine gun， it has a force field shield on the front and heavy armor on the sides.",
+    "hp": 8000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 75,
+    "explosiveResistance": 60,
+    "statImmunity": 20,
+    "statResistance": 10,
+    "weaponIds": [
+      1102,
+      1102
+    ],
+    "fieldOfVision": 10,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Melee",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 54,
+    "id": "109A",
+    "name": "Executor",
+    "description": "Charges at targets from a certain distance.",
+    "hp": 3000,
+    "movementSpeed": 400,
+    "rotationalSpeed": 1,
+    "armor": 45,
+    "explosiveResistance": 60,
+    "statImmunity": 20,
+    "statResistance": 25,
+    "weaponIds": [],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Melee",
+      "Armor",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 55,
+    "id": "101B",
+    "name": "Electromagnetic Disruptor",
+    "description": "An agile enemy that shoots paralyzing bullets.",
+    "hp": 500,
+    "movementSpeed": 1200,
+    "rotationalSpeed": 1,
+    "armor": 15,
+    "explosiveResistance": 35,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [
+      12
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Electric",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 56,
+    "id": "102B",
+    "name": "Gallows",
+    "description": "Runs around in circles at high speed， only stopping when firing. Shoots electromagnetic bullets.",
+    "hp": 500,
+    "movementSpeed": 40,
+    "rotationalSpeed": 10,
+    "armor": 15,
+    "explosiveResistance": 35,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [
+      1107
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Electric",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 57,
+    "id": "103B",
+    "name": "Ghoul",
+    "description": "Jumps at targets from a certain distance and explodes.",
+    "hp": 500,
+    "movementSpeed": 30,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 35,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Explo",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 58,
+    "id": "104B",
+    "name": "Moving Castle",
+    "description": "Heavily armored and capable of crafting equipment for advanced units.",
+    "hp": 7500,
+    "movementSpeed": 250,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 50,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 29,
+    "isFlying": false,
+    "drop": [
+      "Split",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 59,
+    "id": "105B",
+    "name": "Bottle Opener",
+    "description": "A suicide bomber.",
+    "hp": 500,
+    "movementSpeed": 2500,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 35,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 1,
+    "isFlying": false,
+    "drop": [
+      "Explo",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 60,
+    "id": "106B",
+    "name": "Wedge",
+    "description": "Jumps at targets from a certain range and explodes， capable of invisibility.",
+    "hp": 750,
+    "movementSpeed": 20,
+    "rotationalSpeed": 1,
+    "armor": 25,
+    "explosiveResistance": 35,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Explo",
+      "Speed",
+      "Fade"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 61,
+    "id": "107B",
+    "name": "Expander",
+    "description": "Runs straight at the gate and explodes， leading to an unimaginable chain reaction.",
+    "hp": 3000,
+    "movementSpeed": 250,
+    "rotationalSpeed": 1,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 1,
+    "isFlying": false,
+    "drop": [
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 62,
+    "id": "108B",
+    "name": "Enforcement Squad",
+    "description": "An agile enemy that shoots paralyzing bullets. Capable of invisibility and extremely threatening.",
+    "hp": 1000,
+    "movementSpeed": 1500,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 30,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [
+      12
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Electric",
+      "Fade",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 63,
+    "id": "109B",
+    "name": "Phalanx Soldier",
+    "description": "Holds a strong shield and a dangerous mecha that shoots paralyzing bullets.",
+    "hp": 1500,
+    "movementSpeed": 250,
+    "rotationalSpeed": 1,
+    "armor": 75,
+    "explosiveResistance": 35,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [
+      1108
+    ],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Electric"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 64,
+    "id": "101C",
+    "name": "Indigo",
+    "description": "Moves forward slowly， speeding up after the shield is broken.",
+    "hp": 800,
+    "movementSpeed": 15,
+    "rotationalSpeed": 1,
+    "armor": 15,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 20,
+    "weaponIds": [
+      1115
+    ],
+    "fieldOfVision": 21,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Energy",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.2,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 65,
+    "id": "102C",
+    "name": "Dagger",
+    "description": "Moves forward slowly， speeding up after the shield is broken. The shield regenerates.",
+    "hp": 400,
+    "movementSpeed": 25,
+    "rotationalSpeed": 1,
+    "armor": 15,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 20,
+    "weaponIds": [
+      1115,
+      10
+    ],
+    "fieldOfVision": 21,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Energy",
+      "Freeze"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 66,
+    "id": "103C",
+    "name": "Decurio",
+    "description": "It has strong firepower and a powerful， regenerative shield.",
+    "hp": 2000,
+    "movementSpeed": 225,
+    "rotationalSpeed": 1,
+    "armor": 35,
+    "explosiveResistance": 40,
+    "statImmunity": 0,
+    "statResistance": 10,
+    "weaponIds": [
+      1104,
+      1104
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Energy",
+      "Armor",
+      "Shot",
+      "Fade"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 67,
+    "id": "104C",
+    "name": "Centurion",
+    "description": "It has strong firepower and a powerful， regenerative shield.",
+    "hp": 5000,
+    "movementSpeed": 225,
+    "rotationalSpeed": 1,
+    "armor": 35,
+    "explosiveResistance": 40,
+    "statImmunity": 0,
+    "statResistance": 10,
+    "weaponIds": [
+      1103
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Energy",
+      "Armor",
+      "Damage",
+      "Fade"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 68,
+    "id": "105C",
+    "name": "Crystal",
+    "description": "A suicide bomber that spawns energy fragments upon death， blocking shots.",
+    "hp": 1600,
+    "movementSpeed": 20,
+    "rotationalSpeed": 1,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 90,
+    "weaponIds": [],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Energy",
+      "Explo",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 69,
+    "id": "106C",
+    "name": "Knight",
+    "description": "Continuously spawns enemies. Absorbs enemies to its own shield.",
+    "hp": 3000,
+    "movementSpeed": 120,
+    "rotationalSpeed": 0.25,
+    "armor": 35,
+    "explosiveResistance": 10,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 15,
+    "isFlying": false,
+    "drop": [
+      "Energy",
+      "Split",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 70,
+    "id": "107C",
+    "name": "Advanced Bomber",
+    "description": "With high survivability， guides bombs to attack targets from afar.",
+    "hp": 3000,
+    "movementSpeed": 120,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 75,
+    "statImmunity": 0,
+    "statResistance": 10,
+    "weaponIds": [],
+    "fieldOfVision": 45,
+    "isFlying": false,
+    "drop": [
+      "Energy",
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 71,
+    "id": "108C",
+    "name": "Riot Squad",
+    "description": "It has a small force field shield on the front that blocks damage.",
+    "hp": 1000,
+    "movementSpeed": 12,
+    "rotationalSpeed": 0.5,
+    "armor": 0,
+    "explosiveResistance": 60,
+    "statImmunity": 0,
+    "statResistance": 20,
+    "weaponIds": [
+      1101
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Damage"
+    ],
+    "parameters": [],
+    "preFireTime": 0.8,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 72,
+    "id": "109C",
+    "name": "Paladin",
+    "description": "Continuously spawns shielded units next to regular enemies around it.",
+    "hp": 6000,
+    "movementSpeed": 180,
+    "rotationalSpeed": 1,
+    "armor": 65,
+    "explosiveResistance": 40,
+    "statImmunity": 0,
+    "statResistance": 20,
+    "weaponIds": [],
+    "fieldOfVision": 31,
+    "isFlying": false,
+    "drop": [
+      "Split",
+      "Energy",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 73,
+    "id": "101D",
+    "name": "Raven",
+    "description": "An agile flying enemy with high movement speed.",
+    "hp": 150,
+    "movementSpeed": 600,
+    "rotationalSpeed": 1,
+    "armor": 30,
+    "explosiveResistance": 35,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [
+      6
+    ],
+    "fieldOfVision": 12,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Electric",
+      "Speed",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 74,
+    "id": "102D",
+    "name": "Ball lightning",
+    "description": "A self destructing unit that can fly above enemy forces and crash",
+    "hp": 200,
+    "movementSpeed": 600,
+    "rotationalSpeed": 1,
+    "armor": 10,
+    "explosiveResistance": 50,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 25,
+    "isFlying": true,
+    "drop": [
+      "Explo",
+      "Speed",
+      "Fade",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 75,
+    "id": "103D",
+    "name": "Heavenly soldiers",
+    "description": "Medium sized air units that produce small air units",
+    "hp": 400,
+    "movementSpeed": 60,
+    "rotationalSpeed": 1,
+    "armor": 25,
+    "explosiveResistance": 35,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1101,
+      1101
+    ],
+    "fieldOfVision": 25,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Damage",
+      "MG",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 76,
+    "id": "104D",
+    "name": "Heavenly general",
+    "description": "Medium sized air units that produce small air units",
+    "hp": 600,
+    "movementSpeed": 60,
+    "rotationalSpeed": 0.75,
+    "armor": 40,
+    "explosiveResistance": 35,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      30
+    ],
+    "fieldOfVision": 30,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Explo",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 2,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 77,
+    "id": "105D",
+    "name": "Solar eclipse",
+    "description": "Air units with shields will produce self destruct units",
+    "hp": 200,
+    "movementSpeed": 40,
+    "rotationalSpeed": 1,
+    "armor": 0,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 28,
+    "isFlying": true,
+    "drop": [
+      "Armor",
+      "Energy",
+      "Split",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 78,
+    "id": "106D",
+    "name": "Sky Castle",
+    "description": "Heavy air units will continuously produce small air units",
+    "hp": 1000,
+    "movementSpeed": 50,
+    "rotationalSpeed": 1,
+    "armor": 20,
+    "explosiveResistance": 30,
+    "statImmunity": 30,
+    "statResistance": 30,
+    "weaponIds": [],
+    "fieldOfVision": 29,
+    "isFlying": true,
+    "drop": [
+      "Split",
+      "Laser",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 79,
+    "id": "107D",
+    "name": "Tornado",
+    "description": "Air units that can guide bombing",
+    "hp": 500,
+    "movementSpeed": 50,
+    "rotationalSpeed": 0.25,
+    "armor": 40,
+    "explosiveResistance": 90,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 30,
+    "isFlying": true,
+    "drop": [
+      "Explo",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 80,
+    "id": "108D",
+    "name": "Mirage",
+    "description": "An invisible aerial unit",
+    "hp": 150,
+    "movementSpeed": 35,
+    "rotationalSpeed": 0.75,
+    "armor": 18,
+    "explosiveResistance": 15,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1101
+    ],
+    "fieldOfVision": 25,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Fade",
+      "Damage",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 1,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 81,
+    "id": "109D",
+    "name": "Stratospheric Fortress",
+    "description": "Heavy air unit with strong firepower",
+    "hp": 1000,
+    "movementSpeed": 18,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 40,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1116,
+      1116
+    ],
+    "fieldOfVision": 30,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Explo",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 2,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 82,
+    "id": "Boss10A",
+    "name": "Armored Matrix",
+    "description": "A power multiplier， equipped with strong external armor and a powerful cannon.",
+    "hp": 30000,
+    "movementSpeed": 90,
+    "rotationalSpeed": 1,
+    "armor": 80,
+    "explosiveResistance": 70,
+    "statImmunity": 20,
+    "statResistance": 50,
+    "weaponIds": [
+      1,
+      1,
+      1
+    ],
+    "fieldOfVision": 20,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Split",
+      "Armor",
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 83,
+    "id": "Boss10B",
+    "name": "Special Forces Matrix",
+    "description": "A power multiplier， equipped with a regenerative shield and an optical invisibility device.",
+    "hp": 40000,
+    "movementSpeed": 90,
+    "rotationalSpeed": 1,
+    "armor": 60,
+    "explosiveResistance": 70,
+    "statImmunity": 20,
+    "statResistance": 50,
+    "weaponIds": [
+      1109
+    ],
+    "fieldOfVision": 28,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Split",
+      "Energy",
+      "Electric",
+      "Fade"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 84,
+    "id": "Boss10C",
+    "name": "Holy Shield Matrix",
+    "description": "While this powerful multiplier has low HP， it is equipped with armor and a shield， making it hard to deal with.",
+    "hp": 40000,
+    "movementSpeed": 90,
+    "rotationalSpeed": 1,
+    "armor": 50,
+    "explosiveResistance": 70,
+    "statImmunity": 20,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 28,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Split",
+      "Armor",
+      "Energy"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 85,
+    "id": "Boss10D",
+    "name": "Aircraft Matrix",
+    "description": "While this powerful multiplier has low HP， it will continuously produce flying units in the air， making it hard to deal with.",
+    "hp": 20000,
+    "movementSpeed": 75,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 60,
+    "statImmunity": 40,
+    "statResistance": 10,
+    "weaponIds": [],
+    "fieldOfVision": 28,
+    "isFlying": true,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Split",
+      "Fly"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 86,
+    "id": "Boss4",
+    "name": "Titan",
+    "description": "An extremely dangerous boss equipped with a regenerative shield， an invisibility module， and a terrifyingly destructive positron cannon",
+    "hp": 40000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 60,
+    "explosiveResistance": 50,
+    "statImmunity": 75,
+    "statResistance": 20,
+    "weaponIds": [
+      1112,
+      10,
+      1116,
+      1116
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Ellite",
+      "Armor",
+      "Fade",
+      "Energy",
+      "Flame",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.35,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 87,
+    "id": "Boss6",
+    "name": "Foehn",
+    "description": "An extremely dangerous boss equipped with a regenerative shield， an flying module， and a terrifyingly destructive positron cannon",
+    "hp": 12000,
+    "movementSpeed": 125,
+    "rotationalSpeed": 1.2,
+    "armor": 45,
+    "explosiveResistance": 75,
+    "statImmunity": 50,
+    "statResistance": 10,
+    "weaponIds": [
+      1112,
+      1116,
+      1116
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Ellite",
+      "Armor",
+      "Energy",
+      "Fly",
+      "Laser"
+    ],
+    "parameters": [],
+    "preFireTime": 0.35,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 88,
+    "id": "Boss5",
+    "name": "Colossus",
+    "description": "Giant combat mecha， equipped with dual-mounted tracking rocket launchers and a cruise cannon launcher， and two heavy-duty lightning axes for melee combat.",
+    "hp": 50000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 0.5,
+    "armor": 125,
+    "explosiveResistance": 90,
+    "statImmunity": 75,
+    "statResistance": 80,
+    "weaponIds": [
+      10,
+      1114,
+      1114,
+      60,
+      60
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Split",
+      "Armor",
+      "Melee"
+    ],
+    "parameters": [
+      "Giant:1"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 89,
+    "id": "Camp",
+    "name": "Camp tent",
+    "description": "Camp tent",
+    "hp": 8000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 15,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 18,
+    "isFlying": false,
+    "drop": [
+      "Building",
+      "Split"
+    ],
+    "parameters": [
+      "Bursting:2"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 90,
+    "id": "Hive1",
+    "name": "Factory",
+    "description": "The enemy's assembly factory.",
+    "hp": 30000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Bursting:4"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 91,
+    "id": "BuildingCanon0",
+    "name": "Stronghold Artillery",
+    "description": "Stronghold Artillery",
+    "hp": 30000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 50,
+    "explosiveResistance": 0,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Building"
+    ],
+    "parameters": [
+      "Bursting:8"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 92,
+    "id": "Canon1",
+    "name": "Basic Turret",
+    "description": "The enemy's basic turret.",
+    "hp": 1000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Building",
+      "Attack"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 93,
+    "id": "Canon2",
+    "name": "Sniper Turret",
+    "description": "A turret capable of firing long-range snipping bullets.",
+    "hp": 1250,
+    "movementSpeed": 0,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1103
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Building",
+      "Attack",
+      "Damage"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 94,
+    "id": "Canon3",
+    "name": "Heavy Turret",
+    "description": "A turret capable for long cannons.",
+    "hp": 1500,
+    "movementSpeed": 0,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1133
+    ],
+    "fieldOfVision": 200,
+    "isFlying": false,
+    "drop": [
+      "Building",
+      "Attack",
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 95,
+    "id": "HiveCannon1",
+    "name": "Factory",
+    "description": "Enemy facilities will start producing enemy forces once approached.",
+    "hp": 600,
+    "movementSpeed": 0,
+    "rotationalSpeed": 1,
+    "armor": 10,
+    "explosiveResistance": 90,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 96,
+    "id": "High11",
+    "name": "Infiltrator mecha",
+    "description": "An elite mecha is excellent in all aspects.",
+    "hp": 10000,
+    "movementSpeed": 120,
+    "rotationalSpeed": 0.75,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 10,
+    "statResistance": 40,
+    "weaponIds": [
+      301,
+      301
+    ],
+    "fieldOfVision": 17,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Normal",
+      "MoveAwayRange:10",
+      "Throw:5"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 97,
+    "id": "High12",
+    "name": "Grenade launcher mecha",
+    "description": "An elite mecha is equipped with a large number of projectile facilities.",
+    "hp": 7000,
+    "movementSpeed": 175,
+    "rotationalSpeed": 5,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 10,
+    "statResistance": 40,
+    "weaponIds": [
+      101,
+      101
+    ],
+    "fieldOfVision": 20,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Throw",
+      "MoveAwayRange:15",
+      "Throw:3+6+8",
+      "ThrowDistance:20",
+      "ThrowCD:10"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 98,
+    "id": "High13",
+    "name": "Assault mecha",
+    "description": "An elite mecha is equipped with lightsabres， and can dash towards the enemy and deflect attacks with sword clashes.",
+    "hp": 6000,
+    "movementSpeed": 300,
+    "rotationalSpeed": 3,
+    "armor": 100,
+    "explosiveResistance": 80,
+    "statImmunity": 10,
+    "statResistance": 40,
+    "weaponIds": [
+      53,
+      61,
+      61
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Close",
+      "MoveAwayRange:12",
+      "AddWeaponModel:53_200"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 99,
+    "id": "High14",
+    "name": "Sniper mecha",
+    "description": "An elite mecha use sniper weapons to attack enemies at long range.",
+    "hp": 7000,
+    "movementSpeed": 75,
+    "rotationalSpeed": 5,
+    "armor": 100,
+    "explosiveResistance": 80,
+    "statImmunity": 10,
+    "statResistance": 40,
+    "weaponIds": [
+      6,
+      15
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Snipe",
+      "MoveAwayRange:15"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 100,
+    "id": "High11a",
+    "name": "Elite Infiltrator mecha",
+    "description": "An elite mecha is excellent in all aspects\nand can summon enemy troops.",
+    "hp": 15000,
+    "movementSpeed": 120,
+    "rotationalSpeed": 0.75,
+    "armor": 75,
+    "explosiveResistance": 50,
+    "statImmunity": 10,
+    "statResistance": 40,
+    "weaponIds": [
+      101,
+      101
+    ],
+    "fieldOfVision": 17,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "MG"
+    ],
+    "parameters": [
+      "Logic:Normal",
+      "MoveAwayRange:10",
+      "Throw:5",
+      "LostHp:40"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 101,
+    "id": "High12a",
+    "name": "Elite Grenade launcher mecha",
+    "description": "An elite mecha is equipped with a large number of projectile facilities\nand can summon enemy troops. They will activate an invincible shield after taking a certain amount of damage.",
+    "hp": 15000,
+    "movementSpeed": 175,
+    "rotationalSpeed": 5,
+    "armor": 75,
+    "explosiveResistance": 50,
+    "statImmunity": 10,
+    "statResistance": 40,
+    "weaponIds": [
+      101,
+      101
+    ],
+    "fieldOfVision": 20,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "MG",
+      "Explo"
+    ],
+    "parameters": [
+      "Logic:Throw",
+      "MoveAwayRange:15",
+      "Throw:3+6+8",
+      "ThrowDistance:20",
+      "ThrowCD:10",
+      "LostHp:50"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 102,
+    "id": "High13a",
+    "name": "Elite Assault mecha",
+    "description": "An elite mecha is equipped with lightsabres， and can dash towards the enemy and deflect attacks with sword clashes.\nThey can summon enemy troops and activate an invincible shield after taking a certain amount of damage.",
+    "hp": 8000,
+    "movementSpeed": 300,
+    "rotationalSpeed": 3,
+    "armor": 125,
+    "explosiveResistance": 80,
+    "statImmunity": 10,
+    "statResistance": 40,
+    "weaponIds": [
+      53,
+      61,
+      61
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [
+      "Logic:Close",
+      "MoveAwayRange:12",
+      "AddWeaponModel:53_200",
+      "LostHp:30"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 103,
+    "id": "High14a",
+    "name": "Elite Sniper mecha",
+    "description": "An elite mecha use sniper weapons to attack enemies at long range. \nThey can summon enemy troops and activate an invincible shield after taking a certain amount of damage.",
+    "hp": 10000,
+    "movementSpeed": 75,
+    "rotationalSpeed": 5,
+    "armor": 125,
+    "explosiveResistance": 80,
+    "statImmunity": 10,
+    "statResistance": 40,
+    "weaponIds": [
+      6,
+      15
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Damage",
+      "Fade"
+    ],
+    "parameters": [
+      "Logic:Snipe",
+      "MoveAwayRange:15",
+      "LostHp:40"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 104,
+    "id": "High1",
+    "name": "Black Knight",
+    "description": "Enemy mass-produced upgraded elite mecha.\nThe Boss pilots an advanced mecha with excellent overall performance in various aspects.\nAfter taking certain damage， it will summon a large number of enemy forces.",
+    "hp": 70000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 2,
+    "armor": 100,
+    "explosiveResistance": 75,
+    "statImmunity": 20,
+    "statResistance": 75,
+    "weaponIds": [
+      1127,
+      1127
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "MG"
+    ],
+    "parameters": [
+      "Logic:Normal",
+      "MoveAwayRange:10",
+      "LostHp:18",
+      "Throw:5+5+5+5",
+      "ThrowDistance:18"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 105,
+    "id": "High2",
+    "name": "Charge Cavalry",
+    "description": "Enemy grenade launcher specialized mecha.\nThe Boss pilots an advanced mecha equipped with numerous grenade launcher facilities.\nIt performs pre-aiming when throwing objects，so be cautious of the various projectiles，as they may result in continuous control.\nAfter taking certain damage，it deploys an invincible shield and summons enemy forces.",
+    "hp": 45000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 5,
+    "armor": 75,
+    "explosiveResistance": 45,
+    "statImmunity": 20,
+    "statResistance": 75,
+    "weaponIds": [
+      1113,
+      1113,
+      1113
+    ],
+    "fieldOfVision": 20,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "MG",
+      "Explo"
+    ],
+    "parameters": [
+      "Logic:Throw",
+      "MoveAwayRange:12",
+      "LostHp:24",
+      "Throw:3+6+8+5+4",
+      "ThrowDistance:20",
+      "ThrowCD:6",
+      "AddRemodel:1"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 106,
+    "id": "High3",
+    "name": "Fierce Steed",
+    "description": "Enemy melee-specialized mecha.\nThe Boss pilots an advanced mecha equipped with a highly lethal lightning axe. It can dash towards enemies and parry attacks by swordplay.\nIt can deflect bullets， making it extremely dangerous. It is advisable to use high-velocity firearms or non-kinetic weapons.\nIt has nano alloy armor that limits the damage from a single attack， making it unsuitable for high-damage weapons.\nAfter taking certain damage， it deploys an invincible shield and summons enemy forces.",
+    "hp": 45000,
+    "movementSpeed": 225,
+    "rotationalSpeed": 3,
+    "armor": 125,
+    "explosiveResistance": 90,
+    "statImmunity": 20,
+    "statResistance": 75,
+    "weaponIds": [
+      53,
+      55,
+      55
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [
+      "Logic:Close",
+      "MoveAwayRange:12",
+      "LostHp:18",
+      "AddWeaponModel:53_201",
+      "AddRemodel:25",
+      "CloseDashTime:15+0.6+1.2+0.5",
+      "CloseDashSpeed:15"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 107,
+    "id": "High4",
+    "name": "Spear Cavalry",
+    "description": "Enemy sniper-specialized mecha.\nThe Boss pilots an advanced mecha that uses long-range sniping to strike enemies and becomes invisible when not attacking.\nAfter taking certain damage， it deploys an invincible shield and summons enemy forces.\nEquipped with a super-heavy Sniper Rifle rifle， a direct hit will result in an instant kill. It is extremely dangerous， so be cautious.",
+    "hp": 75000,
+    "movementSpeed": 175,
+    "rotationalSpeed": 15,
+    "armor": 100,
+    "explosiveResistance": 75,
+    "statImmunity": 20,
+    "statResistance": 75,
+    "weaponIds": [
+      1118,
+      1126,
+      1126
+    ],
+    "fieldOfVision": 26,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Damage",
+      "Fade"
+    ],
+    "parameters": [
+      "Logic:Snipe",
+      "MoveAwayRange:18",
+      "LostHp:20",
+      "Throw:5+5+5",
+      "AddWeaponModel:1118_120+120+120+120+69+73",
+      "AddRemodel:3"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 108,
+    "id": "High5",
+    "name": "Armor Knight",
+    "description": "Enemy super-heavy mecha， the heaviest cavalry steed in history.\nThe Boss pilots an advanced mecha with extremely thick armor， especially on the front， and carries two heavy machine guns.\nIt can call for airstrikes， which are highly dangerous.\nAfter taking certain damage， it deploys an invincible shield and summons elite enemy forces.\nThe good news is that it has a significant blind spot in its field of view and enters a search mode when it loses its target.",
+    "hp": 80000,
+    "movementSpeed": 135,
+    "rotationalSpeed": 0.5,
+    "armor": 250,
+    "explosiveResistance": 99,
+    "statImmunity": 20,
+    "statResistance": 75,
+    "weaponIds": [
+      1125,
+      1125,
+      60,
+      1128
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Armor",
+      "MG",
+      "Explo"
+    ],
+    "parameters": [
+      "Logic:Heavy",
+      "MoveAwayRange:10",
+      "LostHp:20",
+      "Throw:5+5+5+5+4+4",
+      "AddStrategy:0+1+2+3+6+7+8+9",
+      "ThrowDistance:18"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 109,
+    "id": "HighPar",
+    "name": "Hussar（Reform）",
+    "description": "",
+    "hp": 55000,
+    "movementSpeed": 300,
+    "rotationalSpeed": 0.5,
+    "armor": 300,
+    "explosiveResistance": 99,
+    "statImmunity": 20,
+    "statResistance": 75,
+    "weaponIds": [
+      1125,
+      1125
+    ],
+    "fieldOfVision": 24,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Throw",
+      "MoveAwayRange:15",
+      "LostHp:33",
+      "Throw:3+6+8+5+4",
+      "ThrowDistance:20",
+      "ThrowCD:5",
+      "AddRemodel:1",
+      "Bursting:3"
+    ],
+    "preFireTime": 0,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 110,
+    "id": "BossFinal",
+    "name": "Dominator",
+    "description": "Fortress-type combat iron cavalry， with a body like a cliff， a pace like a flood， and weapons like thunder， has the combat ability to rival an army.\nA hard body， with only the head as the weakness. Able to launch rocket launchers and destroy light， and has the function of summoning allies",
+    "hp": 100000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 100,
+    "explosiveResistance": 80,
+    "statImmunity": 20,
+    "statResistance": 75,
+    "weaponIds": [
+      1122,
+      1122,
+      1121,
+      1121,
+      1123,
+      1123,
+      62,
+      62,
+      1124,
+      1124
+    ],
+    "fieldOfVision": 60,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "1-1+3+6",
+      "0.9-1+4+5+6",
+      "0.8-2+3+6+8-2+Canon2",
+      "0.6-4+5+7-2+CanonRebel2",
+      "0.4-1+2+3+7+8-2+HiveBoss",
+      "0.2-1+2+3+4+5+6+7+8-2+Boss3_+Boss2_+Boss1_"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 111,
+    "id": "EliteSamurai",
+    "name": "Foot Soldier",
+    "description": "Melee-type mecha， equipped with an explosion protection shield and a lightsabre. The explosion protection shield opens when releasing sword energy.",
+    "hp": 10000,
+    "movementSpeed": 300,
+    "rotationalSpeed": 3,
+    "armor": 45,
+    "explosiveResistance": 100,
+    "statImmunity": 50,
+    "statResistance": 40,
+    "weaponIds": [
+      1129,
+      1201
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 112,
+    "id": "EliteSamurai2",
+    "name": "Elite Foot Soldier",
+    "description": "Melee-type mecha， equipped with an explosion protection shield and a lightsabre. The explosion protection shield opens when releasing sword energy.",
+    "hp": 20000,
+    "movementSpeed": 400,
+    "rotationalSpeed": 3,
+    "armor": 90,
+    "explosiveResistance": 135,
+    "statImmunity": 75,
+    "statResistance": 40,
+    "weaponIds": [
+      1129,
+      1201
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 113,
+    "id": "EliteGiant",
+    "name": "One-Eyed Giant",
+    "description": "Massive anti-fortress combat mecha with two highly destructive fortress saws. Vulnerable only in the eye， which becomes extremely fragile after taking a certain amount of damage.",
+    "hp": 30000,
+    "movementSpeed": 500,
+    "rotationalSpeed": 0.4,
+    "armor": 50,
+    "explosiveResistance": 100,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1202,
+      1202
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Armor"
+    ],
+    "parameters": [
+      "Giant:1"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 114,
+    "id": "EliteGiant2",
+    "name": "Elite One-Eyed Giant",
+    "description": "Massive anti-fortress combat mecha with two highly destructive fortress saws. Vulnerable only in the eye， which becomes extremely fragile after taking a certain amount of damage.",
+    "hp": 50000,
+    "movementSpeed": 650,
+    "rotationalSpeed": 0.4,
+    "armor": 100,
+    "explosiveResistance": 135,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1202,
+      1202
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Damage",
+      "Armor"
+    ],
+    "parameters": [
+      "Giant:1"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 115,
+    "id": "Sandworm",
+    "name": "Sandworm",
+    "description": "Giant excavation mecha with an extremely tough body. Its head possesses formidable destructive power， and it has undergone armed modifications with numerous weapons installed on both sides of the body. Damaging specific parts of its armor can cause significant harm.",
+    "hp": 600000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1.5,
+    "armor": 35,
+    "explosiveResistance": 75,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Armor"
+    ],
+    "parameters": [
+      "Giant:1"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 116,
+    "id": "Sandworm2",
+    "name": "Catastrophe Sandworm",
+    "description": "Giant excavation mecha with an extremely tough body. Its head possesses formidable destructive power， and it has undergone armed modifications with numerous weapons installed on both sides of the body. Damaging specific parts of its armor can cause significant harm.",
+    "hp": 1000000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1.5,
+    "armor": 50,
+    "explosiveResistance": 75,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Armor"
+    ],
+    "parameters": [
+      "Giant:1"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 117,
+    "id": "EliteLord",
+    "name": "Lord",
+    "description": "Leads a large mecha unit consisting of some shield-bearing mechas. The lord remains behind the shielded mechas， issuing occasional commands for the shielded mechas to assault forward.",
+    "hp": 35000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 3,
+    "armor": 45,
+    "explosiveResistance": 100,
+    "statImmunity": 50,
+    "statResistance": 40,
+    "weaponIds": [
+      54,
+      54,
+      1101,
+      1101
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Armor"
+    ],
+    "parameters": [
+      "Throw:3+6+8+5+12+4",
+      "ThrowDistance:21",
+      "ThrowCD:9"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 118,
+    "id": "EliteLord2",
+    "name": "Advanced Lord",
+    "description": "Leads a large mecha unit consisting of some shield-bearing mechas. The lord remains behind the shielded mechas， issuing occasional commands for the shielded mechas to assault forward.",
+    "hp": 56000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 3,
+    "armor": 120,
+    "explosiveResistance": 135,
+    "statImmunity": 75,
+    "statResistance": 75,
+    "weaponIds": [
+      54,
+      54,
+      1116,
+      1116
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Armor"
+    ],
+    "parameters": [
+      "Throw:3+6+8+5+12+4",
+      "ThrowDistance:25",
+      "ThrowCD:6"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 119,
+    "id": "EliteAshigaru",
+    "name": "Sumurai",
+    "description": "Extremely stable mecha， equipped with a full-body steel shield and a highly damaging long spear. It uses sword energy attacks.",
+    "hp": 35000,
+    "movementSpeed": 600,
+    "rotationalSpeed": 1.25,
+    "armor": 100,
+    "explosiveResistance": 150,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [
+      1129,
+      1203,
+      1204,
+      1205
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 120,
+    "id": "EliteAshigaru2",
+    "name": "Advanced Sumurai",
+    "description": "Extremely stable mecha， equipped with a full-body steel shield and a highly damaging long spear. It uses sword energy attacks.",
+    "hp": 56000,
+    "movementSpeed": 750,
+    "rotationalSpeed": 3,
+    "armor": 180,
+    "explosiveResistance": 200,
+    "statImmunity": 90,
+    "statResistance": 90,
+    "weaponIds": [
+      1129,
+      1203,
+      1204,
+      1205
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 121,
+    "id": "ElitePuppeteer",
+    "name": "Puppeteer",
+    "description": "Controls 2 damaged samurai mechas. The samurai mecha， due to its state of disrepair， cannot be destroyed. The puppeteer is in an invincible state， and only when the samurai mecha sustains a certain level of damage will the puppeteer retract it， exposing a vulnerable point.",
+    "hp": 30000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 122,
+    "id": "ElitePuppeteer2",
+    "name": "Advanced Puppeteer",
+    "description": "Controls 3 damaged samurai mechas. The samurai mecha， due to its state of disrepair， cannot be destroyed. The puppeteer is in an invincible state， and only when the samurai mecha sustains a certain level of damage will the puppeteer retract it， exposing a vulnerable point.",
+    "hp": 30000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 100,
+    "explosiveResistance": 100,
+    "statImmunity": 90,
+    "statResistance": 90,
+    "weaponIds": [],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 123,
+    "id": "EliteRanger",
+    "name": "Ranger",
+    "description": "Advanced elite units with both long-range firepower and melee capabilities， capable of using continuous sprints for attacks， very dangerous",
+    "hp": 50000,
+    "movementSpeed": 4500,
+    "rotationalSpeed": 3,
+    "armor": 100,
+    "explosiveResistance": 60,
+    "statImmunity": 100,
+    "statResistance": 75,
+    "weaponIds": [
+      205,
+      1201,
+      7,
+      40
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.3,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 124,
+    "id": "EliteRanger2",
+    "name": "Advanced Ranger",
+    "description": "Advanced elite units with both long-range firepower and melee capabilities， capable of using continuous sprints for attacks， very dangerous",
+    "hp": 90000,
+    "movementSpeed": 4500,
+    "rotationalSpeed": 3,
+    "armor": 180,
+    "explosiveResistance": 120,
+    "statImmunity": 135,
+    "statResistance": 90,
+    "weaponIds": [
+      1130,
+      1206,
+      8,
+      140
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Ellite",
+      "Melee",
+      "Speed"
+    ],
+    "parameters": [],
+    "preFireTime": 0.3,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 125,
+    "id": "CanonRebel2",
+    "name": "Empire turret",
+    "description": "Empire turret",
+    "hp": 4000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1116,
+      1116
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "MG"
+    ],
+    "parameters": [
+      "Bursting:4"
+    ],
+    "preFireTime": 0.75,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 126,
+    "id": "CanonRebel1",
+    "name": "Empire turret",
+    "description": "Empire turret",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 1,
+    "armor": 30,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1117
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "MG"
+    ],
+    "parameters": [
+      "Bursting:8"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 127,
+    "id": "Car1",
+    "name": "Empire armored vehicle",
+    "description": "Empire armored vehicle， armed with a highly destructive sniper turret，some of them has been modified by the rebels.",
+    "hp": 900,
+    "movementSpeed": 400,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1101,
+      1102
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Damage"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 128,
+    "id": "Car2",
+    "name": "Empire armored vehicle",
+    "description": "Empire armored vehicle， equipped with two powerful shotgun weapons，some of them has been modified by the rebels.",
+    "hp": 900,
+    "movementSpeed": 500,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      120,
+      120
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Shot"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 129,
+    "id": "Car3",
+    "name": "Empire armored vehicle",
+    "description": "Empire armored vehicle， armed with a highly destructive turret，some of them has been modified by the rebels.",
+    "hp": 900,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1,
+    "armor": 40,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      7,
+      6
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Explo"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 130,
+    "id": "RebelMecha1",
+    "name": "Empire mecha",
+    "description": "Empire mecha， equipped with two powerful machine guns，some of them has been modified by the rebels.",
+    "hp": 1000,
+    "movementSpeed": 250,
+    "rotationalSpeed": 2,
+    "armor": 60,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      1117,
+      1117,
+      1102
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "MG"
+    ],
+    "parameters": [],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 131,
+    "id": "RebelMecha2",
+    "name": "Empire mecha",
+    "description": "Empire mecha， equipped with two lightsabres， and can charge and strike when close to the enemy，some of them has been modified by the rebels.",
+    "hp": 700,
+    "movementSpeed": 200,
+    "rotationalSpeed": 2,
+    "armor": 30,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      53,
+      61,
+      61
+    ],
+    "fieldOfVision": 12,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Melee"
+    ],
+    "parameters": [
+      "Logic:Close",
+      "MoveAwayRange:12",
+      "AddWeaponModel:53_200"
+    ],
+    "preFireTime": 0.5,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 132,
+    "id": "Para1",
+    "name": "Empire light production mecha",
+    "description": "Empire light combat mecha with high mobility and weak defense capabilities， holding two advanced standard rifles. \n[Rear perception: weak | Perception angle: narrow]",
+    "hp": 4500,
+    "movementSpeed": 300,
+    "rotationalSpeed": 2,
+    "armor": 5,
+    "explosiveResistance": 25,
+    "statImmunity": 10,
+    "statResistance": 10,
+    "weaponIds": [
+      401,
+      401
+    ],
+    "fieldOfVision": 19,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:10",
+      "Throw:1+15",
+      "ThrowDistance:20",
+      "Bursting:1.5",
+      "ThrowCD:10"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 133,
+    "id": "Para2",
+    "name": "Empire mid size mass-produced mecha",
+    "description": "Empire medium-sized combat mecha， with certain defensive capabilities， holding two shotguns with strong firepower， cautious of direct conflict \n[Rear perception: normal | Perception angle: wide]",
+    "hp": 9000,
+    "movementSpeed": 250,
+    "rotationalSpeed": 1.5,
+    "armor": 25,
+    "explosiveResistance": 25,
+    "statImmunity": 10,
+    "statResistance": 10,
+    "weaponIds": [
+      202,
+      202
+    ],
+    "fieldOfVision": 19,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:10",
+      "Throw:2",
+      "ThrowDistance:20",
+      "Bursting:3"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 134,
+    "id": "Para3",
+    "name": "Empire heavy production mecha",
+    "description": "Empire heavy combat mecha with low mobility and strong defense capabilities， holding two advanced light machine guns with extremely strong firepower.\n[Rear perception: normal | Perception angle: wide]",
+    "hp": 20000,
+    "movementSpeed": 250,
+    "rotationalSpeed": 1.5,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 10,
+    "statResistance": 10,
+    "weaponIds": [
+      324,
+      324
+    ],
+    "fieldOfVision": 21,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:12",
+      "Throw:4",
+      "ThrowDistance:22",
+      "Bursting:4"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 135,
+    "id": "Para3T",
+    "name": "Empire Heavy Mech",
+    "description": "Empire heavy combat mecha with low mobility and strong defense capabilities， holding two advanced light machine guns with extremely strong firepower.\n[Rear perception: normal | Perception angle: wide]",
+    "hp": 20000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1.5,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 10,
+    "statResistance": 10,
+    "weaponIds": [
+      424,
+      424
+    ],
+    "fieldOfVision": 21,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:12",
+      "Throw:4",
+      "ThrowDistance:22",
+      "Bursting:6"
+    ],
+    "preFireTime": 0,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 136,
+    "id": "Parb1",
+    "name": "Imperial Support Force Mech",
+    "description": "Empire firepower support mecha， equipped with two light snipers for firepower output. Survival ability， maneuverability， and defense are not weak， so be cautious and avoid direct conflict with them. \n[Rear perception: strong | Perception angle: normal]",
+    "hp": 7000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 0.75,
+    "armor": 60,
+    "explosiveResistance": 60,
+    "statImmunity": 25,
+    "statResistance": 25,
+    "weaponIds": [
+      5,
+      5
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:15",
+      "Throw:2",
+      "ThrowDistance:15",
+      "ThrowCD:5",
+      "Bursting:3.5"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 137,
+    "id": "Parb2",
+    "name": "Imperial Support Force Mech",
+    "description": "Empire firepower support mecha， holding two focused rays for firepower output. Survival ability， maneuverability， and defense are not weak， so be cautious and avoid direct conflict with them. \n[Rear perception: strong | Perception angle: normal]",
+    "hp": 7000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 0.75,
+    "armor": 60,
+    "explosiveResistance": 60,
+    "statImmunity": 25,
+    "statResistance": 25,
+    "weaponIds": [
+      30,
+      30,
+      40
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:15",
+      "Throw:2",
+      "ThrowDistance:15",
+      "ThrowCD:5",
+      "Bursting:3.5"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 138,
+    "id": "Parc1",
+    "name": "Imperial firepower mecha",
+    "description": "The Empire artillery unit's mecha carries two cannons for long-range shooting. The maneuverability is weak， but the firepower and defense are both strong. \n[Rear perception: normal | Perception angle: normal]",
+    "hp": 8000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 0.75,
+    "armor": 75,
+    "explosiveResistance": 60,
+    "statImmunity": 25,
+    "statResistance": 25,
+    "weaponIds": [
+      7,
+      7
+    ],
+    "fieldOfVision": 25,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Heavy",
+      "MoveAwayRange:10",
+      "LostHp:50",
+      "Throw:1",
+      "ThrowDistance:18",
+      "Bursting:4.5"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 139,
+    "id": "Pare",
+    "name": "Empire Interference Force Mech",
+    "description": "The Empire Interference type mecha can snipe from a long distance and has a very high ability to detect assassinations. The maneuverability is weak， but the firepower and defense are both strong. \n[Rear perception: extremely strong | Perception angle: narrow]",
+    "hp": 8000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 2,
+    "armor": 75,
+    "explosiveResistance": 80,
+    "statImmunity": 10,
+    "statResistance": 10,
+    "weaponIds": [
+      205
+    ],
+    "fieldOfVision": 30,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Heavy",
+      "MoveAwayRange:20",
+      "Bursting:4.5"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 140,
+    "id": "Parf",
+    "name": "Imperial Strategic Force Mech",
+    "description": "Empire strategic mechs will launch rockets from a long distance. Very weak mobility， but strong firepower and defense. \n[Rear perception: extremely strong | Perception angle: narrow]",
+    "hp": 8000,
+    "movementSpeed": 150,
+    "rotationalSpeed": 1,
+    "armor": 75,
+    "explosiveResistance": 80,
+    "statImmunity": 10,
+    "statResistance": 10,
+    "weaponIds": [
+      1131,
+      1131
+    ],
+    "fieldOfVision": 35,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Heavy",
+      "MoveAwayRange:20",
+      "Bursting:5"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 141,
+    "id": "Pard",
+    "name": "Empire's elite mass-produced mecha",
+    "description": "Empire elite mecha with extremely powerful firepower \n[Rear perception: normal | Perception angle: normal]",
+    "hp": 20000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1.5,
+    "armor": 100,
+    "explosiveResistance": 90,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [
+      5,
+      5
+    ],
+    "fieldOfVision": 24,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:15",
+      "Throw:3+6+8",
+      "ThrowDistance:22",
+      "ThrowCD:10",
+      "LostHp:50",
+      "Bursting:5"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 142,
+    "id": "PardT",
+    "name": "Empire's elite mecha",
+    "description": "Empire elite mecha with extremely powerful firepower \n[Rear perception: normal | Perception angle: normal]",
+    "hp": 20000,
+    "movementSpeed": 200,
+    "rotationalSpeed": 1.5,
+    "armor": 100,
+    "explosiveResistance": 90,
+    "statImmunity": 50,
+    "statResistance": 50,
+    "weaponIds": [
+      105,
+      105
+    ],
+    "fieldOfVision": 24,
+    "isFlying": false,
+    "drop": [],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:15",
+      "Throw:3+6+8",
+      "ThrowDistance:22",
+      "ThrowCD:10",
+      "LostHp:50",
+      "Bursting:8"
+    ],
+    "preFireTime": 0,
+    "isBoss": true,
+    "isBuilding": false
+  },
+  {
+    "index": 143,
+    "id": "ParCar1",
+    "name": "Imperial Armored Vehicle",
+    "description": "Empire armored vehicle， equipped with a highly lethal sniper turret \n[Rear perception: normal | Perception angle: extremely wide]",
+    "hp": 8000,
+    "movementSpeed": 400,
+    "rotationalSpeed": 2,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      205,
+      1102
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Damage"
+    ],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:10",
+      "Bursting:4"
+    ],
+    "preFireTime": 0.2,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 144,
+    "id": "ParCar2",
+    "name": "Imperial Armored Vehicle",
+    "description": "Empire armored vehicle， holding two powerful scattered bullets \n[Rear perception: normal | Perception angle: extremely wide]",
+    "hp": 8000,
+    "movementSpeed": 400,
+    "rotationalSpeed": 2,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      120,
+      120
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Shot"
+    ],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:10",
+      "Bursting:4"
+    ],
+    "preFireTime": 0.2,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 145,
+    "id": "ParCar3",
+    "name": "Imperial Armored Vehicle",
+    "description": "Empire armored vehicle， holding a highly lethal turret \n[Rear perception: normal | Perception angle: extremely wide]",
+    "hp": 8000,
+    "movementSpeed": 400,
+    "rotationalSpeed": 2,
+    "armor": 50,
+    "explosiveResistance": 50,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [
+      7,
+      6
+    ],
+    "fieldOfVision": 22,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Armor",
+      "Explo"
+    ],
+    "parameters": [
+      "Logic:Range",
+      "MoveAwayRange:10",
+      "Bursting:4"
+    ],
+    "preFireTime": 0.2,
+    "isBoss": false,
+    "isBuilding": false
+  },
+  {
+    "index": 146,
+    "id": "SupplyBox0",
+    "name": "Supply box-Universal",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "All",
+      "Attack"
+    ],
+    "parameters": [
+      "Bursting:1",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 147,
+    "id": "SupplyBox1",
+    "name": "Supply box-Power",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Speed",
+      "All"
+    ],
+    "parameters": [
+      "Bursting:1",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 148,
+    "id": "SupplyBox2",
+    "name": "Supply box-Armor",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Armor",
+      "All"
+    ],
+    "parameters": [
+      "Bursting:1",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 149,
+    "id": "SupplyBox3",
+    "name": "Supply box-Warhead",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Damage"
+    ],
+    "parameters": [
+      "Bursting:2",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 150,
+    "id": "SupplyBox4",
+    "name": "Supply box-Elemental",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Electric",
+      "Flame",
+      "Freeze",
+      "All"
+    ],
+    "parameters": [
+      "Bursting:2",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 151,
+    "id": "SupplyBox5",
+    "name": "Supply box-Core",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Ellite",
+      "All",
+      "Attack"
+    ],
+    "parameters": [
+      "Bursting:2",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 152,
+    "id": "SupplyBox6",
+    "name": "Supply box-Melee",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Attack",
+      "Melee"
+    ],
+    "parameters": [
+      "Bursting:2",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 153,
+    "id": "SupplyBox7",
+    "name": "Supply box-Energy",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Laser",
+      "Split",
+      "Energy",
+      "Fade"
+    ],
+    "parameters": [
+      "Bursting:3",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 154,
+    "id": "SupplyBox8",
+    "name": "Supply box-Heavy",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Explo",
+      "Shot",
+      "MG",
+      "Attack"
+    ],
+    "parameters": [
+      "Bursting:3",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  },
+  {
+    "index": 155,
+    "id": "SupplyBox9",
+    "name": "Supply box-Furniture",
+    "description": "",
+    "hp": 2000,
+    "movementSpeed": 0,
+    "rotationalSpeed": 0,
+    "armor": 20,
+    "explosiveResistance": 20,
+    "statImmunity": 0,
+    "statResistance": 0,
+    "weaponIds": [],
+    "fieldOfVision": 0,
+    "isFlying": false,
+    "drop": [
+      "Furniture"
+    ],
+    "parameters": [
+      "Bursting:3",
+      "CanLoot"
+    ],
+    "preFireTime": 0,
+    "isBoss": false,
+    "isBuilding": true
+  }
+]
