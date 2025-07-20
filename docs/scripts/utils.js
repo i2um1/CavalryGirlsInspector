@@ -24,7 +24,7 @@
         return lowerTarget.includes(lowerSearch);
     }
 
-    function filterWeapons(values, id, name, type, subType) {
+    function filterWeapons(values, {id, name, type, subType}) {
         return Object.values(values)
             .filter(weapon => !id || includesCaseInsensitive(weapon.id, id))
             .filter(weapon => !name || includesCaseInsensitive(weapon.name, name))
@@ -68,8 +68,6 @@
 
     return {
         fetchData: fetchData,
-        byIndex: byIndex,
-        includesCaseInsensitive: includesCaseInsensitive,
         filterWeapons: filterWeapons,
 
         WeaponTypes: WeaponTypes,

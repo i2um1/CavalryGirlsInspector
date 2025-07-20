@@ -93,11 +93,7 @@ const Atlas = {
 const WeaponsPage = {
     template: `
               <div>
-                  <weapon-filters
-                      @update:id="selectWeaponId"
-                      @update:name="selectWeaponName"
-                      @update:type="selectWeaponType"
-                      @update:sub-type="selectWeaponSubType"></weapon-filters>
+                  <weapon-filters @update:filters="updateWeapons" :defaultValue="defaultWeaponFilters"></weapon-filters>
                   <info-box :info-message="infoMessage" :is-error="!hasWeapons"></info-box>
                   <atlas
                       v-if="hasWeapons"
@@ -123,10 +119,7 @@ const WeaponsPage = {
             secondWeaponId: null,
             firstWeapon: null,
             secondWeapon: null,
-            weaponId: '',
-            weaponName: '',
-            weaponType: '',
-            weaponSubType: ''
+            defaultWeaponFilters: {id: '', name: '', type: '', subType: ''}
         };
     },
     async created() {
@@ -135,9 +128,10 @@ const WeaponsPage = {
         const bullets = await Utils.fetchData('assets/bullets.json');
         if (weapons && weaponsAtlas && bullets) {
             this.weaponsMap = weapons;
-            this.weaponsArray = Utils.filterWeapons(weapons);
             this.weaponsAtlas = weaponsAtlas;
             this.bullets = bullets;
+
+            this.updateWeapons(this.defaultWeaponFilters);
         } else {
             this.hasWeapons = false;
         }
@@ -153,24 +147,8 @@ const WeaponsPage = {
             this.secondWeaponId = weaponId;
             this.secondWeapon = this.weaponsMap[weaponId];
         },
-        selectWeaponId(weaponId) {
-            this.weaponId = weaponId;
-            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
-            this.updateInfoMessage();
-        },
-        selectWeaponName(weaponName) {
-            this.weaponName = weaponName;
-            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
-            this.updateInfoMessage();
-        },
-        selectWeaponType(weaponType) {
-            this.weaponType = weaponType;
-            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
-            this.updateInfoMessage();
-        },
-        selectWeaponSubType(weaponSubType) {
-            this.weaponSubType = weaponSubType;
-            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, this.weaponId, this.weaponName, this.weaponType, this.weaponSubType);
+        updateWeapons(filters) {
+            this.weaponsArray = Utils.filterWeapons(this.weaponsMap, filters);
             this.updateInfoMessage();
         },
         updateInfoMessage() {

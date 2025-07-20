@@ -115,63 +115,69 @@
                 <div class="form-group">
                     <text-filter
                         id="weapon-id" placeholder="Weapon ID" isNumber="true"
-                        :defaultValue="defaultId" @update:value="updateId"></text-filter>
+                        :defaultValue="filters.id" @update:value="updateId"></text-filter>
                 </div>
                 <div class="form-group">
                     <text-filter
                         id="weapon-name" placeholder="Weapon Name"
-                        :defaultValue="defaultName" @update:value="updateName"></text-filter>
+                        :defaultValue="filters.name" @update:value="updateName"></text-filter>
                 </div>
                 <div class="form-group">
                     <dropdown-list-filter
                         id="weapon-type" default-text="All Weapon Type"
-                        :list="weaponTypes" :defaultValue="defaultType"
+                        :list="types" :defaultValue="filters.type"
                         @update:value="updateType"></dropdown-list-filter>
                 </div>
                 <div class="form-group">
                     <dropdown-list-filter
                         id="weapon-sub-type" default-text="All Weapon Subtype"
-                        :list="weaponSubTypes" :defaultValue="defaultSubType"
+                        :list="subTypes" :defaultValue="filters.subType"
                         @update:value="updateSubType"></dropdown-list-filter>
                 </div>
             </div>
             `,
         props: {
-            defaultId: {
-                type: String,
-                default: '',
-            },
-            defaultName: {
-                type: String,
-                default: ''
-            },
-            defaultType: {
-                type: String,
-                default: ''
-            },
-            defaultSubType: {
-                type: String,
-                default: ''
+            defaultValue: {
+                type: Object,
+                default: () => ({
+                    id: '',
+                    name: '',
+                    type: '',
+                    subType: ''
+                })
             }
         },
         data() {
             return {
-                weaponTypes: Utils.WeaponTypes,
-                weaponSubTypes: Utils.WeaponSubTypes
+                types: Utils.WeaponTypes,
+                subTypes: Utils.WeaponSubTypes,
+                filters: {
+                    id: this.defaultValue.id,
+                    name: this.defaultValue.name,
+                    type: this.defaultValue.type,
+                    subType: this.defaultValue.subType
+                }
             }
         },
         methods: {
             updateId(newValue) {
-                this.$emit('update:id', newValue);
+                this.filters.id = newValue;
+                this.updateFilters();
             },
             updateName(newValue) {
-                this.$emit('update:name', newValue);
+                this.filters.name = newValue;
+                this.updateFilters();
             },
             updateType(newValue) {
-                this.$emit('update:type', newValue);
+                this.filters.type = newValue;
+                this.updateFilters();
             },
             updateSubType(newValue) {
-                this.$emit('update:sub-type', newValue);
+                this.filters.subType = newValue;
+                this.updateFilters();
+            },
+            updateFilters() {
+                this.$emit('update:filters', this.filters);
             }
         },
         components: {
@@ -182,8 +188,6 @@
 
     return {
         InfoBox: InfoBox,
-        TextFilter: TextFilter,
-        DropdownListFilter: DropdownListFilter,
         WeaponFilters: WeaponFilters
     };
 })();
