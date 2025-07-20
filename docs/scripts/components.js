@@ -115,23 +115,23 @@
                 <div class="form-group">
                     <text-filter
                         id="weapon-id" placeholder="Weapon ID" isNumber="true"
-                        :defaultValue="filters.id" @update:value="updateId"></text-filter>
+                        :default-value="filters.id" @update:value="updateId"></text-filter>
                 </div>
                 <div class="form-group">
                     <text-filter
                         id="weapon-name" placeholder="Weapon Name"
-                        :defaultValue="filters.name" @update:value="updateName"></text-filter>
+                        :default-value="filters.name" @update:value="updateName"></text-filter>
                 </div>
                 <div class="form-group">
                     <dropdown-list-filter
                         id="weapon-type" default-text="All Weapon Type"
-                        :list="types" :defaultValue="filters.type"
+                        :list="types" :default-value="filters.type"
                         @update:value="updateType"></dropdown-list-filter>
                 </div>
                 <div class="form-group">
                     <dropdown-list-filter
                         id="weapon-sub-type" default-text="All Weapon Subtype"
-                        :list="subTypes" :defaultValue="filters.subType"
+                        :list="subTypes" :default-value="filters.subType"
                         @update:value="updateSubType"></dropdown-list-filter>
                 </div>
             </div>
@@ -186,8 +186,102 @@
         }
     };
 
+    // --- Atlas ---
+    const Atlas = {
+        template:
+            `
+            <div class="atlas" v-if="images.length > 0">
+                <div
+                    v-for="image in images" :key="image.id" class="atlas-item"
+                    :title="image.id + ': ' + image.name"
+                    @click="handleLeftClick(image.id)"
+                    @contextmenu.prevent="handleRightClick(image.id)"
+                    :style="getItemStyle()" :class="getItemClasses(image.id)">
+                    <div class="atlas-item-sprite" :style="getSpriteStyle(image.index)"></div>
+                </div>
+            </div>
+            `,
+        props: {
+            imageUrl: {
+                type: String,
+                required: true
+            },
+            displaySize: {
+                type: Number,
+                required: true
+            },
+            config: {
+                type: Object,
+                required: true,
+                default: () => ({}),
+            },
+            images: {
+                type: Array,
+                required: true,
+                default: () => []
+            },
+            isSelectable: {
+                type: Boolean,
+                default: false
+            },
+            selectedFirstId: {
+                type: [String, Number],
+                default: null
+            },
+            selectedSecondId: {
+                type: [String, Number],
+                default: null
+            }
+        },
+        methods: {
+            getItemStyle() {
+                return {
+                    width: `${this.displaySize}px`,
+                    height: `${this.displaySize}px`
+                };
+            },
+            getItemClasses(imageId) {
+                return {
+                    'first-selected': this.selectedFirstId === imageId,
+                    'second-selected': this.selectedSecondId === imageId
+                };
+            },
+            getSpriteStyle(index) {
+                const scaleFactor = this.displaySize / this.config.imageSize;
+
+                const column = index % this.config.rows;
+                const row = Math.floor(index / this.config.rows);
+
+                const x = -column * this.config.imageSize * scaleFactor;
+                const y = -row * this.config.imageSize * scaleFactor;
+
+                const atlasWidth = this.config.columns * this.config.imageSize * scaleFactor;
+                const atlasHeight = this.config.rows * this.config.imageSize * scaleFactor;
+
+                return {
+                    backgroundImage: `url(${this.imageUrl})`,
+                    width: `${this.displaySize}px`,
+                    height: `${this.displaySize}px`,
+                    backgroundPosition: `${x}px ${y}px`,
+                    backgroundSize: `${atlasWidth}px ${atlasHeight}px`
+                };
+            },
+            handleLeftClick(imageId) {
+                if (this.isSelectable) {
+                    this.$emit('select:first', imageId);
+                }
+            },
+            handleRightClick(imageId) {
+                if (this.isSelectable) {
+                    this.$emit('select:second', imageId);
+                }
+            }
+        }
+    }
+
     return {
         InfoBox: InfoBox,
-        WeaponFilters: WeaponFilters
+        WeaponFilters: WeaponFilters,
+        Atlas: Atlas
     };
 })();

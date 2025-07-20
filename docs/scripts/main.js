@@ -1,112 +1,23 @@
 ﻿const {createApp} = Vue;
 const {createRouter, createWebHashHistory} = VueRouter;
 
-// --- Atlas component ---
-const Atlas = {
-    template: `
-              <div class="atlas" v-if="images.length > 0">
-                  <div
-                      v-for="image in images"
-                      :key="image.id"
-                      class="atlas-item"
-                      :title="image.id + ': ' + image.name"
-                      @click="handleLeftClick(image.id)"
-                      @contextmenu.prevent="handleRightClick(image.id)"
-                      :style="getItemStyle()"
-                      :class="getItemClasses(image.id)"
-                  >
-                    <div class="atlas-item-sprite" :style="getSpriteStyle(image.index)"></div>
-                  </div>
-              </div>
-              `,
-    props: {
-        imageUrl: {
-            type: String,
-            required: true
-        },
-        displaySize: {
-            type: Number,
-            required: true
-        },
-        config: {
-            type: Object,
-            required: true,
-            default: () => ({}),
-        },
-        images: {
-            type: Array,
-            required: true,
-            default: () => []
-        },
-        selectedFirstId: {
-            type: [String, Number],
-            default: null
-        },
-        selectedSecondId: {
-            type: [String, Number],
-            default: null
-        }
-    },
-    methods: {
-        getItemStyle() {
-            return {
-                width: `${this.displaySize}px`,
-                height: `${this.displaySize}px`
-            };
-        },
-        getItemClasses(imageId) {
-            return {
-                'first-selected': this.selectedFirstId === imageId,
-                'second-selected': this.selectedSecondId === imageId
-            };
-        },
-        getSpriteStyle(index) {
-            const scaleFactor = this.displaySize / this.config.imageSize;
-
-            const column = index % this.config.rows;
-            const row = Math.floor(index / this.config.rows);
-
-            const x = -column * this.config.imageSize * scaleFactor;
-            const y = -row * this.config.imageSize * scaleFactor;
-
-            const atlasWidth = this.config.columns * this.config.imageSize * scaleFactor;
-            const atlasHeight = this.config.rows * this.config.imageSize * scaleFactor;
-
-            return {
-                backgroundImage: `url(${this.imageUrl})`,
-                width: `${this.displaySize}px`,
-                height: `${this.displaySize}px`,
-                backgroundPosition: `${x}px ${y}px`,
-                backgroundSize: `${atlasWidth}px ${atlasHeight}px`
-            };
-        },
-        handleLeftClick(imageId) {
-            this.$emit('first-select', imageId);
-        },
-        handleRightClick(imageId) {
-            this.$emit('second-select', imageId);
-        }
-    }
-}
-
 // --- Weapons page ---
 const WeaponsPage = {
-    template: `
-              <div>
-                  <weapon-filters @update:filters="updateWeapons" :defaultValue="defaultWeaponFilters"></weapon-filters>
-                  <info-box :info-message="infoMessage" :is-error="!hasWeapons"></info-box>
-                  <atlas
-                      v-if="hasWeapons"
-                      :image-url="'assets/weapons.webp'" :config="weaponsAtlas"
-                      :images="weaponsArray" :display-size="50"
-                      :selected-first-id="firstWeaponId"
-                      :selected-second-id="secondWeaponId"
-                      @first-select="selectFirstWeapon"
-                      @second-select="selectSecondWeapon"></atlas>
-                  <weapon-component
-                      :first-weapon="firstWeapon" :second-weapon="secondWeapon" :bullets="bullets"></weapon-component>
-              </div>
-              `,
+    template:
+        `
+        <div>
+            <weapon-filters @update:filters="updateWeapons" :default-value="defaultWeaponFilters"></weapon-filters>
+            <info-box :info-message="infoMessage" :is-error="!hasWeapons"></info-box>
+            <atlas
+                v-if="hasWeapons"
+                :image-url="'assets/weapons.webp'" :config="weaponsAtlas"
+                :images="weaponsArray" :display-size="50"
+                :is-selectable="true" :selected-first-id="firstWeaponId" :selected-second-id="secondWeaponId"
+                @select:first="selectFirstWeapon" @select:second="selectSecondWeapon"></atlas>
+            <weapon-component
+                :first-weapon="firstWeapon" :second-weapon="secondWeapon" :bullets="bullets"></weapon-component>
+        </div>
+        `,
     data() {
         return {
             hasWeapons: true,
@@ -161,52 +72,53 @@ const WeaponsPage = {
     },
     components: {
         'weapon-component': {
-            template: `
-                      <div class="data-container">
-                          <div v-if="firstWeapon" class="data-box">
-                              <h3>{{ firstWeapon.id }}: {{ firstWeapon.name }}</h3>
-                              <p v-for="(line, index) in getDescription(firstWeapon)" :key="index">{{ line }}</p>
-                          </div>
-                          <div v-else class="data-box">
-                              <h3>Weapon not selected</h3>
-                          </div>
-                          <div v-if="secondWeapon" class="data-box">
-                              <h3>{{ secondWeapon.id }}: {{ secondWeapon.name }}</h3>
-                              <p v-for="(line, index) in getDescription(secondWeapon)" :key="index">{{ line }}</p>
-                          </div>
-                          <div v-else class="data-box">
-                              <h3>Weapon not selected</h3>
-                          </div>
-                          <div v-if="firstWeapon" class="data-box">
-                              <h3>Weapon Properties</h3>
-                              <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(firstWeapon, null, 2) }}</code></pre>
-                          </div>
-                          <div v-else class="data-box">
-                              <h3>Weapon not selected</h3>
-                          </div>
-                          <div v-if="secondWeapon" class="data-box">
-                              <h3>Weapon Properties</h3>
-                              <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(secondWeapon, null, 2) }}</code></pre>
-                          </div>
-                          <div v-else class="data-box">
-                              <h3>Weapon not selected</h3>
-                          </div>
-                          <div v-if="firstWeapon" class="data-box">
-                              <h3>Bullet Properties</h3>
-                              <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(bullets[firstWeapon.bulletId], null, 2) }}</code></pre>
-                          </div>
-                          <div v-else class="data-box">
-                              <h3>Weapon not selected</h3>
-                          </div>
-                          <div v-if="secondWeapon" class="data-box">
-                              <h3>Bullet Properties</h3>
-                              <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(bullets[secondWeapon.bulletId], null, 2) }}</code></pre>
-                          </div>
-                          <div v-else class="data-box">
-                              <h3>Weapon not selected</h3>
-                          </div>
-                      </div>
-                      `,
+            template:
+                `
+                <div class="data-container">
+                    <div v-if="firstWeapon" class="data-box">
+                        <h3>{{ firstWeapon.id }}: {{ firstWeapon.name }}</h3>
+                        <p v-for="(line, index) in getDescription(firstWeapon)" :key="index">{{ line }}</p>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Weapon not selected</h3>
+                    </div>
+                    <div v-if="secondWeapon" class="data-box">
+                        <h3>{{ secondWeapon.id }}: {{ secondWeapon.name }}</h3>
+                        <p v-for="(line, index) in getDescription(secondWeapon)" :key="index">{{ line }}</p>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Weapon not selected</h3>
+                    </div>
+                    <div v-if="firstWeapon" class="data-box">
+                        <h3>Weapon Properties</h3>
+                        <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(firstWeapon, null, 2) }}</code></pre>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Weapon not selected</h3>
+                    </div>
+                    <div v-if="secondWeapon" class="data-box">
+                        <h3>Weapon Properties</h3>
+                        <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(secondWeapon, null, 2) }}</code></pre>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Weapon not selected</h3>
+                    </div>
+                    <div v-if="firstWeapon" class="data-box">
+                        <h3>Bullet Properties</h3>
+                        <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(bullets[firstWeapon.bulletId], null, 2) }}</code></pre>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Weapon not selected</h3>
+                    </div>
+                    <div v-if="secondWeapon" class="data-box">
+                        <h3>Bullet Properties</h3>
+                        <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(bullets[secondWeapon.bulletId], null, 2) }}</code></pre>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Weapon not selected</h3>
+                    </div>
+                </div>
+                `,
             props: {
                 firstWeapon: {
                     type: Object,
@@ -238,23 +150,24 @@ const WeaponsPage = {
         },
         'info-box': Components.InfoBox,
         'weapon-filters': Components.WeaponFilters,
-        'atlas': Atlas
+        'atlas': Components.Atlas
     }
 };
 
 // --- Enemies page ---
 const EnemiesPage = {
-    template: `
-              <div>
-                  <info-box info-message="Use the left and right mouse buttons to select an enemy."></info-box>
-                  <ul>
-                      <li v-for="enemy in enemies" :key="enemy.id">
-                          <strong>{{ enemy.name }}</strong> - {{ enemy.health }}, {{ enemy.type }}
-                      </li>
-                  </ul>
-                  <enemy-component></enemy-component>
-              </div>
-              `,
+    template:
+        `
+        <div>
+            <info-box info-message="Use the left and right mouse buttons to select an enemy."></info-box>
+            <ul>
+                <li v-for="enemy in enemies" :key="enemy.id">
+                    <strong>{{ enemy.name }}</strong> - {{ enemy.health }}, {{ enemy.type }}
+                </li>
+            </ul>
+            <enemy-component></enemy-component>
+        </div>
+        `,
     data() {
         return {
             enemies: [
