@@ -24,7 +24,7 @@ public static class ImageAtlas
 
         var images = await LoadImages(imagePaths);
         var imageSize = GetMinImageSize(images);
-        var (atlasWidth, atlasHeight) = (rows * imageSize, columns * imageSize);
+        var (atlasWidth, atlasHeight) = (columns * imageSize, rows * imageSize);
 
         using var atlas = new Image<Rgba32>(atlasWidth, atlasHeight, Color.Transparent);
         for (var i = 0; i < images.Length; i++)

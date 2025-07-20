@@ -16,6 +16,9 @@ public static class ImageMappers
     public static string[] ToImagePaths(this Dictionary<int, Weapon> weapons, string imagesFolder)
         => weapons.Values.Select(x => ToImagePath(x.ImageFileName, imagesFolder)).ToArray();
 
-    private static string ToImagePath(string fileName, string imagesFolder)
+    public static string[] ToImagePaths(this Dictionary<string, Enemy> enemies, string imagesFolder)
+        => enemies.Values.Select(x => ToImagePath(x.Id, imagesFolder)).ToArray();
+
+    public static string ToImagePath(this string fileName, string imagesFolder)
         => Path.Combine(imagesFolder, fileName + ".png");
 }

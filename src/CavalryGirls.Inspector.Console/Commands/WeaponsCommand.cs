@@ -9,9 +9,8 @@ using Spectre.Console.Cli;
 
 namespace CavalryGirls.Inspector.Commands;
 
-public sealed class WeaponsCommand : AsyncCommand<WeaponsCommandSettings>
+public sealed class WeaponsCommand : CommandBase<WeaponsCommandSettings>
 {
-    private string _outputFolder = null!;
     private string _propertyFolder = null!;
 
     private RawBulletRepository _rawBulletRepository = null!;
@@ -23,7 +22,7 @@ public sealed class WeaponsCommand : AsyncCommand<WeaponsCommandSettings>
         ArgumentNullException.ThrowIfNull(settings.AssetsPath);
         ArgumentNullException.ThrowIfNull(settings.OutputPath);
 
-        _outputFolder = settings.OutputPath.GetAssetsOutputFolder();
+        OutputFolder = settings.OutputPath.GetAssetsOutputFolder();
         _propertyFolder = settings.AssetsPath.GetPropertyFolder();
 
         var tableFolder = settings.AssetsPath.GetTableFolder();
@@ -99,22 +98,8 @@ public sealed class WeaponsCommand : AsyncCommand<WeaponsCommandSettings>
         context.Status($"Getting {title}...");
 
         var data = await getData();
-        await SaveData(context, $"Saving {title}...", outputFileName, data);
+        await SaveData(context, $"Saving {title}...", outputFileName, data.Values);
 
         return data;
-    }
-
-    private async Task GenerateAtlas(
-        StatusContext context, string status, string outputFileName, string[] imagePaths)
-    {
-        context.Status(status);
-        var atlas = await ImageAtlas.Create(imagePaths, _outputFolder, outputFileName + ".webp");
-        await atlas.SaveJson(_outputFolder, outputFileName + "_atlas.json");
-    }
-
-    private async Task SaveData<T>(StatusContext context, string status, string outputFileName, T data)
-    {
-        context.Status(status);
-        await data.SaveJson(_outputFolder, outputFileName + ".json");
     }
 }

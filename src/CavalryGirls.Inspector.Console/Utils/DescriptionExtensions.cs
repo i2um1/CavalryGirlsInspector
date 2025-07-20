@@ -21,6 +21,6 @@ public static class DescriptionExtensions
             return $"<D{index}>";
         });
 
-        return _trimRegex.Replace(result, _ => string.Empty);
+        return _trimRegex.Replace(result, _ => string.Empty).Replace("\\n", "\n");
     }
 }

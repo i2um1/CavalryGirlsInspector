@@ -8,6 +8,7 @@ public static class FileExtensions
 
     private const string TABLE_FOLDER = "Resources/text/table";
     private const string PROPERTY_FOLDER = "Resources/texture/property";
+    private const string ENEMY_FOLDER = "Resources/texture/enemypre";
 
     private static readonly JsonSerializerOptions _jsonOptions;
 
@@ -39,6 +40,12 @@ public static class FileExtensions
     {
         ArgumentNullException.ThrowIfNull(basePath);
         return Path.Combine(basePath, PROPERTY_FOLDER);
+    }
+
+    public static string GetEnemyFolder(this string? basePath)
+    {
+        ArgumentNullException.ThrowIfNull(basePath);
+        return Path.Combine(basePath, ENEMY_FOLDER);
     }
 
     public static async IAsyncEnumerable<T> ReadCsv<T>(
