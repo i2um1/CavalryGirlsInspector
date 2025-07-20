@@ -43,7 +43,7 @@ public sealed class EnemiesCommand : CommandBase<EnemiesCommandSettings>
         context.Status("Getting enemies...");
 
         var (enemies, invalidEnemies) = await _rawEnemyRepository.GetEnemies(enemyDescriptions);
-        AnsiConsole.MarkupLine($"[red]Failed to find descriptions:[/] {string.Join(", ", invalidEnemies)}");
+        AnsiConsole.MarkupLine($"[red]Failed to find description:[/] {string.Join(", ", invalidEnemies)}");
         enemies = ReindexEnemies(enemies);
 
         await SaveData(context, "Saving enemies...", "enemies", enemies.Values);

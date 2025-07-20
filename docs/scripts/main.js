@@ -38,7 +38,7 @@ const WeaponsPage = {
         const weaponsAtlas = await Utils.fetchData('assets/weapons_atlas.json');
         const bullets = await Utils.fetchData('assets/bullets.json');
         if (weapons && weaponsAtlas && bullets) {
-            this.weaponsMap = weapons;
+            this.weaponsMap = Utils.toMap(weapons);
             this.weaponsAtlas = weaponsAtlas;
             this.bullets = bullets;
 
@@ -144,7 +144,7 @@ const WeaponsPage = {
                                 return match;
                             }
                         })
-                        .split('\\n');
+                        .split('\n');
                 }
             }
         },
@@ -159,32 +159,120 @@ const EnemiesPage = {
     template:
         `
         <div>
-            <info-box info-message="Use the left and right mouse buttons to select an enemy."></info-box>
-            <ul>
-                <li v-for="enemy in enemies" :key="enemy.id">
-                    <strong>{{ enemy.name }}</strong> - {{ enemy.health }}, {{ enemy.type }}
-                </li>
-            </ul>
-            <enemy-component></enemy-component>
+            <info-box :info-message="infoMessage" :is-error="!hasEnemies"></info-box>
+            <atlas
+                v-if="hasEnemies"
+                :image-url="'assets/enemies.webp'" :config="enemiesAtlas"
+                :images="enemiesArray" :display-size="50"
+                :is-selectable="true" :selected-first-id="firstEnemyId" :selected-second-id="secondEnemyId"
+                @select:first="selectFirstEnemy" @select:second="selectSecondEnemy"></atlas>
+            <enemy-component
+                :first-enemy="firstEnemy" :second-enemy="secondEnemy"></enemy-component>
         </div>
         `,
     data() {
         return {
-            enemies: [
-                {id: 1, name: 'Enemy', health: 100, type: 'Type'}
-            ]
+            hasEnemies: true,
+            infoMessage: '',
+            enemiesMap: {},
+            enemiesArray: [],
+            enemiesAtlas: {},
+            firstEnemyId: null,
+            secondEnemyId: null,
+            firstEnemy: null,
+            secondEnemy: null,
+            defaultEnemyFilters: {id: '', name: ''}
         };
+    },
+    async created() {
+        const enemies = await Utils.fetchData('assets/enemies.json');
+        const enemiesAtlas = await Utils.fetchData('assets/enemies_atlas.json');
+        if (enemies && enemiesAtlas) {
+            this.enemiesMap = Utils.toMap(enemies);
+            this.enemiesAtlas = enemiesAtlas;
+
+            this.updateEnemies(this.defaultEnemyFilters);
+        } else {
+            this.hasEnemies = false;
+        }
+
+        this.updateInfoMessage();
+    },
+    methods: {
+        selectFirstEnemy(enemyId) {
+            this.firstEnemyId = enemyId;
+            this.firstEnemy = this.enemiesMap[enemyId];
+            console.log(this.firstEnemy.index + ' ' + this.firstEnemy.name);
+        },
+        selectSecondEnemy(enemyId) {
+            this.secondEnemyId = enemyId;
+            this.secondEnemy = this.enemiesMap[enemyId];
+        },
+        updateEnemies(filters) {
+            this.enemiesArray = Utils.filterEnemies(this.enemiesMap, filters);
+            this.updateInfoMessage();
+        },
+        updateInfoMessage() {
+            this.infoMessage = this.hasEnemies
+                ? this.enemiesArray.length === 0
+                    ? 'No enemies'
+                    : 'Use the left and right mouse buttons to select an enemy.'
+                : 'Failed to fetch enemies or no data received.'
+        }
     },
     components: {
         'enemy-component': {
-            template: `
-                      <div class="data-box">
-                          <h3>Header</h3>
-                          <p>Text</p>
-                      </div>
-                      `
+            template:
+                `
+                <div class="data-container">
+                    <div v-if="firstEnemy" class="data-box">
+                        <h3>{{ firstEnemy.id }}: {{ firstEnemy.name }}</h3>
+                        <p v-for="(line, index) in getDescription(firstEnemy)" :key="index">{{ line }}</p>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Enemy not selected</h3>
+                    </div>
+                    <div v-if="secondEnemy" class="data-box">
+                        <h3>{{ secondEnemy.id }}: {{ secondEnemy.name }}</h3>
+                        <p v-for="(line, index) in getDescription(secondEnemy)" :key="index">{{ line }}</p>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Enemy not selected</h3>
+                    </div>
+                    <div v-if="firstEnemy" class="data-box">
+                        <h3>Enemy Properties</h3>
+                        <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(firstEnemy, null, 2) }}</code></pre>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Enemy not selected</h3>
+                    </div>
+                    <div v-if="secondEnemy" class="data-box">
+                        <h3>Enemy Properties</h3>
+                        <pre style="overflow-x: auto;"><code style="white-space: pre-wrap; word-wrap: break-word;">{{ JSON.stringify(secondEnemy, null, 2) }}</code></pre>
+                    </div>
+                    <div v-else class="data-box">
+                        <h3>Enemy not selected</h3>
+                    </div>
+                </div>
+                `,
+            props: {
+                firstEnemy: {
+                    type: Object,
+                    default: () => null,
+                },
+                secondEnemy: {
+                    type: Object,
+                    default: () => null,
+                }
+            },
+            methods: {
+                getDescription(enemy) {
+                    return enemy.description.split('\n');
+                }
+            }
         },
-        'info-box': Components.InfoBox
+        'info-box': Components.InfoBox,
+        'atlas': Components.Atlas
     }
 };
 

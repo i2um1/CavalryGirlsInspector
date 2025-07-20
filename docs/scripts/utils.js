@@ -13,6 +13,13 @@
         }
     }
 
+    function toMap(array) {
+        return array.reduce((result, item) => {
+            result[item.id] = item;
+            return result;
+        }, {});
+    }
+
     function byIndex(a, b) {
         return a.index - b.index;
     }
@@ -30,6 +37,13 @@
             .filter(weapon => !name || includesCaseInsensitive(weapon.name, name))
             .filter(weapon => !type || weapon.weaponType === type)
             .filter(weapon => !subType || includesCaseInsensitive(weapon.weaponSubTypes, subType))
+            .sort(byIndex);
+    }
+
+    function filterEnemies(values, {id, name}) {
+        return Object.values(values)
+            .filter(weapon => !id || includesCaseInsensitive(weapon.id, id))
+            .filter(weapon => !name || includesCaseInsensitive(weapon.name, name))
             .sort(byIndex);
     }
 
@@ -68,7 +82,9 @@
 
     return {
         fetchData: fetchData,
+        toMap: toMap,
         filterWeapons: filterWeapons,
+        filterEnemies: filterEnemies,
 
         WeaponTypes: WeaponTypes,
         WeaponSubTypes: WeaponSubTypes

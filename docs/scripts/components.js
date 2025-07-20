@@ -249,8 +249,8 @@
             getSpriteStyle(index) {
                 const scaleFactor = this.displaySize / this.config.imageSize;
 
-                const column = index % this.config.rows;
-                const row = Math.floor(index / this.config.rows);
+                const column = index % this.config.columns;
+                const row = Math.floor(index / this.config.columns);
 
                 const x = -column * this.config.imageSize * scaleFactor;
                 const y = -row * this.config.imageSize * scaleFactor;
