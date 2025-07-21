@@ -186,6 +186,59 @@
         }
     };
 
+    // --- Enemy Filters ---
+    const EnemyFilters = {
+        template:
+            `
+            <div class="form">
+                <div class="form-group">
+                    <text-filter
+                        id="enemy-id" placeholder="Enemy ID"
+                        :default-value="filters.id" @update:value="updateId"></text-filter>
+                </div>
+                <div class="form-group">
+                    <text-filter
+                        id="enemy-name" placeholder="Enemy Name"
+                        :default-value="filters.name" @update:value="updateName"></text-filter>
+                </div>
+            </div>
+            `,
+        props: {
+            defaultValue: {
+                type: Object,
+                default: () => ({
+                    id: '',
+                    name: ''
+                })
+            }
+        },
+        data() {
+            return {
+                filters: {
+                    id: this.defaultValue.id,
+                    name: this.defaultValue.name
+                }
+            }
+        },
+        methods: {
+            updateId(newValue) {
+                this.filters.id = newValue;
+                this.updateFilters();
+            },
+            updateName(newValue) {
+                this.filters.name = newValue;
+                this.updateFilters();
+            },
+            updateFilters() {
+                this.$emit('update:filters', this.filters);
+            }
+        },
+        components: {
+            "text-filter": TextFilter,
+            "dropdown-list-filter": DropdownListFilter
+        }
+    };
+
     // --- Atlas ---
     const Atlas = {
         template:
@@ -287,6 +340,7 @@
     return {
         InfoBox: InfoBox,
         WeaponFilters: WeaponFilters,
+        EnemyFilters: EnemyFilters,
         Atlas: Atlas
     };
 })();

@@ -148,8 +148,8 @@ const WeaponsPage = {
                 }
             }
         },
-        'info-box': Components.InfoBox,
         'weapon-filters': Components.WeaponFilters,
+        'info-box': Components.InfoBox,
         'atlas': Components.Atlas
     }
 };
@@ -159,6 +159,7 @@ const EnemiesPage = {
     template:
         `
         <div>
+            <enemy-filters @update:filters="updateEnemies" :default-value="defaultEnemyFilters"></enemy-filters>
             <info-box :info-message="infoMessage" :is-error="!hasEnemies"></info-box>
             <atlas
                 v-if="hasEnemies"
@@ -270,6 +271,7 @@ const EnemiesPage = {
                 }
             }
         },
+        'enemy-filters': Components.EnemyFilters,
         'info-box': Components.InfoBox,
         'atlas': Components.Atlas
     }
