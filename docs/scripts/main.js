@@ -40,7 +40,7 @@ const WeaponsPage = {
         if (weapons && weaponsAtlas && bullets) {
             this.weaponsMap = Utils.toMap(weapons);
             this.weaponsAtlas = weaponsAtlas;
-            this.bullets = bullets;
+            this.bullets = Utils.toMap(bullets);
 
             this.updateWeapons(this.defaultWeaponFilters);
         } else {
