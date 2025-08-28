@@ -9235,6 +9235,111 @@
   },
   {
     "index": 229,
+    "id": 2837,
+    "name": "Volcano Blade",
+    "description": "Attacking units with melting armor will directly cause stun effects",
+    "tag": "CantDemo|CantGen",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "MeltStun",
+        "value": ""
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2837
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  {
+    "index": 230,
+    "id": 2838,
+    "name": "Throat-Cut Blade",
+    "description": "Attacking in a concealed state (invisible/smoke) can deal <D0> times the damage\n ( no effect on buildings)",
+    "tag": "CantDemo|CantGen",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "HideAssassin",
+        "value": "5"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2838
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  {
+    "index": 231,
+    "id": 2839,
+    "name": "Sword Dancing",
+    "description": "When waving this weapon:\nThe body will not be affected by the elemental reactions （Abnormal State） produced by the weapon. At the same time， there is a high probability of Evading remote attacks. The closer to the enemy the higher the probability of Evading the attack.",
+    "tag": "CantDemo|CantGen",
+    "weaponType": "Close",
+    "functions": [],
+    "price": 20,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2839
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  {
+    "index": 232,
+    "id": 2840,
+    "name": "Advance Sword Dancing",
+    "description": "When holding this weapon:\nThe body will not be affected by the elemental reactions （Abnormal State） produced by the weapon. At the same time， there is a high probability of Evading remote attacks. The closer to the enemy the higher the probability of Evading the attack.",
+    "tag": "CantDemo|CantGen",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "WeaponMeeleeStrength",
+        "value": "-30"
+      }
+    ],
+    "price": 30,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2840
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  {
+    "index": 233,
+    "id": 2842,
+    "name": "Burst Element Core",
+    "description": "When exploding， it has a <D0>% rate to trigger Random Elemental Effects.",
+    "tag": "CantDemo|CantGen",
+    "weaponType": "Weapon",
+    "functions": [
+      {
+        "name": "EleExplodePoss",
+        "value": "100"
+      }
+    ],
+    "price": 150,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2842
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  {
+    "index": 234,
     "id": 1451,
     "name": "SMW Explo Element core",
     "description": "Explosion by Shoulder mount weapon will cause random element effect， probability:<D0>%",
@@ -9267,7 +9372,7 @@
     ]
   },
   {
-    "index": 230,
+    "index": 235,
     "id": 1452,
     "name": "SMW Explo Element core +",
     "description": "Explosion by Shoulder mount weapon will cause random element effect， probability:<D0>%",
@@ -9300,7 +9405,7 @@
     ]
   },
   {
-    "index": 231,
+    "index": 236,
     "id": 1453,
     "name": "SMW Kinetic Element core",
     "description": "Hit by Shoulder mount weapon will cause random element effect， probability:<D0>%",
@@ -9333,7 +9438,7 @@
     ]
   },
   {
-    "index": 232,
+    "index": 237,
     "id": 1454,
     "name": "SMW Kinetic Element core +",
     "description": "Hit by Shoulder mount weapon will cause random element effect， probability:<D0>%",
@@ -9366,7 +9471,7 @@
     ]
   },
   {
-    "index": 233,
+    "index": 238,
     "id": 1455,
     "name": "SMW Magazine core1",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -9400,7 +9505,7 @@
     ]
   },
   {
-    "index": 234,
+    "index": 239,
     "id": 1456,
     "name": "SMW Magazine core2",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -9434,7 +9539,7 @@
     ]
   },
   {
-    "index": 235,
+    "index": 240,
     "id": 1457,
     "name": "SMW Magazine core3",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -9468,7 +9573,7 @@
     ]
   },
   {
-    "index": 236,
+    "index": 241,
     "id": 1458,
     "name": "EMP amplification core",
     "description": "Increase EMP range by <D0>%",
@@ -9501,7 +9606,7 @@
     ]
   },
   {
-    "index": 237,
+    "index": 242,
     "id": 1459,
     "name": "EMP amplification core+",
     "description": "Increase EMP range by <D0>%",
@@ -9534,7 +9639,7 @@
     ]
   },
   {
-    "index": 238,
+    "index": 243,
     "id": 1460,
     "name": "Tracking core",
     "description": "Add a small amount of tracking effect to bullets",
@@ -9574,7 +9679,7 @@
     ]
   },
   {
-    "index": 239,
+    "index": 244,
     "id": 1461,
     "name": "Tracking amplification core",
     "description": "Bullet tracking effect becomes stronger",
@@ -9606,7 +9711,7 @@
     ]
   },
   {
-    "index": 240,
+    "index": 245,
     "id": 1462,
     "name": "SMW Salvo core 1",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
@@ -9648,7 +9753,7 @@
     ]
   },
   {
-    "index": 241,
+    "index": 246,
     "id": 1463,
     "name": "SMW Salvo core 2",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
@@ -9690,7 +9795,7 @@
     ]
   },
   {
-    "index": 242,
+    "index": 247,
     "id": 1464,
     "name": "SMW Salvo core 3",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
@@ -9732,7 +9837,7 @@
     ]
   },
   {
-    "index": 243,
+    "index": 248,
     "id": 1465,
     "name": "SMW Kinetic Explo core",
     "description": "Increases bullet explosion rate of Shoulder mount weapon by <D0>%.",
@@ -9765,7 +9870,7 @@
     ]
   },
   {
-    "index": 244,
+    "index": 249,
     "id": 1466,
     "name": "SMW Kinetic Explo core",
     "description": "Increases bullet explosion rate of Shoulder mount weapon by <D0>%.",
@@ -9798,7 +9903,7 @@
     ]
   },
   {
-    "index": 245,
+    "index": 250,
     "id": 1467,
     "name": "SMW Explosion Damage core",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
@@ -9831,7 +9936,7 @@
     ]
   },
   {
-    "index": 246,
+    "index": 251,
     "id": 1468,
     "name": "SMW Explosion Damage core+",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",

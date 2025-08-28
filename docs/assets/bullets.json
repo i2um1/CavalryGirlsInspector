@@ -1568,7 +1568,7 @@
     "criticPossibility": 15,
     "fireType": 2,
     "fireFlash": 1,
-    "minRange": 10,
+    "minRange": 15,
     "debuff": 0,
     "isKinetic": false,
     "specialParameter": "",
@@ -1609,15 +1609,15 @@
     "debuff": 0,
     "isKinetic": false,
     "specialParameter": "",
-    "fireRate": 1.8,
-    "angleFloat": 45,
+    "fireRate": 1,
+    "angleFloat": 12,
     "fireNum": 1,
-    "reloadSpeed": 10,
+    "reloadSpeed": 7.5,
     "stable": 0.5,
     "brokePos": 45,
     "brokePos2": 80,
     "canReload": true,
-    "force": 1600,
+    "force": 1000,
     "functions": [],
     "defaultModule": [],
     "defaultFusion": [
@@ -3118,15 +3118,15 @@
     "debuff": 0,
     "isKinetic": false,
     "specialParameter": "",
-    "fireRate": 2,
-    "angleFloat": 45,
+    "fireRate": 0.5,
+    "angleFloat": 15,
     "fireNum": 1,
-    "reloadSpeed": 13.5,
+    "reloadSpeed": 10,
     "stable": 0.5,
     "brokePos": 40,
     "brokePos2": 75,
     "canReload": true,
-    "force": 1000,
+    "force": 640,
     "functions": [],
     "defaultModule": [],
     "defaultFusion": [
@@ -3482,10 +3482,10 @@
     "type": "BulletBigFar2",
     "bulletRange": 28,
     "bulletSpeed": 2000,
-    "damage": 500,
-    "antiAir": 20,
+    "damage": 450,
+    "antiAir": 18,
     "maxHit": 1,
-    "piercingPossibility": 32,
+    "piercingPossibility": 30,
     "criticDamage": 100,
     "criticPossibility": 10,
     "fireType": 2,
@@ -4272,6 +4272,40 @@
     "defaultFusion": []
   },
   {
+    "id": 282,
+    "type": "BulletExplodeMin",
+    "bulletRange": 24,
+    "bulletSpeed": 750,
+    "damage": 0,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 75,
+    "criticPossibility": 8,
+    "fireType": 2,
+    "fireFlash": 1,
+    "minRange": 5,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "",
+    "fireRate": 1.5,
+    "angleFloat": 25,
+    "fireNum": 7,
+    "reloadSpeed": 9,
+    "stable": 0.5,
+    "brokePos": 40,
+    "brokePos2": 75,
+    "canReload": true,
+    "force": 2500,
+    "functions": [],
+    "defaultModule": [],
+    "defaultFusion": [
+      1460,
+      1461,
+      2842
+    ]
+  },
+  {
     "id": 300,
     "type": "BulletNormal2",
     "bulletRange": 21,
@@ -4461,10 +4495,10 @@
     "type": "BulletBigFar2",
     "bulletRange": 28,
     "bulletSpeed": 2000,
-    "damage": 500,
-    "antiAir": 20,
+    "damage": 450,
+    "antiAir": 18,
     "maxHit": 1,
-    "piercingPossibility": 32,
+    "piercingPossibility": 30,
     "criticDamage": 100,
     "criticPossibility": 10,
     "fireType": 2,
@@ -4928,15 +4962,15 @@
   },
   {
     "id": 415,
-    "type": "BulletLargeMinu",
-    "bulletRange": 27,
-    "bulletSpeed": 2500,
-    "damage": 700,
-    "antiAir": 20,
+    "type": "BulletBigFar2",
+    "bulletRange": 28,
+    "bulletSpeed": 2000,
+    "damage": 450,
+    "antiAir": 18,
     "maxHit": 1,
-    "piercingPossibility": 32,
+    "piercingPossibility": 30,
     "criticDamage": 100,
-    "criticPossibility": 20,
+    "criticPossibility": 10,
     "fireType": 2,
     "fireFlash": 1,
     "minRange": 5,
@@ -6561,7 +6595,7 @@
     "criticPossibility": 15,
     "fireType": 2,
     "fireFlash": 1,
-    "minRange": 20,
+    "minRange": 22,
     "debuff": 0,
     "isKinetic": false,
     "specialParameter": "",
@@ -6579,6 +6613,36 @@
     "defaultFusion": [
       2694
     ]
+  },
+  {
+    "id": 1134,
+    "type": "BulletNormal",
+    "bulletRange": 20,
+    "bulletSpeed": 800,
+    "damage": 200,
+    "antiAir": 28,
+    "maxHit": 1,
+    "piercingPossibility": 10,
+    "criticDamage": 150,
+    "criticPossibility": 5,
+    "fireType": 1,
+    "fireFlash": 1,
+    "minRange": 2,
+    "debuff": 0,
+    "isKinetic": true,
+    "specialParameter": "",
+    "fireRate": 0.1,
+    "angleFloat": 20,
+    "fireNum": 1,
+    "reloadSpeed": 7,
+    "stable": 0.15,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": true,
+    "force": 300,
+    "functions": [],
+    "defaultModule": [],
+    "defaultFusion": []
   },
   {
     "id": 50,
@@ -6613,7 +6677,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 51,
@@ -6648,7 +6714,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 52,
@@ -6683,7 +6751,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 53,
@@ -6718,7 +6788,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 54,
@@ -6753,7 +6825,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 55,
@@ -6788,7 +6862,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 56,
@@ -6823,7 +6899,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 57,
@@ -6858,7 +6936,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 58,
@@ -6893,7 +6973,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 59,
@@ -6932,7 +7014,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 65,
@@ -6970,6 +7054,1252 @@
     "defaultFusion": []
   },
   {
+    "id": 66,
+    "type": "SlashSwordActSL11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 250,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "SL=SlashSwordActSL11+SlashSwordActSL12+SlashSwordActSL13+SlashSwordActSL21+SlashSwordActSL22+SlashSwordActSL23+SlashSwordActSL24+SlashSwordActSL25+SlashSwordActSL31+SlashSwordActSL32+SlashSwordActSL33+SlashSwordActSL41+SlashSwordActSL42+SlashSwordActSL42_Suc"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2840
+    ]
+  },
+  {
+    "id": 67,
+    "type": "SlashSwordActBS11_0",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 400,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 7,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "1.1"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "BS=SlashSwordActBS11_0+SlashSwordActBS11_1+SlashSwordActBS12_0+SlashSwordActBS12_1+SlashSwordActBS12_2+SlashSwordActBS13_0+SlashSwordActBS13_1+SlashSwordActBS13_2+SlashSwordActBS13_3+SlashSwordActBSDefence+SlashSwordActBSDefencing+SlashSwordActBS21"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2840
+    ]
+  },
+  {
+    "id": 68,
+    "type": "SlashSwordActSS11",
+    "bulletRange": 2,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.8"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "SS=SlashSwordActSS11+SlashSwordActSS12+SlashSwordActSS13+SlashSwordActSS21+SlashSwordActSSDefence+SlashSwordActSS31+SlashSwordActSS32+SlashSwordActSSExplode"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2840
+    ]
+  },
+  {
+    "id": 69,
+    "type": "SlashSwordActDS11_L",
+    "bulletRange": 2,
+    "bulletSpeed": 1500,
+    "damage": 150,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 3,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:0|Force:300|HitEffect:HitSaw2|HitStop:0.02|Sound:Sw_1|HitEffectInverse",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.8"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "DS=SlashSwordActDS11_L+SlashSwordActDS11_R+SlashSwordActDS12_L+SlashSwordActDS12_R+SlashSwordActDS13+SlashSwordActDS14_L+SlashSwordActDS14_R+SlashSwordActDS21_1+SlashSwordActDS21_2+SlashSwordActDS21_3+SlashSwordActDS21_4+SlashSwordActDS31"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2840
+    ]
+  },
+  {
+    "id": 70,
+    "type": "SlashSwordActLS11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1|HitEffectVertical",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "LS=SlashSwordActLS11+SlashSwordActLS12+SlashSwordActLS13+SlashSwordActLS31_Loop+SlashSwordActLS31+SlashSwordActLSDefence+SlashSwordActLSDefencing+SlashSwordActLS41_0+SlashSwordActLS41_1"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2840
+    ]
+  },
+  {
+    "id": 71,
+    "type": "SlashSwordActAX11",
+    "bulletRange": 4,
+    "bulletSpeed": 1500,
+    "damage": 450,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 80,
+    "criticPossibility": 12,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|HitEffect:SlashHit|HitStop:0.1|Sound:Sw_1|HitEffectInverse",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "1.15"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "AX=SlashSwordActAX11+SlashSwordActAX12+SlashSwordActAX13+SlashSwordActAX21+SlashSwordActAXAura+SlashSwordActAXThrow"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2840
+    ]
+  },
+  {
+    "id": 72,
+    "type": "SlashSwordActSC11",
+    "bulletRange": 4,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 60,
+    "criticPossibility": 3,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "SC=SlashSwordActSC11+SlashSwordActSC12+SlashSwordActSC13+SlashSwordActSC21+SlashSwordActSC22_Start+SlashSwordActSC22+SlashSwordActSC22_End"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2840
+    ]
+  },
+  {
+    "id": 73,
+    "type": "SlashSwordActNG11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 750,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 150,
+    "criticPossibility": 20,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|HitEffect:HitPunch|HitStop:0.1|Sound:Sw_3",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "NG=SlashSwordActNG11+SlashSwordActNG21+SlashSwordActNG21Explode+SlashSwordActNG22+SlashSwordActNG22Explode"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2829,
+      2840
+    ]
+  },
+  {
+    "id": 74,
+    "type": "SlashSwordActHA11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 200,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitPunch|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "HA=SlashSwordActHA11+SlashSwordActHA12+SlashSwordActHA13+SlashSwordActHA21+SlashSwordActHA21_Range+ActHAExplosion1+ActHAExplosion2"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2829,
+      2840
+    ]
+  },
+  {
+    "id": 76,
+    "type": "SlashSwordActFS11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 3,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitPunch|HitStop:0.05|Sound:Sw_0",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "FS=SlashSwordActFS11+SlashSwordActFS11_Charge+SlashSwordActFS11_PerfectCharge+SlashSwordActFS12+SlashSwordActFS12_Charge+SlashSwordActFS12_PerfectCharge+SlashSwordActFS13_0+SlashSwordActFS13_0_Charge+SlashSwordActFS13_0_PerfectCharge+SlashSwordActFS13_1+SlashSwordActFS13_1_Charge+SlashSwordActFS13_1_PerfectCharge+SlashSwordActFS21_0+SlashSwordActFS21_0_Charge+SlashSwordActFS21_0_PerfectCharge+SlashSwordActFS21_1+SlashSwordActFS21_1_Charge+SlashSwordActFS21_1_PerfectCharge"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2840
+    ]
+  },
+  {
+    "id": 166,
+    "type": "SlashSwordActSL11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 250,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "SL=SlashSwordActSL11+SlashSwordActSL12+SlashSwordActSL13+SlashSwordActSL21+SlashSwordActSL22+SlashSwordActSL23+SlashSwordActSL24+SlashSwordActSL25+SlashSwordActSL31+SlashSwordActSL32+SlashSwordActSL33+SlashSwordActSL41+SlashSwordActSL42+SlashSwordActSL42_Suc"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 167,
+    "type": "SlashSwordActBS11_0",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 400,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 7,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "1.1"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "BS=SlashSwordActBS11_0+SlashSwordActBS11_1+SlashSwordActBS12_0+SlashSwordActBS12_1+SlashSwordActBS12_2+SlashSwordActBS13_0+SlashSwordActBS13_1+SlashSwordActBS13_2+SlashSwordActBS13_3+SlashSwordActBSDefence+SlashSwordActBSDefencing+SlashSwordActBS21"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 168,
+    "type": "SlashSwordActSS11",
+    "bulletRange": 2,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.8"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "SS=SlashSwordActSS11+SlashSwordActSS12+SlashSwordActSS13+SlashSwordActSS21+SlashSwordActSSDefence+SlashSwordActSS31+SlashSwordActSS32+SlashSwordActSSExplode"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 169,
+    "type": "SlashSwordActDS11_L",
+    "bulletRange": 2,
+    "bulletSpeed": 1500,
+    "damage": 150,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 3,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:0|Force:300|HitEffect:HitSaw2|HitStop:0.02|Sound:Sw_1|HitEffectInverse",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.8"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "DS=SlashSwordActDS11_L+SlashSwordActDS11_R+SlashSwordActDS12_L+SlashSwordActDS12_R+SlashSwordActDS13+SlashSwordActDS14_L+SlashSwordActDS14_R+SlashSwordActDS21_1+SlashSwordActDS21_2+SlashSwordActDS21_3+SlashSwordActDS21_4"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 170,
+    "type": "SlashSwordActLS11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1|HitEffectVertical",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "LS=SlashSwordActLS11+SlashSwordActLS12+SlashSwordActLS13+SlashSwordActLS31_Loop+SlashSwordActLS31+SlashSwordActLSDefence+SlashSwordActLSDefencing+SlashSwordActLS41_0+SlashSwordActLS41_1"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 171,
+    "type": "SlashSwordActAX11",
+    "bulletRange": 4,
+    "bulletSpeed": 1500,
+    "damage": 450,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 80,
+    "criticPossibility": 12,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|HitEffect:SlashHit|HitStop:0.1|Sound:Sw_1|HitEffectInverse",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "1.15"
+      },
+      {
+        "name": "MeleeSpecial",
+        "value": "Aura+Throw"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "AX=SlashSwordActAX11+SlashSwordActAX12+SlashSwordActAX13+SlashSwordActAX21+SlashSwordActAXAura+SlashSwordActAXThrow"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 172,
+    "type": "SlashSwordActSC11",
+    "bulletRange": 4,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 60,
+    "criticPossibility": 3,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "SC=SlashSwordActSC11+SlashSwordActSC12+SlashSwordActSC13+SlashSwordActSC21+SlashSwordActSC22_Start+SlashSwordActSC22+SlashSwordActSC22_End"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 173,
+    "type": "SlashSwordActNG11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 750,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 150,
+    "criticPossibility": 20,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|HitEffect:HitPunch|HitStop:0.1|Sound:Sw_3",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "NG=SlashSwordActNG11+SlashSwordActNG21+SlashSwordActNG21Explode+SlashSwordActNG22+SlashSwordActNG22Explode"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2829,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 174,
+    "type": "SlashSwordActHA11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 200,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitPunch|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "HA=SlashSwordActHA11+SlashSwordActHA12+SlashSwordActHA13+SlashSwordActHA21+SlashSwordActHA21_Range+ActHAExplosion1+ActHAExplosion2"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2829,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 176,
+    "type": "SlashSwordActFS11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 3,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitPunch|HitStop:0.05|Sound:Sw_0",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "FS=SlashSwordActFS11+SlashSwordActFS11_Charge+SlashSwordActFS11_PerfectCharge+SlashSwordActFS12+SlashSwordActFS12_Charge+SlashSwordActFS12_PerfectCharge+SlashSwordActFS13_0+SlashSwordActFS13_0_Charge+SlashSwordActFS13_0_PerfectCharge+SlashSwordActFS13_1+SlashSwordActFS13_1_Charge+SlashSwordActFS13_1_PerfectCharge+SlashSwordActFS21_0+SlashSwordActFS21_0_Charge+SlashSwordActFS21_0_PerfectCharge+SlashSwordActFS21_1+SlashSwordActFS21_1_Charge+SlashSwordActFS21_1_PerfectCharge"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2833,
+      2840
+    ]
+  },
+  {
+    "id": 266,
+    "type": "SlashSwordActSL11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 250,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "SL2=SlashSwordActSL11+SlashSwordActSL12+SlashSwordActSL13+SlashSwordActSL21+SlashSwordActSL22+SlashSwordActSL23+SlashSwordActSL24+SlashSwordActSL25+SlashSwordActSL31+SlashSwordActSL32+SlashSwordActSL33+SlashSwordActSL41+SlashSwordActSL42+SlashSwordActSL42_Suc+SlashSwordActSL51+SlashSwordActSL52_0+SlashSwordActSL52_1+SlashSwordActSL53_0+SlashSwordActSL53_1+SlashSwordActSL53_2+SlashSwordActSLDefencing+SlashSwordActSL61"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 267,
+    "type": "SlashSwordActBS11_0",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 400,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 7,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "1.1"
+      },
+      {
+        "name": "MeleeSpecial",
+        "value": "Stab"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "BS=SlashSwordActBS11_0+SlashSwordActBS11_1+SlashSwordActBS12_0+SlashSwordActBS12_1+SlashSwordActBS12_2+SlashSwordActBS13_0+SlashSwordActBS13_1+SlashSwordActBS13_2+SlashSwordActBS13_3+SlashSwordActBSDefence+SlashSwordActBSDefencing+SlashSwordActBS21+SlashSwordActBS14_0+SlashSwordActBS14_1+SlashSwordActBS14_2+SlashSwordActBS14_3+SlashSwordActBS14_0Explode+SlashSwordActBS14_1Explode+SlashSwordActBS14_2Explode+SlashSwordActBS14_3Explode"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 268,
+    "type": "SlashSwordActSS11",
+    "bulletRange": 2,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.8"
+      },
+      {
+        "name": "MeleeSpecial",
+        "value": "Explode"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "SS=SlashSwordActSS11+SlashSwordActSS12+SlashSwordActSS13+SlashSwordActSS21+SlashSwordActSSDefence+SlashSwordActSS31+SlashSwordActSS32+SlashSwordActSSExplode"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 269,
+    "type": "SlashSwordActDS11_L",
+    "bulletRange": 2,
+    "bulletSpeed": 1500,
+    "damage": 150,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 3,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:0|Force:300|HitEffect:HitSaw2|HitStop:0.02|Sound:Sw_1|HitEffectInverse",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.8"
+      },
+      {
+        "name": "MeleeSpecial",
+        "value": "FastSlash"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "DS=SlashSwordActDS11_L+SlashSwordActDS11_R+SlashSwordActDS12_L+SlashSwordActDS12_R+SlashSwordActDS13+SlashSwordActDS14_L+SlashSwordActDS14_R+SlashSwordActDS21_1+SlashSwordActDS21_2+SlashSwordActDS21_3+SlashSwordActDS21_4+SlashSwordActDS31"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 270,
+    "type": "SlashSwordActLS11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1|HitEffectVertical",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeSpecial",
+        "value": "Counter"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "LS=SlashSwordActLS11+SlashSwordActLS12+SlashSwordActLS13+SlashSwordActLS31_Loop+SlashSwordActLS31+SlashSwordActLSDefence+SlashSwordActLSDefencing+SlashSwordActLS41_0+SlashSwordActLS41_1"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 271,
+    "type": "SlashSwordActAX11",
+    "bulletRange": 4,
+    "bulletSpeed": 1500,
+    "damage": 450,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 80,
+    "criticPossibility": 12,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|HitEffect:SlashHit|HitStop:0.1|Sound:Sw_1|HitEffectInverse",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "1.15"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "AX2=SlashSwordActAX11+SlashSwordActAX12+SlashSwordActAX13+SlashSwordActAX21+SlashSwordActAXAura+SlashSwordActAXThrow"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 272,
+    "type": "SlashSwordActSC11",
+    "bulletRange": 4,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 60,
+    "criticPossibility": 3,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitSaw2|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "SC2=SlashSwordActSC11+SlashSwordActSC12+SlashSwordActSC13+SlashSwordActSC21+SlashSwordActSC22_Start+SlashSwordActSC22+SlashSwordActSC22_End+SlashSwordActSC31+SlashSwordActSC42_Start+SlashSwordActSC42+SlashSwordActSC42_End+SlashSwordActSC51"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 273,
+    "type": "SlashSwordActNG11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 750,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 150,
+    "criticPossibility": 20,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|HitEffect:HitPunch|HitStop:0.1|Sound:Sw_3",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeSpecial",
+        "value": "Block"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "NG=SlashSwordActNG11+SlashSwordActNG21+SlashSwordActNG21Explode+SlashSwordActNG22+SlashSwordActNG22Explode+SlashSwordActNG31"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2829,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 274,
+    "type": "SlashSwordActHA11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 200,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitPunch|HitStop:0.05|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeSpecial",
+        "value": "Explode"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "HA=SlashSwordActHA11+SlashSwordActHA12+SlashSwordActHA13+SlashSwordActHA21+SlashSwordActHA21_Range+ActHAExplosion1+ActHAExplosion2+SlashSwordActHA24"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2829,
+      2832,
+      2840
+    ]
+  },
+  {
+    "id": 276,
+    "type": "SlashSwordActFS11",
+    "bulletRange": 3,
+    "bulletSpeed": 1500,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 5,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 3,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|HitEffect:HitPunch|HitStop:0.05|Sound:Sw_0",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 1,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeSpecial",
+        "value": "Charge"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "FS=SlashSwordActFS11+SlashSwordActFS11_Charge+SlashSwordActFS11_PerfectCharge+SlashSwordActFS12+SlashSwordActFS12_Charge+SlashSwordActFS12_PerfectCharge+SlashSwordActFS13_0+SlashSwordActFS13_0_Charge+SlashSwordActFS13_0_PerfectCharge+SlashSwordActFS13_1+SlashSwordActFS13_1_Charge+SlashSwordActFS13_1_PerfectCharge+SlashSwordActFS21_0+SlashSwordActFS21_0_Charge+SlashSwordActFS21_0_PerfectCharge+SlashSwordActFS21_1+SlashSwordActFS21_1_Charge+SlashSwordActFS21_1_PerfectCharge"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2837,
+      2832,
+      2840
+    ]
+  },
+  {
     "id": 151,
     "type": "SlashSword0b2",
     "bulletRange": 5,
@@ -7002,7 +8332,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 152,
@@ -7037,7 +8369,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 153,
@@ -7072,7 +8406,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 154,
@@ -7107,7 +8443,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 155,
@@ -7146,7 +8484,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 156,
@@ -7181,7 +8521,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 157,
@@ -7216,7 +8558,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 158,
@@ -7255,7 +8599,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 159,
@@ -7294,7 +8640,9 @@
       }
     ],
     "defaultModule": [],
-    "defaultFusion": []
+    "defaultFusion": [
+      2839
+    ]
   },
   {
     "id": 165,
@@ -7330,6 +8678,119 @@
     ],
     "defaultModule": [],
     "defaultFusion": []
+  },
+  {
+    "id": 251,
+    "type": "SlashSword0b3",
+    "bulletRange": 5,
+    "bulletSpeed": 2500,
+    "damage": 200,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 30,
+    "criticDamage": 0,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "",
+    "fireRate": 0.6,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 3,
+    "stable": 0.01,
+    "brokePos": 4,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 7500,
+    "functions": [
+      {
+        "name": "Meelee",
+        "value": "SlashSword0c3&"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2839
+    ]
+  },
+  {
+    "id": 255,
+    "type": "SlashSword2b",
+    "bulletRange": 5,
+    "bulletSpeed": 2500,
+    "damage": 640,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 54,
+    "criticDamage": 0,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "",
+    "fireRate": 1,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 4,
+    "stable": 0.01,
+    "brokePos": 50,
+    "brokePos2": 100,
+    "canReload": false,
+    "force": 4000,
+    "functions": [
+      {
+        "name": "Meelee",
+        "value": "SlashSword2d2&"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2839,
+      2837,
+      2841
+    ]
+  },
+  {
+    "id": 265,
+    "type": "SlashSword3",
+    "bulletRange": 6,
+    "bulletSpeed": 2200,
+    "damage": 240,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 28,
+    "criticDamage": 0,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "",
+    "fireRate": 0.2,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 3,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": true,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "Assassin",
+        "value": ""
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": [
+      2838
+    ]
   },
   {
     "id": 60,
@@ -7628,6 +9089,664 @@
     "canReload": false,
     "force": 3000,
     "functions": [],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1301,
+    "type": "SlashSwordActMachete0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 180,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "EMa=SlashSwordActMachete0+SlashSwordActMachete1+SlashSwordActMachete2"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1302,
+    "type": "SlashSwordActMacheteH0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 200,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "1.15"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "EMa2=SlashSwordActMacheteH0+SlashSwordActMacheteH1+SlashSwordActMacheteH2+SlashSwordActMacheteH3+SlashSwordActMacheteH4"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1303,
+    "type": "SlashSwordActLance0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 160,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1|HitEffectVertical",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "ELa=SlashSwordActLance0+SlashSwordActLance1+SlashSwordActLance2"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1304,
+    "type": "SlashSwordActArcher0",
+    "bulletRange": 25,
+    "bulletSpeed": 800,
+    "damage": 500,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 100,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": 2,
+    "fireFlash": 1,
+    "minRange": 2,
+    "debuff": 0,
+    "isKinetic": true,
+    "specialParameter": "Impact:1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "EAr=SlashSwordActArcher0+SlashSwordActArcher1"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1305,
+    "type": "SlashSwordActArcher0",
+    "bulletRange": 25,
+    "bulletSpeed": 800,
+    "damage": 500,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 100,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": 2,
+    "fireFlash": 1,
+    "minRange": 2,
+    "debuff": 0,
+    "isKinetic": true,
+    "specialParameter": "Impact:1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "EAr2=SlashSwordActArcher0+SlashSwordActArcher1+SlashSwordActArcherExplode"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1306,
+    "type": "SlashSwordActShield0",
+    "bulletRange": 3,
+    "bulletSpeed": 0,
+    "damage": 150,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.8"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "ESh=SlashSwordActShield0+SlashSwordActShield1+SlashSwordActShield2+SlashSwordActShield3+SlashSwordActShield4"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1307,
+    "type": "SlashSwordActShieldH0",
+    "bulletRange": 3,
+    "bulletSpeed": 0,
+    "damage": 200,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.8"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "ESh2=SlashSwordActShieldH0+SlashSwordActShieldH1+SlashSwordActShieldH2+SlashSwordActShieldH3+SlashSwordActShieldH4"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1308,
+    "type": "SlashSwordActAssassin0",
+    "bulletRange": 3,
+    "bulletSpeed": 0,
+    "damage": 100,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.5"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "EAs=SlashSwordActAssassin0+SlashSwordActAssassin1+SlashSwordActAssassin2+SlashSwordActAssassin3"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1309,
+    "type": "SlashSwordActAssassinH0",
+    "bulletRange": 3,
+    "bulletSpeed": 0,
+    "damage": 180,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.5"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "EAs2=SlashSwordActAssassinH0+SlashSwordActAssassinH1+SlashSwordActAssassinH2+SlashSwordActAssassinH3"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1310,
+    "type": "SlashSwordActLanceH0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 250,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1|HitEffectVertical",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "ELa2=SlashSwordActLanceH0+SlashSwordActLanceH1+SlashSwordActLanceH2"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1351,
+    "type": "SlashSwordActAssassinBoss0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 750,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "0.5"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "EAsB=SlashSwordActAssassinBoss0+SlashSwordActAssassinBoss1+SlashSwordActAssassinBoss2+SlashSwordActAssassinBoss3+SlashSwordActAssassinBoss4+SlashSwordActAssassinBoss5+SlashSwordActAssassinBoss6"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1352,
+    "type": "SlashSwordActLanceBoss0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 500,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeActScale",
+        "value": "1.3"
+      },
+      {
+        "name": "MeleeAct",
+        "value": "ELaB=SlashSwordActLanceBoss0+SlashSwordActLanceBoss1+SlashSwordActLanceBoss2+SlashSwordActLanceBoss3+SlashSwordActLanceBoss4"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1353,
+    "type": "SlashSwordActShieldBoss0",
+    "bulletRange": 3,
+    "bulletSpeed": 0,
+    "damage": 500,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:500|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "EShB=SlashSwordActShieldBoss0+SlashSwordActShieldBoss1+SlashSwordActShieldBoss2+SlashSwordActShieldBoss3+SlashSwordActShieldBoss4+SlashSwordActShieldBoss5+SlashSwordActShieldBoss6"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1354,
+    "type": "SlashSwordActScorpion0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 1000,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:2|Force:2000",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "Scorpion=SlashSwordActScorpion0+SlashSwordActScorpionLeftLight0+SlashSwordActScorpionLeftLight1+SlashSwordActScorpionLeftLight2+SlashSwordActScorpionLeftHeavy0+SlashSwordActScorpionLeftHeavy1+SlashSwordActScorpionLeftHeavy2+SlashSwordActScorpionRightLight0+SlashSwordActScorpionRightLight1+SlashSwordActScorpionRightLight2+SlashSwordActScorpionRightHeavy0+SlashSwordActScorpionRightHeavy1+SlashSwordActScorpionRightHeavy2+SlashSwordActScorpionTail+SlashSwordActScorpionEnergyBall+SlashSwordActScorpionChargeEnergyBall"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1355,
+    "type": "SlashSwordAct_SaberSaberBoss0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 500,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "ESaB=SlashSwordAct_SaberSaberBoss0+SlashSwordAct_SaberSaberBoss1+SlashSwordAct_SaberSaberBoss2+SlashSwordAct_SaberSaberBoss3+SlashSwordAct_SaberAssassinBoss0+SlashSwordAct_SaberAssassinBoss1+SlashSwordAct_SaberAssassinBoss2+SlashSwordAct_SaberAssassinBoss3+SlashSwordAct_SaberAssassinBoss4+SlashSwordAct_SaberAssassinBoss5+SlashSwordAct_SaberAssassinBoss6+SlashSwordAct_SaberLanceBoss0+SlashSwordAct_SaberLanceBoss1+SlashSwordAct_SaberLanceBoss2+SlashSwordAct_SaberLanceBoss3+SlashSwordAct_SaberLanceBoss4+SlashSwordAct_SaberShieldBoss0+SlashSwordAct_SaberShieldBoss1+SlashSwordAct_SaberShieldBoss2+SlashSwordAct_SaberShieldBoss3+SlashSwordAct_SaberShieldBoss4+SlashSwordAct_SaberShieldBoss5+SlashSwordAct_SaberShieldBoss6"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1356,
+    "type": "SlashSwordActScorpionPlus0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 1000,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:2|Force:2000",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "ScorpionPlus=SlashSwordActScorpionPlus0+SlashSwordActScorpionPlusLeftLight0+SlashSwordActScorpionPlusLeftLight1+SlashSwordActScorpionPlusLeftLight2+SlashSwordActScorpionPlusLeftHeavy0+SlashSwordActScorpionPlusLeftHeavy1+SlashSwordActScorpionPlusLeftHeavy2+SlashSwordActScorpionPlusRightLight0+SlashSwordActScorpionPlusRightLight1+SlashSwordActScorpionPlusRightLight2+SlashSwordActScorpionPlusRightHeavy0+SlashSwordActScorpionPlusRightHeavy1+SlashSwordActScorpionPlusRightHeavy2+SlashSwordActScorpionPlusTail+SlashSwordActScorpionPlusEnergyBall+SlashSwordActScorpionPlusChargeEnergyBall"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1357,
+    "type": "SlashSwordAct_SaberSaberBossPlus0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 500,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "ESaBP=SlashSwordAct_SaberSaberBossPlus0+SlashSwordAct_SaberSaberBossPlus1+SlashSwordAct_SaberSaberBossPlus2+SlashSwordAct_SaberSaberBossPlus3+SlashSwordAct_SaberAssassinBossPlus0+SlashSwordAct_SaberAssassinBossPlus1+SlashSwordAct_SaberAssassinBossPlus2+SlashSwordAct_SaberAssassinBossPlus3+SlashSwordAct_SaberAssassinBossPlus4+SlashSwordAct_SaberAssassinBossPlus5+SlashSwordAct_SaberAssassinBossPlus6+SlashSwordAct_SaberLanceBossPlus0+SlashSwordAct_SaberLanceBossPlus1+SlashSwordAct_SaberLanceBossPlus2+SlashSwordAct_SaberLanceBossPlus3+SlashSwordAct_SaberLanceBossPlus4+SlashSwordAct_SaberShieldBossPlus0+SlashSwordAct_SaberShieldBossPlus1+SlashSwordAct_SaberShieldBossPlus2+SlashSwordAct_SaberShieldBossPlus3+SlashSwordAct_SaberShieldBossPlus4+SlashSwordAct_SaberShieldBossPlus5+SlashSwordAct_SaberShieldBossPlus6"
+      }
+    ],
+    "defaultModule": [],
+    "defaultFusion": []
+  },
+  {
+    "id": 1358,
+    "type": "SlashSwordAct_FinalBoss0",
+    "bulletRange": 5,
+    "bulletSpeed": 0,
+    "damage": 300,
+    "antiAir": 0,
+    "maxHit": 0,
+    "piercingPossibility": 0,
+    "criticDamage": 100,
+    "criticPossibility": 0,
+    "fireType": -1,
+    "fireFlash": -1,
+    "minRange": 0,
+    "debuff": 0,
+    "isKinetic": false,
+    "specialParameter": "Impact:1|Force:1000|Sound:Sw_1",
+    "fireRate": 0.5,
+    "angleFloat": 0,
+    "fireNum": 1,
+    "reloadSpeed": 0,
+    "stable": 0.01,
+    "brokePos": 0,
+    "brokePos2": 0,
+    "canReload": false,
+    "force": 2000,
+    "functions": [
+      {
+        "name": "MeleeAct",
+        "value": "FB=SlashSwordAct_FinalBoss0+SlashSwordAct_FinalBoss1+SlashSwordAct_FinalBoss2+SlashSwordAct_FinalBoss3+SlashSwordAct_FinalBoss4+SlashSwordAct_FinalBoss5+SlashSwordAct_FinalBoss6+SlashSwordAct_FinalBoss7+SlashSwordAct_FinalBoss8+SlashSwordAct_FinalBoss9+SlashSwordAct_FinalBoss10"
+      }
+    ],
     "defaultModule": [],
     "defaultFusion": []
   },

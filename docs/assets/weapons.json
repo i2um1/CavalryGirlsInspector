@@ -2916,11 +2916,11 @@
       },
       {
         "name": "AddSpeed",
-        "value": "-20"
+        "value": "-15"
       },
       {
         "name": "AddRotSpeed",
-        "value": "-40"
+        "value": "-28"
       }
     ],
     "price": 48,
@@ -4838,17 +4838,18 @@
       },
       {
         "name": "AddSpeed",
-        "value": "-30"
+        "value": "-20"
       },
       {
         "name": "AddRotSpeed",
-        "value": "-45"
+        "value": "-30"
       }
     ],
-    "price": 150,
+    "price": 100,
     "day": "25",
     "level": -1,
     "family": [
+      10282,
       10108,
       10146,
       10181
@@ -5279,7 +5280,7 @@
         "value": "-20"
       }
     ],
-    "price": 80,
+    "price": 60,
     "day": "0",
     "level": 3,
     "family": [
@@ -6187,6 +6188,58 @@
   },
   {
     "index": 137,
+    "id": 10282,
+    "name": "Dragoon Launcher",
+    "description": "A weapon can launch homing missiles，the firing of ammunition has slightly decreased， but the bullets now have the effect of automatic random element reaction.\nMedium weight. Movement speed: <D1>%， Rotational speed: <D2>%.",
+    "weaponType": "Weapon",
+    "weaponSubTypes": [
+      "All",
+      "Explosive",
+      "Spreadshot"
+    ],
+    "bulletId": "282",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "282"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-30"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-45"
+      }
+    ],
+    "price": 180,
+    "day": "40",
+    "level": -2,
+    "family": [],
+    "weaponIds": [
+      "10182"
+    ],
+    "materials": [
+      {
+        "id": 40008,
+        "count": 10
+      },
+      {
+        "id": 40010,
+        "count": 10
+      },
+      {
+        "id": 40005,
+        "count": 5
+      },
+      {
+        "id": 40032,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 138,
     "id": 10300,
     "name": "Antique Rifle B2M11",
     "description": "An enhance version of the antique rifle B2M1 with improved stats and lower durability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6221,7 +6274,7 @@
     "materials": []
   },
   {
-    "index": 138,
+    "index": 139,
     "id": 10301,
     "name": "Service Rifle M11S",
     "description": "An enhanced version of the service rifle M1S with all stats slightly increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6256,7 +6309,7 @@
     "materials": []
   },
   {
-    "index": 139,
+    "index": 140,
     "id": 10303,
     "name": "Pump-Action Shotgun O2M12",
     "description": "An enhanced version of the pump-action shotgun with all stats increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6291,7 +6344,7 @@
     "materials": []
   },
   {
-    "index": 140,
+    "index": 141,
     "id": 10304,
     "name": "Super Heavy Sniper",
     "description": "By enhancing the warhead of the Heavy Sniper Rifle M1a， the damage is increased while life and bullet capacity is decreased and its weight increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6328,7 +6381,7 @@
     "materials": []
   },
   {
-    "index": 141,
+    "index": 142,
     "id": 10305,
     "name": "Rapid-Firing Gun W1m15",
     "description": "This is an all-around upgraded version of the Rapid-Firing Gun W1m.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -6365,7 +6418,7 @@
     "materials": []
   },
   {
-    "index": 142,
+    "index": 143,
     "id": 10306,
     "name": "Submachine Gun S5M",
     "description": "An enhanced version of the submachine gun S5m that weighs a lot more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6400,7 +6453,7 @@
     "materials": []
   },
   {
-    "index": 143,
+    "index": 144,
     "id": 10315,
     "name": "Light Sniper M24",
     "description": "An enhanced version of the light sniper M10 with all stats improved that weighs slightly more with shorter life.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6425,7 +6478,7 @@
         "value": "-25"
       }
     ],
-    "price": 125,
+    "price": 80,
     "day": "0",
     "level": 4,
     "family": [
@@ -6435,7 +6488,7 @@
     "materials": []
   },
   {
-    "index": 144,
+    "index": 145,
     "id": 10316,
     "name": "Service Rifle B2ASW",
     "description": "An enhanced version of the service rifle B2as with lower firing rate and weighs less.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6471,7 +6524,7 @@
     "materials": []
   },
   {
-    "index": 145,
+    "index": 146,
     "id": 10318,
     "name": "Service Rifle A3M13",
     "description": "An enhanced version of the service rifle A3M with improved stats and weighs more.\n[Equipped with a heavy grenade ejection device that can store energy for firing ，consuming 6 bullets each time].\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6506,7 +6559,7 @@
     "materials": []
   },
   {
-    "index": 146,
+    "index": 147,
     "id": 10319,
     "name": "Descartes Smart Gun",
     "description": "A smart gun that can fire multiple bullets at a time. It will track the enemy from multiple angles to ensure a 100% hit.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -6556,7 +6609,7 @@
     ]
   },
   {
-    "index": 147,
+    "index": 148,
     "id": 10320,
     "name": "Double-Barreled Shotgun Osm2",
     "description": "An enhanced version of the double-barreled shotgun OS with extra firing chances and lower reload time at the cost of added weight.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6591,7 +6644,7 @@
     "materials": []
   },
   {
-    "index": 148,
+    "index": 149,
     "id": 10321,
     "name": "Submachine Gun B12M12",
     "description": "An enhanced version of the submachine gun B12 with all stats increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6626,7 +6679,7 @@
     "materials": []
   },
   {
-    "index": 149,
+    "index": 150,
     "id": 10322,
     "name": "Submachine Gun A2S12",
     "description": "An enhanced version of the submachine gun A2S1 with increased durability.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6661,7 +6714,7 @@
     "materials": []
   },
   {
-    "index": 150,
+    "index": 151,
     "id": 10324,
     "name": "Light Machine Gun M12A1",
     "description": "An enhanced version of the light machine gun M12 with increased accuracy， stability， and lower bullet capacity.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6697,7 +6750,7 @@
     "materials": []
   },
   {
-    "index": 151,
+    "index": 152,
     "id": 10330,
     "name": "Positron Cannons",
     "description": "The ultimate weapon transformed from Long-Range Focused Ray SM2，The aiming time is extremely long， but it can release incredibly exaggerated energy.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6732,7 +6785,7 @@
     "materials": []
   },
   {
-    "index": 152,
+    "index": 153,
     "id": 10333,
     "name": "Thor Cannon",
     "description": "Large scale transformation of the Focused Arc Gun SX，It can release extremely destructive ultra-high voltage arcs， causing astonishing damage\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6767,7 +6820,7 @@
     "materials": []
   },
   {
-    "index": 153,
+    "index": 154,
     "id": 10345,
     "name": "Magnum Beam Rifle 'R·L'",
     "description": "This is a light firearm that can fire green plasma balls， which can ignore the physical armor. Its shooting mode has been upgraded to a 5-round burst. A charged shot (using 5 bullets) can fire a high DMG particle beam which can penetrate shields. Its shooting range has also been upgraded.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -6801,7 +6854,7 @@
     "materials": []
   },
   {
-    "index": 154,
+    "index": 155,
     "id": 10400,
     "name": "Antique Rifle B2M12",
     "description": "An enhanced version of the antique rifle B2M11 with increased durability and weighs more.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6836,7 +6889,7 @@
     "materials": []
   },
   {
-    "index": 155,
+    "index": 156,
     "id": 10401,
     "name": "Service Rifle M21S1",
     "description": "An enhanced version of the service rifle M11S with all stats slightly increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6871,7 +6924,7 @@
     "materials": []
   },
   {
-    "index": 156,
+    "index": 157,
     "id": 10405,
     "name": "88mm Dual-purpose Rapid-Firing Gun",
     "description": "A specialized Rapid-Firing Gun， can fire bullets that explode at the sight. It excels in anti-air combat while remaining highly effective against ground troops. Features a controlled burst-fire mechanism.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -6922,7 +6975,7 @@
     ]
   },
   {
-    "index": 157,
+    "index": 158,
     "id": 10406,
     "name": "Submachine Gun S5M10",
     "description": "An enhanced version of the submachine gun S5M with all stats slightly increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6955,7 +7008,7 @@
     "materials": []
   },
   {
-    "index": 158,
+    "index": 159,
     "id": 10415,
     "name": "Light Sniper M45",
     "description": "An enhanced version of the Light Sniper Rifle M24 with all stats slightly increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -6980,7 +7033,7 @@
         "value": "-25"
       }
     ],
-    "price": 200,
+    "price": 125,
     "day": "0",
     "level": -1,
     "family": [
@@ -6991,7 +7044,7 @@
     "materials": []
   },
   {
-    "index": 159,
+    "index": 160,
     "id": 10416,
     "name": "Service Rifle B2ASW-X",
     "description": "This is an all-around upgraded version of the Service Rifle B2ASW. It sacrifices various attributes for power， designed to counter elite enemies.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7024,7 +7077,7 @@
     "materials": []
   },
   {
-    "index": 160,
+    "index": 161,
     "id": 10418,
     "name": "Service Rifle M16A1",
     "description": "A specialized service rifle that can fire a large number of bullets in a short period of time.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7074,7 +7127,7 @@
     ]
   },
   {
-    "index": 161,
+    "index": 162,
     "id": 10421,
     "name": "Vector Submachine Gun",
     "description": "A specialized submachine gun with impressive firepower and can provide almost continuous firepower. It has a vast expansion potential and can support various forms of modification， but it also has a very high wear rate.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7124,7 +7177,7 @@
     ]
   },
   {
-    "index": 162,
+    "index": 163,
     "id": 10422,
     "name": "Dily's special needs",
     "description": "A specialized submachine gun， with impressive firepower and can provide almost continuous firepower， but has a high wear rate.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7174,7 +7227,7 @@
     ]
   },
   {
-    "index": 163,
+    "index": 164,
     "id": 10424,
     "name": "Light Machine Gun M12A1s",
     "description": "The enhanced version of the M12A1 has slightly reduced attributes and improved overall durability\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7209,7 +7262,7 @@
     "materials": []
   },
   {
-    "index": 164,
+    "index": 165,
     "id": 10430,
     "name": "Tachyon Spear",
     "description": "An enhanced version of the positron cannon. When it hits the target， it will release a powerful electric arc storm.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7259,7 +7312,7 @@
     ]
   },
   {
-    "index": 165,
+    "index": 166,
     "id": 10444,
     "name": "Plasma Projector",
     "description": "This is a heavy firearm that can fire very slowly but powerful green plasma balls， which can ignore the physical armor.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7294,7 +7347,7 @@
     "materials": []
   },
   {
-    "index": 166,
+    "index": 167,
     "id": 10500,
     "name": "Emperor's Majesty",
     "description": "This rifle was designed and constructed by the Royal Design Bureau under the order of the Emperor and was praised as the key for the empire to win the war. Due to insufficient production capacity， it can only be equipped to the Royal Guard.\nHigh armor penetration rate， ignores shields， deals DMG twice， and explodes 0.1s after hitting.\nMovement speed: <D1>%， Rotational speed: <D2>%",
@@ -7349,7 +7402,7 @@
     ]
   },
   {
-    "index": 167,
+    "index": 168,
     "id": 10504,
     "name": "Gauss sniper rifle",
     "description": "The ultimate form of kinetic weapons that accelerates the projectile to break through 23 Mach through magnetic force， crushing all conventional materials into powder. Almost no conventional material can withstand its destructive force.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7397,7 +7450,7 @@
     ]
   },
   {
-    "index": 168,
+    "index": 169,
     "id": 10507,
     "name": "Magnetic railgun",
     "description": "The caliber is justice， and that the cloud explosive shell with extremely large charges can only be fired with powerful electromagnetic induction， with astonishing destructive power in a single shot.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7446,7 +7499,7 @@
     ]
   },
   {
-    "index": 169,
+    "index": 170,
     "id": 10510,
     "name": "Lava spray",
     "description": "By configuring a large capacity fuel tank， the effect of mixed fuel loading is achieved， so that the spray has its own high temperature， which can melt the enemy's armor.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7498,7 +7551,7 @@
     ]
   },
   {
-    "index": 170,
+    "index": 171,
     "id": 10515,
     "name": "Electromagnetic Triple-Barreled Cannon",
     "description": "This is a high-tech weapon smuggled from other countries. It can be classified as a light electromagnetic cannon， which is actually a kinetic weapon with 3 barrels， and the shooting method is high-precision 3-round burst. It is expensive and has powerful weapon performance. However， it's too sophisticated to maintain and has high maintenance costs and wear rate. Still， it is a powerful weapon. \nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7523,15 +7576,24 @@
         "value": "-25"
       }
     ],
-    "price": 350,
+    "price": 300,
     "day": "0",
     "level": -2,
     "family": [],
     "weaponIds": [],
-    "materials": []
+    "materials": [
+      {
+        "id": 10415,
+        "count": 2
+      },
+      {
+        "id": 40032,
+        "count": 4
+      }
+    ]
   },
   {
-    "index": 171,
+    "index": 172,
     "id": 10524,
     "name": "Flak gun",
     "description": "A specialized machine gun， can fire bullets that explode at the sight. It excels in anti-air combat while remaining highly effective against ground troops.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7581,7 +7643,7 @@
     ]
   },
   {
-    "index": 172,
+    "index": 173,
     "id": 10530,
     "name": "Purgatory ray",
     "description": "The ultimate form of ray weapons solves the cooling problem of positron guns， making rapid firing possible.\nAn energy storage mechanism has been added， which can be used to store energy by long pressing and firing. It can emits powerful particle beams that can penetrate the shield， consuming 2 bullets each time.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7636,7 +7698,7 @@
     ]
   },
   {
-    "index": 173,
+    "index": 174,
     "id": 10630,
     "name": "Glaring Cannon ZM12A1+I54",
     "description": "A product of combining the ultimate models of ray weapons and electric arc weapons.\nIt can fire an astonishingly high-energy particle stream. The target hit by the particle stream will be destroyed by sky-burning arcs， leaving nothing but flames.\nIt's extremely heavy.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7684,7 +7746,7 @@
     ]
   },
   {
-    "index": 174,
+    "index": 175,
     "id": 10533,
     "name": "Thor Burning Cannon",
     "description": "The ultimate form of arc weapons is further enhanced with attributes based on the Thor Cannon. Wherever an arc strikes， it leaves behind a blazing flame， like a god of thunder descending to earth.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7737,7 +7799,7 @@
     ]
   },
   {
-    "index": 175,
+    "index": 176,
     "id": 10544,
     "name": "Plasma Energy Cannon",
     "description": "This is the ultimate version of the plasma weapon. It can fire multiple plasma balls and deal massive damage.\nMovement speed: <D1>%， Rotational speed: <D2>%.",
@@ -7788,7 +7850,7 @@
     ]
   },
   {
-    "index": 176,
+    "index": 177,
     "id": 10050,
     "name": "Power Gloves",
     "description": "The gloves have a low damage output but can knock back enemies.\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7823,7 +7885,7 @@
     "materials": []
   },
   {
-    "index": 177,
+    "index": 178,
     "id": 10051,
     "name": "High-Power Gloves",
     "description": "Its heavy weight allows for higher damage output and knock-back range.\n[Combo attack]After several light hits， smash the ground and cause a short time stun to the enemy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7871,7 +7933,7 @@
     ]
   },
   {
-    "index": 178,
+    "index": 179,
     "id": 10052,
     "name": "Lightsaber",
     "description": "Slashes targets.\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7920,7 +7982,7 @@
     ]
   },
   {
-    "index": 179,
+    "index": 180,
     "id": 10053,
     "name": "Photon Naginata",
     "description": "Slashes targets with faster speed.\n[Combo attack]After multiple light strikes， perform a multi-stage slash ahead\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -7971,7 +8033,7 @@
     ]
   },
   {
-    "index": 180,
+    "index": 181,
     "id": 10054,
     "name": "Lightning Ax",
     "description": "Slashes enemies in a large radius with adequate strength damage.\n[Combo attack]Perform a large-scale heavy strike after multiple light strikes\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8022,7 +8084,7 @@
     ]
   },
   {
-    "index": 181,
+    "index": 182,
     "id": 10055,
     "name": "High-Power Lightning Axe",
     "description": "Slashes enemies in a large radius with high strength damage. \n[Combo attack]The final attack can release powerful sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8083,7 +8145,7 @@
     ]
   },
   {
-    "index": 182,
+    "index": 183,
     "id": 10056,
     "name": "Light Spear",
     "description": "Thrusts enemies.\n[Combo attack]The final thrust will cause the body to sprint forward\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8133,7 +8195,7 @@
     ]
   },
   {
-    "index": 183,
+    "index": 184,
     "id": 10057,
     "name": "Light Gun",
     "description": "Thrusts enemies. faster than the light spear.\n[Combo attack]After several light strikes， perform a multiple spikes in front of you\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8190,7 +8252,7 @@
     ]
   },
   {
-    "index": 184,
+    "index": 185,
     "id": 10058,
     "name": "Light Halberd",
     "description": "Thrusts enemies with Long range.\n[Combo attack]The final attack can release powerful sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8247,7 +8309,7 @@
     ]
   },
   {
-    "index": 185,
+    "index": 186,
     "id": 10059,
     "name": "Electric Wakizashi",
     "description": "Capable of slashing multiple times in a certain radius.\n[Combo attack]Normal attack and Combo attack can both deal a sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8279,43 +8341,6 @@
     ],
     "weaponIds": [
       "10059"
-    ],
-    "materials": []
-  },
-  {
-    "index": 186,
-    "id": 10065,
-    "name": "Electric Dagger",
-    "description": "Weapons that can be used for assassination after being equipped.\nMovement speed: <D1>%; Rotational speed: <D2>%",
-    "weaponType": "Close",
-    "weaponSubTypes": [
-      "All",
-      "CloseIn",
-      "Dagger"
-    ],
-    "bulletId": "65",
-    "functions": [
-      {
-        "name": "Weapon",
-        "value": "65"
-      },
-      {
-        "name": "AddSpeed",
-        "value": "-5"
-      },
-      {
-        "name": "AddRotSpeed",
-        "value": "-5"
-      }
-    ],
-    "price": 50,
-    "day": "0",
-    "level": 1,
-    "family": [
-      10165
-    ],
-    "weaponIds": [
-      "10065"
     ],
     "materials": []
   },
@@ -8370,6 +8395,573 @@
   },
   {
     "index": 188,
+    "id": 10065,
+    "name": "Electric Dagger",
+    "description": "Weapons that can be used for assassination after being equipped.\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn",
+      "Dagger"
+    ],
+    "bulletId": "65",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "65"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-5"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-5"
+      }
+    ],
+    "price": 50,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10165
+    ],
+    "weaponIds": [
+      "10065"
+    ],
+    "materials": []
+  },
+  {
+    "index": 189,
+    "id": 10066,
+    "name": "Dragoon Morphblade",
+    "description": "Difficulty: ※※※※※\nA weapon that can switch between Sword Mode and Spear Mode. Sword Mode has fewer openings， while Spear Mode offers greater attack power. Switching forms requires the 'Morph Slash' move， which can be chained from the ending frames of any action except another Morph Slash.\n<b>Sword Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick triple slash. Holding the forward movement key during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Block</u> incoming attacks from the front， consuming stamina. After a successful block， you can follow up with a powerful Pursuit Slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Slash， switching to Spear Mode after use. On the third hit of a combo or after a successful parry， it will trigger a high-powered Morph Slash; in other cases， it will perform a standard Morph Slash with directional movement.\n<b>Spear Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-powered combo. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Whirlwind Slash. Hold right-click to maintain the whirlwind motion， consuming stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Spinning Thrust， switching to Sword Mode after use. Grants a brief <u>dodge</u> window at the start， consuming stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "66",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "66"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-35"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-20"
+      }
+    ],
+    "price": 160,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10166,
+      10266,
+      10067,
+      10070
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10067,
+        "count": 1
+      },
+      {
+        "id": 10070,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 190,
+    "id": 10067,
+    "name": "Dragoon Greatsword",
+    "description": "Difficulty: ※※※※\nA weapon capable of dealing massive damage through charged strikes， boasting the highest single-hit power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Grants a brief <u>Block</u> window at the start of the animation， consuming stamina. Between Charge Slashes， clicking <sprite name='mouseR' color=#FFFFFF> allows you to retain your attack segment.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Chain into a Segment 3 Charge Slash.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash with good tracking.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "67",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "67"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-25"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-40"
+      }
+    ],
+    "price": 120,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10167,
+      10267,
+      10071,
+      10072,
+      10066
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10054,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 191,
+    "id": 10068,
+    "name": "Dragoon Sword & Shield",
+    "description": "Difficulty: ※※※\nA simple and agile weapon with good tracking and speed， capable of following up with high-damage strikes after a successful block.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick triple slash. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Perfect Defense can be triggered by defending at the exact moment the shield is raised， consuming no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> incoming attacks from the front， consuming stamina. The <u>block</u> window takes a brief moment to activate.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Pursuit Thrust.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Quick Thrust with good tracking.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "68",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "68"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-28"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-15"
+      }
+    ],
+    "price": 100,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10168,
+      10268,
+      10069,
+      10070
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10152,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "index": 192,
+    "id": 10069,
+    "name": "Dragoon Twinblades",
+    "description": "Difficulty: ※※\nA nimble weapon capable of dealing multiple hits in a short time， ideal for inflicting abnormal states.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a rapid combo. Holding forward or backward during the final strike moves you in that direction.\n<sprite name='mouseR' color=#FFFFFF> (hold): Briefly charge before unleashing a rapid forward combo， continuously consuming stamina. Hold right-click to maintain the attack until stamina is depleted. Grants minor <u>Super Armor</u> during the attack and can <u>dodge</u> at any time.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "69",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "69"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-12"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-30"
+      }
+    ],
+    "price": 120,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10169,
+      10269,
+      10068
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10153,
+        "count": 2
+      },
+      {
+        "id": 40032,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 193,
+    "id": 10070,
+    "name": "Dragoon Gun & Shield",
+    "description": "Difficulty: ※※※※\nA weapon with top-tier defensive capabilities， consuming little stamina while defending.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fairly quick triple slash.\nAfter a triple slash -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge forward， consuming stamina. Slightly adjust direction during the charge; if charging in the opposite direction of your facing， perform a Reverse Slash with directional control.\nWhile charging -- <sprite name='mouseR' color=#FFFFFF>: Emergency stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>， with a <u>Block</u> window at the start.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Charged Thrust， with two charge levels， dealing more damage at higher levels. Grants <u>Defense</u> protection while charging.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Directly perform a max-level Charged Thrust.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "70",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "70"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-28"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-15"
+      }
+    ],
+    "price": 120,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10170,
+      10270,
+      10068,
+      10073,
+      10066
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10158,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 194,
+    "id": 10071,
+    "name": "Dragoon Titan Axe",
+    "description": "Difficulty: ※※※\nA heavy but powerful weapon that can be thrown to hit distant enemies， inflicting paralysis.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy triple slash. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release <sprite name='mouseR' color=#FFFFFF> to throw the axe. Throwing distance is based on charge time， consuming stamina. Upon impact， the axe emits an EMP， <u>paralyzing</u> enemies. Must be retrieved manually after throwing.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "71",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "71"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-40"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 150,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10171,
+      10271,
+      10072,
+      10067
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10055,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 195,
+    "id": 10072,
+    "name": "Dragoon Great Scythe",
+    "description": "Difficulty: ※※※\nA highly mobile heavy weapon capable of performing counterattacks with dodge frames.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fairly quick triple slash.\n<sprite name='mouseL' color=#FFFFFF>After the second strike or while idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash， moving quickly to the front-side with <u>dodge</u> frames， followed by a wide-range slash for high damage， consuming significant stamina.\n<sprite name='mouseL' color=#FFFFFF>After the first or third strike -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward， spinning rapidly to deal wide-range damage.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "72",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "72"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-45"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 150,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10172,
+      10272,
+      10071,
+      10067
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10055,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 196,
+    "id": 10073,
+    "name": "Dragoon Spike Gun",
+    "description": "Difficulty: ※※※\nA weapon focused on single-hit damage with a straightforward attack pattern.\n<sprite name='mouseL' color=#FFFFFF>: Dash Attack， consuming stamina and covering significant distance. Requires careful distance control.\n<sprite name='mouseR' color=#FFFFFF>: Briefly charge before delivering a short-range， high-damage strike. On hit， causes a small explosion.\nDuring a Dash Attack -- <sprite name='mouseR' color=#FFFFFF>: Maintain some forward momentum while performing a charged strike.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "73",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "73"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-25"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-36"
+      }
+    ],
+    "price": 100,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10173,
+      10273,
+      10074,
+      10070,
+      10076
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10156,
+        "count": 2
+      },
+      {
+        "id": 40032,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 197,
+    "id": 10074,
+    "name": "Dragoon Harpoon",
+    "description": "Difficulty: ※※\nA special weapon that fires a harpoon to latch onto targets， pulling them toward you.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick triple slash， with a chance to paralyze enemies. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF>: Fire harpoon.\nAfter harpoon hit -- <sprite name='mouseL' color=#FFFFFF>: Trigger an explosion to <u>stun</u> the target.\nAfter harpoon hit -- <sprite name='mouseR' color=#FFFFFF>: Trigger an EMP to <u>paralyze</u> the target and pull it toward you. If the target is too heavy， you will be pulled toward it instead.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "74",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "74"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-15"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 60,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10174,
+      10274,
+      10073,
+      10075
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10059,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 198,
+    "id": 10075,
+    "name": "Dragoon Small Scythe",
+    "description": "Usage Difficulty: ※※\nLight scythe with high agility; some attacks can ignore enemy defenses.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "75",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "75"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-12"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-24"
+      }
+    ],
+    "price": 60,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10175,
+      10275,
+      10074,
+      10076
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10059,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 199,
+    "id": 10076,
+    "name": "Dragoon Thrust Fist",
+    "description": "Usage Difficulty: ※※\nShort-range weapon that can inflict paralysis; heavy attacks may trigger Electrification.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "76",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "76"
+      },
+      {
+        "name": "AddSpeedLimit",
+        "value": "20"
+      },
+      {
+        "name": "AddRotSpeedLimit",
+        "value": "20"
+      }
+    ],
+    "price": 60,
+    "day": "0",
+    "level": 1,
+    "family": [
+      10176,
+      10276,
+      10074,
+      10075
+    ],
+    "weaponIds": [
+      "10066_10076"
+    ],
+    "materials": [
+      {
+        "id": 10059,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 200,
     "id": 10151,
     "name": "Super High-Power Gloves",
     "description": "Its heavy weight allows for higher damage output and knock-back range.\n[Combo attack]After several light hits， smash the ground and cause a long time stun to the enemy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8397,14 +8989,16 @@
     "price": 60,
     "day": "0",
     "level": -1,
-    "family": [],
+    "family": [
+      10251
+    ],
     "weaponIds": [
       "10051"
     ],
     "materials": []
   },
   {
-    "index": 189,
+    "index": 201,
     "id": 10152,
     "name": "Lightsabre S2",
     "description": "Slashes targets.\n[Combo attack]The final attack can release powerful sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8441,7 +9035,7 @@
     "materials": []
   },
   {
-    "index": 190,
+    "index": 202,
     "id": 10153,
     "name": "Photon Naginata M3",
     "description": "Slashes targets with faster speed.\n[Combo attack]After multiple light strikes， perform a strong multi-stage slash ahead\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8478,7 +9072,7 @@
     "materials": []
   },
   {
-    "index": 191,
+    "index": 203,
     "id": 10154,
     "name": "Lightning Axe M",
     "description": "Slashes enemies in a large radius with adequate strength damage.\n[Combo attack]The final attack can release powerful sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8515,7 +9109,7 @@
     "materials": []
   },
   {
-    "index": 192,
+    "index": 204,
     "id": 10155,
     "name": "High-Power Lightning Axe M",
     "description": "Slashes enemies in a large radius with high strength damage. \n[Combo attack]Normal attack and Combo attack can both deal a sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8543,14 +9137,16 @@
     "price": 300,
     "day": "18",
     "level": -1,
-    "family": [],
+    "family": [
+      10255
+    ],
     "weaponIds": [
       "10055"
     ],
     "materials": []
   },
   {
-    "index": 193,
+    "index": 205,
     "id": 10156,
     "name": "Light Spear S",
     "description": "Thrusts enemies.\n[Combo attack]The final thrust will cause the body to sprint forward and deal a heavy strike\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8588,7 +9184,7 @@
     "materials": []
   },
   {
-    "index": 194,
+    "index": 206,
     "id": 10157,
     "name": "Light Gun S",
     "description": "Thrusts enemies. faster than the light spear.\n[Combo attack]After several light strikes， perform a strong multiple spikes in front of you\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8626,7 +9222,7 @@
     "materials": []
   },
   {
-    "index": 195,
+    "index": 207,
     "id": 10158,
     "name": "High-Power Light Halberd",
     "description": "Thrusts enemies with Long range.\n[Combo attack]Normal attack and Combo attack can both deal a sword energy\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8664,7 +9260,7 @@
     "materials": []
   },
   {
-    "index": 196,
+    "index": 208,
     "id": 10159,
     "name": "High-Power Electric Wakizashi",
     "description": "Capable of slashing multiple times in a certain radius.\n[Combo attack]Normal attack and Combo attack can both deal a sword energy and the last sword energy is enhanced\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8698,7 +9294,7 @@
     "materials": []
   },
   {
-    "index": 197,
+    "index": 209,
     "id": 10165,
     "name": "High-Power Electric Dagger",
     "description": "The enhanced version of the Electric Dagger，The performance has not changed， but the slot size has increased.\nMovement speed: <D1>%; Rotational speed: <D2>%",
@@ -8733,7 +9329,841 @@
     "materials": []
   },
   {
-    "index": 198,
+    "index": 210,
+    "id": 10166,
+    "name": "Advanced Dragoon Morphblade",
+    "description": "Difficulty: ※※※※※\nA weapon capable of switching between Sword Mode and Gun Mode. Sword Mode has fewer openings， while Gun Mode delivers higher attack power. Switching modes requires using the 'Morph Slash' action， which can be chained from the recovery of any action except Morph Slash itself.\nEquipped with a Fusing Module， enhancing basic attack power.\n<b>Sword Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast three-hit combo. Hold the forward movement direction during attacks to cover more distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Defense</u> against incoming frontal attacks， consuming stamina. After defending an attack， you can follow up with a powerful Counter Slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Slash — switches to Gun Mode upon use. If used on the third hit of a combo or after a successful counter， it becomes a High-Power Morph Slash; otherwise， it performs a regular Morph Slash that can move in any direction.\n<b>Gun Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-power combo. Hold the forward movement direction during attacks to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Whirlwind Slash — continue holding the right mouse button to maintain the attack， consuming stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Spinning Thrust — switches to Sword Mode upon use. Grants brief <u>Dodge</u> invulnerability at the start， consuming stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "166",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "166"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-35"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-20"
+      }
+    ],
+    "price": 320,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 211,
+    "id": 10167,
+    "name": "Advanced Dragoon Greatsword",
+    "description": "Difficulty: ※※※※\nA weapon that unleashes massive damage through charged attacks， capable of delivering the strongest single-hit damage.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a brief <u>Block</u> window at the start， consuming stamina. Press <sprite name='mouseR' color=#FFFFFF> (click) between Charged Slashes to maintain your current phase.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Chain directly to Segment 3 Charged Slash.\nAfter dodging -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash with excellent turning control.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "167",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "167"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-25"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-40"
+      }
+    ],
+    "price": 250,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 212,
+    "id": 10168,
+    "name": "Advanced Dragoon Sword & Shield",
+    "description": "Difficulty: ※※※\nA simple and agile weapon with great turning speed. Successful blocks allow powerful follow-up strikes.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick three-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Defending at the exact moment you raise your shield triggers a Perfect Defense， which consumes no stamina.\nWhile <u>defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> frontal attacks， consuming stamina. <u>Block</u> activation takes a brief moment.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Counter Thrust.\nAfter dodging -- <sprite name='mouseL' color=#FFFFFF>: Swift Thrust with excellent turning control.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "168",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "168"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-28"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-15"
+      }
+    ],
+    "price": 200,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 213,
+    "id": 10169,
+    "name": "Advanced Dragoon Twinblades",
+    "description": "Difficulty: ※※\nA fast and flexible weapon capable of dealing multiple hits in a short time， ideal for inflicting abnormal states.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Execute a rapid combo; on the final hit， hold forward or backward to move accordingly.\n<sprite name='mouseR' color=#FFFFFF> (hold): Briefly charge， then unleash rapid strikes forward， continuously consuming stamina. Holding the right mouse button sustains the attack until stamina runs out. Grants minor <u>Super Armor</u> during the attack and can <u>Dodge</u> at any time.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "169",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "169"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-12"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-30"
+      }
+    ],
+    "price": 250,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 214,
+    "id": 10170,
+    "name": "Advanced Dragoon Gun & Shield",
+    "description": "Difficulty: ※※※※\nA weapon with top-tier defensive capabilities， consuming less stamina while defending.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a relatively quick three-hit combo.\nAfter the three-hit combo -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge， consuming stamina. Slightly adjust direction during the charge; if charging opposite to your facing direction， perform a Reverse Slash with directional control.\nDuring the charge -- <sprite name='mouseR' color=#FFFFFF>: Emergency Stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a <u>Block</u> window at startup.\nWhile <u>defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Charged Thrust， up to 2 charge levels， increasing damage with higher charge. Has a <u>Defense</u> window during the charge.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Directly perform a max-level Charged Thrust.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "170",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "170"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-28"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-15"
+      }
+    ],
+    "price": 250,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 215,
+    "id": 10171,
+    "name": "Advanced Dragoon Titan Axe",
+    "description": "Difficulty: ※※※\nA heavy yet powerful weapon that can be thrown to damage distant enemies and cause paralysis.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy three-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release <sprite name='mouseR' color=#FFFFFF> to throw the axe. Throwing distance depends on charge time， consuming stamina. Upon landing， the axe emits an EMP， <u>Paralyzing</u> enemies. Must be retrieved manually after throwing.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "171",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "171"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-40"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 300,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 216,
+    "id": 10172,
+    "name": "Advanced Dragoon Great Scythe",
+    "description": "Difficulty: ※※※\nA highly mobile heavy weapon capable of counterattacks with dodge frames.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a relatively fast three-hit combo.\n<sprite name='mouseL' color=#FFFFFF>After the second hit or from idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash — quickly dash to the front-side with <u>Dodge</u> frames， then unleash a wide slash forward for high damage， consuming significant stamina.\n<sprite name='mouseL' color=#FFFFFF>After the first or third hit -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward， spinning rapidly to deal wide frontal damage.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "172",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "172"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-45"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 300,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 217,
+    "id": 10173,
+    "name": "Advanced Dragoon Spike Gun",
+    "description": "Difficulty: ※※※\nA weapon focused on single， powerful strikes with limited attack variety.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF>: Dashing Attack， consuming stamina. Covers a large distance — requires precise spacing.\n<sprite name='mouseR' color=#FFFFFF>: Briefly charge， then strike a small frontal area for high damage. If it hits， causes a small explosion.\nDuring Dashing Attack -- <sprite name='mouseR' color=#FFFFFF>: Can maintain speed while performing a charged attack.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "173",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "173"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-25"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-36"
+      }
+    ],
+    "price": 300,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 218,
+    "id": 10174,
+    "name": "Advanced Dragoon Harpoon",
+    "description": "Difficulty: ※※\nA special weapon that fires a harpoon to pull targets toward you.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick three-hit combo with a chance to paralyze enemies. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF>: Fire Harpoon.\nAfter a harpoon hit -- <sprite name='mouseL' color=#FFFFFF>: Trigger an explosion， causing <u>Stun</u>.\nAfter a harpoon hit -- <sprite name='mouseR' color=#FFFFFF>: Trigger an EMP， causing <u>Paralysis</u> and pulling the target toward you. If the target is too heavy， you will be pulled toward it instead.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "174",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "174"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-15"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 120,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 219,
+    "id": 10175,
+    "name": "Advanced Dragoon Small Scythe",
+    "description": "Usage Difficulty: ※※\nLight scythe with high agility; some attacks can ignore enemy defenses.\nEquipped with a fusing module to enhance basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "175",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "175"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-12"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-24"
+      }
+    ],
+    "price": 120,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 220,
+    "id": 10176,
+    "name": "Advanced Dragoon Thrust Fist",
+    "description": "Usage Difficulty: ※※\nShort-range weapon that can inflict paralysis; heavy attacks may trigger Electrification.\nEquipped with a fusing module to enhance basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "176",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "176"
+      },
+      {
+        "name": "AddSpeedLimit",
+        "value": "25"
+      },
+      {
+        "name": "AddRotSpeedLimit",
+        "value": "25"
+      }
+    ],
+    "price": 120,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 221,
+    "id": 10251,
+    "name": "SWK Smasher",
+    "description": "Further strengthen of the High-Power Gloves，and regular attacks will have a Wet effect.\n[Combo attack]After several light hits， smash the ground and cause a long time stun and adding a cold effect to the enemy\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn",
+      "Boxing"
+    ],
+    "bulletId": "251",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "251"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-32"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-32"
+      }
+    ],
+    "price": 200,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [
+      "10151"
+    ],
+    "materials": [
+      {
+        "id": 10151,
+        "count": 2
+      },
+      {
+        "id": 40032,
+        "count": 2
+      },
+      {
+        "id": 40016,
+        "count": 10
+      }
+    ]
+  },
+  {
+    "index": 222,
+    "id": 10255,
+    "name": "Empire officially adopts lighting axe",
+    "description": "Enhancement of the High-Power Lightning Axe M，and the normal attack will bring flame effects. \n[Combo attack]It will bring Armor Melting effects\nMovement speed: <D1>%; Rotational speed: <D2>%",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn",
+      "Axe"
+    ],
+    "bulletId": "255",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "255"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-45"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-45"
+      }
+    ],
+    "price": 400,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [
+      "10155",
+      "10154"
+    ],
+    "materials": [
+      {
+        "id": 10155,
+        "count": 1
+      },
+      {
+        "id": 10154,
+        "count": 1
+      },
+      {
+        "id": 40032,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 223,
+    "id": 10265,
+    "name": "Throat-Cut Electric Dagger",
+    "description": "weapon that can be used for assassination operations，and when equipped with modules，it can attack almost all types of enemies\nMovement speed: <D1>%， Rotational speed: <D2>%.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn",
+      "Dagger"
+    ],
+    "bulletId": "265",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "265"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-5"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-5"
+      }
+    ],
+    "price": 200,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 224,
+    "id": 10266,
+    "name": "Slash Morph Blade",
+    "description": "Difficulty: ※※※※※\nPrototype weapon， greatly enhances attack power in Gun Form but reduces stamina efficiency. In Sword Form， a successful block will switch you to Gun Form. In Gun Form， stamina will not recover automatically while attacking.\n<b>Sword Form</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo. Hold forward during attacks to move a greater distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Defend</u> against frontal attacks， consuming stamina. After a block， you can follow up with a powerful counter slash.\nAfter a successful block， <sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (together): High-Power Morph Slash， switching to Gun Form after use.\n<b>Gun Form</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-power combo. Hold a direction key during attacks to slightly move.\n<sprite name='mouseR' color=#FFFFFF> (hold): Take a stance to enter defense mode， automatically counterattacking when hit， consuming stamina. Releasing <sprite name='mouseR' color=#FFFFFF> right before impact triggers a Perfect Counter， consuming no stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (together): Morph Spinning Slash， switching to Sword Form after use.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "266",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "266"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-35"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-20"
+      }
+    ],
+    "price": 200,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 225,
+    "id": 10267,
+    "name": "Dragoon Greatblade",
+    "description": "Difficulty: ※※※※\nPrototype weapon， modifies the final attack hit into two damage instances， increasing total power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a brief <u>Block</u> window at the start， consuming stamina. Clicking <sprite name='mouseR' color=#FFFFFF> between charged slashes preserves the current phase.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Can chain directly into Segment 3 Charged Slash.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash， offering good turning ability.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "267",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "267"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-25"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-40"
+      }
+    ],
+    "price": 300,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 226,
+    "id": 10268,
+    "name": "Dragoon Guardian Cleaver",
+    "description": "Difficulty: ※※※\nPrototype weapon， adds a charged shield counter. <u>When performing a Perfect Defense (blue spark)， triggers a small explosion counter that retains the weapon's elemental damage.</u>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Timing the shield raise perfectly triggers Perfect Defense， which consumes no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> frontal attacks， consuming stamina. <u>Block</u> activation has a slight delay.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Counter Thrust.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Quick Thrust with good turning ability.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "268",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "268"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-28"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-15"
+      }
+    ],
+    "price": 175,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 227,
+    "id": 10269,
+    "name": "Dragoon Twin Frost Blades",
+    "description": "Difficulty: ※※\nPrototype weapon， can charge up to unleash a wide-range energy slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast combo; on the final hit， holding forward or backward moves you in that direction.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then dash forward to attack. If the attack hits， triggers a wide-range energy slash. If charge is incomplete or the dash misses， the energy slash will not trigger.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "269",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "269"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-12"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-30"
+      }
+    ],
+    "price": 300,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 228,
+    "id": 10270,
+    "name": "Dragoon Razorfang Bayonet",
+    "description": "Difficulty: ※※※※\nPrototype weapon， features a special defense action that auto-counters.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast 3-hit combo.\nAfter 3-hit combo -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge forward， consuming stamina. Can slightly adjust direction; if moving opposite to facing， performs a Reverse Slash with better turning.\nDuring charge -- <sprite name='mouseR' color=#FFFFFF>: Emergency Stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Timing shield raise perfectly triggers Perfect Defense， consuming no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Counter Thrust. Defends against frontal attacks and auto-counters when hit. Perfect Defense consumes no stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "270",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "270"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-28"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-15"
+      }
+    ],
+    "price": 300,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 229,
+    "id": 10271,
+    "name": "Dragoon Mountainbreaker Axe",
+    "description": "Difficulty: ※※※\nPrototype weapon， adds an energy burst function to unleash sword waves.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy 3-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release<sprite name='mouseR' color=#FFFFFF> to throw the axe， consuming stamina. Upon landing， emits an EMP to <u>paralyze</u> enemies. Must manually retrieve the axe.\nAfter full charge -- <sprite name='mouseL' color=#FFFFFF>: Fire a powerful sword wave. Press <sprite name='mouseL' color=#FFFFFF> again to throw the axe.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "271",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "271"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-40"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 250,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 230,
+    "id": 10272,
+    "name": "Dragoon Duskcorrode Scythe",
+    "description": "Difficulty: ※※※\nPrototype weapon， can charge to increase lethality.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo.\n<sprite name='mouseL' color=#FFFFFF>After 2nd hit or while idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash， moving forward/sideways with a <u>dodge</u> window， then unleashing a wide slash for high damage， consuming more stamina.\n<sprite name='mouseL' color=#FFFFFF>After 1st or 3rd hit -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward to spin rapidly， dealing wide-area damage.\nBoth <sprite name='mouseR' color=#FFFFFF> attacks can be charged for stronger effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "272",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "272"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-45"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 280,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 231,
+    "id": 10273,
+    "name": "Dragoon Bursting Cannon",
+    "description": "Difficulty: ※※※\nPrototype weapon， enhances nailgun impact.\n<sprite name='mouseL' color=#FFFFFF>: Dashing Attack， consuming stamina. Covers a long distance; requires distance control.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release<sprite name='mouseR' color=#FFFFFF> to attack instantly. The attack has a <u>Block</u> window to repel enemy strikes.\nDuring dash -- <sprite name='mouseR' color=#FFFFFF>: Maintain speed and perform a charged attack.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "273",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "273"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-25"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-36"
+      }
+    ],
+    "price": 250,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 232,
+    "id": 10274,
+    "name": "Dragoon Bursting Harpoon",
+    "description": "Difficulty: ※※\nPrototype weapon， deals continuous explosion damage after hitting an enemy.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo with a chance to paralyze. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF>: Fire Harpoon.\nAfter harpoon hit -- <sprite name='mouseL' color=#FFFFFF> (hold): Cause continuous explosions to <u>stun</u> the target.\nAfter harpoon hit -- <sprite name='mouseR' color=#FFFFFF>: Trigger an EMP to <u>paralyze</u> and pull the target toward you. If the target is too heavy， you will pull yourself toward it instead.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "274",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "274"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-15"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-25"
+      }
+    ],
+    "price": 180,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 233,
+    "id": 10275,
+    "name": "Dragoon Reaping Scythe",
+    "description": "Usage Difficulty: ※※\nPrototype weapon; replaces left/right dodge with a sidestep slide， allowing movement around the target.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "275",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "275"
+      },
+      {
+        "name": "AddSpeed",
+        "value": "-12"
+      },
+      {
+        "name": "AddRotSpeed",
+        "value": "-24"
+      }
+    ],
+    "price": 180,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 234,
+    "id": 10276,
+    "name": "Dragoon Forceful Thrust",
+    "description": "Usage Difficulty: ※※\nPrototype weapon with a charge mechanism， allowing more powerful attacks when charged.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\nAll attacks can be charged; releasing the attack key at full charge greatly increases attack power.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All",
+      "CloseIn"
+    ],
+    "bulletId": "276",
+    "functions": [
+      {
+        "name": "Weapon",
+        "value": "276"
+      },
+      {
+        "name": "AddSpeedLimit",
+        "value": "25"
+      },
+      {
+        "name": "AddRotSpeedLimit",
+        "value": "25"
+      }
+    ],
+    "price": 180,
+    "day": "0",
+    "level": -2,
+    "family": [],
+    "weaponIds": [],
+    "materials": []
+  },
+  {
+    "index": 235,
     "id": 1250,
     "name": "Shoulder-mounted Rocket Launcher",
     "description": "Mounts a rocket launcher on the shoulder that shoots rockets， effective against large groups far away. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -8791,7 +10221,7 @@
     ]
   },
   {
-    "index": 199,
+    "index": 236,
     "id": 1251,
     "name": "Heavy Shoulder-mounted Rocket Launcher",
     "description": "Mounts a heavy rocket launcher on the shoulder that shoots rockets， effective against large groups far away. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -8836,7 +10266,7 @@
     "materials": []
   },
   {
-    "index": 200,
+    "index": 237,
     "id": 1252,
     "name": "Shoulder-mounted Cannon",
     "description": "Mounts a rocket launcher on the shoulder that shoots cluster bombs. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -8893,7 +10323,7 @@
     ]
   },
   {
-    "index": 201,
+    "index": 238,
     "id": 1253,
     "name": "Heavy Shoulder-mounted Cannon",
     "description": "Mounts a heavy rocket launcher on the shoulder that shoots cluster bombs. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -8936,7 +10366,7 @@
     "materials": []
   },
   {
-    "index": 202,
+    "index": 239,
     "id": 1254,
     "name": "Shoulder-mounted Aircraft Artillery",
     "description": "Mounts aircraft artillery on the shoulder that shoots machine guns，The weapon has good air and ground suppression effects. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -8993,7 +10423,7 @@
     ]
   },
   {
-    "index": 203,
+    "index": 240,
     "id": 1255,
     "name": "Shoulder-mounted Phalanx",
     "description": "Mounts a cluster array on the shoulder that shoots machine guns，The weapon has good air and ground suppression effects. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -9036,7 +10466,7 @@
     "materials": []
   },
   {
-    "index": 204,
+    "index": 241,
     "id": 1256,
     "name": "Shoulder-mounted EMP",
     "description": "Mounts an EMP on the shoulder that paralyzes enemies in a small radius. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -9089,7 +10519,7 @@
     ]
   },
   {
-    "index": 205,
+    "index": 242,
     "id": 1257,
     "name": "Heavy Shoulder-mounted EMP",
     "description": "Mounts an EMP on the shoulder that paralyzes enemies in a large radius. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -9132,7 +10562,7 @@
     "materials": []
   },
   {
-    "index": 206,
+    "index": 243,
     "id": 1258,
     "name": "Shoulder-mounted Anti-air missile Launcher",
     "description": "Mounts a rocket launcher on the shoulder that shoots Anti-air missiles，it will prioritize attacking flying units and have good suppression ability against flying units . Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -9196,7 +10626,7 @@
     ]
   },
   {
-    "index": 207,
+    "index": 244,
     "id": 1259,
     "name": "Heavy Shoulder-mounted Anti-air missile Launcher",
     "description": "Mounts a heavy rocket launcher on the shoulder that shoots Anti-air missiles，it will prioritize attacking flying units and have good suppression ability against flying units. Cooldown: <D1>s.\n(Activated in Strategy)\nMovement speed: <D2>%; rotational speed: <D3>%",
@@ -9243,7 +10673,7 @@
     "materials": []
   },
   {
-    "index": 208,
+    "index": 245,
     "id": 1260,
     "name": "Shoulder-mounted Slicing Ray",
     "description": "Mounts a slicing ray on your shoulder and it's more powerful and lasting than the handheld slicing ray.\nCooldown: <D1>s\n(Activated in Strategy)\nMovement speed: <D2>%， Rotational speed: <D3>%.",
@@ -9306,7 +10736,7 @@
     ]
   },
   {
-    "index": 209,
+    "index": 246,
     "id": 1261,
     "name": "Heavy Shoulder-mounted Slicing Ray",
     "description": "Mounts a slicing ray on your shoulder and it's more powerful and lasting than the normal one.\nCooldown: <D1>s\n(Activated in Strategy)\nMovement speed: <D2>%， Rotational speed: <D3>%.",
@@ -9369,7 +10799,7 @@
     ]
   },
   {
-    "index": 210,
+    "index": 247,
     "id": 1262,
     "name": "Strike-Type Dual Missile Launcher",
     "description": "Mounts a rocket launcher on your shoulder that can fire two rockets at the same time. These rockets have short cooldown time and can suppress the enemy continuously.\nCooldown: <D1>s\n(Activated in Strategy)\nMovement speed: <D2>%， Rotational speed: <D3>%.",

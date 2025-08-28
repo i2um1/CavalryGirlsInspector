@@ -10,19 +10,19 @@ public static class ItemMappers
         {
             Id = rawWeapon.Id,
             Type = rawBullet.Id ?? throw new ArgumentNullException(rawBullet.Id),
-            BulletRange = rawBullet.BulletRange,
-            BulletSpeed = rawBullet.BulletSpeed,
-            Damage = rawBullet.Damage,
-            AntiAir = rawBullet.AntiAir,
-            MaxHit = rawBullet.MaxHit,
-            PiercingPossibility = rawBullet.PiercingPossibility,
-            CriticDamage = rawBullet.CriticDamage,
-            CriticPossibility = rawBullet.CriticPossibility,
-            FireType = rawBullet.FireType,
-            FireFlash = rawBullet.FireFlash,
-            MinRange = rawBullet.MinRange,
-            Debuff = rawBullet.Debuff,
-            IsKinetic = rawBullet.IsKinetic,
+            BulletRange = TryParseAsInt(rawBullet.BulletRange),
+            BulletSpeed = TryParseAsInt(rawBullet.BulletSpeed),
+            Damage = TryParseAsInt(rawBullet.Damage),
+            AntiAir = TryParseAsInt(rawBullet.AntiAir),
+            MaxHit = TryParseAsInt(rawBullet.MaxHit),
+            PiercingPossibility = TryParseAsInt(rawBullet.PiercingPossibility),
+            CriticDamage = TryParseAsInt(rawBullet.CriticDamage),
+            CriticPossibility = TryParseAsInt(rawBullet.CriticPossibility),
+            FireType = TryParseAsInt(rawBullet.FireType),
+            FireFlash = TryParseAsInt(rawBullet.FireFlash),
+            MinRange = TryParseAsInt(rawBullet.MinRange),
+            Debuff = TryParseAsInt(rawBullet.Debuff),
+            IsKinetic = rawBullet.IsKinetic is "1",
             SpecialParameter = rawBullet.SpecialParameter
                                ?? throw new ArgumentNullException(rawBullet.SpecialParameter),
             FireRate = rawWeapon.FireRate,
@@ -137,4 +137,7 @@ public static class ItemMappers
             Materials = item.Materials.SplitCount()
         };
     }
+
+    private static int TryParseAsInt(string? value)
+        => int.TryParse(value, out var number) ? number : 0;
 }

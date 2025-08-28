@@ -1,6 +1,8 @@
 ﻿using CavalryGirls.Inspector.Models;
 using CavalryGirls.Inspector.Utils;
 
+using Spectre.Console;
+
 using static CavalryGirls.Inspector.Mappers.ItemMappers;
 
 namespace CavalryGirls.Inspector.Repositories;
@@ -28,7 +30,14 @@ public sealed class RawBulletRepository
         {
             ArgumentNullException.ThrowIfNull(rawWeapon.ProjectileId);
 
-            result[rawWeapon.Id] = ToBullet(rawBullets[rawWeapon.ProjectileId], rawWeapon);
+            if (rawBullets.TryGetValue(rawWeapon.ProjectileId, out var rawBullet))
+            {
+                result[rawWeapon.Id] = ToBullet(rawBullets[rawWeapon.ProjectileId], rawWeapon);
+            }
+            else
+            {
+                AnsiConsole.MarkupLine($"[red]No bullet {rawWeapon.ProjectileId}[/]");
+            }
         }
 
         var rawShoulderWeapons = await GetRawShoulderWeapons();

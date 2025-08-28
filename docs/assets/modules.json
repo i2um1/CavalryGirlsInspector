@@ -853,7 +853,7 @@
     "index": 28,
     "id": 2029,
     "name": "Hard Warhead Module",
-    "description": "Increases bullet bounce by <D0>.",
+    "description": "Increases bullet bounce by <D0>.\nStray bullet probability+<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -862,6 +862,10 @@
       {
         "name": "MaxHit",
         "value": "1"
+      },
+      {
+        "name": "AddStrayPos",
+        "value": "15"
       }
     ],
     "price": 10,
@@ -893,7 +897,7 @@
     "index": 29,
     "id": 2030,
     "name": "Hard Warhead Module+",
-    "description": "Increases bullet bounce by <D0>.",
+    "description": "Increases bullet bounce by <D0>.\nStray bullet probability+<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -902,6 +906,10 @@
       {
         "name": "MaxHit",
         "value": "2"
+      },
+      {
+        "name": "AddStrayPos",
+        "value": "25"
       }
     ],
     "price": 20,
@@ -916,7 +924,7 @@
     "index": 30,
     "id": 2031,
     "name": "Advanced Hard Warhead Module",
-    "description": "Increases bullet bounce by <D0>.",
+    "description": "Increases bullet bounce by <D0>.\nStray bullet probability+<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -925,6 +933,10 @@
       {
         "name": "MaxHit",
         "value": "3"
+      },
+      {
+        "name": "AddStrayPos",
+        "value": "36"
       }
     ],
     "price": 40,
@@ -939,7 +951,7 @@
     "index": 31,
     "id": 2032,
     "name": "Standard Hard Warhead Module",
-    "description": "Increases bullet bounce by <D0>.",
+    "description": "Increases bullet bounce by <D0>.\nStray bullet probability+<D1>%",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -948,6 +960,10 @@
       {
         "name": "MaxHit",
         "value": "4"
+      },
+      {
+        "name": "AddStrayPos",
+        "value": "50"
       }
     ],
     "price": 80,
@@ -2264,6 +2280,143 @@
   },
   {
     "index": 75,
+    "id": 2106,
+    "name": "Crit-Splitter Module",
+    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
+    "weaponType": "Weapon",
+    "weaponSubTypes": [
+      "Kinetic",
+      "Explosive",
+      "Plasma"
+    ],
+    "functions": [
+      {
+        "name": "CriticSeparatePoss",
+        "value": "2"
+      }
+    ],
+    "price": 20,
+    "day": "18",
+    "level": 1,
+    "modulesIds": [
+      "2106_2109",
+      "2096",
+      "2066",
+      "2070"
+    ],
+    "materials": [
+      {
+        "id": 40001,
+        "count": 1
+      },
+      {
+        "id": 40003,
+        "count": 1
+      },
+      {
+        "id": 40004,
+        "count": 2
+      },
+      {
+        "id": 40020,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 76,
+    "id": 2107,
+    "name": "Crit-Splitter Module+",
+    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
+    "weaponType": "Weapon",
+    "weaponSubTypes": [
+      "Kinetic",
+      "Explosive",
+      "Plasma"
+    ],
+    "functions": [
+      {
+        "name": "CriticSeparatePoss",
+        "value": "3"
+      }
+    ],
+    "price": 50,
+    "day": "18",
+    "level": 2,
+    "modulesIds": [
+      "2106_2109"
+    ],
+    "materials": []
+  },
+  {
+    "index": 77,
+    "id": 2108,
+    "name": "Crit-Splitter Module++",
+    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
+    "weaponType": "Weapon",
+    "weaponSubTypes": [
+      "Kinetic",
+      "Explosive",
+      "Plasma"
+    ],
+    "functions": [
+      {
+        "name": "CriticSeparatePoss",
+        "value": "4"
+      }
+    ],
+    "price": 160,
+    "day": "18",
+    "level": -1,
+    "modulesIds": [
+      "2106_2109"
+    ],
+    "materials": []
+  },
+  {
+    "index": 78,
+    "id": 2109,
+    "name": "Crit Explosion Module",
+    "description": "Bullets explode on crits.\n(affects only kinetic weapons)\n(applies only to bullet with a final damage of 500 or more)",
+    "weaponType": "Weapon",
+    "weaponSubTypes": [
+      "Kinetic"
+    ],
+    "functions": [
+      {
+        "name": "CriticExploPoss",
+        "value": "1"
+      }
+    ],
+    "price": 50,
+    "day": "18",
+    "level": -2,
+    "modulesIds": [
+      "2092",
+      "2066",
+      "2070"
+    ],
+    "materials": [
+      {
+        "id": 40001,
+        "count": 3
+      },
+      {
+        "id": 40003,
+        "count": 2
+      },
+      {
+        "id": 40004,
+        "count": 5
+      },
+      {
+        "id": 40010,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "index": 79,
     "id": 2100,
     "name": "Decapitation Module",
     "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\n(affects only kinetic weapons)",
@@ -2315,7 +2468,7 @@
     ]
   },
   {
-    "index": 76,
+    "index": 80,
     "id": 2101,
     "name": "Decapitation Module+",
     "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\n(affects only kinetic weapons)",
@@ -2338,7 +2491,7 @@
     "materials": []
   },
   {
-    "index": 77,
+    "index": 81,
     "id": 2102,
     "name": "Decapitation Module++",
     "description": "Increases damage against enemies with 20% or lower HP by <D0>%.\n(affects only kinetic weapons)",
@@ -2361,7 +2514,7 @@
     "materials": []
   },
   {
-    "index": 78,
+    "index": 82,
     "id": 2103,
     "name": "First-Attack Module",
     "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\n(affects only kinetic weapons)",
@@ -2413,7 +2566,7 @@
     ]
   },
   {
-    "index": 79,
+    "index": 83,
     "id": 2104,
     "name": "First-Attack Module+",
     "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\n(affects only kinetic weapons)",
@@ -2436,7 +2589,7 @@
     "materials": []
   },
   {
-    "index": 80,
+    "index": 84,
     "id": 2105,
     "name": "First-Attack Module++",
     "description": "Increases damage against enemies with 80% or higher HP by <D0>%.\n(affects only kinetic weapons)",
@@ -2457,143 +2610,6 @@
       "2103_2105"
     ],
     "materials": []
-  },
-  {
-    "index": 81,
-    "id": 2106,
-    "name": "Crit-Splitter Module",
-    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
-    "weaponType": "Weapon",
-    "weaponSubTypes": [
-      "Kinetic",
-      "Explosive",
-      "Plasma"
-    ],
-    "functions": [
-      {
-        "name": "CriticSeparatePoss",
-        "value": "2"
-      }
-    ],
-    "price": 20,
-    "day": "18",
-    "level": 1,
-    "modulesIds": [
-      "2106_2109",
-      "2096",
-      "2066",
-      "2070"
-    ],
-    "materials": [
-      {
-        "id": 40001,
-        "count": 1
-      },
-      {
-        "id": 40003,
-        "count": 1
-      },
-      {
-        "id": 40004,
-        "count": 2
-      },
-      {
-        "id": 40020,
-        "count": 2
-      }
-    ]
-  },
-  {
-    "index": 82,
-    "id": 2107,
-    "name": "Crit-Splitter Module+",
-    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
-    "weaponType": "Weapon",
-    "weaponSubTypes": [
-      "Kinetic",
-      "Explosive",
-      "Plasma"
-    ],
-    "functions": [
-      {
-        "name": "CriticSeparatePoss",
-        "value": "3"
-      }
-    ],
-    "price": 50,
-    "day": "18",
-    "level": 2,
-    "modulesIds": [
-      "2106_2109"
-    ],
-    "materials": []
-  },
-  {
-    "index": 83,
-    "id": 2108,
-    "name": "Crit-Splitter Module++",
-    "description": "Splits <D0> bullet(s) on crits.\n(affects only kinetic weapons)",
-    "weaponType": "Weapon",
-    "weaponSubTypes": [
-      "Kinetic",
-      "Explosive",
-      "Plasma"
-    ],
-    "functions": [
-      {
-        "name": "CriticSeparatePoss",
-        "value": "4"
-      }
-    ],
-    "price": 160,
-    "day": "18",
-    "level": -1,
-    "modulesIds": [
-      "2106_2109"
-    ],
-    "materials": []
-  },
-  {
-    "index": 84,
-    "id": 2109,
-    "name": "Crit Explosion Module",
-    "description": "Bullets explode on crits.\n(affects only kinetic weapons)\n(applies only to bullet with a final damage of 500 or more)",
-    "weaponType": "Weapon",
-    "weaponSubTypes": [
-      "Kinetic"
-    ],
-    "functions": [
-      {
-        "name": "CriticExploPoss",
-        "value": "1"
-      }
-    ],
-    "price": 50,
-    "day": "18",
-    "level": -2,
-    "modulesIds": [
-      "2092",
-      "2066",
-      "2070"
-    ],
-    "materials": [
-      {
-        "id": 40001,
-        "count": 3
-      },
-      {
-        "id": 40003,
-        "count": 2
-      },
-      {
-        "id": 40004,
-        "count": 5
-      },
-      {
-        "id": 40010,
-        "count": 5
-      }
-    ]
   },
   {
     "index": 85,
@@ -2728,7 +2744,9 @@
       "10045",
       "10144",
       "10145",
-      "10046"
+      "10046",
+      "2155_2158",
+      "2341_2343"
     ],
     "materials": [
       {
@@ -2783,7 +2801,9 @@
       "10045",
       "10144",
       "10145",
-      "10046"
+      "10046",
+      "2155_2158",
+      "2341_2343"
     ],
     "materials": []
   },
@@ -5501,7 +5521,9 @@
       "10045",
       "10144",
       "10145",
-      "10046"
+      "10046",
+      "2155_2158",
+      "2341_2343"
     ],
     "materials": [
       {
@@ -6671,7 +6693,7 @@
     "functions": [
       {
         "name": "AddExplodeAntiAir",
-        "value": "33"
+        "value": "60"
       }
     ],
     "price": 15,
@@ -6714,7 +6736,7 @@
     "functions": [
       {
         "name": "AddExplodeAntiAir",
-        "value": "66"
+        "value": "120"
       }
     ],
     "price": 30,
@@ -6748,7 +6770,7 @@
     "functions": [
       {
         "name": "AddExplodeAntiAir",
-        "value": "100"
+        "value": "240"
       }
     ],
     "price": 50,
@@ -6832,7 +6854,7 @@
       },
       {
         "name": "Damage",
-        "value": "-25"
+        "value": "-20"
       }
     ],
     "price": 30,
@@ -7475,6 +7497,94 @@
   },
   {
     "index": 225,
+    "id": 2720,
+    "name": "Plasma penetration module 1",
+    "description": "Plasma Resistance of hit target <D0>%",
+    "weaponType": "Weapon",
+    "weaponSubTypes": [
+      "Plasma"
+    ],
+    "functions": [
+      {
+        "name": "ExploResisDown",
+        "value": "-12"
+      }
+    ],
+    "price": 45,
+    "day": "44",
+    "level": 1,
+    "modulesIds": [
+      "10044",
+      "10049",
+      "10080",
+      "10144",
+      "10149",
+      "10180",
+      "2711_2719"
+    ],
+    "materials": [
+      {
+        "id": 40001,
+        "count": 2
+      },
+      {
+        "id": 40003,
+        "count": 2
+      },
+      {
+        "id": 40010,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "index": 226,
+    "id": 2721,
+    "name": "Plasma penetration module 2",
+    "description": "Plasma Resistance of hit target <D0>%",
+    "weaponType": "Weapon",
+    "weaponSubTypes": [
+      "Plasma"
+    ],
+    "functions": [
+      {
+        "name": "ExploResisDown",
+        "value": "-20"
+      }
+    ],
+    "price": 80,
+    "day": "60",
+    "level": 2,
+    "modulesIds": [
+      "2711_2719"
+    ],
+    "materials": []
+  },
+  {
+    "index": 227,
+    "id": 2722,
+    "name": "Plasma penetration module 3",
+    "description": "Plasma Resistance of hit target <D0>%",
+    "weaponType": "Weapon",
+    "weaponSubTypes": [
+      "Plasma"
+    ],
+    "functions": [
+      {
+        "name": "ExploResisDown",
+        "value": "-35"
+      }
+    ],
+    "price": 150,
+    "day": "34",
+    "level": -1,
+    "modulesIds": [
+      "2711_2719"
+    ],
+    "materials": []
+  },
+  {
+    "index": 228,
     "id": 2200,
     "name": "Melee High Temperature Module",
     "description": "Melee weapons block bullets.",
@@ -7495,7 +7605,7 @@
     "materials": []
   },
   {
-    "index": 226,
+    "index": 229,
     "id": 2201,
     "name": "Melee Phase Module",
     "description": "Melee weapons bounce bullets， but increase attacking interval by <D1>%. Affects only melee weapons.",
@@ -7522,7 +7632,7 @@
     "materials": []
   },
   {
-    "index": 227,
+    "index": 230,
     "id": 2202,
     "name": "Melee Energy Module 1",
     "description": "Increases melee weapon attack by <D0>%.",
@@ -7533,7 +7643,7 @@
     "functions": [
       {
         "name": "AddSwordAttatck",
-        "value": "20"
+        "value": "15"
       }
     ],
     "price": 15,
@@ -7556,7 +7666,7 @@
     ]
   },
   {
-    "index": 228,
+    "index": 231,
     "id": 2203,
     "name": "Melee Energy Module 2",
     "description": "Increases melee weapon attack by <D0>%.",
@@ -7567,7 +7677,7 @@
     "functions": [
       {
         "name": "AddSwordAttatck",
-        "value": "30"
+        "value": "25"
       }
     ],
     "price": 35,
@@ -7579,7 +7689,7 @@
     "materials": []
   },
   {
-    "index": 229,
+    "index": 232,
     "id": 2204,
     "name": "Melee Energy Module 3",
     "description": "Increases melee weapon attack by <D0>%.",
@@ -7590,7 +7700,7 @@
     "functions": [
       {
         "name": "AddSwordAttatck",
-        "value": "50"
+        "value": "40"
       }
     ],
     "price": 75,
@@ -7602,7 +7712,7 @@
     "materials": []
   },
   {
-    "index": 230,
+    "index": 233,
     "id": 2205,
     "name": "Melee Sharpeness Module 1",
     "description": "Melee weapon sharpeness +<D0>%",
@@ -7636,7 +7746,7 @@
     ]
   },
   {
-    "index": 231,
+    "index": 234,
     "id": 2206,
     "name": "Melee Sharpeness Module 2",
     "description": "Melee weapon sharpeness +<D0>%",
@@ -7659,7 +7769,7 @@
     "materials": []
   },
   {
-    "index": 232,
+    "index": 235,
     "id": 2207,
     "name": "Melee Sharpeness Module 3",
     "description": "Melee weapon sharpeness +<D0>%",
@@ -7682,7 +7792,7 @@
     "materials": []
   },
   {
-    "index": 233,
+    "index": 236,
     "id": 2208,
     "name": "Iaido Chip",
     "description": "Charges toward the target when when hit a Combo atack",
@@ -7718,7 +7828,7 @@
     ]
   },
   {
-    "index": 234,
+    "index": 237,
     "id": 2209,
     "name": "Step-Back Chip",
     "description": "Steps away from the target when hit a Combo atack",
@@ -7754,7 +7864,7 @@
     ]
   },
   {
-    "index": 235,
+    "index": 238,
     "id": 2210,
     "name": "Whirlwind Chip",
     "description": "Spins at a high speed when hit a Combo atack",
@@ -7794,7 +7904,7 @@
     ]
   },
   {
-    "index": 236,
+    "index": 239,
     "id": 2211,
     "name": "Melee Reloading Module",
     "description": "Melee weapon attack interval <D0>%.",
@@ -7832,7 +7942,7 @@
     ]
   },
   {
-    "index": 237,
+    "index": 240,
     "id": 2212,
     "name": "Melee Reloading Module+",
     "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
@@ -7859,7 +7969,7 @@
     "materials": []
   },
   {
-    "index": 238,
+    "index": 241,
     "id": 2213,
     "name": "Advanced Melee Reloading Module",
     "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
@@ -7886,7 +7996,7 @@
     "materials": []
   },
   {
-    "index": 239,
+    "index": 242,
     "id": 2214,
     "name": "Standard Melee Reloading Module",
     "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
@@ -7913,7 +8023,7 @@
     "materials": []
   },
   {
-    "index": 240,
+    "index": 243,
     "id": 2215,
     "name": "Melee Fire Module",
     "description": "Melee attacks apply burning effects (the effect does not stack)， but increase attacking interval by <D1>%. Affects only melee weapons.",
@@ -7957,7 +8067,7 @@
     ]
   },
   {
-    "index": 241,
+    "index": 244,
     "id": 2216,
     "name": "Melee Frost Module",
     "description": "Melee attacks apply Cold effects but increase attacking interval by <D1>%. The effect does not stack. [Affects only melee weapons].",
@@ -8001,7 +8111,7 @@
     ]
   },
   {
-    "index": 242,
+    "index": 245,
     "id": 2217,
     "name": "Melee Electromagnetic Module",
     "description": "Melee attacks apply electromagnetic effects (the effect does not stack)， but increase attacking interval by <D1>%. Affects only melee weapons.",
@@ -8045,7 +8155,7 @@
     ]
   },
   {
-    "index": 243,
+    "index": 246,
     "id": 2218,
     "name": "Assassination Efficiency Module 1",
     "description": "Backstab efficiency +<D0>%",
@@ -8069,7 +8179,7 @@
     "materials": []
   },
   {
-    "index": 244,
+    "index": 247,
     "id": 2219,
     "name": "Assassination Efficiency Module 2",
     "description": "Backstab efficiency +<D0>%",
@@ -8093,7 +8203,7 @@
     "materials": []
   },
   {
-    "index": 245,
+    "index": 248,
     "id": 2220,
     "name": "Assassination Efficiency Module 3",
     "description": "Backstab efficiency +<D0>%",
@@ -8117,7 +8227,7 @@
     "materials": []
   },
   {
-    "index": 246,
+    "index": 249,
     "id": 2221,
     "name": "Assassination concealment module 1",
     "description": "Enemy's perceived distance from behind <D0>% (the perceived distance of the enemy when you approaching from behind)",
@@ -8141,7 +8251,7 @@
     "materials": []
   },
   {
-    "index": 247,
+    "index": 250,
     "id": 2222,
     "name": "Assassination concealment module 2",
     "description": "Enemy's perceived distance from behind <D0>% (the perceived distance of the enemy when you approaching from behind)",
@@ -8165,7 +8275,7 @@
     "materials": []
   },
   {
-    "index": 248,
+    "index": 251,
     "id": 2223,
     "name": "Assassination concealment module 3",
     "description": "Enemy's perceived distance from behind <D0>% (the perceived distance of the enemy when you approaching from behind)",
@@ -8189,7 +8299,7 @@
     "materials": []
   },
   {
-    "index": 249,
+    "index": 252,
     "id": 2224,
     "name": "Assassination width module 1",
     "description": "Backstab angle determination +<D0>°",
@@ -8213,7 +8323,7 @@
     "materials": []
   },
   {
-    "index": 250,
+    "index": 253,
     "id": 2225,
     "name": "Assassination width module 2",
     "description": "Backstab angle determination +<D0>°",
@@ -8237,7 +8347,7 @@
     "materials": []
   },
   {
-    "index": 251,
+    "index": 254,
     "id": 2226,
     "name": "Assassination width module 3",
     "description": "Backstab angle determination +<D0>°",
@@ -8261,7 +8371,1027 @@
     "materials": []
   },
   {
-    "index": 252,
+    "index": 255,
+    "id": 2227,
+    "name": "Flame blade 1",
+    "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddFire",
+        "value": "15"
+      }
+    ],
+    "price": 30,
+    "day": "20",
+    "level": 1,
+    "modulesIds": [
+      "10066_10074",
+      "2227_2235"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 3
+      },
+      {
+        "id": 40015,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 256,
+    "id": 2228,
+    "name": "Flame blade 2",
+    "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddFire",
+        "value": "25"
+      }
+    ],
+    "price": 60,
+    "day": "40",
+    "level": 2,
+    "modulesIds": [
+      "2227_2229"
+    ],
+    "materials": []
+  },
+  {
+    "index": 257,
+    "id": 2229,
+    "name": "Flame blade 3",
+    "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddFire",
+        "value": "45"
+      }
+    ],
+    "price": 120,
+    "day": "70",
+    "level": -1,
+    "modulesIds": [
+      "2227_2229"
+    ],
+    "materials": []
+  },
+  {
+    "index": 258,
+    "id": 2230,
+    "name": "Magnetic blade 1",
+    "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddElectric",
+        "value": "15"
+      }
+    ],
+    "price": 30,
+    "day": "20",
+    "level": 1,
+    "modulesIds": [
+      "10066_10074",
+      "2227_2235"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 3
+      },
+      {
+        "id": 40017,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 259,
+    "id": 2231,
+    "name": "Magnetic blade 2",
+    "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddElectric",
+        "value": "25"
+      }
+    ],
+    "price": 60,
+    "day": "40",
+    "level": 2,
+    "modulesIds": [
+      "2230_2232"
+    ],
+    "materials": []
+  },
+  {
+    "index": 260,
+    "id": 2232,
+    "name": "Magnetic blade 3",
+    "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddElectric",
+        "value": "45"
+      }
+    ],
+    "price": 120,
+    "day": "70",
+    "level": -1,
+    "modulesIds": [
+      "2230_2232"
+    ],
+    "materials": []
+  },
+  {
+    "index": 261,
+    "id": 2233,
+    "name": "Ice Blade 1",
+    "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddFreeze",
+        "value": "15"
+      }
+    ],
+    "price": 30,
+    "day": "20",
+    "level": 1,
+    "modulesIds": [
+      "10066_10074"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 3
+      },
+      {
+        "id": 40016,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 262,
+    "id": 2234,
+    "name": "Ice Blade 2",
+    "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddFreeze",
+        "value": "25"
+      }
+    ],
+    "price": 60,
+    "day": "40",
+    "level": 2,
+    "modulesIds": [
+      "2233_2235"
+    ],
+    "materials": []
+  },
+  {
+    "index": 263,
+    "id": 2235,
+    "name": "Ice Blade 3",
+    "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddFreeze",
+        "value": "45"
+      }
+    ],
+    "price": 120,
+    "day": "70",
+    "level": -1,
+    "modulesIds": [
+      "2233_2235"
+    ],
+    "materials": []
+  },
+  {
+    "index": 264,
+    "id": 2236,
+    "name": "High heat blade 1",
+    "description": "Applying Heat Rate +<D0>%\n(Time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddHeat",
+        "value": "25"
+      }
+    ],
+    "price": 40,
+    "day": "25",
+    "level": 1,
+    "modulesIds": [
+      "2200_2217",
+      "2227_2249",
+      "2391_2392"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 3
+      },
+      {
+        "id": 40015,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 265,
+    "id": 2237,
+    "name": "High heat blade 2",
+    "description": "Applying Heat Rate +<D0>%\n(Time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddHeat",
+        "value": "45"
+      }
+    ],
+    "price": 70,
+    "day": "50",
+    "level": -1,
+    "modulesIds": [
+      "2236"
+    ],
+    "materials": []
+  },
+  {
+    "index": 266,
+    "id": 2238,
+    "name": "Leakage blade 1",
+    "description": "Applying Greasy Rate +<D0>%\n(Time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddOil",
+        "value": "20"
+      }
+    ],
+    "price": 40,
+    "day": "25",
+    "level": 1,
+    "modulesIds": [
+      "2200_2217",
+      "2227_2249",
+      "2391_2392"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 3
+      },
+      {
+        "id": 40016,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "index": 267,
+    "id": 2239,
+    "name": "Leakage blade 2",
+    "description": "Applying Greasy Rate +<D0>%\n(Time is based on bullet damage)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddOil",
+        "value": "40"
+      }
+    ],
+    "price": 70,
+    "day": "50",
+    "level": -1,
+    "modulesIds": [
+      "2238"
+    ],
+    "materials": []
+  },
+  {
+    "index": 268,
+    "id": 2240,
+    "name": "Liquid He blade 1",
+    "description": "Cause an additional <D0>% Damage to units with melting armor.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "MeltDamage",
+        "value": "40"
+      }
+    ],
+    "price": 20,
+    "day": "25",
+    "level": 1,
+    "modulesIds": [
+      "2227_2229",
+      "2233_2235"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 3
+      },
+      {
+        "id": 40015,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 269,
+    "id": 2241,
+    "name": "Liquid He blade 2",
+    "description": "Cause an additional <D0>% Damage to units with melting armor.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "MeltDamage",
+        "value": "64"
+      }
+    ],
+    "price": 40,
+    "day": "35",
+    "level": 2,
+    "modulesIds": [
+      "2240_2244"
+    ],
+    "materials": []
+  },
+  {
+    "index": 270,
+    "id": 2242,
+    "name": "Liquid He blade 3",
+    "description": "Cause an additional <D0>% Damage to units with melting armor.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "MeltDamage",
+        "value": "100"
+      }
+    ],
+    "price": 70,
+    "day": "45",
+    "level": 3,
+    "modulesIds": [
+      "2240_2244"
+    ],
+    "materials": []
+  },
+  {
+    "index": 271,
+    "id": 2243,
+    "name": "Liquid He blade 4",
+    "description": "Cause an additional <D0>% Damage to units with melting armor.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "MeltDamage",
+        "value": "150"
+      }
+    ],
+    "price": 120,
+    "day": "55",
+    "level": 4,
+    "modulesIds": [
+      "2240_2244"
+    ],
+    "materials": []
+  },
+  {
+    "index": 272,
+    "id": 2244,
+    "name": "Liquid He blade 5",
+    "description": "Cause an additional <D0>% Damage to units with melting armor.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "MeltDamage",
+        "value": "240"
+      }
+    ],
+    "price": 200,
+    "day": "65",
+    "level": -1,
+    "modulesIds": [
+      "2240_2244"
+    ],
+    "materials": []
+  },
+  {
+    "index": 273,
+    "id": 2245,
+    "name": "Molten blade 1",
+    "description": "Cause an additional <D0>% Damage to units with Frozen.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "FrozenDamage",
+        "value": "25"
+      }
+    ],
+    "price": 20,
+    "day": "25",
+    "level": 1,
+    "modulesIds": [
+      "2233_2235",
+      "2238_2239",
+      "2391_2392"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 3
+      },
+      {
+        "id": 40016,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 274,
+    "id": 2246,
+    "name": "Molten blade 2",
+    "description": "Cause an additional <D0>% Damage to units with Frozen.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "FrozenDamage",
+        "value": "40"
+      }
+    ],
+    "price": 40,
+    "day": "35",
+    "level": 2,
+    "modulesIds": [
+      "2245_2249"
+    ],
+    "materials": []
+  },
+  {
+    "index": 275,
+    "id": 2247,
+    "name": "Molten blade 3",
+    "description": "Cause an additional <D0>% Damage to units with Frozen.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "FrozenDamage",
+        "value": "64"
+      }
+    ],
+    "price": 70,
+    "day": "45",
+    "level": 3,
+    "modulesIds": [
+      "2245_2249"
+    ],
+    "materials": []
+  },
+  {
+    "index": 276,
+    "id": 2248,
+    "name": "Molten blade 4",
+    "description": "Cause an additional <D0>% Damage to units with Frozen.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "FrozenDamage",
+        "value": "100"
+      }
+    ],
+    "price": 120,
+    "day": "55",
+    "level": 4,
+    "modulesIds": [
+      "2245_2249"
+    ],
+    "materials": []
+  },
+  {
+    "index": 277,
+    "id": 2249,
+    "name": "Molten blade 5",
+    "description": "Cause an additional <D0>% Damage to units with Frozen.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "FrozenDamage",
+        "value": "150"
+      }
+    ],
+    "price": 200,
+    "day": "65",
+    "level": -1,
+    "modulesIds": [
+      "2245_2249"
+    ],
+    "materials": []
+  },
+  {
+    "index": 278,
+    "id": 2391,
+    "name": "Wet blade 1",
+    "description": "Applying Wet Rate +<D0>%",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddWater",
+        "value": "30"
+      }
+    ],
+    "price": 30,
+    "day": "18",
+    "level": 1,
+    "modulesIds": [
+      "2200_2217",
+      "2227_2249",
+      "2391_2392"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 3
+      },
+      {
+        "id": 40016,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "index": 279,
+    "id": 2392,
+    "name": "Wet blade 2",
+    "description": "Applying Wet Rate +<D0>%",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddWater",
+        "value": "50"
+      }
+    ],
+    "price": 60,
+    "day": "40",
+    "level": -1,
+    "modulesIds": [
+      "2391"
+    ],
+    "materials": []
+  },
+  {
+    "index": 280,
+    "id": 2383,
+    "name": "Close combat crit Module",
+    "description": "Increases crit rate by <D0>.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "CriticPossibility",
+        "value": "4"
+      }
+    ],
+    "price": 15,
+    "day": "25",
+    "level": 1,
+    "modulesIds": [
+      "10066_10074",
+      "2383_2390"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "index": 281,
+    "id": 2384,
+    "name": "Close combat crit Module+",
+    "description": "Increases crit rate by <D0>.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "CriticPossibility",
+        "value": "7"
+      }
+    ],
+    "price": 30,
+    "day": "40",
+    "level": 2,
+    "modulesIds": [
+      "2382_2386"
+    ],
+    "materials": []
+  },
+  {
+    "index": 282,
+    "id": 2385,
+    "name": "Close combat advanced crit Module",
+    "description": "Increases crit rate by <D0>.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "CriticPossibility",
+        "value": "12"
+      }
+    ],
+    "price": 60,
+    "day": "60",
+    "level": 3,
+    "modulesIds": [
+      "2382_2386"
+    ],
+    "materials": []
+  },
+  {
+    "index": 283,
+    "id": 2386,
+    "name": "Close combat standard crit Module",
+    "description": "Increases crit rate by <D0>.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "CriticPossibility",
+        "value": "18"
+      }
+    ],
+    "price": 100,
+    "day": "70",
+    "level": -1,
+    "modulesIds": [
+      "2382_2386"
+    ],
+    "materials": []
+  },
+  {
+    "index": 284,
+    "id": 2387,
+    "name": "Close combat crit damage Module",
+    "description": "Increases crit damage by <D0>%.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "CriticDamage",
+        "value": "25"
+      }
+    ],
+    "price": 15,
+    "day": "25",
+    "level": 1,
+    "modulesIds": [
+      "10066_10074",
+      "2383_2390"
+    ],
+    "materials": [
+      {
+        "id": 40029,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "index": 285,
+    "id": 2388,
+    "name": "Close combat crit damage Module+",
+    "description": "Increases crit damage by <D0>%.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "CriticDamage",
+        "value": "45"
+      }
+    ],
+    "price": 30,
+    "day": "40",
+    "level": 2,
+    "modulesIds": [
+      "2387_2390"
+    ],
+    "materials": []
+  },
+  {
+    "index": 286,
+    "id": 2389,
+    "name": "Close combat advanced crit damage Module",
+    "description": "Increases crit damage by <D0>%.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "CriticDamage",
+        "value": "80"
+      }
+    ],
+    "price": 60,
+    "day": "60",
+    "level": 3,
+    "modulesIds": [
+      "2387_2390"
+    ],
+    "materials": []
+  },
+  {
+    "index": 287,
+    "id": 2390,
+    "name": "Close combat standard crit damage Module",
+    "description": "Increases crit damage by <D0>%.",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "CriticDamage",
+        "value": "135"
+      }
+    ],
+    "price": 100,
+    "day": "70",
+    "level": -1,
+    "modulesIds": [
+      "2387_2390"
+    ],
+    "materials": []
+  },
+  {
+    "index": 288,
+    "id": 2393,
+    "name": "Assassination Efficiency Module α 1",
+    "description": "Assassination damage +<D0>%",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "Dagger"
+    ],
+    "functions": [
+      {
+        "name": "HideAssassinDamagePlus",
+        "value": "30"
+      }
+    ],
+    "price": 45,
+    "day": "1",
+    "level": 1,
+    "modulesIds": [
+      "10265",
+      "2393_2398"
+    ],
+    "materials": [
+      {
+        "id": 40002,
+        "count": 3
+      },
+      {
+        "id": 40027,
+        "count": 6
+      },
+      {
+        "id": 40029,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "index": 289,
+    "id": 2394,
+    "name": "Assassination Efficiency Module α 2",
+    "description": "Assassination damage +<D0>%",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "Dagger"
+    ],
+    "functions": [
+      {
+        "name": "HideAssassinDamagePlus",
+        "value": "50"
+      }
+    ],
+    "price": 80,
+    "day": "8",
+    "level": 2,
+    "modulesIds": [
+      "2393_2398"
+    ],
+    "materials": []
+  },
+  {
+    "index": 290,
+    "id": 2395,
+    "name": "Assassination Efficiency Module α 3",
+    "description": "Assassination damage +<D0>%",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "Dagger"
+    ],
+    "functions": [
+      {
+        "name": "HideAssassinDamagePlus",
+        "value": "80"
+      }
+    ],
+    "price": 150,
+    "day": "15",
+    "level": -1,
+    "modulesIds": [
+      "2393_2398"
+    ],
+    "materials": []
+  },
+  {
+    "index": 291,
+    "id": 2396,
+    "name": "Assassination Blinding Module 1",
+    "description": "The probability of stun caused by assassination is increased by <D0>%\n (stun effect can be effective with this attack)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "Dagger"
+    ],
+    "functions": [
+      {
+        "name": "HideAssassinStunPlus",
+        "value": "2"
+      }
+    ],
+    "price": 45,
+    "day": "3",
+    "level": 1,
+    "modulesIds": [
+      "10265",
+      "2393_2398"
+    ],
+    "materials": [
+      {
+        "id": 40002,
+        "count": 3
+      },
+      {
+        "id": 40026,
+        "count": 6
+      },
+      {
+        "id": 40029,
+        "count": 6
+      }
+    ]
+  },
+  {
+    "index": 292,
+    "id": 2397,
+    "name": "Assassination Blinding Module 2",
+    "description": "The probability of stun caused by assassination is increased by <D0>%\n (stun effect can be effective with this attack)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "Dagger"
+    ],
+    "functions": [
+      {
+        "name": "HideAssassinStunPlus",
+        "value": "3"
+      }
+    ],
+    "price": 80,
+    "day": "8",
+    "level": 2,
+    "modulesIds": [
+      "2393_2398"
+    ],
+    "materials": []
+  },
+  {
+    "index": 293,
+    "id": 2398,
+    "name": "Prototype rotating Shaft Module",
+    "description": "Increases turret rotational speed by <D0>%.\n(neglects punishment only)",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "Dagger"
+    ],
+    "functions": [
+      {
+        "name": "HideAssassinStunPlus",
+        "value": "5"
+      }
+    ],
+    "price": 150,
+    "day": "15",
+    "level": -1,
+    "modulesIds": [
+      "2393_2398"
+    ],
+    "materials": []
+  },
+  {
+    "index": 294,
     "id": 1401,
     "name": "SMW Magazine 1",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -8301,7 +9431,7 @@
     ]
   },
   {
-    "index": 253,
+    "index": 295,
     "id": 1402,
     "name": "SMW Magazine 2",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -8324,7 +9454,7 @@
     "materials": []
   },
   {
-    "index": 254,
+    "index": 296,
     "id": 1403,
     "name": "SMW Magazine 3",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -8347,7 +9477,7 @@
     "materials": []
   },
   {
-    "index": 255,
+    "index": 297,
     "id": 1404,
     "name": "SMW torque",
     "description": "Shoulder mount weapon weight reduction\nMovement speed: <D0>%; Rotational speed: <D1>%",
@@ -8387,7 +9517,7 @@
     ]
   },
   {
-    "index": 256,
+    "index": 298,
     "id": 1405,
     "name": "SMW torque+",
     "description": "Shoulder mount weapon weight reduction\nMovement speed: <D0>%; Rotational speed: <D1>%",
@@ -8414,7 +9544,7 @@
     "materials": []
   },
   {
-    "index": 257,
+    "index": 299,
     "id": 1406,
     "name": "SMW Explosion Damage Module 1",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
@@ -8450,7 +9580,7 @@
     ]
   },
   {
-    "index": 258,
+    "index": 300,
     "id": 1407,
     "name": "SMW Explosion Damage Module 2",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
@@ -8473,7 +9603,7 @@
     "materials": []
   },
   {
-    "index": 259,
+    "index": 301,
     "id": 1408,
     "name": "SMW Explosion Damage Module 3",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
@@ -8496,7 +9626,7 @@
     "materials": []
   },
   {
-    "index": 260,
+    "index": 302,
     "id": 1409,
     "name": "SMW Explosion Damage Module 4",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
@@ -8519,7 +9649,7 @@
     "materials": []
   },
   {
-    "index": 261,
+    "index": 303,
     "id": 1410,
     "name": "SMW Explosion Damage Module 5",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
@@ -8542,7 +9672,7 @@
     "materials": []
   },
   {
-    "index": 262,
+    "index": 304,
     "id": 1411,
     "name": "SMW Blasting penetration module 1",
     "description": "Explosive Resistance of hit target by Shoulder mount weapon <D0>%",
@@ -8578,7 +9708,7 @@
     ]
   },
   {
-    "index": 263,
+    "index": 305,
     "id": 1412,
     "name": "SMW Blasting penetration module 2",
     "description": "Explosive Resistance of hit target by Shoulder mount weapon <D0>%",
@@ -8601,7 +9731,7 @@
     "materials": []
   },
   {
-    "index": 264,
+    "index": 306,
     "id": 1413,
     "name": "SMW Blasting penetration module 3",
     "description": "Explosive Resistance of hit target by Shoulder mount weapon <D0>%",
@@ -8624,7 +9754,7 @@
     "materials": []
   },
   {
-    "index": 265,
+    "index": 307,
     "id": 1414,
     "name": "SMW ArP Module 1",
     "description": "Increases the Shoulder mount weapon armor penetration by <D0>%",
@@ -8665,7 +9795,7 @@
     ]
   },
   {
-    "index": 266,
+    "index": 308,
     "id": 1415,
     "name": "SMW ArP Module 2",
     "description": "Increases the Shoulder mount weapon armor penetration by <D0>%",
@@ -8689,7 +9819,7 @@
     "materials": []
   },
   {
-    "index": 267,
+    "index": 309,
     "id": 1416,
     "name": "SMW ArP Module 3",
     "description": "Increases the Shoulder mount weapon armor penetration by <D0>%",
@@ -8713,7 +9843,7 @@
     "materials": []
   },
   {
-    "index": 268,
+    "index": 310,
     "id": 1417,
     "name": "SMW ArP Module 4",
     "description": "Increases the Shoulder mount weapon armor penetration by <D0>%",
@@ -8737,7 +9867,7 @@
     "materials": []
   },
   {
-    "index": 269,
+    "index": 311,
     "id": 1418,
     "name": "SMW ArP Module 5",
     "description": "Increases the Shoulder mount weapon armor penetration by <D0>%",
@@ -8761,7 +9891,7 @@
     "materials": []
   },
   {
-    "index": 270,
+    "index": 312,
     "id": 1419,
     "name": "SMW Salvo Module 1",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\nfiring interval<D1>%",
@@ -8809,7 +9939,7 @@
     ]
   },
   {
-    "index": 271,
+    "index": 313,
     "id": 1420,
     "name": "SMW Salvo Module 2",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\nfiring interval<D1>%",
@@ -8840,7 +9970,7 @@
     "materials": []
   },
   {
-    "index": 272,
+    "index": 314,
     "id": 1421,
     "name": "SMW Salvo Module 3",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\nfiring interval<D1>%",
@@ -8871,7 +10001,7 @@
     "materials": []
   },
   {
-    "index": 273,
+    "index": 315,
     "id": 1422,
     "name": "SMW Salvo Module 4",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%\nfiring interval<D1>%",
@@ -8902,7 +10032,7 @@
     "materials": []
   },
   {
-    "index": 274,
+    "index": 316,
     "id": 1423,
     "name": "EMP amplification module",
     "description": "Increase EMP range by <D0>%",
@@ -8943,7 +10073,7 @@
     ]
   },
   {
-    "index": 275,
+    "index": 317,
     "id": 1424,
     "name": "EMP amplification module+",
     "description": "Increase EMP range by <D0>%",
@@ -8967,7 +10097,7 @@
     "materials": []
   },
   {
-    "index": 276,
+    "index": 318,
     "id": 1425,
     "name": "EMP combustion module",
     "description": "EMP will have additional Burn effects",
@@ -9004,7 +10134,7 @@
     ]
   },
   {
-    "index": 277,
+    "index": 319,
     "id": 1426,
     "name": "EMP Ice Module",
     "description": "EMP will have additional Cold effects",
@@ -9041,7 +10171,7 @@
     ]
   },
   {
-    "index": 278,
+    "index": 320,
     "id": 1427,
     "name": "SMW Magnetic Flux Amplifier 1",
     "description": "Increases ray damage by <D0>%.",
@@ -9081,7 +10211,7 @@
     ]
   },
   {
-    "index": 279,
+    "index": 321,
     "id": 1428,
     "name": "SMW Magnetic Flux Amplifier 2",
     "description": "Increases ray damage by <D0>%.",
@@ -9104,7 +10234,7 @@
     "materials": []
   },
   {
-    "index": 280,
+    "index": 322,
     "id": 1429,
     "name": "SMW Magnetic Flux Amplifier 3",
     "description": "Increases ray damage by <D0>%.",
@@ -9127,7 +10257,7 @@
     "materials": []
   },
   {
-    "index": 281,
+    "index": 323,
     "id": 1430,
     "name": "SMW Magnetic Flux Amplifier 4",
     "description": "Increases ray damage by <D0>%.",
@@ -9147,6 +10277,27 @@
     "modulesIds": [
       "1260_1261"
     ],
+    "materials": []
+  },
+  {
+    "index": 324,
+    "id": 2841,
+    "name": "Burning blade 1",
+    "description": "",
+    "weaponType": "Close",
+    "weaponSubTypes": [
+      "All"
+    ],
+    "functions": [
+      {
+        "name": "AddFire",
+        "value": "100"
+      }
+    ],
+    "price": 150,
+    "day": "999",
+    "level": -2,
+    "modulesIds": [],
     "materials": []
   }
 ]
