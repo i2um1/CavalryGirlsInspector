@@ -7895,7 +7895,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -7931,7 +7931,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -7967,7 +7967,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8003,7 +8003,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8039,7 +8039,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8075,7 +8075,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8111,7 +8111,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8147,7 +8147,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8183,7 +8183,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8219,7 +8219,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8253,7 +8253,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8287,7 +8287,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8321,7 +8321,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8357,7 +8357,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8393,7 +8393,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8429,7 +8429,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8465,7 +8465,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8501,7 +8501,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8535,7 +8535,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8569,7 +8569,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -8603,7 +8603,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -9059,7 +9059,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -9099,7 +9099,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -9139,7 +9139,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -9179,7 +9179,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -9219,7 +9219,7 @@
     "baseWeapons": [
       {
         "type": "Include",
-        "value": "CloseIn"
+        "value": "SingleHand"
       }
     ],
     "fusionWeapons": [
@@ -9318,6 +9318,28 @@
   },
   {
     "index": 233,
+    "id": 2841,
+    "name": "Burning blade 1",
+    "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)",
+    "tag": "CantDemo|CantGen",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddFire",
+        "value": "100"
+      }
+    ],
+    "price": 150,
+    "day": "999",
+    "level": -2,
+    "family": [
+      2841
+    ],
+    "baseWeapons": [],
+    "fusionWeapons": []
+  },
+  {
+    "index": 234,
     "id": 2842,
     "name": "Burst Element Core",
     "description": "When exploding， it has a <D0>% rate to trigger Random Elemental Effects.",
@@ -9339,7 +9361,7 @@
     "fusionWeapons": []
   },
   {
-    "index": 234,
+    "index": 235,
     "id": 1451,
     "name": "SMW Explo Element core",
     "description": "Explosion by Shoulder mount weapon will cause random element effect， probability:<D0>%",
@@ -9372,7 +9394,7 @@
     ]
   },
   {
-    "index": 235,
+    "index": 236,
     "id": 1452,
     "name": "SMW Explo Element core +",
     "description": "Explosion by Shoulder mount weapon will cause random element effect， probability:<D0>%",
@@ -9405,7 +9427,7 @@
     ]
   },
   {
-    "index": 236,
+    "index": 237,
     "id": 1453,
     "name": "SMW Kinetic Element core",
     "description": "Hit by Shoulder mount weapon will cause random element effect， probability:<D0>%",
@@ -9438,7 +9460,7 @@
     ]
   },
   {
-    "index": 237,
+    "index": 238,
     "id": 1454,
     "name": "SMW Kinetic Element core +",
     "description": "Hit by Shoulder mount weapon will cause random element effect， probability:<D0>%",
@@ -9471,7 +9493,7 @@
     ]
   },
   {
-    "index": 238,
+    "index": 239,
     "id": 1455,
     "name": "SMW Magazine core1",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -9505,7 +9527,7 @@
     ]
   },
   {
-    "index": 239,
+    "index": 240,
     "id": 1456,
     "name": "SMW Magazine core2",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -9539,7 +9561,7 @@
     ]
   },
   {
-    "index": 240,
+    "index": 241,
     "id": 1457,
     "name": "SMW Magazine core3",
     "description": "Cooldown of Shoulder mount weapon <D0>",
@@ -9573,7 +9595,7 @@
     ]
   },
   {
-    "index": 241,
+    "index": 242,
     "id": 1458,
     "name": "EMP amplification core",
     "description": "Increase EMP range by <D0>%",
@@ -9606,7 +9628,7 @@
     ]
   },
   {
-    "index": 242,
+    "index": 243,
     "id": 1459,
     "name": "EMP amplification core+",
     "description": "Increase EMP range by <D0>%",
@@ -9639,7 +9661,7 @@
     ]
   },
   {
-    "index": 243,
+    "index": 244,
     "id": 1460,
     "name": "Tracking core",
     "description": "Add a small amount of tracking effect to bullets",
@@ -9679,7 +9701,7 @@
     ]
   },
   {
-    "index": 244,
+    "index": 245,
     "id": 1461,
     "name": "Tracking amplification core",
     "description": "Bullet tracking effect becomes stronger",
@@ -9711,7 +9733,7 @@
     ]
   },
   {
-    "index": 245,
+    "index": 246,
     "id": 1462,
     "name": "SMW Salvo core 1",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
@@ -9753,7 +9775,7 @@
     ]
   },
   {
-    "index": 246,
+    "index": 247,
     "id": 1463,
     "name": "SMW Salvo core 2",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
@@ -9795,7 +9817,7 @@
     ]
   },
   {
-    "index": 247,
+    "index": 248,
     "id": 1464,
     "name": "SMW Salvo core 3",
     "description": "Total number of rounds fired by Shoulder mount weapon +<D0>%",
@@ -9837,7 +9859,7 @@
     ]
   },
   {
-    "index": 248,
+    "index": 249,
     "id": 1465,
     "name": "SMW Kinetic Explo core",
     "description": "Increases bullet explosion rate of Shoulder mount weapon by <D0>%.",
@@ -9870,7 +9892,7 @@
     ]
   },
   {
-    "index": 249,
+    "index": 250,
     "id": 1466,
     "name": "SMW Kinetic Explo core",
     "description": "Increases bullet explosion rate of Shoulder mount weapon by <D0>%.",
@@ -9903,7 +9925,7 @@
     ]
   },
   {
-    "index": 250,
+    "index": 251,
     "id": 1467,
     "name": "SMW Explosion Damage core",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
@@ -9936,7 +9958,7 @@
     ]
   },
   {
-    "index": 251,
+    "index": 252,
     "id": 1468,
     "name": "SMW Explosion Damage core+",
     "description": "Increases explosion damage of Shoulder mount weapon by <D0>%",
@@ -9965,6 +9987,234 @@
       {
         "type": "Include",
         "value": "Explosive"
+      }
+    ]
+  },
+  {
+    "index": 253,
+    "id": 2843,
+    "name": "Melee Energy Core 1",
+    "description": "Increases melee weapon attack by <D0>%.",
+    "tag": "SingleHand",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordAttatck",
+        "value": "10"
+      }
+    ],
+    "price": 40,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2843,
+      2833,
+      2845
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "DoubleWeapon"
+      },
+      {
+        "type": "Exclude",
+        "value": "SingleHand"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  {
+    "index": 254,
+    "id": 2844,
+    "name": "Melee Energy Core 2",
+    "description": "Increases melee weapon attack by <D0>%.",
+    "tag": "SingleHand",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordAttatck",
+        "value": "25"
+      }
+    ],
+    "price": 80,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2843,
+      2833,
+      2845
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "DoubleWeapon"
+      },
+      {
+        "type": "Exclude",
+        "value": "SingleHand"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  {
+    "index": 255,
+    "id": 2845,
+    "name": "Melee Energy Core 3",
+    "description": "Increases melee weapon attack by <D0>%.",
+    "tag": "SingleHand",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordAttatck",
+        "value": "50"
+      }
+    ],
+    "price": 150,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2843,
+      2833,
+      2845
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "DoubleWeapon"
+      },
+      {
+        "type": "Exclude",
+        "value": "SingleHand"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  {
+    "index": 256,
+    "id": 2846,
+    "name": "Melee Sharpeness Core 1",
+    "description": "Melee weapon sharpeness +<D0>",
+    "tag": "SingleHand",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordSharpenValue",
+        "value": "9"
+      }
+    ],
+    "price": 20,
+    "day": "999",
+    "level": 1,
+    "family": [
+      2846,
+      2847,
+      2848
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "DoubleWeapon"
+      },
+      {
+        "type": "Exclude",
+        "value": "SingleHand"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  {
+    "index": 257,
+    "id": 2847,
+    "name": "Melee Sharpeness Core 2",
+    "description": "Melee weapon sharpeness +<D0>",
+    "tag": "SingleHand",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordSharpenValue",
+        "value": "15"
+      }
+    ],
+    "price": 60,
+    "day": "999",
+    "level": 2,
+    "family": [
+      2846,
+      2847,
+      2848
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "DoubleWeapon"
+      },
+      {
+        "type": "Exclude",
+        "value": "SingleHand"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
+      }
+    ]
+  },
+  {
+    "index": 258,
+    "id": 2848,
+    "name": "Melee Sharpeness Core 3",
+    "description": "Melee weapon sharpeness +<D0>",
+    "tag": "SingleHand",
+    "weaponType": "Close",
+    "functions": [
+      {
+        "name": "AddSwordSharpenValue",
+        "value": "25"
+      }
+    ],
+    "price": 100,
+    "day": "999",
+    "level": -1,
+    "family": [
+      2846,
+      2847,
+      2848
+    ],
+    "baseWeapons": [
+      {
+        "type": "Include",
+        "value": "DoubleWeapon"
+      },
+      {
+        "type": "Exclude",
+        "value": "SingleHand"
+      }
+    ],
+    "fusionWeapons": [
+      {
+        "type": "Include",
+        "value": "CloseIn"
       }
     ]
   }

@@ -74,6 +74,8 @@
         'Spear': 'Spear',
         'Dagger': 'Dagger',
         'Shield': 'Shield',
+        'SingleHand': 'One handed',
+        'DoubleWeapon': 'Force both hands',
 
         'Rocket': 'Rocket Weapon',
         'EMP': 'EMP',

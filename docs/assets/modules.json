@@ -3831,7 +3831,7 @@
     "description": "Melee weapons damage to buildings +<D0>%",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -3871,7 +3871,7 @@
     "description": "Melee weapons damage to buildings +<D0>%",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -3894,7 +3894,7 @@
     "description": "Melee weapons damage to buildings +<D0>%",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -6796,7 +6796,7 @@
     "index": 203,
     "id": 2381,
     "name": "Anti-air chip",
-    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）\nDamage <D0>%，",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）\nDamage <D1>%，",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Kinetic"
@@ -6842,7 +6842,7 @@
     "index": 204,
     "id": 2382,
     "name": "Airburst mode chip",
-    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）\nDamage <D0>%，",
+    "description": "Weapon Anti-air +<D0>%\n（Damage possibility to flight units）\nDamage <D1>%，",
     "weaponType": "Weapon",
     "weaponSubTypes": [
       "Explosive"
@@ -7638,7 +7638,7 @@
     "description": "Increases melee weapon attack by <D0>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7672,7 +7672,7 @@
     "description": "Increases melee weapon attack by <D0>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7695,7 +7695,7 @@
     "description": "Increases melee weapon attack by <D0>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7718,7 +7718,7 @@
     "description": "Melee weapon sharpeness +<D0>%",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7752,7 +7752,7 @@
     "description": "Melee weapon sharpeness +<D0>%",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7775,7 +7775,7 @@
     "description": "Melee weapon sharpeness +<D0>%",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7798,7 +7798,7 @@
     "description": "Charges toward the target when when hit a Combo atack",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7834,7 +7834,7 @@
     "description": "Steps away from the target when hit a Combo atack",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7870,7 +7870,7 @@
     "description": "Spins at a high speed when hit a Combo atack",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7910,7 +7910,7 @@
     "description": "Melee weapon attack interval <D0>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7948,7 +7948,7 @@
     "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -7975,7 +7975,7 @@
     "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -8002,7 +8002,7 @@
     "description": "Melee weapon attack interval <D0>%.\nIncreases wear rate by <D1>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -8029,7 +8029,7 @@
     "description": "Melee attacks apply burning effects (the effect does not stack)， but increase attacking interval by <D1>%. Affects only melee weapons.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -8073,7 +8073,7 @@
     "description": "Melee attacks apply Cold effects but increase attacking interval by <D1>%. The effect does not stack. [Affects only melee weapons].",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -8117,7 +8117,7 @@
     "description": "Melee attacks apply electromagnetic effects (the effect does not stack)， but increase attacking interval by <D1>%. Affects only melee weapons.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "SingleHand"
     ],
     "functions": [
       {
@@ -8377,7 +8377,7 @@
     "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -8410,7 +8410,7 @@
     "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -8433,7 +8433,7 @@
     "description": "Increases burning damage rate by <D0>%.\n(burning time is based on bullet damage)",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -8456,7 +8456,7 @@
     "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -8489,7 +8489,7 @@
     "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -8512,7 +8512,7 @@
     "description": "Increases Paralysis damage rate by <D0>%.\n(paralyzing time is based on bullet damage)",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -8535,7 +8535,7 @@
     "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -8567,7 +8567,7 @@
     "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -8590,7 +8590,7 @@
     "description": "Increases Cold damage rate by <D0>%.\n(freezing time is based on bullet damage )",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9035,7 +9035,7 @@
     "description": "Increases crit rate by <D0>.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9064,7 +9064,7 @@
     "description": "Increases crit rate by <D0>.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9087,7 +9087,7 @@
     "description": "Increases crit rate by <D0>.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9110,7 +9110,7 @@
     "description": "Increases crit rate by <D0>.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9133,7 +9133,7 @@
     "description": "Increases crit damage by <D0>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9162,7 +9162,7 @@
     "description": "Increases crit damage by <D0>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9185,7 +9185,7 @@
     "description": "Increases crit damage by <D0>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9208,7 +9208,7 @@
     "description": "Increases crit damage by <D0>%.",
     "weaponType": "Close",
     "weaponSubTypes": [
-      "All"
+      "DoubleWeapon"
     ],
     "functions": [
       {
@@ -9370,8 +9370,8 @@
   {
     "index": 293,
     "id": 2398,
-    "name": "Prototype rotating Shaft Module",
-    "description": "Increases turret rotational speed by <D0>%.\n(neglects punishment only)",
+    "name": "Assassination Blinding Module 3",
+    "description": "The probability of stun caused by assassination is increased by <D0>%\n (stun effect can be effective with this attack)",
     "weaponType": "Close",
     "weaponSubTypes": [
       "Dagger"
@@ -10277,27 +10277,6 @@
     "modulesIds": [
       "1260_1261"
     ],
-    "materials": []
-  },
-  {
-    "index": 324,
-    "id": 2841,
-    "name": "Burning blade 1",
-    "description": "",
-    "weaponType": "Close",
-    "weaponSubTypes": [
-      "All"
-    ],
-    "functions": [
-      {
-        "name": "AddFire",
-        "value": "100"
-      }
-    ],
-    "price": 150,
-    "day": "999",
-    "level": -2,
-    "modulesIds": [],
     "materials": []
   }
 ]

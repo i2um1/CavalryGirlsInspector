@@ -24,6 +24,8 @@ public enum WeaponSubType
     Spear,
     Dagger,
     Shield,
+    SingleHand,
+    DoubleWeapon,
 
     Rocket,
     EMP,

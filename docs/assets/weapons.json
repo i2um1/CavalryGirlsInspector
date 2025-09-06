@@ -5748,7 +5748,7 @@
     "family": [
       10217,
       10230,
-      20244
+      10244
     ],
     "weaponIds": [
       "10128",
@@ -7286,7 +7286,7 @@
         "value": "-135"
       }
     ],
-    "price": 900,
+    "price": 1100,
     "day": "0",
     "level": -2,
     "family": [
@@ -7722,7 +7722,7 @@
         "value": "-160"
       }
     ],
-    "price": 1500,
+    "price": 2400,
     "day": "0",
     "level": -2,
     "family": [],
@@ -7770,7 +7770,7 @@
         "value": "-120"
       }
     ],
-    "price": 900,
+    "price": 1200,
     "day": "0",
     "level": -2,
     "family": [
@@ -7786,11 +7786,11 @@
       },
       {
         "id": 10132,
-        "count": 1
+        "count": 2
       },
       {
         "id": 10131,
-        "count": 1
+        "count": 2
       },
       {
         "id": 40032,
@@ -7858,7 +7858,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Boxing"
+      "Boxing",
+      "SingleHand"
     ],
     "bulletId": "50",
     "functions": [
@@ -7893,7 +7894,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Boxing"
+      "Boxing",
+      "SingleHand"
     ],
     "bulletId": "51",
     "functions": [
@@ -7941,7 +7943,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Sword"
+      "Sword",
+      "SingleHand"
     ],
     "bulletId": "52",
     "functions": [
@@ -7990,7 +7993,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Sword"
+      "Sword",
+      "SingleHand"
     ],
     "bulletId": "53",
     "functions": [
@@ -8041,7 +8045,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Axe"
+      "Axe",
+      "SingleHand"
     ],
     "bulletId": "54",
     "functions": [
@@ -8092,7 +8097,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Axe"
+      "Axe",
+      "SingleHand"
     ],
     "bulletId": "55",
     "functions": [
@@ -8153,7 +8159,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Spear"
+      "Spear",
+      "SingleHand"
     ],
     "bulletId": "56",
     "functions": [
@@ -8203,7 +8210,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Spear"
+      "Spear",
+      "SingleHand"
     ],
     "bulletId": "57",
     "functions": [
@@ -8260,7 +8268,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Spear"
+      "Spear",
+      "SingleHand"
     ],
     "bulletId": "58",
     "functions": [
@@ -8316,7 +8325,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "SingleHand"
     ],
     "bulletId": "59",
     "functions": [
@@ -8352,7 +8362,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "Shield"
+      "Shield",
+      "SingleHand"
     ],
     "bulletId": "63",
     "functions": [
@@ -8402,7 +8413,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Dagger"
+      "Dagger",
+      "SingleHand"
     ],
     "bulletId": "65",
     "functions": [
@@ -8434,11 +8446,12 @@
     "index": 189,
     "id": 10066,
     "name": "Dragoon Morphblade",
-    "description": "Difficulty: ※※※※※\nA weapon that can switch between Sword Mode and Spear Mode. Sword Mode has fewer openings， while Spear Mode offers greater attack power. Switching forms requires the 'Morph Slash' move， which can be chained from the ending frames of any action except another Morph Slash.\n<b>Sword Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick triple slash. Holding the forward movement key during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Block</u> incoming attacks from the front， consuming stamina. After a successful block， you can follow up with a powerful Pursuit Slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Slash， switching to Spear Mode after use. On the third hit of a combo or after a successful parry， it will trigger a high-powered Morph Slash; in other cases， it will perform a standard Morph Slash with directional movement.\n<b>Spear Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-powered combo. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Whirlwind Slash. Hold right-click to maintain the whirlwind motion， consuming stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Spinning Thrust， switching to Sword Mode after use. Grants a brief <u>dodge</u> window at the start， consuming stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※※\nA weapon that can switch between Sword Mode and Spear Mode. Sword Mode has fewer openings， while Spear Mode offers greater attack power. Switching forms requires the 'Morph Slash' move， which can be chained from the ending frames of any action except another Morph Slash.\n<b>Sword Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick triple slash. Holding the forward movement key during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Block</u> incoming attacks from the front， consuming stamina. After a successful block， you can follow up with a powerful Pursuit Slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Slash， switching to Spear Mode after use. On the third hit of a combo or after a successful parry， it will trigger a high-powered Morph Slash; in other cases， it will perform a standard Morph Slash with directional movement.\n<b>Spear Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-powered combo. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Whirlwind Slash. Hold right-click to maintain the whirlwind motion， consuming stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Spinning Thrust， switching to Sword Mode after use. Grants a brief <u>dodge</u> window at the start， consuming stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "66",
     "functions": [
@@ -8482,11 +8495,12 @@
     "index": 190,
     "id": 10067,
     "name": "Dragoon Greatsword",
-    "description": "Difficulty: ※※※※\nA weapon capable of dealing massive damage through charged strikes， boasting the highest single-hit power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Grants a brief <u>Block</u> window at the start of the animation， consuming stamina. Between Charge Slashes， clicking <sprite name='mouseR' color=#FFFFFF> allows you to retain your attack segment.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Chain into a Segment 3 Charge Slash.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash with good tracking.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※\nA weapon capable of dealing massive damage through charged strikes， boasting the highest single-hit power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Grants a brief <u>Block</u> window at the start of the animation， consuming stamina. Between Charge Slashes， clicking <sprite name='mouseR' color=#FFFFFF> allows you to retain your attack segment.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Chain into a Segment 3 Charge Slash.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash with good tracking.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "67",
     "functions": [
@@ -8531,11 +8545,12 @@
     "index": 191,
     "id": 10068,
     "name": "Dragoon Sword & Shield",
-    "description": "Difficulty: ※※※\nA simple and agile weapon with good tracking and speed， capable of following up with high-damage strikes after a successful block.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick triple slash. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Perfect Defense can be triggered by defending at the exact moment the shield is raised， consuming no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> incoming attacks from the front， consuming stamina. The <u>block</u> window takes a brief moment to activate.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Pursuit Thrust.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Quick Thrust with good tracking.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nA simple and agile weapon with good tracking and speed， capable of following up with high-damage strikes after a successful block.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick triple slash. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Perfect Defense can be triggered by defending at the exact moment the shield is raised， consuming no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> incoming attacks from the front， consuming stamina. The <u>block</u> window takes a brief moment to activate.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Pursuit Thrust.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Quick Thrust with good tracking.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "68",
     "functions": [
@@ -8579,11 +8594,12 @@
     "index": 192,
     "id": 10069,
     "name": "Dragoon Twinblades",
-    "description": "Difficulty: ※※\nA nimble weapon capable of dealing multiple hits in a short time， ideal for inflicting abnormal states.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a rapid combo. Holding forward or backward during the final strike moves you in that direction.\n<sprite name='mouseR' color=#FFFFFF> (hold): Briefly charge before unleashing a rapid forward combo， continuously consuming stamina. Hold right-click to maintain the attack until stamina is depleted. Grants minor <u>Super Armor</u> during the attack and can <u>dodge</u> at any time.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※\nA nimble weapon capable of dealing multiple hits in a short time， ideal for inflicting abnormal states.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a rapid combo. Holding forward or backward during the final strike moves you in that direction.\n<sprite name='mouseR' color=#FFFFFF> (hold): Briefly charge before unleashing a rapid forward combo， continuously consuming stamina. Hold right-click to maintain the attack until stamina is depleted. Grants minor <u>Super Armor</u> during the attack and can <u>dodge</u> at any time.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "69",
     "functions": [
@@ -8626,11 +8642,12 @@
     "index": 193,
     "id": 10070,
     "name": "Dragoon Gun & Shield",
-    "description": "Difficulty: ※※※※\nA weapon with top-tier defensive capabilities， consuming little stamina while defending.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fairly quick triple slash.\nAfter a triple slash -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge forward， consuming stamina. Slightly adjust direction during the charge; if charging in the opposite direction of your facing， perform a Reverse Slash with directional control.\nWhile charging -- <sprite name='mouseR' color=#FFFFFF>: Emergency stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>， with a <u>Block</u> window at the start.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Charged Thrust， with two charge levels， dealing more damage at higher levels. Grants <u>Defense</u> protection while charging.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Directly perform a max-level Charged Thrust.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※\nA weapon with top-tier defensive capabilities， consuming little stamina while defending.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fairly quick triple slash.\nAfter a triple slash -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge forward， consuming stamina. Slightly adjust direction during the charge; if charging in the opposite direction of your facing， perform a Reverse Slash with directional control.\nWhile charging -- <sprite name='mouseR' color=#FFFFFF>: Emergency stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>， with a <u>Block</u> window at the start.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Charged Thrust， with two charge levels， dealing more damage at higher levels. Grants <u>Defense</u> protection while charging.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Directly perform a max-level Charged Thrust.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "70",
     "functions": [
@@ -8675,11 +8692,12 @@
     "index": 194,
     "id": 10071,
     "name": "Dragoon Titan Axe",
-    "description": "Difficulty: ※※※\nA heavy but powerful weapon that can be thrown to hit distant enemies， inflicting paralysis.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy triple slash. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release <sprite name='mouseR' color=#FFFFFF> to throw the axe. Throwing distance is based on charge time， consuming stamina. Upon impact， the axe emits an EMP， <u>paralyzing</u> enemies. Must be retrieved manually after throwing.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nA heavy but powerful weapon that can be thrown to hit distant enemies， inflicting paralysis.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy triple slash. Holding forward during attacks allows you to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release <sprite name='mouseR' color=#FFFFFF> to throw the axe. Throwing distance is based on charge time， consuming stamina. Upon impact， the axe emits an EMP， <u>paralyzing</u> enemies. Must be retrieved manually after throwing.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "71",
     "functions": [
@@ -8723,11 +8741,12 @@
     "index": 195,
     "id": 10072,
     "name": "Dragoon Great Scythe",
-    "description": "Difficulty: ※※※\nA highly mobile heavy weapon capable of performing counterattacks with dodge frames.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fairly quick triple slash.\n<sprite name='mouseL' color=#FFFFFF>After the second strike or while idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash， moving quickly to the front-side with <u>dodge</u> frames， followed by a wide-range slash for high damage， consuming significant stamina.\n<sprite name='mouseL' color=#FFFFFF>After the first or third strike -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward， spinning rapidly to deal wide-range damage.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nA highly mobile heavy weapon capable of performing counterattacks with dodge frames.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fairly quick triple slash.\n<sprite name='mouseL' color=#FFFFFF>After the second strike or while idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash， moving quickly to the front-side with <u>dodge</u> frames， followed by a wide-range slash for high damage， consuming significant stamina.\n<sprite name='mouseL' color=#FFFFFF>After the first or third strike -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward， spinning rapidly to deal wide-range damage.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "72",
     "functions": [
@@ -8775,7 +8794,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "73",
     "functions": [
@@ -8824,7 +8844,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "74",
     "functions": [
@@ -8868,11 +8889,12 @@
     "index": 198,
     "id": 10075,
     "name": "Dragoon Small Scythe",
-    "description": "Usage Difficulty: ※※\nLight scythe with high agility; some attacks can ignore enemy defenses.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Usage Difficulty: ※※\nLight scythe with high agility; some attacks can ignore enemy defenses.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "75",
     "functions": [
@@ -8916,11 +8938,12 @@
     "index": 199,
     "id": 10076,
     "name": "Dragoon Thrust Fist",
-    "description": "Usage Difficulty: ※※\nShort-range weapon that can inflict paralysis; heavy attacks may trigger Electrification.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Usage Difficulty: ※※\nShort-range weapon that can inflict paralysis; heavy attacks may trigger Electrification.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "76",
     "functions": [
@@ -8969,7 +8992,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Boxing"
+      "Boxing",
+      "SingleHand"
     ],
     "bulletId": "151",
     "functions": [
@@ -9006,7 +9030,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Sword"
+      "Sword",
+      "SingleHand"
     ],
     "bulletId": "152",
     "functions": [
@@ -9043,7 +9068,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Sword"
+      "Sword",
+      "SingleHand"
     ],
     "bulletId": "153",
     "functions": [
@@ -9080,7 +9106,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Axe"
+      "Axe",
+      "SingleHand"
     ],
     "bulletId": "154",
     "functions": [
@@ -9117,7 +9144,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Axe"
+      "Axe",
+      "SingleHand"
     ],
     "bulletId": "155",
     "functions": [
@@ -9154,7 +9182,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Spear"
+      "Spear",
+      "SingleHand"
     ],
     "bulletId": "156",
     "functions": [
@@ -9192,7 +9221,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Spear"
+      "Spear",
+      "SingleHand"
     ],
     "bulletId": "157",
     "functions": [
@@ -9230,7 +9260,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Spear"
+      "Spear",
+      "SingleHand"
     ],
     "bulletId": "158",
     "functions": [
@@ -9267,7 +9298,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "SingleHand"
     ],
     "bulletId": "159",
     "functions": [
@@ -9302,7 +9334,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Dagger"
+      "Dagger",
+      "SingleHand"
     ],
     "bulletId": "165",
     "functions": [
@@ -9332,11 +9365,12 @@
     "index": 210,
     "id": 10166,
     "name": "Advanced Dragoon Morphblade",
-    "description": "Difficulty: ※※※※※\nA weapon capable of switching between Sword Mode and Gun Mode. Sword Mode has fewer openings， while Gun Mode delivers higher attack power. Switching modes requires using the 'Morph Slash' action， which can be chained from the recovery of any action except Morph Slash itself.\nEquipped with a Fusing Module， enhancing basic attack power.\n<b>Sword Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast three-hit combo. Hold the forward movement direction during attacks to cover more distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Defense</u> against incoming frontal attacks， consuming stamina. After defending an attack， you can follow up with a powerful Counter Slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Slash — switches to Gun Mode upon use. If used on the third hit of a combo or after a successful counter， it becomes a High-Power Morph Slash; otherwise， it performs a regular Morph Slash that can move in any direction.\n<b>Gun Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-power combo. Hold the forward movement direction during attacks to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Whirlwind Slash — continue holding the right mouse button to maintain the attack， consuming stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Spinning Thrust — switches to Sword Mode upon use. Grants brief <u>Dodge</u> invulnerability at the start， consuming stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※※\nA weapon capable of switching between Sword Mode and Gun Mode. Sword Mode has fewer openings， while Gun Mode delivers higher attack power. Switching modes requires using the 'Morph Slash' action， which can be chained from the recovery of any action except Morph Slash itself.\nEquipped with a Fusing Module， enhancing basic attack power.\n<b>Sword Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast three-hit combo. Hold the forward movement direction during attacks to cover more distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Defense</u> against incoming frontal attacks， consuming stamina. After defending an attack， you can follow up with a powerful Counter Slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Slash — switches to Gun Mode upon use. If used on the third hit of a combo or after a successful counter， it becomes a High-Power Morph Slash; otherwise， it performs a regular Morph Slash that can move in any direction.\n<b>Gun Mode</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-power combo. Hold the forward movement direction during attacks to cover more distance.\n<sprite name='mouseR' color=#FFFFFF> (hold): Whirlwind Slash — continue holding the right mouse button to maintain the attack， consuming stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (simultaneously): Morph Spinning Thrust — switches to Sword Mode upon use. Grants brief <u>Dodge</u> invulnerability at the start， consuming stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "166",
     "functions": [
@@ -9364,11 +9398,12 @@
     "index": 211,
     "id": 10167,
     "name": "Advanced Dragoon Greatsword",
-    "description": "Difficulty: ※※※※\nA weapon that unleashes massive damage through charged attacks， capable of delivering the strongest single-hit damage.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a brief <u>Block</u> window at the start， consuming stamina. Press <sprite name='mouseR' color=#FFFFFF> (click) between Charged Slashes to maintain your current phase.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Chain directly to Segment 3 Charged Slash.\nAfter dodging -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash with excellent turning control.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※\nA weapon that unleashes massive damage through charged attacks， capable of delivering the strongest single-hit damage.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a brief <u>Block</u> window at the start， consuming stamina. Press <sprite name='mouseR' color=#FFFFFF> (click) between Charged Slashes to maintain your current phase.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Chain directly to Segment 3 Charged Slash.\nAfter dodging -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash with excellent turning control.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "167",
     "functions": [
@@ -9396,11 +9431,12 @@
     "index": 212,
     "id": 10168,
     "name": "Advanced Dragoon Sword & Shield",
-    "description": "Difficulty: ※※※\nA simple and agile weapon with great turning speed. Successful blocks allow powerful follow-up strikes.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick three-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Defending at the exact moment you raise your shield triggers a Perfect Defense， which consumes no stamina.\nWhile <u>defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> frontal attacks， consuming stamina. <u>Block</u> activation takes a brief moment.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Counter Thrust.\nAfter dodging -- <sprite name='mouseL' color=#FFFFFF>: Swift Thrust with excellent turning control.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nA simple and agile weapon with great turning speed. Successful blocks allow powerful follow-up strikes.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick three-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Defending at the exact moment you raise your shield triggers a Perfect Defense， which consumes no stamina.\nWhile <u>defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> frontal attacks， consuming stamina. <u>Block</u> activation takes a brief moment.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Counter Thrust.\nAfter dodging -- <sprite name='mouseL' color=#FFFFFF>: Swift Thrust with excellent turning control.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "168",
     "functions": [
@@ -9428,11 +9464,12 @@
     "index": 213,
     "id": 10169,
     "name": "Advanced Dragoon Twinblades",
-    "description": "Difficulty: ※※\nA fast and flexible weapon capable of dealing multiple hits in a short time， ideal for inflicting abnormal states.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Execute a rapid combo; on the final hit， hold forward or backward to move accordingly.\n<sprite name='mouseR' color=#FFFFFF> (hold): Briefly charge， then unleash rapid strikes forward， continuously consuming stamina. Holding the right mouse button sustains the attack until stamina runs out. Grants minor <u>Super Armor</u> during the attack and can <u>Dodge</u> at any time.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※\nA fast and flexible weapon capable of dealing multiple hits in a short time， ideal for inflicting abnormal states.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Execute a rapid combo; on the final hit， hold forward or backward to move accordingly.\n<sprite name='mouseR' color=#FFFFFF> (hold): Briefly charge， then unleash rapid strikes forward， continuously consuming stamina. Holding the right mouse button sustains the attack until stamina runs out. Grants minor <u>Super Armor</u> during the attack and can <u>Dodge</u> at any time.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "169",
     "functions": [
@@ -9460,11 +9497,12 @@
     "index": 214,
     "id": 10170,
     "name": "Advanced Dragoon Gun & Shield",
-    "description": "Difficulty: ※※※※\nA weapon with top-tier defensive capabilities， consuming less stamina while defending.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a relatively quick three-hit combo.\nAfter the three-hit combo -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge， consuming stamina. Slightly adjust direction during the charge; if charging opposite to your facing direction， perform a Reverse Slash with directional control.\nDuring the charge -- <sprite name='mouseR' color=#FFFFFF>: Emergency Stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a <u>Block</u> window at startup.\nWhile <u>defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Charged Thrust， up to 2 charge levels， increasing damage with higher charge. Has a <u>Defense</u> window during the charge.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Directly perform a max-level Charged Thrust.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※\nA weapon with top-tier defensive capabilities， consuming less stamina while defending.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a relatively quick three-hit combo.\nAfter the three-hit combo -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge， consuming stamina. Slightly adjust direction during the charge; if charging opposite to your facing direction， perform a Reverse Slash with directional control.\nDuring the charge -- <sprite name='mouseR' color=#FFFFFF>: Emergency Stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a <u>Block</u> window at startup.\nWhile <u>defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Charged Thrust， up to 2 charge levels， increasing damage with higher charge. Has a <u>Defense</u> window during the charge.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Directly perform a max-level Charged Thrust.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "170",
     "functions": [
@@ -9492,11 +9530,12 @@
     "index": 215,
     "id": 10171,
     "name": "Advanced Dragoon Titan Axe",
-    "description": "Difficulty: ※※※\nA heavy yet powerful weapon that can be thrown to damage distant enemies and cause paralysis.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy three-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release <sprite name='mouseR' color=#FFFFFF> to throw the axe. Throwing distance depends on charge time， consuming stamina. Upon landing， the axe emits an EMP， <u>Paralyzing</u> enemies. Must be retrieved manually after throwing.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nA heavy yet powerful weapon that can be thrown to damage distant enemies and cause paralysis.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy three-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release <sprite name='mouseR' color=#FFFFFF> to throw the axe. Throwing distance depends on charge time， consuming stamina. Upon landing， the axe emits an EMP， <u>Paralyzing</u> enemies. Must be retrieved manually after throwing.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "171",
     "functions": [
@@ -9524,11 +9563,12 @@
     "index": 216,
     "id": 10172,
     "name": "Advanced Dragoon Great Scythe",
-    "description": "Difficulty: ※※※\nA highly mobile heavy weapon capable of counterattacks with dodge frames.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a relatively fast three-hit combo.\n<sprite name='mouseL' color=#FFFFFF>After the second hit or from idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash — quickly dash to the front-side with <u>Dodge</u> frames， then unleash a wide slash forward for high damage， consuming significant stamina.\n<sprite name='mouseL' color=#FFFFFF>After the first or third hit -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward， spinning rapidly to deal wide frontal damage.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nA highly mobile heavy weapon capable of counterattacks with dodge frames.\nEquipped with a Fusing Module， enhancing basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a relatively fast three-hit combo.\n<sprite name='mouseL' color=#FFFFFF>After the second hit or from idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash — quickly dash to the front-side with <u>Dodge</u> frames， then unleash a wide slash forward for high damage， consuming significant stamina.\n<sprite name='mouseL' color=#FFFFFF>After the first or third hit -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward， spinning rapidly to deal wide frontal damage.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "172",
     "functions": [
@@ -9560,7 +9600,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "173",
     "functions": [
@@ -9592,7 +9633,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "174",
     "functions": [
@@ -9620,11 +9662,12 @@
     "index": 219,
     "id": 10175,
     "name": "Advanced Dragoon Small Scythe",
-    "description": "Usage Difficulty: ※※\nLight scythe with high agility; some attacks can ignore enemy defenses.\nEquipped with a fusing module to enhance basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Usage Difficulty: ※※\nLight scythe with high agility; some attacks can ignore enemy defenses.\nEquipped with a fusing module to enhance basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "175",
     "functions": [
@@ -9652,11 +9695,12 @@
     "index": 220,
     "id": 10176,
     "name": "Advanced Dragoon Thrust Fist",
-    "description": "Usage Difficulty: ※※\nShort-range weapon that can inflict paralysis; heavy attacks may trigger Electrification.\nEquipped with a fusing module to enhance basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Usage Difficulty: ※※\nShort-range weapon that can inflict paralysis; heavy attacks may trigger Electrification.\nEquipped with a fusing module to enhance basic attack power.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "176",
     "functions": [
@@ -9689,7 +9733,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Boxing"
+      "Boxing",
+      "SingleHand"
     ],
     "bulletId": "251",
     "functions": [
@@ -9737,7 +9782,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Axe"
+      "Axe",
+      "SingleHand"
     ],
     "bulletId": "255",
     "functions": [
@@ -9786,7 +9832,8 @@
     "weaponSubTypes": [
       "All",
       "CloseIn",
-      "Dagger"
+      "Dagger",
+      "SingleHand"
     ],
     "bulletId": "265",
     "functions": [
@@ -9814,11 +9861,12 @@
     "index": 224,
     "id": 10266,
     "name": "Slash Morph Blade",
-    "description": "Difficulty: ※※※※※\nPrototype weapon， greatly enhances attack power in Gun Form but reduces stamina efficiency. In Sword Form， a successful block will switch you to Gun Form. In Gun Form， stamina will not recover automatically while attacking.\n<b>Sword Form</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo. Hold forward during attacks to move a greater distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Defend</u> against frontal attacks， consuming stamina. After a block， you can follow up with a powerful counter slash.\nAfter a successful block， <sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (together): High-Power Morph Slash， switching to Gun Form after use.\n<b>Gun Form</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-power combo. Hold a direction key during attacks to slightly move.\n<sprite name='mouseR' color=#FFFFFF> (hold): Take a stance to enter defense mode， automatically counterattacking when hit， consuming stamina. Releasing <sprite name='mouseR' color=#FFFFFF> right before impact triggers a Perfect Counter， consuming no stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (together): Morph Spinning Slash， switching to Sword Form after use.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※※\nPrototype weapon， greatly enhances attack power in Gun Form but reduces stamina efficiency. In Sword Form， a successful block will switch you to Gun Form. In Gun Form， stamina will not recover automatically while attacking.\n<b>Sword Form</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo. Hold forward during attacks to move a greater distance.\n<sprite name='mouseR' color=#FFFFFF>: <u>Defend</u> against frontal attacks， consuming stamina. After a block， you can follow up with a powerful counter slash.\nAfter a successful block， <sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (together): High-Power Morph Slash， switching to Gun Form after use.\n<b>Gun Form</b>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a high-power combo. Hold a direction key during attacks to slightly move.\n<sprite name='mouseR' color=#FFFFFF> (hold): Take a stance to enter defense mode， automatically counterattacking when hit， consuming stamina. Releasing <sprite name='mouseR' color=#FFFFFF> right before impact triggers a Perfect Counter， consuming no stamina.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseR' color=#FFFFFF> (together): Morph Spinning Slash， switching to Sword Form after use.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "266",
     "functions": [
@@ -9846,11 +9894,12 @@
     "index": 225,
     "id": 10267,
     "name": "Dragoon Greatblade",
-    "description": "Difficulty: ※※※※\nPrototype weapon， modifies the final attack hit into two damage instances， increasing total power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a brief <u>Block</u> window at the start， consuming stamina. Clicking <sprite name='mouseR' color=#FFFFFF> between charged slashes preserves the current phase.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Can chain directly into Segment 3 Charged Slash.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash， offering good turning ability.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※\nPrototype weapon， modifies the final attack hit into two damage instances， increasing total power.\n<sprite name='mouseL' color=#FFFFFF> (hold): Charge Slash， with up to 3 segments. Charging for a certain duration increases the charge level， and each segment has its own max charge level—Segment 1: Level 1， Segment 2: Level 2， Segment 3: Level 3. Higher segments and charge levels deal more damage. Grants partial <u>Super Armor</u> during charging and attacks.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Has a brief <u>Block</u> window at the start， consuming stamina. Clicking <sprite name='mouseR' color=#FFFFFF> between charged slashes preserves the current phase.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Can chain directly into Segment 3 Charged Slash.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Spinning Slash， offering good turning ability.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "267",
     "functions": [
@@ -9878,11 +9927,12 @@
     "index": 226,
     "id": 10268,
     "name": "Dragoon Guardian Cleaver",
-    "description": "Difficulty: ※※※\nPrototype weapon， adds a charged shield counter. <u>When performing a Perfect Defense (blue spark)， triggers a small explosion counter that retains the weapon's elemental damage.</u>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Timing the shield raise perfectly triggers Perfect Defense， which consumes no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> frontal attacks， consuming stamina. <u>Block</u> activation has a slight delay.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Counter Thrust.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Quick Thrust with good turning ability.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nPrototype weapon， adds a charged shield counter. <u>When performing a Perfect Defense (blue spark)， triggers a small explosion counter that retains the weapon's elemental damage.</u>\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Timing the shield raise perfectly triggers Perfect Defense， which consumes no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF>: <u>Block</u> frontal attacks， consuming stamina. <u>Block</u> activation has a slight delay.\nAfter a successful <u>Block</u> -- <sprite name='mouseL' color=#FFFFFF>: Counter Thrust.\nAfter a dodge -- <sprite name='mouseL' color=#FFFFFF>: Quick Thrust with good turning ability.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "268",
     "functions": [
@@ -9910,11 +9960,12 @@
     "index": 227,
     "id": 10269,
     "name": "Dragoon Twin Frost Blades",
-    "description": "Difficulty: ※※\nPrototype weapon， can charge up to unleash a wide-range energy slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast combo; on the final hit， holding forward or backward moves you in that direction.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then dash forward to attack. If the attack hits， triggers a wide-range energy slash. If charge is incomplete or the dash misses， the energy slash will not trigger.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※\nPrototype weapon， can charge up to unleash a wide-range energy slash.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast combo; on the final hit， holding forward or backward moves you in that direction.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then dash forward to attack. If the attack hits， triggers a wide-range energy slash. If charge is incomplete or the dash misses， the energy slash will not trigger.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "269",
     "functions": [
@@ -9942,11 +9993,12 @@
     "index": 228,
     "id": 10270,
     "name": "Dragoon Razorfang Bayonet",
-    "description": "Difficulty: ※※※※\nPrototype weapon， features a special defense action that auto-counters.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast 3-hit combo.\nAfter 3-hit combo -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge forward， consuming stamina. Can slightly adjust direction; if moving opposite to facing， performs a Reverse Slash with better turning.\nDuring charge -- <sprite name='mouseR' color=#FFFFFF>: Emergency Stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Timing shield raise perfectly triggers Perfect Defense， consuming no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Counter Thrust. Defends against frontal attacks and auto-counters when hit. Perfect Defense consumes no stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※※\nPrototype weapon， features a special defense action that auto-counters.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a fast 3-hit combo.\nAfter 3-hit combo -- <sprite name='mouseL' color=#FFFFFF> (hold): Charge forward， consuming stamina. Can slightly adjust direction; if moving opposite to facing， performs a Reverse Slash with better turning.\nDuring charge -- <sprite name='mouseR' color=#FFFFFF>: Emergency Stop.\n<sprite name='mouseR' color=#FFFFFF> (hold): <u>Defense</u>. Timing shield raise perfectly triggers Perfect Defense， consuming no stamina.\nWhile <u>Defending</u> -- <sprite name='mouseL' color=#FFFFFF> (hold): Counter Thrust. Defends against frontal attacks and auto-counters when hit. Perfect Defense consumes no stamina.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "270",
     "functions": [
@@ -9974,11 +10026,12 @@
     "index": 229,
     "id": 10271,
     "name": "Dragoon Mountainbreaker Axe",
-    "description": "Difficulty: ※※※\nPrototype weapon， adds an energy burst function to unleash sword waves.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy 3-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release<sprite name='mouseR' color=#FFFFFF> to throw the axe， consuming stamina. Upon landing， emits an EMP to <u>paralyze</u> enemies. Must manually retrieve the axe.\nAfter full charge -- <sprite name='mouseL' color=#FFFFFF>: Fire a powerful sword wave. Press <sprite name='mouseL' color=#FFFFFF> again to throw the axe.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nPrototype weapon， adds an energy burst function to unleash sword waves.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a heavy 3-hit combo. Hold forward during attacks to move farther.\n<sprite name='mouseR' color=#FFFFFF> (hold): Charge， then release<sprite name='mouseR' color=#FFFFFF> to throw the axe， consuming stamina. Upon landing， emits an EMP to <u>paralyze</u> enemies. Must manually retrieve the axe.\nAfter full charge -- <sprite name='mouseL' color=#FFFFFF>: Fire a powerful sword wave. Press <sprite name='mouseL' color=#FFFFFF> again to throw the axe.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "271",
     "functions": [
@@ -10006,11 +10059,12 @@
     "index": 230,
     "id": 10272,
     "name": "Dragoon Duskcorrode Scythe",
-    "description": "Difficulty: ※※※\nPrototype weapon， can charge to increase lethality.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo.\n<sprite name='mouseL' color=#FFFFFF>After 2nd hit or while idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash， moving forward/sideways with a <u>dodge</u> window， then unleashing a wide slash for high damage， consuming more stamina.\n<sprite name='mouseL' color=#FFFFFF>After 1st or 3rd hit -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward to spin rapidly， dealing wide-area damage.\nBoth <sprite name='mouseR' color=#FFFFFF> attacks can be charged for stronger effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Difficulty: ※※※\nPrototype weapon， can charge to increase lethality.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Perform a quick 3-hit combo.\n<sprite name='mouseL' color=#FFFFFF>After 2nd hit or while idle -- <sprite name='mouseR' color=#FFFFFF>: Dodge Counter Slash， moving forward/sideways with a <u>dodge</u> window， then unleashing a wide slash for high damage， consuming more stamina.\n<sprite name='mouseL' color=#FFFFFF>After 1st or 3rd hit -- <sprite name='mouseR' color=#FFFFFF>: Throw the scythe forward to spin rapidly， dealing wide-area damage.\nBoth <sprite name='mouseR' color=#FFFFFF> attacks can be charged for stronger effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "272",
     "functions": [
@@ -10042,7 +10096,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "273",
     "functions": [
@@ -10074,7 +10129,8 @@
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "274",
     "functions": [
@@ -10102,11 +10158,12 @@
     "index": 233,
     "id": 10275,
     "name": "Dragoon Reaping Scythe",
-    "description": "Usage Difficulty: ※※\nPrototype weapon; replaces left/right dodge with a sidestep slide， allowing movement around the target.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Usage Difficulty: ※※\nPrototype weapon; replaces left/right dodge with a sidestep slide， allowing movement around the target.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Swings the scythe forward to deal DMG. If it hits an enemy， it triggers an additional attack. This attack cannot be blocked and will not trigger parry effects.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "275",
     "functions": [
@@ -10134,11 +10191,12 @@
     "index": 234,
     "id": 10276,
     "name": "Dragoon Forceful Thrust",
-    "description": "Usage Difficulty: ※※\nPrototype weapon with a charge mechanism， allowing more powerful attacks when charged.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\nAll attacks can be charged; releasing the attack key at full charge greatly increases attack power.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: AI cannot use this weapon]</color>",
+    "description": "Usage Difficulty: ※※\nPrototype weapon with a charge mechanism， allowing more powerful attacks when charged.\n<sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF><sprite name='mouseL' color=#FFFFFF>: Performs a relatively fast 3-hit combo.\n<sprite name='mouseR' color=#FFFFFF>: Rapidly strikes forward 4 times， dealing high DMG and consuming stamina. The last hit has a chance to trigger Electrification.\nAll attacks can be charged; releasing the attack key at full charge greatly increases attack power.\n[Movement speed: <D1>%; Rotational speed: <D2>%]\n<color=#AE8C8C>[Warning: Ai is unable to unleash the full power of this weapon]</color>",
     "weaponType": "Close",
     "weaponSubTypes": [
       "All",
-      "CloseIn"
+      "CloseIn",
+      "DoubleWeapon"
     ],
     "bulletId": "276",
     "functions": [

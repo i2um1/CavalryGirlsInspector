@@ -32,7 +32,9 @@ public static class WeaponTypeMappers
         ["AxeWeapon"] = WeaponSubType.Axe,
         ["SpearWeapon"] = WeaponSubType.Spear,
         ["Dagger"] = WeaponSubType.Dagger,
-        ["RiotShiled"] = WeaponSubType.Shield
+        ["RiotShiled"] = WeaponSubType.Shield,
+        ["SingleHand"] = WeaponSubType.SingleHand,
+        ["DoubleWeapon"] = WeaponSubType.DoubleWeapon
     };
 
     private static readonly Dictionary<string, WeaponSubType> _hangShoulderSubWeaponTypes = new()
